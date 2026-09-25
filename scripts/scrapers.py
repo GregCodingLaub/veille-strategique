@@ -17,10 +17,12 @@ maintenance cost of scraping (see README).
 """
 from bs4 import BeautifulSoup
 
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+
 
 def ifri(session, url):
     """IFRI has no RSS feed; parse the publications listing page."""
-    resp = session.get(url, timeout=20)
+    resp = session.get(url, timeout=20, headers={"User-Agent": USER_AGENT, "Accept-Language": "fr-FR,fr;q=0.9"})
     resp.raise_for_status()
     soup = BeautifulSoup(resp.text, "html.parser")
 
