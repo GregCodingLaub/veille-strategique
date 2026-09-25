@@ -28,7 +28,7 @@ france:
 eu:
   - european union
   - union européenne
-  - "eu "
+  - "eu"
   - "l'ue"
   - brussels
   - bruxelles
@@ -67,10 +67,6 @@ us:
   - american
   - américain
   - américaine
-  - SEC
-  - S.E.C
-  - Fed
-  
 
 china:
   - china
