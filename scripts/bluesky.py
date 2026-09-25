@@ -42,16 +42,12 @@ def fetch_bluesky(session, handle, limit=30):
         embed = record.get("embed") or {}
         external = embed.get("external") or {}
         link = external.get("uri")
-        title = external.get("title") or (text[:120] if text else None)
+        title = external.get("title")
         summary = external.get("description") or text
 
-        if not link:
-            # No shared link card -- fall back to a permalink for the post itself.
-            uri = post.get("uri", "")
-            rkey = uri.rsplit("/", 1)[-1] if uri else None
-            author_handle = post.get("author", {}).get("handle", handle)
-            link = f"https://bsky.app/profile/{author_handle}/post/{rkey}" if rkey else None
-
+        # Only keep posts that share an actual link card (an article, report,
+        # or event page). Plain-text posts, replies, and comments without a
+        # shared link are just chatter, not publications -- skip them.
         if not link or not title:
             continue
 
