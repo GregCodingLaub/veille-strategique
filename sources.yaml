@@ -1,0 +1,97 @@
+# ==============================================================================
+# SOURCES CONFIG — add or remove sources here. No code changes needed for RSS.
+# ==============================================================================
+# Each source needs:
+#   name:   display name
+#   type:   "rss"    -> url must point directly to an RSS/Atom feed
+#           "scrape" -> url is a listing page; "parser" must match a function
+#                       name in scripts/scrapers.py (custom code required)
+#   url:    the feed URL (rss) or listing page URL (scrape)
+#   region: fr | eu | us | other   (for display/grouping only)
+#   parser: (scrape only) name of the parser function in scrapers.py
+#
+# After adding a source, run: python scripts/validate_sources.py
+# to confirm it actually returns items before trusting it.
+# ==============================================================================
+
+# --- Substacks -----------------------------------------------------------
+# Substack ALWAYS has a feed at https://<name>.substack.com/feed
+# Add new ones here whenever you find a relevant one.
+- name: "Le Grand Continent"
+  type: rss
+  url: "https://legrandcontinent.eu/fr/feed/"
+  region: eu
+
+- name: "Sinocism"
+  type: rss
+  url: "https://sinocism.com/feed"
+  region: us
+
+# --- France ----------------------------------------------------------------
+- name: "IFRI"
+  type: scrape
+  url: "https://www.ifri.org/fr/publications"
+  parser: ifri
+  region: fr
+
+- name: "FRS (Fondation pour la Recherche Stratégique)"
+  type: rss
+  url: "https://www.frstrategie.org/rss.xml"
+  region: fr
+
+- name: "IRSEM"
+  type: rss
+  url: "https://www.irsem.fr/rss"
+  region: fr
+
+# --- EU ----------------------------------------------------------------
+- name: "EUISS"
+  type: rss
+  url: "https://www.iss.europa.eu/rss.xml"
+  region: eu
+
+- name: "ECFR"
+  type: rss
+  url: "https://ecfr.eu/feed/"
+  region: eu
+
+- name: "Bruegel"
+  type: rss
+  url: "https://www.bruegel.org/rss.xml"
+  region: eu
+
+- name: "MERICS"
+  type: rss
+  url: "https://merics.org/en/rss.xml"
+  region: eu
+
+# --- US ----------------------------------------------------------------
+- name: "CSIS"
+  type: rss
+  url: "https://www.csis.org/analysis/rss.xml"
+  region: us
+
+- name: "War on the Rocks"
+  type: rss
+  url: "https://warontherocks.com/feed/"
+  region: us
+
+- name: "Carnegie Endowment"
+  type: rss
+  url: "https://carnegieendowment.org/rss/solr/?fa=publications"
+  region: us
+
+- name: "RAND"
+  type: rss
+  url: "https://www.rand.org/topics/rss/feed.xml"
+  region: us
+
+- name: "SIPRI"
+  type: rss
+  url: "https://www.sipri.org/rss.xml"
+  region: us
+
+- name: "Jamestown Foundation (China Brief)"
+  type: rss
+  url: "https://jamestown.org/feed/"
+  region: us

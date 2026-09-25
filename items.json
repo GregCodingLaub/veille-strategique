@@ -1,0 +1,41 @@
+[
+  {
+    "id": "0ccdc123dbd87da9",
+    "title": "La France renforce sa posture de dissuasion nucléaire",
+    "link": "https://example.com/a1",
+    "date": "2026-09-20",
+    "summary": "Un rapport sur les enjeux de la dissuasion pour la France en 2026.",
+    "source": "IFRI",
+    "region": "fr",
+    "themes": [
+      "defense"
+    ],
+    "fetched_at": "2026-09-25T12:40:19.438974+00:00"
+  },
+  {
+    "id": "0a263c15dc1f91a5",
+    "title": "MERICS: China's rare earth export controls and energy security",
+    "link": "https://example.com/a2",
+    "date": "2026-09-18",
+    "summary": "Analysis of critical minerals leverage.",
+    "source": "MERICS",
+    "region": "eu",
+    "themes": [
+      "energy_industry"
+    ],
+    "fetched_at": "2026-09-25T12:40:19.438974+00:00"
+  },
+  {
+    "id": "4f39dbae075e7078",
+    "title": "Naval Group signs new submarine export contract",
+    "link": "https://example.com/a3",
+    "date": "2026-09-15",
+    "summary": "A major arms industry deal.",
+    "source": "CSIS",
+    "region": "us",
+    "themes": [
+      "weapons_industry"
+    ],
+    "fetched_at": "2026-09-25T12:40:19.438974+00:00"
+  }
+]

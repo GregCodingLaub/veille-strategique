@@ -1,0 +1,126 @@
+# ==============================================================================
+# KEYWORDS CONFIG — controls what counts as "relevant" for the veille.
+# An item is kept if its title+summary matches ANY keyword below, in EITHER
+# language. Matching is case-insensitive substring matching.
+#
+# Add/remove keywords freely. More keywords = more recall (fewer misses,
+# more noise). Fewer keywords = tighter but riskier of missing things.
+# Changes only apply to NEW items fetched after the change (see README).
+# ==============================================================================
+
+defense:
+  - defense
+  - défense
+  - military
+  - militaire
+  - armed forces
+  - forces armées
+  - nato
+  - otan
+  - deterrence
+  - dissuasion
+  - warfare
+  - guerre
+  - army
+  - armée
+  - navy
+  - marine nationale
+  - air force
+  - armée de l'air
+  - ministry of defense
+  - ministère des armées
+  - arms control
+  - contrôle des armements
+
+competitive_intelligence:
+  - competitive intelligence
+  - intelligence économique
+  - economic intelligence
+  - economic warfare
+  - guerre économique
+  - corporate espionage
+  - industrial espionage
+  - espionnage industriel
+  - business intelligence
+  - strategic intelligence
+  - intelligence stratégique
+  - influence operations
+  - opérations d'influence
+
+intelligence:
+  - intelligence services
+  - services de renseignement
+  - renseignement
+  - espionage
+  - espionnage
+  - spy
+  - spying
+  - espion
+  - dgse
+  - dgsi
+  - cia
+  - mi6
+  - signals intelligence
+  - sigint
+  - humint
+  - counterintelligence
+  - contre-espionnage
+  - surveillance program
+  - programme de surveillance
+
+weapons_industry:
+  - arms industry
+  - industrie de l'armement
+  - defense industry
+  - industrie de défense
+  - arms trade
+  - commerce des armes
+  - arms export
+  - exportation d'armes
+  - weapons manufacturer
+  - armament
+  - armement
+  - munitions
+  - arms sales
+  - ventes d'armes
+  - defense contractor
+  - military procurement
+  - marché public de défense
+  - appel d'offres défense
+  - drone
+  - missile
+  - submarine
+  - sous-marin
+  - frigate
+  - frégate
+  - fighter jet
+  - avion de chasse
+  - naval group
+  - thales
+  - dassault
+  - airbus defence
+  - procurement contract
+  - contrat d'armement
+
+energy_industry:
+  - energy security
+  - sécurité énergétique
+  - energy policy
+  - politique énergétique
+  - oil market
+  - marché pétrolier
+  - natural gas
+  - gaz naturel
+  - lng
+  - gnl
+  - nuclear energy
+  - énergie nucléaire
+  - renewable energy
+  - énergie renouvelable
+  - energy transition
+  - transition énergétique
+  - pipeline
+  - opec
+  - opep
+  - critical minerals
+  - minéraux critiques
