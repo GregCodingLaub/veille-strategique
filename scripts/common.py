@@ -2,6 +2,7 @@
 import hashlib
 import json
 import os
+import re
 import yaml
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -23,6 +24,16 @@ REGION_LABELS = {
     "china": "Chine",
     "middle_east_africa": "Moyen-Orient & Afrique",
     "other": "Autres",
+}
+
+# Maps a SOURCE's own region code (sources.yaml's short "fr"/"eu"/"us")
+# to the matching SUBJECT region key (regions.yaml's "france"/"eu"/"us"/...).
+# Used as a fallback when an article's text has no explicit region keyword.
+SOURCE_TO_SUBJECT_REGION = {
+    "fr": "france",
+    "eu": "eu",
+    "us": "us",
+    "other": "other",
 }
 
 
@@ -90,13 +101,21 @@ def append_newsletter_log(entry):
         json.dump(log, f, ensure_ascii=False, indent=2)
 
 
+def _whole_word_match(keyword, text_low):
+    """True if `keyword` appears in `text_low` as a whole word/phrase, not
+    as a fragment inside a longer word (e.g. 'cia' must not match inside
+    'social'). Word boundaries handle accented French text correctly too."""
+    pattern = r'(?<![^\W_])' + re.escape(keyword.lower()) + r'(?![^\W_])'
+    return re.search(pattern, text_low) is not None
+
+
 def matches_keywords(text, keywords_by_theme):
     """Return a list of matched theme names for a given text (title+summary)."""
     text_low = (text or "").lower()
     matched = []
     for theme, words in keywords_by_theme.items():
         for w in words:
-            if w.lower() in text_low:
+            if _whole_word_match(w, text_low):
                 matched.append(theme)
                 break
     return matched
@@ -111,7 +130,7 @@ def match_region(text, regions_by_name):
         if region == "other":
             continue
         for w in regions_by_name.get(region, []):
-            if w.lower() in text_low:
+            if _whole_word_match(w, text_low):
                 return region
     return "other"
 
