@@ -9,6 +9,7 @@ SOURCES_PATH = os.path.join(ROOT, "sources.yaml")
 KEYWORDS_PATH = os.path.join(ROOT, "keywords.yaml")
 ITEMS_PATH = os.path.join(ROOT, "data", "items.json")
 STATE_PATH = os.path.join(ROOT, "data", "state.json")
+NEWSLETTER_LOG_PATH = os.path.join(ROOT, "data", "newsletter_log.json")
 DOCS_DIR = os.path.join(ROOT, "docs")
 
 
@@ -53,6 +54,22 @@ def save_state(state):
 def item_id(link):
     """Stable unique id for an item, used for deduplication."""
     return hashlib.sha256(link.encode("utf-8")).hexdigest()[:16]
+
+
+def load_newsletter_log():
+    if not os.path.exists(NEWSLETTER_LOG_PATH):
+        return []
+    with open(NEWSLETTER_LOG_PATH, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def append_newsletter_log(entry):
+    """Add one sent-edition record. Newest first."""
+    log = load_newsletter_log()
+    log.insert(0, entry)
+    os.makedirs(os.path.dirname(NEWSLETTER_LOG_PATH), exist_ok=True)
+    with open(NEWSLETTER_LOG_PATH, "w", encoding="utf-8") as f:
+        json.dump(log, f, ensure_ascii=False, indent=2)
 
 
 def matches_keywords(text, keywords_by_theme):
