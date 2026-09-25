@@ -17,6 +17,12 @@
   header { max-width: 900px; margin: 0 auto; padding: 32px 0 16px; }
   h1 { font-size: 22px; margin: 0 0 4px; }
   .sub { color: var(--muted); font-size: 14px; }
+  .tabs { max-width: 900px; margin: 24px auto 0; display: flex; gap: 4px; border-bottom: 1px solid var(--border); }
+  .tab-btn {
+    background: none; border: none; color: var(--muted); padding: 10px 16px;
+    font-size: 14px; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px;
+  }
+  .tab-btn.active { color: var(--text); border-bottom-color: var(--accent); }
   .filters { max-width: 900px; margin: 20px auto 0; display: flex; flex-wrap: wrap; gap: 8px; }
   .filter-btn {
     background: var(--card); border: 1px solid var(--border); color: var(--text);
@@ -37,21 +43,46 @@
   }
   .summary { color: #c3c7d1; font-size: 13.5px; margin-top: 8px; line-height: 1.4; }
   footer { max-width: 900px; margin: 40px auto; color: var(--muted); font-size: 12px; }
+
+  .edition {
+    background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+    padding: 18px 20px; margin-bottom: 14px;
+  }
+  .edition-head {
+    display: flex; align-items: center; justify-content: space-between; cursor: pointer;
+  }
+  .edition-title { font-size: 15px; font-weight: 600; }
+  .edition-count { color: var(--muted); font-size: 13px; }
+  .edition-body { display: none; margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--border); }
+  .edition.open .edition-body { display: block; }
+  .edition-item { padding: 8px 0; border-bottom: 1px solid #23262f; }
+  .edition-item:last-child { border-bottom: none; }
+  .edition-item a { color: var(--text); text-decoration: none; font-size: 14px; }
+  .edition-item a:hover { color: var(--accent); }
+  .edition-item .meta { font-size: 11.5px; margin-top: 3px; }
+  .empty { color: var(--muted); font-size: 14px; padding: 24px 0; }
 </style>
 </head>
 <body>
 <header>
   <h1>🛰 Veille Stratégique</h1>
-  <div class="sub">225 publications suivies · Défense · Renseignement · Intelligence économique · Énergie & armement · Généré le 25/09/2026 17:17</div>
+  <div class="sub">227 publications suivies · Défense · Renseignement · Intelligence économique · Énergie & armement · Généré le 25/09/2026 17:43</div>
 </header>
-<div class="filters" id="filters">
-  <button class="filter-btn active" data-theme="all">Tout</button>
-  <button class="filter-btn" data-theme="defense">Défense</button>
+
+<div class="tabs">
+  <button class="tab-btn active" data-view="items">Toutes les publications</button>
+  <button class="tab-btn" data-view="newsletters">Éditions envoyées (0)</button>
+</div>
+
+<div id="view-items">
+  <div class="filters" id="filters">
+    <button class="filter-btn active" data-theme="all">Tout</button>
+    <button class="filter-btn" data-theme="defense">Défense</button>
   <button class="filter-btn" data-theme="intelligence">Renseignement</button>
   <button class="filter-btn" data-theme="weapons_industry">Industrie de l'armement</button>
   <button class="filter-btn" data-theme="energy_industry">Énergie</button>
-</div>
-<main id="items">
+  </div>
+  <main id="items">
 <div class="item" data-themes="defense,intelligence,weapons_industry">
   <a href="https://warontherocks.com/north-koreas-irregular-warfare-after-ukraine/" target="_blank" rel="noopener">North Korea’s Irregular Warfare After Ukraine</a>
   <div class="meta">War on the Rocks · 2026-09-25 · <span class="tag">Défense</span> <span class="tag">Renseignement</span> <span class="tag">Industrie de l'armement</span></div>
@@ -138,6 +169,18 @@ Watch: https://bit.ly/4h75CX</div>
   <div class="summary">&lt;span&gt;North Korea’s nuclear machine is getting bigger: A new uranium facility, thousands of centrifuges and missiles capable of reaching America reveal how Kim Jong Un is changing the threat&lt;/span&gt;
 
 &lt;span&gt;&lt;span&gt;<a class="__cf_email__" href="https://www.arm</div>
+</div>
+
+<div class="item" data-themes="intelligence">
+  <a href="https://reut.rs/4hLiYbM" target="_blank" rel="noopener">Iran will make no nuclear concessions, Iranian official says</a>
+  <div class="meta">Reuters · 2026-09-25 · <span class="tag">Renseignement</span></div>
+  <div class="summary">Iran will show no ​flexibility over its nuclear program even if the United States accepts its proposal to reopen ‌the Strait of Hormuz, which calls for steps including the lifting of a US naval blockade on Iranian ports, a senior Iranian official told Reuters on Friday.</div>
+</div>
+
+<div class="item" data-themes="intelligence">
+  <a href="https://reut.rs/4dxS1pu" target="_blank" rel="noopener">Man City found guilty on all but one of 115 charges, reports say</a>
+  <div class="meta">Reuters · 2026-09-25 · <span class="tag">Renseignement</span></div>
+  <div class="summary">Manchester City have been found guilty of ​all but one of the 115 alleged breaches of the Premier League's financial rules, the Athletic and the Times ‌reported on Friday.</div>
 </div>
 
 <div class="item" data-themes="weapons_industry">
@@ -1553,19 +1596,42 @@ www.irsem.fr/agenda/busin...</div>
   <div class="summary">Il se penchera en particulier sur les relations commerciales, tout en étudiant, lorsque ce sera possible, d’autres dimensions – financière et technologique notamment.</div>
 </div>
 
-</main>
+  </main>
+</div>
+
+<div id="view-newsletters" style="display:none;">
+  <main>
+<div class="empty">Aucune édition envoyée pour le moment.</div>
+  </main>
+</div>
+
 <footer>Veille personnelle · sources et mots-clés configurables dans le dépôt GitHub.</footer>
 <script>
-  const buttons = document.querySelectorAll('.filter-btn');
+  // Theme filter (Toutes les publications tab)
+  const filterButtons = document.querySelectorAll('.filter-btn');
   const items = document.querySelectorAll('.item');
-  buttons.forEach(btn => btn.addEventListener('click', () => {
-    buttons.forEach(b => b.classList.remove('active'));
+  filterButtons.forEach(btn => btn.addEventListener('click', () => {
+    filterButtons.forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     const theme = btn.dataset.theme;
     items.forEach(it => {
       it.style.display = (theme === 'all' || it.dataset.themes.includes(theme)) ? '' : 'none';
     });
   }));
+
+  // Top-level tabs
+  const tabButtons = document.querySelectorAll('.tab-btn');
+  const views = { items: document.getElementById('view-items'), newsletters: document.getElementById('view-newsletters') };
+  tabButtons.forEach(btn => btn.addEventListener('click', () => {
+    tabButtons.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    Object.entries(views).forEach(([key, el]) => { el.style.display = (key === btn.dataset.view) ? '' : 'none'; });
+  }));
+
+  // Expand/collapse newsletter editions
+  document.querySelectorAll('.edition-head').forEach(head => {
+    head.addEventListener('click', () => head.closest('.edition').classList.toggle('open'));
+  });
 </script>
 </body>
 </html>
