@@ -50,6 +50,11 @@ MIN_DAYS_BETWEEN = 6   # just under 7 days, matches the weekly cron schedule
                         # with a little tolerance for scheduling jitter
 MAX_PER_SOURCE = 6     # cap items from any single source in one email edition
 
+# Fallback site link used if the SITE_URL secret isn't set in GitHub, so the
+# email always links to the site regardless of whether that secret exists.
+# Set the real SITE_URL secret to override this if your Pages URL differs.
+DEFAULT_SITE_URL = "https://gregcodinglaub.github.io/veille-strategique/"
+
 THEME_LABELS = {
     "defense": "Défense",
     "competitive_intelligence": "Intelligence économique",
@@ -118,6 +123,7 @@ def render_item_row(it):
 
 
 def build_email_html(items, overflow_count=0, site_url=None):
+    site_url = site_url or DEFAULT_SITE_URL
     grouped = group_by_region_then_theme(items)
     region_blocks = []
 
@@ -174,17 +180,15 @@ def build_email_html(items, overflow_count=0, site_url=None):
             f'par édition) — disponibles sur le site.</p>'
         )
 
-    site_link = ""
-    if site_url:
-        site_link = (
-            f'<p style="margin-top:24px;">'
-            f'<a href="{site_url}" style="color:#93c5fd;font-size:13px;text-decoration:none;">'
-            f'→ Voir l\'archive complète en ligne</a></p>'
-        )
+    site_link = (
+        f'<p style="margin-top:24px;">'
+        f'<a href="{site_url}" style="color:#93c5fd;font-size:13px;text-decoration:none;">'
+        f'→ Voir l\'archive complète en ligne</a></p>'
+    )
 
     return f"""
     <div style="background:#0f1115;color:#eee;font-family:-apple-system,Helvetica,Arial,sans-serif;padding:28px;max-width:600px;margin:0 auto;">
-      <h2 style="margin:0 0 4px;font-size:20px;">🛰 Veille Stratégique</h2>
+      <h2 style="margin:0 0 4px;font-size:20px;">🛰 Veille Stratégique - newsletter Grégoire Laubry</h2>
       <p style="color:#8a8a8a;font-size:13px;margin:0 0 24px;">{datetime.now().strftime('%d/%m/%Y')} · {len(items)} publications</p>
       {body}
       {overflow_note}
