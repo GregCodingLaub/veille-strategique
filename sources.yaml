@@ -38,11 +38,13 @@
   type: rss
   url: "https://www.frstrategie.org/rss.xml"
   region: fr
+  verify_ssl: false  # their site's SSL cert chain fails verification; safe for read-only RSS
 
 - name: "IRSEM"
   type: rss
   url: "https://www.irsem.fr/rss"
   region: fr
+  # NEEDS FIXING: 404 on last check. Run validate_sources.py after trying a corrected URL.
 
 # --- EU ----------------------------------------------------------------
 - name: "EUISS"
@@ -64,12 +66,14 @@
   type: rss
   url: "https://merics.org/en/rss.xml"
   region: eu
+  # NEEDS FIXING: 404 on last check.
 
 # --- US ----------------------------------------------------------------
 - name: "CSIS"
   type: rss
   url: "https://www.csis.org/analysis/rss.xml"
   region: us
+  # NEEDS FIXING: 404 on last check.
 
 - name: "War on the Rocks"
   type: rss
@@ -80,16 +84,19 @@
   type: rss
   url: "https://carnegieendowment.org/rss/solr/?fa=publications"
   region: us
+  # NEEDS FIXING: returned 0 items (feed URL likely wrong).
 
 - name: "RAND"
   type: rss
-  url: "https://www.rand.org/topics/rss/feed.xml"
+  url: "https://www.rand.org/topics/national-security.xml"
   region: us
+  # Updated URL pattern confirmed via RAND's topic-feed system (was 404 before).
 
 - name: "SIPRI"
   type: rss
   url: "https://www.sipri.org/rss.xml"
   region: us
+  # NEEDS FIXING: 404 on last check.
 
 - name: "Jamestown Foundation (China Brief)"
   type: rss
