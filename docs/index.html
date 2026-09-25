@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Veille Stratégique</title>
+<style>
+  :root {
+    --bg: #0f1115; --card: #171a21; --text: #e8e9ec; --muted: #9099a8;
+    --accent: #5b8def; --border: #262a33;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--bg); color: var(--text); margin: 0; padding: 0 16px 60px;
+  }
+  header { max-width: 900px; margin: 0 auto; padding: 32px 0 16px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { color: var(--muted); font-size: 14px; }
+  .filters { max-width: 900px; margin: 20px auto 0; display: flex; flex-wrap: wrap; gap: 8px; }
+  .filter-btn {
+    background: var(--card); border: 1px solid var(--border); color: var(--text);
+    padding: 6px 12px; border-radius: 20px; font-size: 13px; cursor: pointer;
+  }
+  .filter-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+  main { max-width: 900px; margin: 24px auto; }
+  .item {
+    background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+    padding: 16px 18px; margin-bottom: 12px;
+  }
+  .item a { color: var(--text); text-decoration: none; font-size: 16px; font-weight: 600; }
+  .item a:hover { color: var(--accent); }
+  .meta { color: var(--muted); font-size: 12.5px; margin-top: 6px; }
+  .tag {
+    display: inline-block; background: #1f2937; color: #93c5fd; font-size: 11px;
+    padding: 2px 8px; border-radius: 10px; margin-right: 6px;
+  }
+  .summary { color: #c3c7d1; font-size: 13.5px; margin-top: 8px; line-height: 1.4; }
+  footer { max-width: 900px; margin: 40px auto; color: var(--muted); font-size: 12px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🛰 Veille Stratégique</h1>
+  <div class="sub">78 publications suivies · Défense · Renseignement · Intelligence économique · Énergie & armement · Généré le 25/09/2026 14:38</div>
+</header>
+<div class="filters" id="filters">
+  <button class="filter-btn active" data-theme="all">Tout</button>
+  <button class="filter-btn" data-theme="defense">Défense</button>
+  <button class="filter-btn" data-theme="intelligence">Renseignement</button>
+  <button class="filter-btn" data-theme="weapons_industry">Industrie de l'armement</button>
+  <button class="filter-btn" data-theme="energy_industry">Énergie</button>
+</div>
+<main id="items">
+<div class="item" data-themes="defense,intelligence,weapons_industry">
+  <a href="https://warontherocks.com/north-koreas-irregular-warfare-after-ukraine/" target="_blank" rel="noopener">North Korea’s Irregular Warfare After Ukraine</a>
+  <div class="meta">War on the Rocks · 2026-09-25 · <span class="tag">Défense</span> <span class="tag">Renseignement</span> <span class="tag">Industrie de l'armement</span></div>
+  <div class="summary"><p>Pyongyang has a long history of conducting irregular warfare and asymmetric operations: Look no further than the 1968 Blue House raid or the 1996 submarine incursion as the most pressing examples. More often than not, North Korea failed to achieve the intended objectives of it</div>
+</div>
+
+<div class="item" data-themes="weapons_industry">
+  <a href="https://legrandcontinent.eu/fr/2026/09/24/le-pakistan-multiplie-les-raids-aeriens-en-afghanistan/" target="_blank" rel="noopener">Le Pakistan multiplie les raids aériens en Afghanistan</a>
+  <div class="meta">Le Grand Continent · 2026-09-24 · <span class="tag">Industrie de l'armement</span></div>
+  <div class="summary"><p>Le Pakistan dit avoir visé 10 sites utilisés pour le lancement de drones</p>
+<p>L’article <a href="https://legrandcontinent.eu/fr/2026/09/24/le-pakistan-multiplie-les-raids-aeriens-en-afghanistan/">Le Pakistan multiplie les raids aériens en Afghanistan</a> est apparu en premie</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://legrandcontinent.eu/fr/2026/09/24/en-iran-khamenei-est-en-train-de-gagner-la-guerre/" target="_blank" rel="noopener">En Iran, Khamenei est-il en train de gagner la guerre ?</a>
+  <div class="meta">Le Grand Continent · 2026-09-24 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>Trump et Netanyahou voulaient renverser le régime, ils pourraient avoir consacré la doctrine du guide assassiné</p>
+<p>L’article <a href="https://legrandcontinent.eu/fr/2026/09/24/en-iran-khamenei-est-en-train-de-gagner-la-guerre/">En Iran, Khamenei est-il en train de gagner l</div>
+</div>
+
+<div class="item" data-themes="defense,weapons_industry">
+  <a href="https://warontherocks.com/the-new-signature-wounds-how-drone-warfare-is-reshaping-the-injuries-veterans-bring-home/" target="_blank" rel="noopener">The New Signature Wounds: How Drone Warfare Is Reshaping the Injuries Veterans Bring Home</a>
+  <div class="meta">War on the Rocks · 2026-09-24 · <span class="tag">Défense</span> <span class="tag">Industrie de l'armement</span></div>
+  <div class="summary"><p>Traumatic brain injury became the signature wound of the post-9/11 wars because the battlefield changed. Improvised explosive devices changed the nature of American combat injuries. But the medical and legal systems that followed &#8212; including the Department of Veterans Af</div>
+</div>
+
+<div class="item" data-themes="defense,weapons_industry">
+  <a href="https://jamestown.org/transnistrias-republic-day-tests-a-fraying-national-myth/" target="_blank" rel="noopener">Transnistria’s Republic Day Tests a Fraying National Myth</a>
+  <div class="meta">Jamestown Foundation (China Brief) · 2026-09-24 · <span class="tag">Défense</span> <span class="tag">Industrie de l'armement</span></div>
+  <div class="summary"><p>Executive Summary: On August 27, Moldova marked 35 years of independence with one of the largest military parades in its history. More than 2,000 troops and roughly 100 pieces of equipment moved through Chișinău Great National Assembly Square, including armored personnel carri</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/south-koreas-deliberate-strategic-ambiguity-on-taiwan/" target="_blank" rel="noopener">South Korea’s Deliberate Strategic Ambiguity on Taiwan</a>
+  <div class="meta">War on the Rocks · 2026-09-23 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>In 2021, Sungmin Cho wrote, &#8220;South Korea&#8217;s Taiwan Conundrum,&#8221; where he argued Seoul&#8217;s complex strategic position makes engagement on questions of involvement over a Taiwan contingency complicated. Five years later, we asked him to revisit his arguments.</div>
+</div>
+
+<div class="item" data-themes="defense,intelligence">
+  <a href="https://warontherocks.com/seoul-needs-a-playbook-for-hormuz-ukraine-and-what-comes-next/" target="_blank" rel="noopener">Seoul Needs a Playbook for Hormuz, Ukraine, and What Comes Next</a>
+  <div class="meta">War on the Rocks · 2026-09-23 · <span class="tag">Défense</span> <span class="tag">Renseignement</span></div>
+  <div class="summary"><p>Earlier this month, President Donald Trump shared a Washington Post opinion piece on his social media, arguing that South Korea should send its Cheongung-II air-defense system to Ukraine. Additionally, the Trump administration continues to pressure Seoul to send troops to the </div>
+</div>
+
+<div class="item" data-themes="intelligence">
+  <a href="https://jamestown.org/jailed-former-georgian-prime-minister-accuses-georgian-dream-of-blackmail/" target="_blank" rel="noopener">Jailed Former Georgian Prime Minister Accuses Georgian Dream of Blackmail</a>
+  <div class="meta">Jamestown Foundation (China Brief) · 2026-09-23 · <span class="tag">Renseignement</span></div>
+  <div class="summary"><p>Executive Summary: Since August 17, former two-time Georgian Prime Minister Irakli Garibashvili has released a series of Facebook posts from prison accusing the ruling Georgian Dream party and government officials of provocation, blackmail and political persecution (Facebook/I</div>
+</div>
+
+<div class="item" data-themes="weapons_industry">
+  <a href="https://sinocism.com/p/premier-li-on-advanced-manufacturing" target="_blank" rel="noopener">Premier Li on advanced manufacturing; Xi’s US visit; AI; “Enemy state” clauses</a>
+  <div class="meta">Sinocism · 2026-09-22 · <span class="tag">Industrie de l'armement</span></div>
+  <div class="summary">Xi Jinping should land in DC in about 24 hours. We still have little visibility on what the outcomes may be, beyond a reaffirmation of the US and PRC versions  of the &#8220;constructive relationship of strategic stability&#8221;, with the US addition of &#8220;on the basis of fa</div>
+</div>
+
+<div class="item" data-themes="defense,intelligence">
+  <a href="https://sinocism.com/p/fifth-plenum-date-set-xis-us-visit" target="_blank" rel="noopener">Fifth Plenum date set; Xi’s US visit confirmed as negotiators meet in New York; Zhang Youxia and Liu Zhenli expelled from Party and PLA</a>
+  <div class="meta">Sinocism · 2026-09-21 · <span class="tag">Défense</span> <span class="tag">Renseignement</span></div>
+  <div class="summary">The Politburo held its September meeting Monday and announced that the Fifth Plenum will convene October 26-29.
+
+The PRC officially confirmed that Xi will travel to the US to meet with Trump from September 23-25. Trump will greet Xi on arrival an Andrews Air Force Base, host him </div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://example.com/a1" target="_blank" rel="noopener">La France renforce sa posture de dissuasion nucléaire</a>
+  <div class="meta">IFRI · 2026-09-20 · <span class="tag">Défense</span></div>
+  <div class="summary">Un rapport sur les enjeux de la dissuasion pour la France en 2026.</div>
+</div>
+
+<div class="item" data-themes="energy_industry">
+  <a href="https://example.com/a2" target="_blank" rel="noopener">MERICS: China's rare earth export controls and energy security</a>
+  <div class="meta">MERICS · 2026-09-18 · <span class="tag">Énergie</span></div>
+  <div class="summary">Analysis of critical minerals leverage.</div>
+</div>
+
+<div class="item" data-themes="intelligence">
+  <a href="https://warontherocks.com/pressure-points/" target="_blank" rel="noopener">Pressure Points</a>
+  <div class="meta">War on the Rocks · 2026-09-18 · <span class="tag">Renseignement</span></div>
+  <div class="summary"><p>Welcome to The Adversarial.&#160;Every other week, we&#8217;ll provide you with expert analysis on America&#8217;s greatest challengers: China, Russia, Iran, North Korea, and jihadists. Read more below.***IranSenior officials from Iran, Oman, and neighboring Gulf states were s</div>
+</div>
+
+<div class="item" data-themes="defense,energy_industry">
+  <a href="https://warontherocks.com/why-eurasia-not-the-indo-pacific-matters-most-in-next-phase-of-taiwan-deterrence/" target="_blank" rel="noopener">Why Eurasia, Not the Indo-Pacific, Matters Most in Next Phase of Taiwan Deterrence</a>
+  <div class="meta">War on the Rocks · 2026-09-18 · <span class="tag">Défense</span> <span class="tag">Énergie</span></div>
+  <div class="summary"><p>Washington is preparing for the right war, but in the wrong theater. For years, U.S. strategic thinking has centered on the Indo&#8209;Pacific: the militarized atolls of the South China Sea, China&#8217;s churning naval shipyards, and the tense waters of the Taiwan Strait. Yet</div>
+</div>
+
+<div class="item" data-themes="intelligence">
+  <a href="https://www.iss.europa.eu/publications/commentary/eus-first-associate-member-how-make-eu-canada-ties-stronger-and-tighter" target="_blank" rel="noopener">The EU's first associate member? How to make EU-Canada ties stronger and tighter</a>
+  <div class="meta">EUISS · 2026-09-17 · <span class="tag">Renseignement</span></div>
+  <div class="summary"><span class="field field--name-title field--type-string field--label-hidden">The EU's first associate member? How to make EU-Canada ties stronger and tighter</span>
+<span class="field field--name-uid field--type-entity-reference field--label-hidden"><span>marianna.liana…</span></</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/latin-americas-balancing-act-washington-beijing-and-the-post-maduro-environment/" target="_blank" rel="noopener">Latin America’s Balancing Act: Washington, Beijing, and the Post-Maduro Environment</a>
+  <div class="meta">War on the Rocks · 2026-09-17 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>The year 2026 has brought sweeping change to Latin America&#8217;s relationship with the United States. Following a major military buildup in the Caribbean and strikes against vessels suspected of drug trafficking, U.S. forces captured Venezuelan President Nicol&#225;s Maduro </div>
+</div>
+
+<div class="item" data-themes="defense,intelligence,weapons_industry">
+  <a href="https://warontherocks.com/a-body-blow-the-war-on-iran-and-u-s-military-readiness/" target="_blank" rel="noopener">A Body Blow? The War on Iran and U.S. Military Readiness</a>
+  <div class="meta">War on the Rocks · 2026-09-17 · <span class="tag">Défense</span> <span class="tag">Renseignement</span> <span class="tag">Industrie de l'armement</span></div>
+  <div class="summary"><p>The war against Iran is putting new strains on U.S. military readiness by consuming munitions and missile defense interceptors, as well as through extended deployments, sustained operational demands, and the diversion of forces and attention from other theaters. Mark Cancian (</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/cogs-of-war/an-army-general-talks-fusing-sensors-and-shooters-on-the-eastern-flank/" target="_blank" rel="noopener">An Army General Talks Fusing Sensors and Shooters on the Eastern Flank</a>
+  <div class="meta">War on the Rocks · 2026-09-17 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>This exclusive Cogs of War interview is with Brig. Gen. Steven P. Carpenter, the commanding general of Multi-Domain Command &#8211; Europe, the U.S. Army&#8217;s first multi-domain operations command, headquartered at Clay Kaserne in Mainz-Kastel, Germany. Multi-Domain Command</div>
+</div>
+
+<div class="item" data-themes="intelligence">
+  <a href="https://sinocism.com/p/sharp-china-the-limited-potential" target="_blank" rel="noopener">Sharp China: The Limited Potential for a Pacing Deal; MSS on PRC AI Risks; Distillation and Data Security; The Party's Approach to Social Media</a>
+  <div class="meta">Sinocism · 2026-09-16 · <span class="tag">Renseignement</span></div>
+  <div class="summary">Show Notes:</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/would-nato-membership-for-ukraine-undermine-article-5-itself/" target="_blank" rel="noopener">Would NATO Membership for Ukraine Undermine Article 5 Itself?</a>
+  <div class="meta">War on the Rocks · 2026-09-16 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>In 2025, Jennifer Kavanaugh and Christopher McCallion wrote, &#8220;Armed Neutrality for Ukraine Is NATO&#8217;s Least Poor Option,&#8221; where they made the case for armed neutrality over full NATO membership as the wiser course for both Ukraine and NATO. A year later, we as</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/strategic-stability-and-the-rebuilding-of-xis-military/" target="_blank" rel="noopener">Strategic Stability and the Rebuilding of Xi’s Military</a>
+  <div class="meta">War on the Rocks · 2026-09-16 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>For all the warnings about an increasingly capable Chinese military, this may very well be an awkward moment for Beijing to have that military tested. General Secretary Xi Jinping has hollowed out much of the People&#8217;s Liberation Army&#8217;s senior command through purges</div>
+</div>
+
+<div class="item" data-themes="weapons_industry">
+  <a href="https://example.com/a3" target="_blank" rel="noopener">Naval Group signs new submarine export contract</a>
+  <div class="meta">CSIS · 2026-09-15 · <span class="tag">Industrie de l'armement</span></div>
+  <div class="summary">A major arms industry deal.</div>
+</div>
+
+<div class="item" data-themes="intelligence">
+  <a href="https://sinocism.com/p/us-china-strategic-ai-dialogue-said" target="_blank" rel="noopener">US-China Strategic AI Dialogue (SAID) Proposal</a>
+  <div class="meta">Sinocism · 2026-09-15 · <span class="tag">Renseignement</span></div>
+  <div class="summary">A structured U.S.-PRC government dialogue on strategic artificial intelligence risk reduction - The US and China should be talking about AI safety and governance, and while I am skeptical this can happen given the politics I thought it is still constructive to make some suggestio</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/the-atlantic-brief-u-s-and-european-perspectives-on-nuclear-deterrence/" target="_blank" rel="noopener">The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence</a>
+  <div class="meta">War on the Rocks · 2026-09-15 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>Date: Wednesday, Sept. 23, 2026Time: 12:00-1:00 PM ETThe second joint webinar by RUSI and War on the Rocks: Two leading defense publications from both sides of the Atlantic present their expert panel.&#160;OverviewFor this edition of The Atlantic Brief, the Royal United Servic</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/three-patrons-three-clients-the-mecca-alliance-no-one-owns/" target="_blank" rel="noopener">Three Patrons, Three Clients: The Mecca Alliance No One Owns</a>
+  <div class="meta">War on the Rocks · 2026-09-15 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>Every alliance contains a struggle over who gets to decide what the alliance is for. The unusual thing about the Mecca Alliance, formally known as the &#8220;Mecca Joint Defence Agreement,&#8221; is that all three of its members appear to believe they possess something that sh</div>
+</div>
+
+<div class="item" data-themes="intelligence">
+  <a href="https://sinocism.com/p/xi-going-to-india-plan-for-building" target="_blank" rel="noopener">Xi going to India; Plan for Building a Financial Powerhouse; Anthropic drops bombs in PRC AI firms; “Enemy-state clauses”; US-China</a>
+  <div class="meta">Sinocism · 2026-09-10 · <span class="tag">Renseignement</span></div>
+  <div class="summary">Anthropic&#8217;s September report is not just about China but includes multiple examples of what it says is problematic behavior by Chinese firms and individuals. 
+
+The report documents clear violations of PRC law by PRC entities. Anthropic should offer to forward its detailed f</div>
+</div>
+
+<div class="item" data-themes="intelligence">
+  <a href="https://www.iss.europa.eu/press/ondrej-ditrych-quoted-australian-financial-review" target="_blank" rel="noopener">Ondřej Ditrych quoted in the Australian Financial Review</a>
+  <div class="meta">EUISS · 2026-09-10 · <span class="tag">Renseignement</span></div>
+  <div class="summary"><span class="field field--name-title field--type-string field--label-hidden">Ondřej Ditrych quoted in the Australian Financial Review</span>
+<span class="field field--name-uid field--type-entity-reference field--label-hidden"><span>marianna.liana…</span></span>
+<span class="field</div>
+</div>
+
+<div class="item" data-themes="intelligence">
+  <a href="https://warontherocks.com/what-americas-adversaries-and-allies-hope-to-gain-at-the-u-n-general-assembly/" target="_blank" rel="noopener">What America’s Adversaries and Allies Hope to Gain at the U.N. General Assembly</a>
+  <div class="meta">War on the Rocks · 2026-09-10 · <span class="tag">Renseignement</span></div>
+  <div class="summary"><p>This year&#8217;s U.N. General Assembly officially opened on Tuesday, Sept. 8. The annual gathering gives diplomats and leaders a valuable opportunity to press their foreign policy priorities and engage &#8212; formally and informally &#8212; with both partners and adversaries</div>
+</div>
+
+<div class="item" data-themes="defense,weapons_industry">
+  <a href="https://warontherocks.com/forced-into-the-right-decision-a-look-at-u-s-land-based-deterrence-posture/" target="_blank" rel="noopener">Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture</a>
+  <div class="meta">War on the Rocks · 2026-09-09 · <span class="tag">Défense</span> <span class="tag">Industrie de l'armement</span></div>
+  <div class="summary"><p>In 2019, Steve Fetter wrote &#8220;A Cheaper Nuclear Sponge,&#8221; in which he argued that building a new intercontinental ballistic missile (ICBM) was unnecessary for strengthening U.S. land-based deterrence. After several years of changing defense budgets and strategic prio</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/cogs-of-war/the-tyranny-of-shipyard-cost-plus-contracting/" target="_blank" rel="noopener">The Tyranny of Shipyard Cost-Plus Contracting</a>
+  <div class="meta">War on the Rocks · 2026-09-09 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>As a naval shipyard commander, my mandate from Navy leadership is straightforward:&#160;return warships to the fleet as quickly as possible.&#160;Neither my shipyard nor many other public and private shipyards are consistently fulfilling that mission.Public shipyard availabili</div>
+</div>
+
+<div class="item" data-themes="defense,intelligence">
+  <a href="https://warontherocks.com/the-strange-transformation-of-the-front-line-in-ukraine/" target="_blank" rel="noopener">The Strange Transformation of the Front Line in Ukraine</a>
+  <div class="meta">War on the Rocks · 2026-09-09 · <span class="tag">Défense</span> <span class="tag">Renseignement</span></div>
+  <div class="summary"><p>On Jan. 5, 2025, my volunteer platoon attached to the 23rd Special Purpose Battalion of the Presidential Brigade entered a 1-kilometer-long tree line called CHAI, on the outskirts of Kotlyne, a few kilometers west of Pokrovsk, Ukraine. Our task was to occupy a position whose s</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/the-mecca-pacts-credibility-gap/" target="_blank" rel="noopener">The Mecca Pact’s Credibility Gap</a>
+  <div class="meta">War on the Rocks · 2026-09-09 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>Collective-defense pacts are meant to make war less likely. Poorly designed ones can do the opposite. If allies make sweeping promises without the military integration, decision-making mechanisms, and escalation controls needed to carry them out, they may invite adversaries to</div>
+</div>
+
+<div class="item" data-themes="intelligence">
+  <a href="https://sinocism.com/p/august-trade-data-capital-boost-for" target="_blank" rel="noopener">August trade data; Capital boost for state financial firms; Xi’s DC visit and US-China AI</a>
+  <div class="meta">Sinocism · 2026-09-08 · <span class="tag">Renseignement</span></div>
+  <div class="summary">The PRC has still not confirmed that Xi Jinping will travel to India for the BRICS Summit 2026 in New Delhi this weekend, but the expectation is that he will attend. In this issue:
+
+August trade data
+
+Capital boost for state financial firms
+
+Preparations for Xi&#8217;s DC visit
+
+</div>
+</div>
+
+<div class="item" data-themes="defense,intelligence">
+  <a href="https://warontherocks.com/nicaraguas-army-will-decide-what-comes-after-ortega/" target="_blank" rel="noopener">Nicaragua’s Army Will Decide What Comes After Ortega</a>
+  <div class="meta">War on the Rocks · 2026-09-08 · <span class="tag">Défense</span> <span class="tag">Renseignement</span></div>
+  <div class="summary"><p>The first institution Nicaragua&#8217;s National Assembly called to testify on the constitutional reform ending competitive elections was the army. On July 29, 2026, Gen. Julio C&#233;sar Avil&#233;s appeared before the Special Constitutional Commission and pledged the firm su</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/cogs-of-war/the-strategic-fiber-of-america-kevlars-impact-on-warfighters/" target="_blank" rel="noopener">The Strategic Fiber of America: Kevlar’s Impact on Warfighters</a>
+  <div class="meta">War on the Rocks · 2026-09-07 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>Editor&#8217;s note: This is the tenth and final article in a limited series celebrating American defense technologies born from wartime and their effects on broader national security, politics, and society. This series will run for several weeks to commemorate America&#8217;s</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/shrinking-buffers-why-turkey-and-israel-are-on-a-collision-course/" target="_blank" rel="noopener">Shrinking Buffers: Why Turkey and Israel Are on a Collision Course</a>
+  <div class="meta">War on the Rocks · 2026-09-07 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>When Israeli warplanes struck the Abu al-Duhur airbase in Syria on Aug. 18, 2026, the smoke rose over the demolition of an old geopolitical assumption about the Middle East. This time, Israel directly targeted a strategic sphere of influence where the Turkish military had been</div>
+</div>
+
+<div class="item" data-themes="defense,weapons_industry">
+  <a href="https://warontherocks.com/the-fruit-of-patience-how-regional-shifts-ripened-turkeys-path-to-kurdish-reconciliation/" target="_blank" rel="noopener">The Fruit of Patience: How Regional Shifts Ripened Turkey’s Path to Kurdish Reconciliation</a>
+  <div class="meta">War on the Rocks · 2026-09-04 · <span class="tag">Défense</span> <span class="tag">Industrie de l'armement</span></div>
+  <div class="summary"><p>On Aug. 25, at the People&#8217;s Palace in Damascus, Mazloum Abdi announced the dissolution of the Syrian Democratic Forces, which he had commanded for a decade. Speaking first in Arabic and then in Kurdish, he said the force had joined the Syrian army and would no longer ope</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/is-taiwanese-society-prepared-for-a-china-contingency/" target="_blank" rel="noopener">Is Taiwanese Society Prepared for a China Contingency?</a>
+  <div class="meta">War on the Rocks · 2026-09-02 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>In 2025, Michael Hunzeker and Yuster Yu wrote, &#8220;Taiwan&#8217;s Biggest Problem in Steeling Itself for War With China is Cultural,&#8221; where they argued major cultural changes were needed in both Taiwan&#8217;s military and civilian society if it were to be competitive</div>
+</div>
+
+<div class="item" data-themes="defense,intelligence,weapons_industry">
+  <a href="https://warontherocks.com/cogs-of-war/european-resilience-in-digital-infrastructure-the-changing-nature-of-state-business-relations/" target="_blank" rel="noopener">European Resilience in Digital Infrastructure: The Changing Nature of State-Business Relations</a>
+  <div class="meta">War on the Rocks · 2026-09-02 · <span class="tag">Défense</span> <span class="tag">Renseignement</span> <span class="tag">Industrie de l'armement</span></div>
+  <div class="summary"><p>As the war in Ukraine progressed, Russian strikes increasingly degraded Ukraine&#8217;s terrestrial communications infrastructure, steadily deepening Kyiv&#8217;s dependence on SpaceX&#8217;s Starlink. The satellite constellation became indispensable for crucial military funct</div>
+</div>
+
+<div class="item" data-themes="defense,intelligence">
+  <a href="https://warontherocks.com/ukraines-ground-robots-and-the-economics-of-survival/" target="_blank" rel="noopener">Ukraine’s Ground Robots and the Economics of Survival</a>
+  <div class="meta">War on the Rocks · 2026-09-02 · <span class="tag">Défense</span> <span class="tag">Renseignement</span></div>
+  <div class="summary"><p>In August 2024, special forces from five Ukrainian military intelligence units crossed the Black Sea to raid Russian-held Kinburn Spit. The commandos of these units &#8212; Chimera, Aratta, Stuhna, Paragon, Terror, and the Siberian Battalion &#8212; landed, fought, destroyed e</div>
+</div>
+
+<div class="item" data-themes="intelligence,weapons_industry">
+  <a href="https://warontherocks.com/why-are-people-talking-about-a-german-reset-with-russia/" target="_blank" rel="noopener">Why Are People Talking About a German Reset with Russia?</a>
+  <div class="meta">War on the Rocks · 2026-09-02 · <span class="tag">Renseignement</span> <span class="tag">Industrie de l'armement</span></div>
+  <div class="summary"><p>The summer of 2026 has raised questions once again among politicians, diplomats, and academics about whether Germany might be about to dither on Russia. Last month, a drone attack on German soil seemed designed to coerce Germany back into business as usual. Earlier, there had </div>
+</div>
+
+<div class="item" data-themes="defense,intelligence">
+  <a href="https://warontherocks.com/the-educated-operator-rethinking-lethality-in-special-operations/" target="_blank" rel="noopener">The Educated Operator: Rethinking Lethality in Special Operations</a>
+  <div class="meta">War on the Rocks · 2026-09-01 · <span class="tag">Défense</span> <span class="tag">Renseignement</span></div>
+  <div class="summary"><p>Editor&#8217;s Note: While War on the Rocks has a high standard for allowing pseudonyms, this is an unusual case: U.S. Army Special Operations Command requires its uniformed personnel to use pseudonyms when writing for public consumption (Policy 23-16). Meek young men grow up </div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/the-political-constraint-on-americas-data-center-power-buildout/" target="_blank" rel="noopener">The Political Constraint on America’s Data-Center Power Buildout</a>
+  <div class="meta">War on the Rocks · 2026-09-01 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>In April, President Donald Trump issued two Defense Production Act determinations covering grid infrastructure and large-scale energy infrastructure. One found that the country&#8217;s constrained electric grid posed an increasing threat to national defense and made grid infra</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://sinocism.com/p/the-disaster-in-nepal-and-tibet-xi" target="_blank" rel="noopener">The disaster in Nepal and Tibet; Xi at the SCO; Supporting consumption; National Defense Mobilization Law; Signals for PRC-US AI dialogue; New era for real estate</a>
+  <div class="meta">Sinocism · 2026-08-31 · <span class="tag">Défense</span></div>
+  <div class="summary">In this issue: The disaster in Nepal and Tibet
+
+Xi at the SCO
+
+State Council Executive meeting
+
+Measures to expand and upgrade consumer goods consumption
+
+Revised National Defense Mobilization Law
+
+Signals for PRC-US AI dialogue
+
+Cracking down excessive competition in the domesti</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/stop-using-ai-start-commanding-it/" target="_blank" rel="noopener">Stop Using AI. Start Commanding It</a>
+  <div class="meta">War on the Rocks · 2026-08-31 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>Walk into the Pentagon, climb the escalator, and an Uncle Sam-style poster points at you: &#8220;I want YOU to use AI.&#8221; It worked. GenAI.mil hit 1.5 million users in six months, and I have heard enough OpenAI-in-disguise pitches to last a lifetime. The adoption really is</div>
+</div>
+
+<div class="item" data-themes="defense,intelligence">
+  <a href="https://warontherocks.com/the-goldilocks-fallacy-the-undefined-limits-of-koreas-nuclear-role/" target="_blank" rel="noopener">The Goldilocks Fallacy: The Undefined Limits of Korea’s Nuclear Role</a>
+  <div class="meta">War on the Rocks · 2026-08-27 · <span class="tag">Défense</span> <span class="tag">Renseignement</span></div>
+  <div class="summary"><p>&#8220;Unthreatening and respectful.&#8221; That is how the president of the United States described North Korea on Aug. 16, 2026, in his social media post ordering his secretary of defense to scale back joint exercises with South Korea. Two years earlier in Seoul, the U.S.-So</div>
+</div>
+
+<div class="item" data-themes="weapons_industry">
+  <a href="https://warontherocks.com/the-marine-corps-plan-for-the-future-of-ground-combat/" target="_blank" rel="noopener">The Marine Corps’ Plan for the Future of Ground Combat</a>
+  <div class="meta">War on the Rocks · 2026-08-26 · <span class="tag">Industrie de l'armement</span></div>
+  <div class="summary"><p>The Marine Corps just released its plan to fight against adversaries on land, and Ryan had the two architects of the plan, Ground Combat Element 2040, on the show to talk about it. They discuss drones, resilience, long-range fires, logistics, and what marines will need to surv</div>
+</div>
+
+<div class="item" data-themes="weapons_industry,energy_industry">
+  <a href="https://warontherocks.com/from-hormuz-to-the-caucasus-the-new-geography-of-energy-security/" target="_blank" rel="noopener">From Hormuz to the Caucasus: The New Geography of Energy Security</a>
+  <div class="meta">War on the Rocks · 2026-08-26 · <span class="tag">Industrie de l'armement</span> <span class="tag">Énergie</span></div>
+  <div class="summary"><p>Every crisis in the Middle East returns the world&#8217;s attention to the same stretch of water. When tankers are seized, or missiles fly near the Persian Gulf, oil prices move, insurers reprice risk, shipping reroutes, and the United States repositions naval and airpower to </div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/russias-next-top-general-promotions-in-russian-military-leadership/" target="_blank" rel="noopener">Russia’s Next Top General: Promotions in Russian Military Leadership</a>
+  <div class="meta">War on the Rocks · 2026-08-25 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>Judged by the initial strategic goals set by Russian President Vladimir Putin in 2022, Russia&#8217;s military lost its war against Ukraine some time ago. Yet Russia&#8217;s armed forces have not stopped fighting and continue to prosecute large-scale combat operations in a bru</div>
+</div>
+
+<div class="item" data-themes="defense,weapons_industry">
+  <a href="https://warontherocks.com/command-and-politics-in-the-war-between-moscow-and-kyiv/" target="_blank" rel="noopener">Command and Politics in the War Between Moscow and Kyiv</a>
+  <div class="meta">War on the Rocks · 2026-08-24 · <span class="tag">Défense</span> <span class="tag">Industrie de l'armement</span></div>
+  <div class="summary"><p>Our intrepid team covers a lot of ground in this episode: the increasing fluidity of the battlefield, drones and air defense, the biting Black Sea campaign, the causes and aftermath of the firing of Ukraine&#8217;s popular defense minister, why Ukraine probably cannot produce </div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/cogs-of-war/betting-on-autonomous-aircraft/" target="_blank" rel="noopener">Betting on Autonomous Aircraft</a>
+  <div class="meta">War on the Rocks · 2026-08-24 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>This exclusive Cogs of War interview is with Brandon Tseng, the co-founder and president of Shield AI and a former Navy SEAL, whose company builds the Hivemind autonomy software, the V-BAT and X-BAT aircraft, and Aechelon synthetic reality and simulation technologies. We asked</div>
+</div>
+
+<div class="item" data-themes="defense,intelligence,weapons_industry">
+  <a href="https://warontherocks.com/the-risks-of-downplaying-chinas-military/" target="_blank" rel="noopener">The Risks of Downplaying China’s Military</a>
+  <div class="meta">War on the Rocks · 2026-08-24 · <span class="tag">Défense</span> <span class="tag">Renseignement</span> <span class="tag">Industrie de l'armement</span></div>
+  <div class="summary"><p>China has spent years modifying civilian ferries to launch amphibious armored vehicles, developing specialized equipment to move forces ashore without conventional port facilities, hardening dozens of air bases, and rapidly expanding the missile forces that could be used to de</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/pressure-points-economic-strain-allied-discord-and-war-fatigue/" target="_blank" rel="noopener">Pressure Points: Economic Strain, Allied Discord, and War Fatigue</a>
+  <div class="meta">War on the Rocks · 2026-08-21 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>Welcome to The Adversarial.&#160;Every other week, we&#8217;ll provide you with expert analysis on America&#8217;s greatest challengers: China, Russia, Iran, North Korea, and jihadists. Read more below.***IranU.S. strikes on Iranian soil tapered off in August after frequent ex</div>
+</div>
+
+<div class="item" data-themes="defense,intelligence,weapons_industry">
+  <a href="https://warontherocks.com/mental-health-is-a-warfighting-readiness-problem-for-the-u-s-navy/" target="_blank" rel="noopener">Mental Health Is a Warfighting Readiness Problem for the U.S. Navy</a>
+  <div class="meta">War on the Rocks · 2026-08-21 · <span class="tag">Défense</span> <span class="tag">Renseignement</span> <span class="tag">Industrie de l'armement</span></div>
+  <div class="summary"><p>&#8220;You cannot be at mental peace always. You will be worried. So even my family &#8212; they are scared all the time, and they were anxiously praying [for] the vessel [to] come out of this area safely.&#8221; While Captain Chirag operates a commercial cargo vessel in the R</div>
+</div>
+
+<div class="item" data-themes="defense,intelligence">
+  <a href="https://warontherocks.com/cogs-of-war/war-watt-is-it-good-for/" target="_blank" rel="noopener">War: Watt Is It Good For?</a>
+  <div class="meta">War on the Rocks · 2026-08-20 · <span class="tag">Défense</span> <span class="tag">Renseignement</span></div>
+  <div class="summary"><p>Military analysts are captivated by how the material nature of war is transforming in Ukraine. Unmanned systems have captured Russian infantry units, battered Russian naval and commercial ships, and even, with the help of on-board AI, conducted autonomous strikes deep into are</div>
+</div>
+
+<div class="item" data-themes="defense,intelligence">
+  <a href="https://warontherocks.com/chinas-military-says-ai-cant-replace-commanders-xi-is-testing-that/" target="_blank" rel="noopener">China’s Military Says AI Can’t Replace Commanders. Xi Is Testing That</a>
+  <div class="meta">War on the Rocks · 2026-08-20 · <span class="tag">Défense</span> <span class="tag">Renseignement</span></div>
+  <div class="summary"><p>For years, the Chinese military&#8217;s own newspaper has been making a promise it may no longer be able to keep. Whenever the People&#8217;s Liberation Army Daily (Jiefangjun Bao), the official newspaper of China&#8217;s Central Military Commission, discusses artificial intel</div>
+</div>
+
+<div class="item" data-themes="defense,weapons_industry">
+  <a href="https://warontherocks.com/cogs-of-war/contested-logistics-and-the-last-unmanned-mile/" target="_blank" rel="noopener">Contested Logistics and the “Last Unmanned Mile”</a>
+  <div class="meta">War on the Rocks · 2026-08-19 · <span class="tag">Défense</span> <span class="tag">Industrie de l'armement</span></div>
+  <div class="summary"><p>In a Pacific war, the U.S. military cannot assume uncontested access to its depots and supply lines for munitions, spare parts, food, water, and energy. Jonathan is joined by David Tuttle (Rune Technologies), Paul Lwin (HavocAI), and Tom Garvey (CACI) to discuss sustaining a d</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/managed-instability-why-the-wars-against-iran-and-ukraine-can-go-on-and-on-and-on/" target="_blank" rel="noopener">Managed Instability: Why the Wars Against Iran and Ukraine Can Go On and On and On…</a>
+  <div class="meta">War on the Rocks · 2026-08-19 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>The Iran war is beginning to resemble the Ukraine war in one important way. Operationally, the wars themselves are still very different &#8212; Ukraine is a large-scale ground invasion, while the Iran war is not there just yet. But their political logic after a failure to achi</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/proving-the-negative-three-warnings-from-arms-control-for-the-age-of-ai/" target="_blank" rel="noopener">Proving the Negative: Three Warnings from Arms Control for the Age of AI</a>
+  <div class="meta">War on the Rocks · 2026-08-19 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>In early 1963, a single number characterized the difference in the positions of the United States and the Soviet Union on a comprehensive nuclear test ban. Nikita Khrushchev had proposed three on-site inspections each year. Washington was asking for seven. Other differences re</div>
+</div>
+
+<div class="item" data-themes="intelligence">
+  <a href="https://warontherocks.com/inside-brazils-3d-printed-gun-supply-chain/" target="_blank" rel="noopener">Inside Brazil’s 3D-Printed Gun Supply Chain</a>
+  <div class="meta">War on the Rocks · 2026-08-18 · <span class="tag">Renseignement</span></div>
+  <div class="summary"><p>On June 26, 2026, the Civil Police of Rio de Janeiro, through its specialized firearms, ammunition, and explosives unit, raided a clandestine workshop in Rio das Pedras, on the city&#8217;s west side. Investigators said the group used a 3D printer seized at the scene to produc</div>
+</div>
+
+<div class="item" data-themes="defense,intelligence">
+  <a href="https://warontherocks.com/a-life-in-army-special-operations-from-desert-storm-to-the-next-war/" target="_blank" rel="noopener">A Life in Army Special Operations, from Desert Storm to the Next War</a>
+  <div class="meta">War on the Rocks · 2026-08-17 · <span class="tag">Défense</span> <span class="tag">Renseignement</span></div>
+  <div class="summary"><p>Lt. Gen. (ret.) Francis Beaudette, former commanding general of the U.S. Army Special Operations Command, joins Ryan to discuss how his family history, service, and books shaped his path into and time in the Army. Together, they talk through his years as a young officer during</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/cogs-of-war/blanchards-lathe-and-the-long-arc-of-american-manufacturing/" target="_blank" rel="noopener">Blanchard’s Lathe and the Long Arc of American Manufacturing</a>
+  <div class="meta">War on the Rocks · 2026-08-17 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>Editor&#8217;s note: This is the ninth article in a limited series celebrating American defense technologies born from wartime and their effects on broader national security, politics, and society. This series will run for several weeks to commemorate America&#8217;s 250th ann</div>
+</div>
+
+<div class="item" data-themes="defense,weapons_industry">
+  <a href="https://warontherocks.com/cheap-drones-dry-taps-the-iran-war-opens-a-new-era-of-water-infrastructure-risk/" target="_blank" rel="noopener">Cheap Drones, Dry Taps: The Iran War Opens a New Era of Water Infrastructure Risk</a>
+  <div class="meta">War on the Rocks · 2026-08-14 · <span class="tag">Défense</span> <span class="tag">Industrie de l'armement</span></div>
+  <div class="summary"><p>Water and energy infrastructure have become one of Iran&#8217;s main levers of deterrence against the United States. Iranian Foreign Minister Aragchi recently made it clear to Gulf states that if the U.S. military renewed large-scale strikes on Iran, their critical infrastruct</div>
+</div>
+
+<div class="item" data-themes="defense,intelligence">
+  <a href="https://warontherocks.com/the-commercial-space-race/" target="_blank" rel="noopener">The Commercial Space Race</a>
+  <div class="meta">War on the Rocks · 2026-08-13 · <span class="tag">Défense</span> <span class="tag">Renseignement</span></div>
+  <div class="summary"><p>A strong commercial space industry is an important partner for the U.S. government, as it contributes to building more robust space and defense capabilities and facilitates innovation more broadly. As competition between the United States and China heats up, both countries loo</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/cogs-of-war/the-true-cost-of-cheap-chips/" target="_blank" rel="noopener">The True Cost of Cheap Chips</a>
+  <div class="meta">War on the Rocks · 2026-08-13 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>Given the relentless demand for computing power, electronic components are in scarce supply. Prices for certain memory chips, known as DRAM, have surged by more than 50 percent in a single quarter this year, and have roughly quadrupled since last fall. Because DRAM supply is t</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/2026-and-all-that-another-benchmark-year-in-royal-navy-decline/" target="_blank" rel="noopener">2026 and All That: Another Benchmark Year in Royal Navy Decline</a>
+  <div class="meta">War on the Rocks · 2026-08-13 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>The 1930 comic history, 1066 and All That, made famous the British habit of reducing national history to a sequence of memorable dates. The modern Royal Navy has its own unhappy version of that calendar. Since 1945, a series of ostensibly practical political decisions has stea</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/russias-blurry-line-between-science-and-sabotage-beneath-the-oceans-surface/" target="_blank" rel="noopener">Russia’s Blurry Line Between Science and Sabotage Beneath the Ocean’s Surface</a>
+  <div class="meta">War on the Rocks · 2026-08-12 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>In 2025, Nurlan Aliyev wrote, &#8220;The Mayhem of Russia&#8217;s &#8220;Research&#8221; Fleet,&#8221; where he argued that NATO must act decisively to safeguard critical undersea infrastructure from Russian sabotage attempts. A year later, we asked him to revisit his argument</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/cogs-of-war/hyman-rickover-and-the-birth-of-nuclear-power/" target="_blank" rel="noopener">Hyman Rickover and the Birth of Nuclear Power</a>
+  <div class="meta">War on the Rocks · 2026-08-12 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>Editor&#8217;s note: This is the eighth article in a limited series celebrating American defense technologies born from wartime and their effects on broader national security, politics, and society. This series will run for several weeks to commemorate America&#8217;s 250th an</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/the-next-school-of-war-educating-for-tomorrows-battlefield/" target="_blank" rel="noopener">The Next School of War: Educating for Tomorrow’s Battlefield</a>
+  <div class="meta">War on the Rocks · 2026-08-12 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>When war changes, schools change. New technology, the politics of mass mobilization and campaign design, and novel tactics that defined Napoleonic warfare led to Gerhard von Scharnhorst&#8217;s reforms and the idea of lifelong education as a professional obligation. The patter</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/cogs-of-war/who-pays-for-americas-research-and-development/" target="_blank" rel="noopener">Who Pays for America’s Research and Development?</a>
+  <div class="meta">War on the Rocks · 2026-08-11 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>When the Soviet Union launched Sputnik in 1957, the U.S. government was the unrivaled patron of American science. It funded nearly two-thirds of the nation&#8217;s research and development &#8212; much of it for defense &#8212; defining the early Cold War. In a phenomenon that</div>
+</div>
+
+<div class="item" data-themes="defense,intelligence">
+  <a href="https://warontherocks.com/putting-armageddon-on-autopilot-how-artificial-intelligence-could-make-nuclear-threats-more-effective/" target="_blank" rel="noopener">Putting Armageddon on Autopilot: How Artificial Intelligence Could Make Nuclear Threats More Effective</a>
+  <div class="meta">War on the Rocks · 2026-08-11 · <span class="tag">Défense</span> <span class="tag">Renseignement</span></div>
+  <div class="summary"><p>Nine countries now possess nuclear weapons. Arms control agreements painstakingly built over decades have collapsed. Geopolitical competition is intensifying rivalries between nuclear-armed powers. North Korea continues expanding its arsenal and delivery systems. China is on a</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/the-white-house-is-right-on-ai-now-let-defenders-use-it/" target="_blank" rel="noopener">The White House Is Right on AI. Now Let Defenders Use It.</a>
+  <div class="meta">War on the Rocks · 2026-08-11 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>The White House has the right instinct on AI. Its June 5 National Security Presidential Memorandum commits the government to putting the most capable models in the hands of national security professionals &#8220;without delay.&#8221; The military version of that bet is decisio</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/cogs-of-war/what-america-learned-about-democracy-when-it-gained-stealth/" target="_blank" rel="noopener">What America Learned About Democracy When It Gained Stealth</a>
+  <div class="meta">War on the Rocks · 2026-08-10 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>Editor&#8217;s note: This is the seventh article in a limited series celebrating American defense technologies born from wartime and their effects on broader national security, politics, and society. This series will run for several weeks to commemorate America&#8217;s 250th a</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/why-military-cooperation-in-the-indian-ocean-still-falls-short/" target="_blank" rel="noopener">Why Military Cooperation in the Indian Ocean Still Falls Short</a>
+  <div class="meta">War on the Rocks · 2026-08-10 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>The United States has bluntly signaled a deprioritization of the Indian Ocean at a peculiar time. The reversion of U.S. Indo-Pacific Command to its former name, U.S. Pacific Command, signifies no material change in force posture or organizational responsibilities, but it unavo</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/warlords-of-greece-warfare-in-homers-world/" target="_blank" rel="noopener">Warlords of Greece: Warfare in Homer’s World</a>
+  <div class="meta">War on the Rocks · 2026-08-07 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>The Iliad and Odyssey have shaped Western ideas of heroism for nearly three millennia. Yet despite centuries of debate over whether they reflect historical reality or poetic fantasy, the Homeric world remains an internally consistent universe worth studying on its own terms. T</div>
+</div>
+
+<div class="item" data-themes="defense,intelligence">
+  <a href="https://warontherocks.com/how-can-u-s-special-operations-forces-help-defeat-china-on-taiwan/" target="_blank" rel="noopener">How Can U.S. Special Operations Forces Help Defeat China on Taiwan?</a>
+  <div class="meta">War on the Rocks · 2026-08-07 · <span class="tag">Défense</span> <span class="tag">Renseignement</span></div>
+  <div class="summary"><p>It is conceivable that in one blistering campaign, the People&#8217;s Republic of China could invade, occupy, and forcibly annex Taiwan. One question would dominate the post-occupation debate: &#8220;What more could have been done?&#8221; The obvious answers will be better int</div>
+</div>
+
+<div class="item" data-themes="defense">
+  <a href="https://warontherocks.com/does-latent-nuclear-deterrence-really-work/" target="_blank" rel="noopener">Does Latent Nuclear Deterrence Really Work?</a>
+  <div class="meta">War on the Rocks · 2026-08-06 · <span class="tag">Défense</span></div>
+  <div class="summary"><p>In 2025, Matthew Fuhrmann wrote, &#8220;U.S. Allies and Adversaries Are Attempting Nuclear Deterrence Without Weapons &#8211; Will It Work?,&#8221; where he argued countries don&#8217;t always need to go as far as actually building nuclear weapons to reap the benefits of nucle</div>
+</div>
+
+<div class="item" data-themes="defense,weapons_industry">
+  <a href="https://warontherocks.com/cogs-of-war/the-arsenal-and-the-statehouse-new-defense-firms-venture-capital-and-state-industrial-policy/" target="_blank" rel="noopener">The Arsenal and the Statehouse: New Defense Firms, Venture Capital and State Industrial Policy</a>
+  <div class="meta">War on the Rocks · 2026-08-06 · <span class="tag">Défense</span> <span class="tag">Industrie de l'armement</span></div>
+  <div class="summary"><p>When Anduril announced a $910 million drone production facility in Ohio, it was not politics as usual. The main message came from Ohio&#8217;s governor, Mike DeWine, while Representative Mike Carey&#8217;s press release thanked the governor. Members of Congress usually take su</div>
+</div>
+
+</main>
+<footer>Veille personnelle · sources et mots-clés configurables dans le dépôt GitHub.</footer>
+<script>
+  const buttons = document.querySelectorAll('.filter-btn');
+  const items = document.querySelectorAll('.item');
+  buttons.forEach(btn => btn.addEventListener('click', () => {
+    buttons.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const theme = btn.dataset.theme;
+    items.forEach(it => {
+      it.style.display = (theme === 'all' || it.dataset.themes.includes(theme)) ? '' : 'none';
+    });
+  }));
+</script>
+</body>
+</html>
