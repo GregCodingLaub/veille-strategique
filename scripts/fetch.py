@@ -20,8 +20,8 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from common import (
-    load_sources, load_keywords, load_items, save_items,
-    item_id, matches_keywords,
+    load_sources, load_keywords, load_regions, load_items, save_items,
+    item_id, matches_keywords, match_region,
 )
 from scrapers import PARSERS
 from bluesky import fetch_bluesky
@@ -60,6 +60,7 @@ def fetch_scrape(session, url, parser_name):
 def main():
     sources = load_sources()
     keywords = load_keywords()
+    regions = load_regions()
     existing = load_items()
     existing_ids = {it["id"] for it in existing}
 
@@ -90,6 +91,7 @@ def main():
                 themes = matches_keywords(text, keywords)
                 if not themes:
                     continue  # not relevant to our strategic themes
+                subject_region = match_region(text, regions)
                 all_new.append({
                     "id": iid,
                     "title": raw["title"],
@@ -97,7 +99,8 @@ def main():
                     "date": raw.get("date"),
                     "summary": raw.get("summary", ""),
                     "source": name,
-                    "region": src.get("region", "other"),
+                    "source_region": src.get("region", "other"),  # institution's home base
+                    "subject_region": subject_region,              # what the article is ABOUT
                     "themes": themes,
                     "fetched_at": datetime.now(timezone.utc).isoformat(),
                 })
