@@ -24,7 +24,7 @@ import requests
 sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from common import load_items, load_state, save_state
 
-MIN_DAYS_BETWEEN = 13  # slightly under 14 to tolerate schedule jitter
+MIN_DAYS_BETWEEN = 6  
 MAX_PER_SOURCE = 6     # cap items from any single source in one email edition
 
 THEME_LABELS = {
