@@ -1,15 +1,15 @@
 """
-Generate the static site (docs/index.html) from data/items.json.
-GitHub Pages serves the /docs folder directly -- no build step needed on GitHub's end.
+Generate the static site (docs/index.html) from data/items.json and
+data/newsletter_log.json. GitHub Pages serves /docs directly -- no build
+step needed on GitHub's end.
 
 Run manually: python scripts/build_site.py
 """
 import sys
-from collections import defaultdict
 from datetime import datetime
 
 sys.path.insert(0, __file__.rsplit("/", 1)[0])
-from common import load_items, DOCS_DIR
+from common import load_items, load_newsletter_log, DOCS_DIR
 import os
 
 THEME_LABELS = {
@@ -39,6 +39,12 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
   header {{ max-width: 900px; margin: 0 auto; padding: 32px 0 16px; }}
   h1 {{ font-size: 22px; margin: 0 0 4px; }}
   .sub {{ color: var(--muted); font-size: 14px; }}
+  .tabs {{ max-width: 900px; margin: 24px auto 0; display: flex; gap: 4px; border-bottom: 1px solid var(--border); }}
+  .tab-btn {{
+    background: none; border: none; color: var(--muted); padding: 10px 16px;
+    font-size: 14px; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px;
+  }}
+  .tab-btn.active {{ color: var(--text); border-bottom-color: var(--accent); }}
   .filters {{ max-width: 900px; margin: 20px auto 0; display: flex; flex-wrap: wrap; gap: 8px; }}
   .filter-btn {{
     background: var(--card); border: 1px solid var(--border); color: var(--text);
@@ -59,6 +65,24 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
   }}
   .summary {{ color: #c3c7d1; font-size: 13.5px; margin-top: 8px; line-height: 1.4; }}
   footer {{ max-width: 900px; margin: 40px auto; color: var(--muted); font-size: 12px; }}
+
+  .edition {{
+    background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+    padding: 18px 20px; margin-bottom: 14px;
+  }}
+  .edition-head {{
+    display: flex; align-items: center; justify-content: space-between; cursor: pointer;
+  }}
+  .edition-title {{ font-size: 15px; font-weight: 600; }}
+  .edition-count {{ color: var(--muted); font-size: 13px; }}
+  .edition-body {{ display: none; margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--border); }}
+  .edition.open .edition-body {{ display: block; }}
+  .edition-item {{ padding: 8px 0; border-bottom: 1px solid #23262f; }}
+  .edition-item:last-child {{ border-bottom: none; }}
+  .edition-item a {{ color: var(--text); text-decoration: none; font-size: 14px; }}
+  .edition-item a:hover {{ color: var(--accent); }}
+  .edition-item .meta {{ font-size: 11.5px; margin-top: 3px; }}
+  .empty {{ color: var(--muted); font-size: 14px; padding: 24px 0; }}
 </style>
 </head>
 <body>
@@ -66,25 +90,55 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
   <h1>🛰 Veille Stratégique</h1>
   <div class="sub">{count} publications suivies · Défense · Renseignement · Intelligence économique · Énergie & armement · Généré le {generated}</div>
 </header>
-<div class="filters" id="filters">
-  <button class="filter-btn active" data-theme="all">Tout</button>
-  {theme_buttons}
+
+<div class="tabs">
+  <button class="tab-btn active" data-view="items">Toutes les publications</button>
+  <button class="tab-btn" data-view="newsletters">Éditions envoyées ({edition_count})</button>
 </div>
-<main id="items">
+
+<div id="view-items">
+  <div class="filters" id="filters">
+    <button class="filter-btn active" data-theme="all">Tout</button>
+    {theme_buttons}
+  </div>
+  <main id="items">
 {items_html}
-</main>
+  </main>
+</div>
+
+<div id="view-newsletters" style="display:none;">
+  <main>
+{newsletters_html}
+  </main>
+</div>
+
 <footer>Veille personnelle · sources et mots-clés configurables dans le dépôt GitHub.</footer>
 <script>
-  const buttons = document.querySelectorAll('.filter-btn');
+  // Theme filter (Toutes les publications tab)
+  const filterButtons = document.querySelectorAll('.filter-btn');
   const items = document.querySelectorAll('.item');
-  buttons.forEach(btn => btn.addEventListener('click', () => {{
-    buttons.forEach(b => b.classList.remove('active'));
+  filterButtons.forEach(btn => btn.addEventListener('click', () => {{
+    filterButtons.forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     const theme = btn.dataset.theme;
     items.forEach(it => {{
       it.style.display = (theme === 'all' || it.dataset.themes.includes(theme)) ? '' : 'none';
     }});
   }}));
+
+  // Top-level tabs
+  const tabButtons = document.querySelectorAll('.tab-btn');
+  const views = {{ items: document.getElementById('view-items'), newsletters: document.getElementById('view-newsletters') }};
+  tabButtons.forEach(btn => btn.addEventListener('click', () => {{
+    tabButtons.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    Object.entries(views).forEach(([key, el]) => {{ el.style.display = (key === btn.dataset.view) ? '' : 'none'; }});
+  }}));
+
+  // Expand/collapse newsletter editions
+  document.querySelectorAll('.edition-head').forEach(head => {{
+    head.addEventListener('click', () => head.closest('.edition').classList.toggle('open'));
+  }});
 </script>
 </body>
 </html>
@@ -94,6 +148,23 @@ ITEM_TEMPLATE = """<div class="item" data-themes="{themes_raw}">
   <a href="{link}" target="_blank" rel="noopener">{title}</a>
   <div class="meta">{source} · {date} · {tags}</div>
   {summary_html}
+</div>
+"""
+
+EDITION_TEMPLATE = """<div class="edition">
+  <div class="edition-head">
+    <div class="edition-title">📬 {date_display}</div>
+    <div class="edition-count">{item_count} publications{overflow_note}</div>
+  </div>
+  <div class="edition-body">
+{items_html}
+  </div>
+</div>
+"""
+
+EDITION_ITEM_TEMPLATE = """<div class="edition-item">
+  <a href="{link}" target="_blank" rel="noopener">{title}</a>
+  <div class="meta">{source} · {date}</div>
 </div>
 """
 
@@ -113,7 +184,7 @@ def render_items(items):
             tags=tags,
             summary_html=summary_html,
         ))
-    return "\n".join(html)
+    return "\n".join(html) if html else '<div class="empty">Aucune publication pour le moment.</div>'
 
 
 def render_theme_buttons(items):
@@ -127,19 +198,60 @@ def render_theme_buttons(items):
     return "\n  ".join(buttons)
 
 
+def render_newsletters(log, items_by_id):
+    if not log:
+        return '<div class="empty">Aucune édition envoyée pour le moment.</div>'
+
+    html = []
+    for entry in log:
+        try:
+            dt = datetime.fromisoformat(entry["date"])
+            date_display = dt.strftime("%d/%m/%Y à %H:%M")
+        except (KeyError, ValueError):
+            date_display = entry.get("date", "date inconnue")
+
+        overflow = entry.get("overflow_count", 0)
+        overflow_note = f" (+{overflow} non affichées)" if overflow else ""
+
+        edition_items = []
+        for iid in entry.get("item_ids", []):
+            it = items_by_id.get(iid)
+            if not it:
+                continue
+            edition_items.append(EDITION_ITEM_TEMPLATE.format(
+                link=it["link"],
+                title=it["title"],
+                source=it["source"],
+                date=it.get("date") or "",
+            ))
+
+        html.append(EDITION_TEMPLATE.format(
+            date_display=date_display,
+            item_count=entry.get("item_count", len(edition_items)),
+            overflow_note=overflow_note,
+            items_html="\n".join(edition_items) if edition_items else '<div class="empty">Détails indisponibles.</div>',
+        ))
+    return "\n".join(html)
+
+
 def main():
     items = load_items()
+    log = load_newsletter_log()
+    items_by_id = {it["id"]: it for it in items}
+
     os.makedirs(DOCS_DIR, exist_ok=True)
     html = PAGE_TEMPLATE.format(
         count=len(items),
         generated=datetime.now().strftime("%d/%m/%Y %H:%M"),
         theme_buttons=render_theme_buttons(items),
         items_html=render_items(items),
+        edition_count=len(log),
+        newsletters_html=render_newsletters(log, items_by_id),
     )
     out_path = os.path.join(DOCS_DIR, "index.html")
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(html)
-    print(f"Site written to {out_path} ({len(items)} items)")
+    print(f"Site written to {out_path} ({len(items)} items, {len(log)} newsletter editions)")
 
 
 if __name__ == "__main__":
