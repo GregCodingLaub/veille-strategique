@@ -10,6 +10,7 @@
 
 defense:
   - defense
+  - defence
   - défense
   - military
   - militaire
@@ -27,6 +28,14 @@ defense:
   - marine nationale
   - air force
   - armée de l'air
+  - strategic autonomy
+  - autonomie stratégique
+  - eu defence
+  - défense européenne
+  - common security and defence policy
+  - politique de sécurité et de défense
+  - csdp
+  - psdc
   - ministry of defense
   - ministère des armées
   - arms control
@@ -72,6 +81,7 @@ weapons_industry:
   - arms industry
   - industrie de l'armement
   - defense industry
+  - defence industry
   - industrie de défense
   - arms trade
   - commerce des armes
@@ -84,6 +94,7 @@ weapons_industry:
   - arms sales
   - ventes d'armes
   - defense contractor
+  - defence contractor
   - military procurement
   - marché public de défense
   - appel d'offres défense
