@@ -11,16 +11,18 @@ Usage: python scripts/validate_sources.py
 import sys
 import requests
 import feedparser
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from common import load_sources
 from scrapers import PARSERS
 
-USER_AGENT = "veille-strategique/1.0 (personal research monitoring bot)"
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 
 
-def check_rss(url):
-    resp = requests.get(url, timeout=20, headers={"User-Agent": USER_AGENT})
+def check_rss(url, verify_ssl=True):
+    resp = requests.get(url, timeout=20, headers={"User-Agent": USER_AGENT}, verify=verify_ssl)
     resp.raise_for_status()
     parsed = feedparser.parse(resp.content)
     if parsed.bozo and not parsed.entries:
@@ -49,7 +51,7 @@ def main():
         name = src["name"]
         try:
             if src["type"] == "rss":
-                n = check_rss(src["url"])
+                n = check_rss(src["url"], verify_ssl=src.get("verify_ssl", True))
             elif src["type"] == "scrape":
                 n = check_scrape(src["url"], src.get("parser"))
             else:
