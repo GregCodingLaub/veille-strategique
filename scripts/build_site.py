@@ -3,13 +3,21 @@ Generate the static site (docs/index.html) from data/items.json and
 data/newsletter_log.json. GitHub Pages serves /docs directly -- no build
 step needed on GitHub's end.
 
+Supports URL query params for pre-filtering on load, e.g.
+  index.html?region=eu           -> opens with EU pre-selected
+  index.html?region=eu&theme=energy_industry  -> EU + Energy pre-selected
+This is what lets the emailed "view on site" links land pre-filtered.
+
 Run manually: python scripts/build_site.py
 """
 import sys
 from datetime import datetime
 
 sys.path.insert(0, __file__.rsplit("/", 1)[0])
-from common import load_items, load_newsletter_log, DOCS_DIR
+from common import (
+    load_items, load_newsletter_log, DOCS_DIR,
+    REGION_ORDER, REGION_LABELS, source_region_of, SOURCE_PERSPECTIVE,
+)
 import os
 
 THEME_LABELS = {
@@ -45,7 +53,8 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
     font-size: 14px; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px;
   }}
   .tab-btn.active {{ color: var(--text); border-bottom-color: var(--accent); }}
-  .filters {{ max-width: 900px; margin: 20px auto 0; display: flex; flex-wrap: wrap; gap: 8px; }}
+  .filter-group-label {{ color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em; margin: 18px auto 6px; max-width: 900px; }}
+  .filters {{ max-width: 900px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 8px; }}
   .filter-btn {{
     background: var(--card); border: 1px solid var(--border); color: var(--text);
     padding: 6px 12px; border-radius: 20px; font-size: 13px; cursor: pointer;
@@ -63,6 +72,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
     display: inline-block; background: #1f2937; color: #93c5fd; font-size: 11px;
     padding: 2px 8px; border-radius: 10px; margin-right: 6px;
   }}
+  .perspective {{ font-size: 11px; font-weight: 700; letter-spacing: 0.02em; margin-right: 6px; }}
   .summary {{ color: #c3c7d1; font-size: 13.5px; margin-top: 8px; line-height: 1.4; }}
   footer {{ max-width: 900px; margin: 40px auto; color: var(--muted); font-size: 12px; }}
 
@@ -97,7 +107,13 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 </div>
 
 <div id="view-items">
-  <div class="filters" id="filters">
+  <div class="filter-group-label">Zone</div>
+  <div class="filters" id="region-filters">
+    <button class="filter-btn active" data-region="all">Tout</button>
+    {region_buttons}
+  </div>
+  <div class="filter-group-label">Secteur</div>
+  <div class="filters" id="theme-filters">
     <button class="filter-btn active" data-theme="all">Tout</button>
     {theme_buttons}
   </div>
@@ -114,17 +130,46 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 
 <footer>Veille personnelle · sources et mots-clés configurables dans le dépôt GitHub.</footer>
 <script>
-  // Theme filter (Toutes les publications tab)
-  const filterButtons = document.querySelectorAll('.filter-btn');
+  const params = new URLSearchParams(window.location.search);
+  const initialRegion = params.get('region') || 'all';
+  const initialTheme = params.get('theme') || 'all';
+
+  const regionButtons = document.querySelectorAll('#region-filters .filter-btn');
+  const themeButtons = document.querySelectorAll('#theme-filters .filter-btn');
   const items = document.querySelectorAll('.item');
-  filterButtons.forEach(btn => btn.addEventListener('click', () => {{
-    filterButtons.forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    const theme = btn.dataset.theme;
+
+  let activeRegion = initialRegion;
+  let activeTheme = initialTheme;
+
+  function applyFilters() {{
     items.forEach(it => {{
-      it.style.display = (theme === 'all' || it.dataset.themes.includes(theme)) ? '' : 'none';
+      const regionOk = (activeRegion === 'all' || it.dataset.region === activeRegion);
+      const themeOk = (activeTheme === 'all' || it.dataset.themes.includes(activeTheme));
+      it.style.display = (regionOk && themeOk) ? '' : 'none';
     }});
-  }}));
+  }}
+
+  regionButtons.forEach(btn => {{
+    if (btn.dataset.region === initialRegion) {{ regionButtons.forEach(b => b.classList.remove('active')); btn.classList.add('active'); }}
+    btn.addEventListener('click', () => {{
+      regionButtons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeRegion = btn.dataset.region;
+      applyFilters();
+    }});
+  }});
+
+  themeButtons.forEach(btn => {{
+    if (btn.dataset.theme === initialTheme) {{ themeButtons.forEach(b => b.classList.remove('active')); btn.classList.add('active'); }}
+    btn.addEventListener('click', () => {{
+      themeButtons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeTheme = btn.dataset.theme;
+      applyFilters();
+    }});
+  }});
+
+  applyFilters();
 
   // Top-level tabs
   const tabButtons = document.querySelectorAll('.tab-btn');
@@ -144,8 +189,8 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 </html>
 """
 
-ITEM_TEMPLATE = """<div class="item" data-themes="{themes_raw}">
-  <a href="{link}" target="_blank" rel="noopener">{title}</a>
+ITEM_TEMPLATE = """<div class="item" data-themes="{themes_raw}" data-region="{region}">
+  <a href="{link}" target="_blank" rel="noopener"><span class="perspective" style="color:{persp_color};">[{persp_code}]</span>{title}</a>
   <div class="meta">{source} · {date} · {tags}</div>
   {summary_html}
 </div>
@@ -175,14 +220,18 @@ def render_items(items):
         tags = " ".join(f'<span class="tag">{THEME_LABELS.get(t, t)}</span>' for t in it.get("themes", []))
         summary = it.get("summary", "").strip()
         summary_html = f'<div class="summary">{summary[:280]}</div>' if summary else ""
+        persp_code, persp_color = SOURCE_PERSPECTIVE.get(source_region_of(it), SOURCE_PERSPECTIVE["other"])
         html.append(ITEM_TEMPLATE.format(
             themes_raw=",".join(it.get("themes", [])),
+            region=it.get("subject_region", "other"),
             link=it["link"],
             title=it["title"],
             source=it["source"],
             date=it.get("date") or "date inconnue",
             tags=tags,
             summary_html=summary_html,
+            persp_code=persp_code,
+            persp_color=persp_color,
         ))
     return "\n".join(html) if html else '<div class="empty">Aucune publication pour le moment.</div>'
 
@@ -195,6 +244,15 @@ def render_theme_buttons(items):
     for theme in THEME_LABELS:
         if theme in present:
             buttons.append(f'<button class="filter-btn" data-theme="{theme}">{THEME_LABELS[theme]}</button>')
+    return "\n  ".join(buttons)
+
+
+def render_region_buttons(items):
+    present = set(it.get("subject_region", "other") for it in items)
+    buttons = []
+    for region in REGION_ORDER:
+        if region in present:
+            buttons.append(f'<button class="filter-btn" data-region="{region}">{REGION_LABELS[region]}</button>')
     return "\n  ".join(buttons)
 
 
@@ -244,6 +302,7 @@ def main():
         count=len(items),
         generated=datetime.now().strftime("%d/%m/%Y %H:%M"),
         theme_buttons=render_theme_buttons(items),
+        region_buttons=render_region_buttons(items),
         items_html=render_items(items),
         edition_count=len(log),
         newsletters_html=render_newsletters(log, items_by_id),
