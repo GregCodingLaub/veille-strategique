@@ -1,0 +1,112 @@
+# ==============================================================================
+# REGIONS CONFIG — classifies what an article is ABOUT (its subject), not
+# where the publishing institution is based. Used to group the newsletter
+# and website by geographic area.
+#
+# This is separate from a source's own "region:" field in sources.yaml,
+# which reflects the INSTITUTION's home base (shown as a small perspective
+# tag next to each item, e.g. "[EU]") -- a France-based source can easily
+# write about the US, and vice versa.
+#
+# Order matters: an item is assigned to the FIRST region below whose
+# keywords match. Put more specific regions before broader ones if you add
+# new categories. Items matching none of these fall into "other".
+# ==============================================================================
+
+france:
+  - france
+  - français
+  - française
+  - paris
+  - élysée
+  - matignon
+  - quai d'orsay
+  - assemblée nationale
+  - ministère des armées
+  - hexagone
+
+eu:
+  - european union
+  - union européenne
+  - "eu "
+  - "l'ue"
+  - brussels
+  - bruxelles
+  - european commission
+  - commission européenne
+  - european parliament
+  - parlement européen
+  - member states
+  - états membres
+  - strasbourg
+  - eurozone
+  - zone euro
+  - germany
+  - allemagne
+  - italy
+  - italie
+  - spain
+  - espagne
+  - poland
+  - pologne
+  - nato
+  - otan
+
+us:
+  - united states
+  - "u.s."
+  - "usa"
+  - washington
+  - white house
+  - maison blanche
+  - pentagon
+  - pentagone
+  - congress
+  - congrès américain
+  - capitol hill
+  - american
+  - américain
+  - américaine
+
+china:
+  - china
+  - chine
+  - chinese
+  - chinois
+  - chinoise
+  - beijing
+  - pékin
+  - xi jinping
+  - ccp
+  - parti communiste chinois
+  - pla
+  - armée populaire de libération
+  - taiwan
+  - taïwan
+  - south china sea
+  - mer de chine méridionale
+
+middle_east_africa:
+  - middle east
+  - moyen-orient
+  - israel
+  - israël
+  - gaza
+  - iran
+  - iranien
+  - saudi arabia
+  - arabie saoudite
+  - syria
+  - syrie
+  - lebanon
+  - liban
+  - gulf states
+  - golfe persique
+  - africa
+  - afrique
+  - sahel
+  - nigeria
+  - egypt
+  - égypte
+  - sudan
+  - soudan
