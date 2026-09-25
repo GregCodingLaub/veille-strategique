@@ -3,10 +3,14 @@
 # ==============================================================================
 # Each source needs:
 #   name:   display name
-#   type:   "rss"    -> url must point directly to an RSS/Atom feed
-#           "scrape" -> url is a listing page; "parser" must match a function
-#                       name in scripts/scrapers.py (custom code required)
-#   url:    the feed URL (rss) or listing page URL (scrape)
+#   type:   "rss"     -> url must point directly to an RSS/Atom feed
+#           "scrape"  -> url is a listing page; "parser" must match a function
+#                        name in scripts/scrapers.py (custom code required)
+#           "bluesky" -> url is actually a Bluesky HANDLE (e.g. "csis.org"),
+#                        not a link. Use this for institutions whose own site
+#                        blocks RSS scraping (Cloudflare, broken certs, no
+#                        feed) but who post their publications on Bluesky.
+#   url:    the feed URL (rss), listing page URL (scrape), or handle (bluesky)
 #   region: fr | eu | us | other   (for display/grouping only)
 #   parser: (scrape only) name of the parser function in scrapers.py
 #
@@ -39,12 +43,12 @@
   url: "https://www.frstrategie.org/rss.xml"
   region: fr
   verify_ssl: false  # their site's SSL cert chain fails verification; safe for read-only RSS
+  # NEEDS FIXING: still 404 -- wrong path. Try finding it via validate_sources.py locally.
 
 - name: "IRSEM"
-  type: rss
-  url: "https://www.irsem.fr/rss"
+  type: bluesky
+  url: "irsem.bsky.social"
   region: fr
-  # NEEDS FIXING: 404 on last check. Run validate_sources.py after trying a corrected URL.
 
 # --- EU ----------------------------------------------------------------
 - name: "EUISS"
@@ -53,9 +57,10 @@
   region: eu
 
 - name: "ECFR"
-  type: rss
-  url: "https://ecfr.eu/feed/"
+  type: bluesky
+  url: "ecfr.eu"
   region: eu
+  # Guessed handle based on their domain -- validate before trusting.
 
 - name: "Bruegel"
   type: rss
@@ -63,17 +68,15 @@
   region: eu
 
 - name: "MERICS"
-  type: rss
-  url: "https://merics.org/en/rss.xml"
+  type: bluesky
+  url: "merics.bsky.social"
   region: eu
-  # NEEDS FIXING: 404 on last check.
 
 # --- US ----------------------------------------------------------------
 - name: "CSIS"
-  type: rss
-  url: "https://www.csis.org/analysis/rss.xml"
+  type: bluesky
+  url: "csis.org"
   region: us
-  # NEEDS FIXING: 404 on last check.
 
 - name: "War on the Rocks"
   type: rss
@@ -81,22 +84,20 @@
   region: us
 
 - name: "Carnegie Endowment"
-  type: rss
-  url: "https://carnegieendowment.org/rss/solr/?fa=publications"
+  type: bluesky
+  url: "carnegieendowment.org"
   region: us
-  # NEEDS FIXING: returned 0 items (feed URL likely wrong).
 
 - name: "RAND"
-  type: rss
-  url: "https://www.rand.org/topics/national-security.xml"
+  type: bluesky
+  url: "rand.org"
   region: us
-  # Updated URL pattern confirmed via RAND's topic-feed system (was 404 before).
+  # Guessed handle based on their domain -- validate before trusting.
 
 - name: "SIPRI"
-  type: rss
-  url: "https://www.sipri.org/rss.xml"
+  type: bluesky
+  url: "sipri.org"
   region: us
-  # NEEDS FIXING: 404 on last check.
 
 - name: "Jamestown Foundation (China Brief)"
   type: rss
