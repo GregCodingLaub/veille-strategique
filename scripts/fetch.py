@@ -24,6 +24,7 @@ from common import (
     item_id, matches_keywords,
 )
 from scrapers import PARSERS
+from bluesky import fetch_bluesky
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 
@@ -73,6 +74,8 @@ def main():
                 raw_items = fetch_rss(session, src["url"], verify_ssl=src.get("verify_ssl", True))
             elif src["type"] == "scrape":
                 raw_items = fetch_scrape(session, src["url"], src.get("parser"))
+            elif src["type"] == "bluesky":
+                raw_items = fetch_bluesky(session, src["url"])
             else:
                 raise ValueError(f"Unknown source type: {src['type']}")
 
