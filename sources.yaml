@@ -31,11 +31,6 @@
   url: "https://sinocism.com/feed"
   region: us
 
-- name: "InDefence"
-  type: rss
-  url: "https://indefence.substack.com/feed"
-  region: 
-
 # --- France ----------------------------------------------------------------
 - name: "IFRI"
   type: scrape
@@ -43,6 +38,12 @@
   parser: ifri
   region: fr
 
+- name: "FRS (Fondation pour la Recherche Stratégique)"
+  type: rss
+  url: "https://www.frstrategie.org/rss.xml"
+  region: fr
+  verify_ssl: false  # their site's SSL cert chain fails verification; safe for read-only RSS
+  # NEEDS FIXING: still 404 -- wrong path. Try finding it via validate_sources.py locally.
 
 - name: "IRSEM"
   type: bluesky
@@ -103,11 +104,45 @@
   url: "https://jamestown.org/feed/"
   region: us
 
-  - name: "Defense News (Industry)"
+# --- Wire services & trade press --------------------------------------------
+- name: "Reuters"
+  type: bluesky
+  url: "reuters.com"
+  region: us
+  # Main account, all topics -- keyword filter narrows it to relevant items.
+  # Guessed handle based on their domain (confirmed pattern via their verticals
+  # like breakingviews.reuters.com) -- validate before trusting.
+
+- name: "Defense News (Industry)"
   type: rss
   url: "https://www.defensenews.com/arc/outboundfeeds/rss/category/industry/?outputType=xml"
   region: us
-  # If this 404s, try:
-  # url: "https://www.defensenews.com/industry/feed/"
-  # or, as a last resort, the whole-site feed (then let keyword filtering narrow it):
-  # url: "https://www.defensenews.com/feed/"
+  # If this 404s, try in order:
+  #   url: "https://www.defensenews.com/industry/feed/"
+  #   url: "https://www.defensenews.com/feed/"   (whole site, then filtered by keywords)
+
+- name: "Breaking Defense"
+  type: rss
+  url: "https://breakingdefense.com/feed/"
+  region: us
+
+- name: "USNI News"
+  type: rss
+  url: "https://news.usni.org/feed"
+  region: us
+
+# --- OSINT / arms control ----------------------------------------------------
+- name: "Bellingcat"
+  type: rss
+  url: "https://www.bellingcat.com/feed/"
+  region: eu
+
+- name: "Arms Control Association"
+  type: rss
+  url: "https://www.armscontrol.org/rss.xml"
+  region: us
+
+- name: "Bulletin of the Atomic Scientists"
+  type: rss
+  url: "https://thebulletin.org/feed/"
+  region: us
