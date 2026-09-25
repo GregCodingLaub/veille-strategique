@@ -7,10 +7,23 @@ import yaml
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SOURCES_PATH = os.path.join(ROOT, "sources.yaml")
 KEYWORDS_PATH = os.path.join(ROOT, "keywords.yaml")
+REGIONS_PATH = os.path.join(ROOT, "regions.yaml")
 ITEMS_PATH = os.path.join(ROOT, "data", "items.json")
 STATE_PATH = os.path.join(ROOT, "data", "state.json")
 NEWSLETTER_LOG_PATH = os.path.join(ROOT, "data", "newsletter_log.json")
 DOCS_DIR = os.path.join(ROOT, "docs")
+
+# Order defines both matching priority (first match wins) and display order
+# in the email/website. Keep in sync with regions.yaml's section names.
+REGION_ORDER = ["france", "eu", "us", "china", "middle_east_africa", "other"]
+REGION_LABELS = {
+    "france": "France",
+    "eu": "Union Européenne",
+    "us": "États-Unis",
+    "china": "Chine",
+    "middle_east_africa": "Moyen-Orient & Afrique",
+    "other": "Autres",
+}
 
 
 def load_sources():
@@ -20,6 +33,11 @@ def load_sources():
 
 def load_keywords():
     with open(KEYWORDS_PATH, "r", encoding="utf-8") as f:
+        return yaml.safe_load(f) or {}
+
+
+def load_regions():
+    with open(REGIONS_PATH, "r", encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
 
 
@@ -82,3 +100,35 @@ def matches_keywords(text, keywords_by_theme):
                 matched.append(theme)
                 break
     return matched
+
+
+def match_region(text, regions_by_name):
+    """Return the single best-matching subject region for a text (title+
+    summary), checked in REGION_ORDER priority. Falls back to 'other' if
+    nothing matches -- every item gets exactly one subject region."""
+    text_low = (text or "").lower()
+    for region in REGION_ORDER:
+        if region == "other":
+            continue
+        for w in regions_by_name.get(region, []):
+            if w.lower() in text_low:
+                return region
+    return "other"
+
+
+def source_region_of(item):
+    """The publishing institution's own home base (for the small perspective
+    tag), with a fallback for items fetched before this field existed."""
+    return item.get("source_region") or item.get("region") or "other"
+
+
+# Small colored "perspective" tag shown next to each item, indicating where
+# the PUBLISHING institution is based -- distinct from subject_region (what
+# the article is about), which drives the main region grouping. Shared
+# between the email and the website so the two stay visually consistent.
+SOURCE_PERSPECTIVE = {
+    "fr": ("FR", "#60a5fa"),      # blue
+    "eu": ("EU", "#a78bfa"),      # violet
+    "us": ("US", "#f87171"),      # red
+    "other": ("—", "#9ca3af"),    # gray
+}
