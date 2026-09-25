@@ -2,11 +2,13 @@ name: Veille Stratégique
 
 on:
   schedule:
+    # Every Monday at 07:00 UTC. Cron is UTC always, adjust hour if you
+    # want it timed differently relative to CET/CEST.
     - cron: "0 7 * * 1"
-  workflow_dispatch: {}
+  workflow_dispatch: {}   # lets you trigger a run manually from the Actions tab
 
 permissions:
-  contents: write
+  contents: write   # needed so the workflow can commit updated data/site back
 
 jobs:
   run-veille:
@@ -26,20 +28,21 @@ jobs:
       - name: Fetch & filter sources
         run: python scripts/fetch.py
 
-      - name: Build static site
-        run: python scripts/build_site.py
-
       - name: Send newsletter (if due)
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           RESEND_TO_EMAIL: ${{ secrets.RESEND_TO_EMAIL }}
           RESEND_FROM_EMAIL: ${{ secrets.RESEND_FROM_EMAIL }}
+          SITE_URL: ${{ secrets.SITE_URL }}
         run: python scripts/send_newsletter.py
+
+      - name: Build static site
+        run: python scripts/build_site.py
 
       - name: Commit updated data & site
         run: |
           git config user.name "veille-bot"
           git config user.email "veille-bot@users.noreply.github.com"
-          git add data/items.json data/state.json docs/index.html
+          git add data/items.json data/state.json data/newsletter_log.json docs/index.html
           git diff --quiet --cached || git commit -m "Update veille data [automated]"
           git push
