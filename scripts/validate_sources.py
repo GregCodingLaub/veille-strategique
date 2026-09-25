@@ -17,6 +17,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from common import load_sources
 from scrapers import PARSERS
+from bluesky import fetch_bluesky
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 
@@ -43,6 +44,14 @@ def check_scrape(url, parser_name):
     return len(items)
 
 
+def check_bluesky(handle):
+    session = requests.Session()
+    items = fetch_bluesky(session, handle)
+    if not items:
+        raise ValueError("Handle reachable but returned 0 usable posts")
+    return len(items)
+
+
 def main():
     sources = load_sources()
     ok, fail = 0, 0
@@ -54,6 +63,8 @@ def main():
                 n = check_rss(src["url"], verify_ssl=src.get("verify_ssl", True))
             elif src["type"] == "scrape":
                 n = check_scrape(src["url"], src.get("parser"))
+            elif src["type"] == "bluesky":
+                n = check_bluesky(src["url"])
             else:
                 raise ValueError(f"Unknown type '{src['type']}'")
             print(f"[OK]   {name:45s} {n} items found")
