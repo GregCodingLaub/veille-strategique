@@ -21,7 +21,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from common import (
     load_sources, load_keywords, load_regions, load_items, save_items,
-    item_id, matches_keywords, match_region,
+    item_id, matches_keywords, match_region, SOURCE_TO_SUBJECT_REGION,
 )
 from scrapers import PARSERS
 from bluesky import fetch_bluesky
@@ -92,6 +92,15 @@ def main():
                 if not themes:
                     continue  # not relevant to our strategic themes
                 subject_region = match_region(text, regions)
+                if subject_region == "other":
+                    # No explicit region keyword in the text (common for short
+                    # titles) -- fall back to the publisher's own region as a
+                    # best guess, rather than dumping everything ambiguous
+                    # into "other". An explicit keyword match always wins
+                    # over this fallback.
+                    subject_region = SOURCE_TO_SUBJECT_REGION.get(
+                        src.get("region", "other"), "other"
+                    )
                 all_new.append({
                     "id": iid,
                     "title": raw["title"],
