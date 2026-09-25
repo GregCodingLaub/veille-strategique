@@ -25,6 +25,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from common import load_items, load_state, save_state
 
 MIN_DAYS_BETWEEN = 13  # slightly under 14 to tolerate schedule jitter
+MAX_PER_SOURCE = 6     # cap items from any single source in one email edition
 
 THEME_LABELS = {
     "defense": "Défense",
@@ -42,7 +43,24 @@ def days_since(iso_date_str):
     return (datetime.now(timezone.utc) - then).days
 
 
-def build_email_html(items):
+def cap_per_source(items, max_per_source):
+    """Keep at most `max_per_source` items per source (most recent first,
+    since items are already sorted newest-first). Returns (kept, overflow_count)."""
+    counts = {}
+    kept = []
+    overflow = 0
+    for it in items:
+        src = it["source"]
+        counts[src] = counts.get(src, 0)
+        if counts[src] < max_per_source:
+            kept.append(it)
+            counts[src] += 1
+        else:
+            overflow += 1
+    return kept, overflow
+
+
+def build_email_html(items, overflow_count=0):
     rows = []
     for it in items:
         tags = ", ".join(THEME_LABELS.get(t, t) for t in it.get("themes", []))
@@ -52,11 +70,18 @@ def build_email_html(items):
           <div style="color:#999;font-size:12px;margin-top:4px;">{it['source']} · {it.get('date') or ''} · {tags}</div>
         </div>""")
     body = "\n".join(rows) if rows else "<p>Aucune nouvelle publication pertinente cette quinzaine.</p>"
+    overflow_note = ""
+    if overflow_count:
+        overflow_note = (
+            f'<p style="color:#999;font-size:12px;">+{overflow_count} autres publications '
+            f'(limite de {MAX_PER_SOURCE}/source dans cet e-mail) — voir le site pour la liste complète.</p>'
+        )
     return f"""
     <div style="background:#111;color:#eee;font-family:Helvetica,Arial,sans-serif;padding:24px;">
       <h2 style="margin-top:0;">🛰 Veille Stratégique — {datetime.now().strftime('%d/%m/%Y')}</h2>
-      <p style="color:#999;font-size:13px;">{len(items)} nouvelles publications depuis le dernier envoi.</p>
+      <p style="color:#999;font-size:13px;">{len(items)} publications affichées ci-dessous.</p>
       {body}
+      {overflow_note}
     </div>"""
 
 
@@ -74,16 +99,19 @@ def main():
         it for it in all_items
         if last_sent is None or it.get("fetched_at", "") > last_sent
     ]
+    capped_items, overflow = cap_per_source(new_items, MAX_PER_SOURCE)
+    if overflow:
+        print(f"Capped digest: {len(capped_items)} shown, {overflow} held back (per-source limit {MAX_PER_SOURCE}).")
 
     api_key = os.environ.get("RESEND_API_KEY")
     to_email = os.environ.get("RESEND_TO_EMAIL")
     from_email = os.environ.get("RESEND_FROM_EMAIL", "onboarding@resend.dev")
 
-    html = build_email_html(new_items)
+    html = build_email_html(capped_items, overflow_count=overflow)
 
     if not api_key or not to_email:
         print("RESEND_API_KEY / RESEND_TO_EMAIL not set -- DRY RUN, not sending.")
-        print(f"Would send digest with {len(new_items)} items to (unset).")
+        print(f"Would send digest with {len(capped_items)} items (+{overflow} held back) to (unset).")
         return
 
     resp = requests.post(
@@ -102,7 +130,7 @@ def main():
         print(f"Resend API error {resp.status_code}: {resp.text}")
         sys.exit(1)
 
-    print(f"Newsletter sent with {len(new_items)} items.")
+    print(f"Newsletter sent with {len(capped_items)} items shown ({overflow} held back).")
     state["last_newsletter_sent"] = datetime.now(timezone.utc).isoformat()
     save_state(state)
 
