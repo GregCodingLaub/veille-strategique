@@ -15,6 +15,8 @@ from datetime import datetime, timezone
 
 import feedparser
 import requests
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from common import (
@@ -23,12 +25,12 @@ from common import (
 )
 from scrapers import PARSERS
 
-USER_AGENT = "veille-strategique/1.0 (personal research monitoring bot)"
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 
 
-def fetch_rss(session, url):
+def fetch_rss(session, url, verify_ssl=True):
     """Return list of {title, link, date, summary} from an RSS/Atom feed."""
-    resp = session.get(url, timeout=20, headers={"User-Agent": USER_AGENT})
+    resp = session.get(url, timeout=20, headers={"User-Agent": USER_AGENT}, verify=verify_ssl)
     resp.raise_for_status()
     parsed = feedparser.parse(resp.content)
     items = []
@@ -68,7 +70,7 @@ def main():
         name = src["name"]
         try:
             if src["type"] == "rss":
-                raw_items = fetch_rss(session, src["url"])
+                raw_items = fetch_rss(session, src["url"], verify_ssl=src.get("verify_ssl", True))
             elif src["type"] == "scrape":
                 raw_items = fetch_scrape(session, src["url"], src.get("parser"))
             else:
