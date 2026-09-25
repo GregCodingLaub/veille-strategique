@@ -1,5 +1,5 @@
 """
-Send the bi-weekly digest email via Resend (https://resend.com, free tier),
+Send the weekly digest email via Resend (https://resend.com, free tier),
 and log every sent edition to data/newsletter_log.json so the website can
 show a "past editions" dashboard (see build_site.py).
 
@@ -35,7 +35,8 @@ import requests
 sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from common import load_items, load_state, save_state, append_newsletter_log
 
-MIN_DAYS_BETWEEN = 6  # slightly under 14 to tolerate schedule jitter
+MIN_DAYS_BETWEEN = 6   # just under 7 days, matches the weekly cron schedule
+                        # with a little tolerance for scheduling jitter
 MAX_PER_SOURCE = 6     # cap items from any single source in one email edition
 
 THEME_LABELS = {
