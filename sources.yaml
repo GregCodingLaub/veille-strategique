@@ -49,6 +49,7 @@
   type: bluesky
   url: "irsem.bsky.social"
   region: fr
+  allowed_domains: ["irsem.fr"]
 
 # --- EU ----------------------------------------------------------------
 - name: "EUISS"
@@ -60,6 +61,7 @@
   type: bluesky
   url: "ecfr.eu"
   region: eu
+  allowed_domains: ["ecfr.eu"]
   # Guessed handle based on their domain -- validate before trusting.
 
 - name: "Bruegel"
@@ -71,12 +73,14 @@
   type: bluesky
   url: "merics.bsky.social"
   region: eu
+  allowed_domains: ["merics.org"]
 
 # --- US ----------------------------------------------------------------
 - name: "CSIS"
   type: bluesky
   url: "csis.org"
   region: us
+  allowed_domains: ["csis.org"]
 
 - name: "War on the Rocks"
   type: rss
@@ -87,17 +91,20 @@
   type: bluesky
   url: "carnegieendowment.org"
   region: us
+  allowed_domains: ["carnegieendowment.org"]
 
 - name: "RAND"
   type: bluesky
   url: "rand.org"
   region: us
+  allowed_domains: ["rand.org"]
   # Guessed handle based on their domain -- validate before trusting.
 
 - name: "SIPRI"
   type: bluesky
   url: "sipri.org"
   region: us
+  allowed_domains: ["sipri.org"]
 
 - name: "Jamestown Foundation (China Brief)"
   type: rss
@@ -109,6 +116,7 @@
   type: bluesky
   url: "reuters.com"
   region: us
+  allowed_domains: ["reuters.com"]
   # Main account, all topics -- keyword filter narrows it to relevant items.
   # Guessed handle based on their domain (confirmed pattern via their verticals
   # like breakingviews.reuters.com) -- validate before trusting.
