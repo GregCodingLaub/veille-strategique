@@ -21,10 +21,8 @@ from common import (
 import os
 
 THEME_LABELS = {
-    "defense": "Défense",
-    "competitive_intelligence": "Intelligence économique",
     "intelligence": "Renseignement",
-    "weapons_industry": "Industrie de l'armement",
+    "military": "Défense & Industrie militaire",
     "energy_industry": "Énergie",
 }
 
@@ -97,7 +95,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 </head>
 <body>
 <header>
-  <h1>🛰 Veille Stratégique - Grégoire Laubry</h1>
+  <h1>🛰 Veille Stratégique</h1>
   <div class="sub">{count} publications suivies · Défense · Renseignement · Intelligence économique · Énergie & armement · Généré le {generated}</div>
 </header>
 
@@ -196,9 +194,9 @@ ITEM_TEMPLATE = """<div class="item" data-themes="{themes_raw}" data-region="{re
 </div>
 """
 
-EDITION_TEMPLATE = """<div class="edition">
+EDITION_TEMPLATE = """<div class="edition" data-theme="{theme}">
   <div class="edition-head">
-    <div class="edition-title">📬 {date_display}</div>
+    <div class="edition-title">📬 {theme_label} — {date_display}</div>
     <div class="edition-count">{item_count} publications{overflow_note}</div>
   </div>
   <div class="edition-body">
@@ -284,6 +282,8 @@ def render_newsletters(log, items_by_id):
             ))
 
         html.append(EDITION_TEMPLATE.format(
+            theme=entry.get("theme", "other"),
+            theme_label=THEME_LABELS.get(entry.get("theme"), "Édition (ancien format)"),
             date_display=date_display,
             item_count=entry.get("item_count", len(edition_items)),
             overflow_note=overflow_note,
