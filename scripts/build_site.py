@@ -97,7 +97,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 </head>
 <body>
 <header>
-  <h1>🛰 Veille Stratégique</h1>
+  <h1>🛰 Veille Stratégique - Grégoire Laubry</h1>
   <div class="sub">{count} publications suivies · Défense · Renseignement · Intelligence économique · Énergie & armement · Généré le {generated}</div>
 </header>
 
