@@ -64,7 +64,29 @@ def load_items():
     if not os.path.exists(ITEMS_PATH):
         return []
     with open(ITEMS_PATH, "r", encoding="utf-8") as f:
-        return json.load(f)
+        raw = f.read()
+
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError as e:
+        # A previous manual edit (through GitHub's web editor, especially on
+        # a large file) can leave behind a stray trailing comma. Rather than
+        # letting this take down the entire weekly pipeline, try a
+        # conservative auto-repair (strip a comma right before a closing
+        # ] or }) before giving up.
+        print(f"WARNING: data/items.json has invalid JSON ({e}). Attempting auto-repair...")
+        repaired = re.sub(r',(\s*[\]}])', r'\1', raw)
+        try:
+            data = json.loads(repaired)
+        except json.JSONDecodeError:
+            raise RuntimeError(
+                f"data/items.json is corrupted and could not be auto-repaired: {e}\n"
+                f"Run 'python scripts/fix_json.py' locally, or check line {e.lineno} "
+                f"by hand, then push the corrected file."
+            ) from e
+        print("Auto-repair succeeded. Saving the corrected file so this doesn't recur.")
+        save_items(data)
+        return data
 
 
 def save_items(items):
