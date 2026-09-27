@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       force_send:
-        description: "Force-send the newsletter now, ignoring the weekly cadence check"
+        description: "Force-send all three newsletters now, ignoring the weekly cadence check"
         type: boolean
         default: false
 
@@ -33,7 +33,7 @@ jobs:
       - name: Fetch & filter sources
         run: python scripts/fetch.py
 
-      - name: Send newsletter (if due)
+      - name: Send newsletters (3 themes, if due)
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           RESEND_TO_EMAIL: ${{ secrets.RESEND_TO_EMAIL }}
