@@ -40,6 +40,11 @@ def ifri(session, url):
         href = link_tag["href"]
         if href.startswith("/"):
             href = "https://www.ifri.org" + href
+        elif "ifri.org" not in href:
+            # The first <a> in this row wasn't IFRI's own publication link
+            # (could be a citation, author profile, or external reference).
+            # Skip rather than risk pulling in an unrelated external page.
+            continue
 
         date_tag = row.find("time")
         date = date_tag.get("datetime", "")[:10] if date_tag else None
