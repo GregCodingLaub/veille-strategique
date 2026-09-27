@@ -76,7 +76,7 @@ def main():
             elif src["type"] == "scrape":
                 raw_items = fetch_scrape(session, src["url"], src.get("parser"))
             elif src["type"] == "bluesky":
-                raw_items = fetch_bluesky(session, src["url"])
+                raw_items = fetch_bluesky(session, src["url"], allowed_domains=src.get("allowed_domains"))
             else:
                 raise ValueError(f"Unknown source type: {src['type']}")
 
