@@ -13,15 +13,24 @@ In sources.yaml, use:
   url: "csis.org"     <- this is the Bluesky HANDLE, not a URL despite the
                           field name (kept as `url` so fetch.py's dispatch
                           logic doesn't need a special case).
+  allowed_domains:      <- OPTIONAL but recommended. Restricts accepted
+    - "csis.org"           links to these domain(s), so a post linking to
+                            a co-authored paper hosted elsewhere (an
+                            academic journal platform, a news writeup
+                            about them, etc.) doesn't get pulled in as if
+                            it were the institution's own publication.
+                            Omit to accept links to any domain.
 
 Many institutions use their own domain as their Bluesky handle (e.g.
 csis.org, sipri.org, carnegieendowment.org) -- if unsure, search
 "<institution> bsky.app" to find their real handle.
 """
+from urllib.parse import urlparse
+
 API = "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed"
 
 
-def fetch_bluesky(session, handle, limit=30):
+def fetch_bluesky(session, handle, limit=30, allowed_domains=None):
     resp = session.get(
         API,
         params={"actor": handle, "limit": limit},
@@ -50,6 +59,14 @@ def fetch_bluesky(session, handle, limit=30):
         # shared link are just chatter, not publications -- skip them.
         if not link or not title:
             continue
+
+        # If allowed_domains is set, only keep links that actually point
+        # back to the institution's own site -- not a co-authored paper on
+        # a journal platform, a third-party writeup, an event host, etc.
+        if allowed_domains:
+            domain = urlparse(link).netloc.lower()
+            if not any(allowed in domain for allowed in allowed_domains):
+                continue
 
         items.append({
             "title": title,
