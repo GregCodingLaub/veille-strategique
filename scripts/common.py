@@ -26,6 +26,14 @@ REGION_LABELS = {
     "other": "Autres",
 }
 
+# One newsletter per theme. Keep in sync with keywords.yaml's theme keys.
+THEME_ORDER = ["intelligence", "military", "energy_industry"]
+THEME_LABELS = {
+    "intelligence": "Renseignement",
+    "military": "Défense & Industrie militaire",
+    "energy_industry": "Énergie",
+}
+
 # Maps a SOURCE's own region code (sources.yaml's short "fr"/"eu"/"us")
 # to the matching SUBJECT region key (regions.yaml's "france"/"eu"/"us"/...).
 # Used as a fallback when an article's text has no explicit region keyword.
@@ -68,10 +76,29 @@ def save_items(items):
 
 
 def load_state():
+    """State is per-theme: {"last_newsletter_sent": {"intelligence": "...",
+    "military": "...", "energy_industry": "..."}}. Each value is an ISO
+    date string or None if that newsletter has never been sent.
+
+    Handles migrating the old single-newsletter format automatically: if
+    last_newsletter_sent is a plain string (or missing), it's converted to
+    a per-theme dict, using that old date as the starting point for every
+    theme so the transition doesn't cause an immediate re-send of all three."""
     if not os.path.exists(STATE_PATH):
-        return {"last_newsletter_sent": None}
+        return {"last_newsletter_sent": {t: None for t in THEME_ORDER}}
     with open(STATE_PATH, "r", encoding="utf-8") as f:
-        return json.load(f)
+        state = json.load(f)
+
+    last_sent = state.get("last_newsletter_sent")
+    if not isinstance(last_sent, dict):
+        # Old format (a single date, or missing) -- migrate.
+        state["last_newsletter_sent"] = {t: last_sent for t in THEME_ORDER}
+    else:
+        # Make sure every current theme has a key, even if new since the
+        # last run (e.g. a theme added after this file was created).
+        for t in THEME_ORDER:
+            state["last_newsletter_sent"].setdefault(t, None)
+    return state
 
 
 def save_state(state):
@@ -110,15 +137,50 @@ def _whole_word_match(keyword, text_low):
 
 
 def matches_keywords(text, keywords_by_theme):
-    """Return a list of matched theme names for a given text (title+summary)."""
+    """Return a list of matched theme names for a given text (title+summary).
+    The special 'exclude_technical' key is never returned as a theme -- see
+    is_excluded_technical() for how it's used instead."""
     text_low = (text or "").lower()
     matched = []
     for theme, words in keywords_by_theme.items():
+        if theme == "exclude_technical":
+            continue
         for w in words:
             if _whole_word_match(w, text_low):
                 matched.append(theme)
                 break
     return matched
+
+
+def is_excluded_technical(text, keywords_by_theme):
+    """True if the text matches any exclude_technical keyword -- meaning
+    it should be dropped even if it also matched a real theme (too
+    technical/scientific rather than strategic/policy analysis)."""
+    text_low = (text or "").lower()
+    for w in keywords_by_theme.get("exclude_technical", []):
+        if _whole_word_match(w, text_low):
+            return True
+    return False
+
+
+# Words that signal "this is an actual report/study/analysis", not a
+# passing remark, event plug, or news blurb. Used as an extra quality gate
+# specifically for Bluesky-sourced items (see fetch.py) -- RSS/scrape
+# sources are already real articles by nature, so this only applies where
+# "is this substantial enough to include" is a real question.
+REPORT_INDICATORS = [
+    "report", "rapport", "study", "étude", "analysis", "analyse",
+    "paper", "policy brief", "note de synthèse", "briefing", "assessment",
+    "évaluation", "index", "tracker", "database", "guide", "handbook",
+    "white paper", "working paper", "policy paper", "publication",
+]
+
+
+def looks_like_a_report(text):
+    """True if the text contains language suggesting it's pointing to a
+    substantial document, not just a passing social-media remark."""
+    text_low = (text or "").lower()
+    return any(_whole_word_match(w, text_low) for w in REPORT_INDICATORS)
 
 
 def match_region(text, regions_by_name):
