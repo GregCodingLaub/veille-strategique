@@ -9,6 +9,12 @@ Supports URL query params for pre-filtering on load, e.g.
 This is what lets the emailed "view on site" links land pre-filtered.
 
 Run manually: python scripts/build_site.py
+
+Optional env var:
+  SIGNUP_FORM_URL - link for the "S'abonner" button in the header, pointing
+                     at the peer-signup Google Form (see recipients.py for
+                     the one-time setup). Omitted from the page entirely if
+                     this isn't set.
 """
 import sys
 from datetime import datetime
@@ -42,9 +48,15 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     background: var(--bg); color: var(--text); margin: 0; padding: 0 16px 60px;
   }}
-  header {{ max-width: 900px; margin: 0 auto; padding: 32px 0 16px; }}
+  header {{ max-width: 900px; margin: 0 auto; padding: 32px 0 16px; display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; flex-wrap: wrap; }}
   h1 {{ font-size: 22px; margin: 0 0 4px; }}
   .sub {{ color: var(--muted); font-size: 14px; }}
+  .signup-btn {{
+    display: inline-block; background: var(--accent); color: #fff; text-decoration: none;
+    font-size: 13px; font-weight: 600; padding: 9px 16px; border-radius: 8px; white-space: nowrap;
+    margin-top: 4px;
+  }}
+  .signup-btn:hover {{ opacity: 0.9; }}
   .tabs {{ max-width: 900px; margin: 24px auto 0; display: flex; gap: 4px; border-bottom: 1px solid var(--border); }}
   .tab-btn {{
     background: none; border: none; color: var(--muted); padding: 10px 16px;
@@ -95,8 +107,11 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 </head>
 <body>
 <header>
-  <h1>🛰 Veille Stratégique</h1>
-  <div class="sub">{count} publications suivies · Défense · Renseignement · Intelligence économique · Énergie & armement · Généré le {generated}</div>
+  <div>
+    <h1>🛰 Veille Stratégique</h1>
+    <div class="sub">{count} publications suivies · Défense · Renseignement · Intelligence économique · Énergie & armement · Généré le {generated}</div>
+  </div>
+  {signup_button}
 </header>
 
 <div class="tabs">
@@ -292,6 +307,16 @@ def render_newsletters(log, items_by_id):
     return "\n".join(html)
 
 
+def render_signup_button():
+    form_url = os.environ.get("SIGNUP_FORM_URL")
+    if not form_url:
+        return ""
+    return (
+        f'<a class="signup-btn" href="{form_url}" target="_blank" rel="noopener">'
+        f'✉️ S\'abonner à la newsletter</a>'
+    )
+
+
 def main():
     items = load_items()
     log = load_newsletter_log()
@@ -306,6 +331,7 @@ def main():
         items_html=render_items(items),
         edition_count=len(log),
         newsletters_html=render_newsletters(log, items_by_id),
+        signup_button=render_signup_button(),
     )
     out_path = os.path.join(DOCS_DIR, "index.html")
     with open(out_path, "w", encoding="utf-8") as f:
