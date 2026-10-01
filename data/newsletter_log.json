@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-10-01T08:58:33.891458+00:00",
+    "theme": "energy_industry",
+    "item_count": 0,
+    "overflow_count": 0,
+    "item_ids": []
+  },
+  {
+    "date": "2026-10-01T08:58:33.817671+00:00",
+    "theme": "military",
+    "item_count": 0,
+    "overflow_count": 0,
+    "item_ids": []
+  },
+  {
+    "date": "2026-10-01T08:58:33.731364+00:00",
+    "theme": "intelligence",
+    "item_count": 8,
+    "overflow_count": 0,
+    "item_ids": [
+      "c9d09324549c3340",
+      "0abd6b73f050dbbf",
+      "9cd70bba729cc4f1",
+      "e4e2f850606dbe79",
+      "adc7a87cd72f4ca5",
+      "cb7682cfc70714ad",
+      "c2c0af001a36791f",
+      "550cac2b66032622"
+    ]
+  },
+  {
     "date": "2026-09-30T08:18:57.727711+00:00",
     "theme": "energy_industry",
     "item_count": 1,

@@ -14,9 +14,15 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     background: var(--bg); color: var(--text); margin: 0; padding: 0 16px 60px;
   }
-  header { max-width: 900px; margin: 0 auto; padding: 32px 0 16px; }
+  header { max-width: 900px; margin: 0 auto; padding: 32px 0 16px; display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
   h1 { font-size: 22px; margin: 0 0 4px; }
   .sub { color: var(--muted); font-size: 14px; }
+  .signup-btn {
+    display: inline-block; background: var(--accent); color: #fff; text-decoration: none;
+    font-size: 13px; font-weight: 600; padding: 9px 16px; border-radius: 8px; white-space: nowrap;
+    margin-top: 4px;
+  }
+  .signup-btn:hover { opacity: 0.9; }
   .tabs { max-width: 900px; margin: 24px auto 0; display: flex; gap: 4px; border-bottom: 1px solid var(--border); }
   .tab-btn {
     background: none; border: none; color: var(--muted); padding: 10px 16px;
@@ -67,13 +73,16 @@
 </head>
 <body>
 <header>
-  <h1>🛰 Veille Stratégique</h1>
-  <div class="sub">256 publications suivies · Défense · Renseignement · Intelligence économique · Énergie & armement · Généré le 30/09/2026 08:18</div>
+  <div>
+    <h1>🛰 Veille Stratégique</h1>
+    <div class="sub">282 publications suivies · Défense · Renseignement · Intelligence économique · Énergie & armement · Généré le 01/10/2026 08:58</div>
+  </div>
+  <a class="signup-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdiI4izffU2YG2B7iU8tWTu8MCv_Y4ZSOtM-KoJbiPsuO4LFQ/viewform?usp=publish-editor" target="_blank" rel="noopener">✉️ S'abonner à la newsletter</a>
 </header>
 
 <div class="tabs">
   <button class="tab-btn active" data-view="items">Toutes les publications</button>
-  <button class="tab-btn" data-view="newsletters">Éditions envoyées (10)</button>
+  <button class="tab-btn" data-view="newsletters">Éditions envoyées (13)</button>
 </div>
 
 <div id="view-items">
@@ -95,10 +104,101 @@
   </div>
   <main id="items">
 <div class="item" data-themes="defense" data-region="eu">
+  <a href="https://legrandcontinent.eu/fr/2026/10/01/la-guerre-des-villes-la-doctrine-russe-pour-devaster-lukraine/" target="_blank" rel="noopener"><span class="perspective" style="color:#a78bfa;">[EU]</span>La guerre des villes : la doctrine russe pour dévaster l’Ukraine</a>
+  <div class="meta">Le Grand Continent · 2026-10-01 · <span class="tag">defense</span></div>
+  <div class="summary"><p>Moscou veut transformer l’Ukraine en un «&#160;actif inutile&#160;»</p>
+<p>L’article <a href="https://legrandcontinent.eu/fr/2026/10/01/la-guerre-des-villes-la-doctrine-russe-pour-devaster-lukraine/">La guerre des villes&#160;: la doctrine russe pour dévaster l’Ukraine</a> est</div>
+</div>
+
+<div class="item" data-themes="defense" data-region="us">
+  <a href="https://warontherocks.com/school-of-war-or-school-of-battle-educating-for-an-uncertain-future/" target="_blank" rel="noopener"><span class="perspective" style="color:#f87171;">[US]</span>School of War or School of Battle? Educating for an Uncertain Future</a>
+  <div class="meta">War on the Rocks · 2026-10-01 · <span class="tag">defense</span></div>
+  <div class="summary"><p>In 1901, military analyst Jan Bloch declared that new military technologies had changed war so radically that the study of history had become useless. He castigated military officers who prepared for future war based on &#8220;musty precedents&#8221; and who failed to recogniz</div>
+</div>
+
+<div class="item" data-themes="defense" data-region="us">
+  <a href="https://breakingdefense.com/2026/10/what-europes-military-air-fleets-will-look-like-in-30-years/" target="_blank" rel="noopener"><span class="perspective" style="color:#f87171;">[US]</span>What Europe’s military air fleets will look like in 30 years</a>
+  <div class="meta">Breaking Defense · 2026-10-01 · <span class="tag">defense</span></div>
+  <div class="summary"><p><a href="https://breakingdefense.com/2026/10/what-europes-military-air-fleets-will-look-like-in-30-years/"><img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/260925_euro_roundtable_ep4</div>
+</div>
+
+<div class="item" data-themes="defense" data-region="eu">
   <a href="https://legrandcontinent.eu/fr/2026/09/30/poutine-augmente-la-taille-de-larmee-russe-pour-la-quatrieme-fois-en-six-mois/" target="_blank" rel="noopener"><span class="perspective" style="color:#a78bfa;">[EU]</span>Poutine augmente la taille de l’armée russe pour la quatrième fois en six mois</a>
   <div class="meta">Le Grand Continent · 2026-09-30 · <span class="tag">defense</span></div>
   <div class="summary"><p>Les effectifs de l’armée ont augmenté de 50 000 hommes en 2026</p>
 <p>L’article <a href="https://legrandcontinent.eu/fr/2026/09/30/poutine-augmente-la-taille-de-larmee-russe-pour-la-quatrieme-fois-en-six-mois/">Poutine augmente la taille de l’armée russe pour la quatrième fois</div>
+</div>
+
+<div class="item" data-themes="defense,weapons_industry" data-region="us">
+  <a href="https://www.defensenews.com/industry/techwatch/2026/09/30/us-army-selects-five-companies-for-prsm-development/" target="_blank" rel="noopener"><span class="perspective" style="color:#f87171;">[US]</span>US Army selects five companies for PrSM development</a>
+  <div class="meta">Defense News (Industry) · 2026-09-30 · <span class="tag">defense</span> <span class="tag">weapons_industry</span></div>
+  <div class="summary">The Army on Tuesday signed agreements with Anduril, Castelion, Lockheed Martin, Mach Industries and RTX to create advanced long-range missile prototypes.</div>
+</div>
+
+<div class="item" data-themes="defense" data-region="us">
+  <a href="https://www.defensenews.com/unmanned/2026/09/30/ukraines-former-defense-minister-launches-manhattan-project-for-killer-robots/" target="_blank" rel="noopener"><span class="perspective" style="color:#f87171;">[US]</span>Ukraine’s former defense minister launches ‘Manhattan Project’ for killer robots</a>
+  <div class="meta">Defense News (Industry) · 2026-09-30 · <span class="tag">defense</span></div>
+  <div class="summary">Mykhailo Fedorov told Defense News he wants humanoid-like robots on the battlefield within six months and an assault without infantry within a year.</div>
+</div>
+
+<div class="item" data-themes="weapons_industry" data-region="us">
+  <a href="https://breakingdefense.com/2026/09/hegseth-announces-plans-for-new-4-star-drone-command-further-general-officer-cuts/" target="_blank" rel="noopener"><span class="perspective" style="color:#f87171;">[US]</span>Hegseth announces plans for new 4-star drone command, among other initiatives</a>
+  <div class="meta">Breaking Defense · 2026-09-30 · <span class="tag">weapons_industry</span></div>
+  <div class="summary"><p><a href="https://breakingdefense.com/2026/09/hegseth-announces-plans-for-new-4-star-drone-command-further-general-officer-cuts/"><img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/hegs</div>
+</div>
+
+<div class="item" data-themes="defense" data-region="us">
+  <a href="https://breakingdefense.com/2026/09/army-taps-5-companies-for-prsm-inc-4-prototypes/" target="_blank" rel="noopener"><span class="perspective" style="color:#f87171;">[US]</span>Army taps 5 companies for PrSM Inc 4 prototypes</a>
+  <div class="meta">Breaking Defense · 2026-09-30 · <span class="tag">defense</span></div>
+  <div class="summary"><p><a href="https://breakingdefense.com/2026/09/army-taps-5-companies-for-prsm-inc-4-prototypes/"><img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2023/03/LRMF-Graphic-1920x1080-1-1024x576.png"</div>
+</div>
+
+<div class="item" data-themes="defense" data-region="us">
+  <a href="https://breakingdefense.com/2026/09/exclusive-how-the-dia-measures-a-militarys-will-to-fight/" target="_blank" rel="noopener"><span class="perspective" style="color:#f87171;">[US]</span>EXCLUSIVE: How the DIA measures a military’s ‘Will to Fight’</a>
+  <div class="meta">Breaking Defense · 2026-09-30 · <span class="tag">defense</span></div>
+  <div class="summary"><p><a href="https://breakingdefense.com/2026/09/exclusive-how-the-dia-measures-a-militarys-will-to-fight/"><img alt="" class="attachment-large size-large wp-post-image" height="410" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/260929_ukraine_rocket_launch_</div>
+</div>
+
+<div class="item" data-themes="defense" data-region="us">
+  <a href="https://breakingdefense.com/2026/09/white-house-names-nominees-for-spacecom-navy-no-2/" target="_blank" rel="noopener"><span class="perspective" style="color:#f87171;">[US]</span>White House names nominees for SPACECOM, Navy No. 2</a>
+  <div class="meta">Breaking Defense · 2026-09-30 · <span class="tag">defense</span></div>
+  <div class="summary"><p><a href="https://breakingdefense.com/2026/09/white-house-names-nominees-for-spacecom-navy-no-2/"><img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2024/05/8268473-scaled-e1715017339303-1024x5</div>
+</div>
+
+<div class="item" data-themes="defense" data-region="china">
+  <a href="https://breakingdefense.com/2026/09/china-opens-training-center-with-laos-marking-third-overseas-military-base/" target="_blank" rel="noopener"><span class="perspective" style="color:#f87171;">[US]</span>China opens training center with Laos, marking third overseas military base</a>
+  <div class="meta">Breaking Defense · 2026-09-30 · <span class="tag">defense</span></div>
+  <div class="summary"><p><a href="https://breakingdefense.com/2026/09/china-opens-training-center-with-laos-marking-third-overseas-military-base/"><img alt="" class="attachment-large size-large wp-post-image" height="536" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/Ban_Keun_ba</div>
+</div>
+
+<div class="item" data-themes="defense,weapons_industry" data-region="us">
+  <a href="https://breakingdefense.com/2026/09/boeing-nabs-2-4-billion-deal-for-more-f-15ex-fighters/" target="_blank" rel="noopener"><span class="perspective" style="color:#f87171;">[US]</span>Boeing nabs $2.4 billion deal for more F-15EX fighters</a>
+  <div class="meta">Breaking Defense · 2026-09-30 · <span class="tag">defense</span> <span class="tag">weapons_industry</span></div>
+  <div class="summary"><p><a href="https://breakingdefense.com/2026/09/boeing-nabs-2-4-billion-deal-for-more-f-15ex-fighters/"><img alt="" class="attachment-large size-large wp-post-image" height="502" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/f-15ex-1024x502.jpg" style="heig</div>
+</div>
+
+<div class="item" data-themes="defense" data-region="middle_east_africa">
+  <a href="https://breakingdefense.com/2026/09/riyadh-gets-closer-to-f-35s-damascus-presses-sovereignty-and-an-expert-take-on-iran/" target="_blank" rel="noopener"><span class="perspective" style="color:#f87171;">[US]</span>Riyadh gets closer to F-35s, Damascus presses sovereignty and an expert take on Iran</a>
+  <div class="meta">Breaking Defense · 2026-09-30 · <span class="tag">defense</span></div>
+  <div class="summary"><p><a href="https://breakingdefense.com/2026/09/riyadh-gets-closer-to-f-35s-damascus-presses-sovereignty-and-an-expert-take-on-iran/"><img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/ME</div>
+</div>
+
+<div class="item" data-themes="defense" data-region="us">
+  <a href="https://breakingdefense.com/2026/09/the-army-has-owned-the-night-now-it-must-own-the-electromagnetic-spectrum/" target="_blank" rel="noopener"><span class="perspective" style="color:#f87171;">[US]</span>The Army has ‘owned the night’; now it must own the electromagnetic spectrum</a>
+  <div class="meta">Breaking Defense · 2026-09-30 · <span class="tag">defense</span></div>
+  <div class="summary"><p><a href="https://breakingdefense.com/2026/09/the-army-has-owned-the-night-now-it-must-own-the-electromagnetic-spectrum/"><img alt="" class="attachment-large size-large wp-post-image" height="683" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/9823663-1-10</div>
+</div>
+
+<div class="item" data-themes="defense" data-region="us">
+  <a href="https://news.usni.org/2026/09/30/gao-report-on-the-navys-shipyard-infrastructure-optimization-program" target="_blank" rel="noopener"><span class="perspective" style="color:#f87171;">[US]</span>GAO Report on the Navy’s Shipyard Infrastructure Optimization Program</a>
+  <div class="meta">USNI News · 2026-09-30 · <span class="tag">defense</span></div>
+  <div class="summary">The following is the Sept. 25, 2026, Government Accountability Office report, Naval Shipyards: Complete Information Needed for Decision-Making on Multibillion-Dollar, 50-Year Infrastructure Program. From the Report The Navy is taking on its largest-ever construction and restorati</div>
+</div>
+
+<div class="item" data-themes="defense,weapons_industry" data-region="us">
+  <a href="https://news.usni.org/2026/09/30/video-former-u-s-frigate-sunk-in-exercise-with-u-s-royal-navies" target="_blank" rel="noopener"><span class="perspective" style="color:#f87171;">[US]</span>VIDEO: Former U.S. Frigate Sunk in Exercise with U.S., Royal Navies</a>
+  <div class="meta">USNI News · 2026-09-30 · <span class="tag">defense</span> <span class="tag">weapons_industry</span></div>
+  <div class="summary">The U.S. Navy and Royal Navy sunk decommissioned frigate USS Klarkring (FFG-42) earlier this month as part of a sinking exercise with Royal Navy forces. Newly commissioned Virginia-class submarine USS Massachusetts (SSN-798) dealt the final blow to Klarkring, sending it to the bo</div>
 </div>
 
 <div class="item" data-themes="defense" data-region="eu">
@@ -222,6 +322,16 @@
   <div class="summary">&lt;span&gt;Looking Back and Looking Ahead&lt;/span&gt;
 
             &lt;div class=&quot;field field--name-taxonomy-vocabulary-1 field--type-entity-reference field--label-hidden field--item&quot;&gt;&lt;a href=&quot;/sections/inside-arms-control-association&quot; hreflang=&quot;e</div>
+</div>
+
+<div class="item" data-themes="defense" data-region="us">
+  <a href="https://www.armscontrol.org/node/15486" target="_blank" rel="noopener"><span class="perspective" style="color:#f87171;">[US]</span>Oct. 2026 Focus</a>
+  <div class="meta">Arms Control Association · 2026-09-29 · <span class="tag">defense</span></div>
+  <div class="summary"><span>Oct. 2026 Focus</span>
+
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><h3>Trump, Xi, Putin Failing to Tackle the Nuclear Threat</h3><p>By Daryl G. Kimball in<em> Arms Control Today</em></p></div>
+      
+<span><</div>
 </div>
 
 <div class="item" data-themes="defense" data-region="eu">
@@ -1684,12 +1794,25 @@ Read more ⬇️
 www.nytimes.co</div>
 </div>
 
+<div class="item" data-themes="intelligence" data-region="france">
+  <a href="https://www.portail-ie.fr/univers/2026/chapsvision-choisi-par-la-dgsi-un-choix-souverain-important-pour-la-france/" target="_blank" rel="noopener"><span class="perspective" style="color:#60a5fa;">[FR]</span>ChapsVision choisi par la DGSI : un choix souverain important pour la France</a>
+  <div class="meta">Portail de l'IE · 2026-06-22 · <span class="tag">Renseignement</span></div>
+  <div class="summary"><p>Dans un contexte de montée en puissance des enjeux de souveraineté numérique, le choix de la DGSI de se tourner vers ChapsVision marque un basculement discret mais important dans l’appareil [&#8230;]</p>
+<p>L’article <a href="https://www.portail-ie.fr/univers/2026/chapsvision-</div>
+</div>
+
 <div class="item" data-themes="intelligence" data-region="other">
   <a href="https://www.nytimes.com/2026/05/27/world/asia/china-solomons-pacific-security-threats.html" target="_blank" rel="noopener"><span class="perspective" style="color:#f87171;">[US]</span>China Is Testing Its State Surveillance Model Abroad</a>
   <div class="meta">Carnegie Endowment · 2026-06-18 · <span class="tag">Renseignement</span></div>
   <div class="summary">1/ China exports its security strategy to portray the system as a public safety success and not a human rights failure, says @sheenagreitens.bsky.social 
 
 Sheena weighed in for @nytimes.com, based on research with @ibkardon.bsky.social and @cameronwaltz.bsky.social: www.nytimes.c</div>
+</div>
+
+<div class="item" data-themes="defense" data-region="france">
+  <a href="https://www.portail-ie.fr/univers/2026/influenceurs-ia-algeriens-de-nouveaux-acteurs-de-subversion-en-ligne/" target="_blank" rel="noopener"><span class="perspective" style="color:#60a5fa;">[FR]</span>Influenceurs IA algériens, de nouveaux acteurs de subversion en ligne</a>
+  <div class="meta">Portail de l'IE · 2026-06-17 · <span class="tag">defense</span></div>
+  <div class="summary"><p>Depuis la vague d’arrestations en janvier 2025 visant des influenceurs franco-algériens pour des appels à la violence, les relations entre les deux pays apparaissent plus que tendues. Lors de cet épisode, de nombreux commentateurs avaient mis en cause les individus interpellés</div>
 </div>
 
 <div class="item" data-themes="defense" data-region="other">
@@ -1704,10 +1827,65 @@ Sheena weighed in for @nytimes.com, based on research with @ibkardon.bsky.social
   <div class="summary">This series looks at how China debates the issues the country faces at home and abroad. Covering domestic policy, social change, technology, geopolitics and economics and focusing mainly on expert deb...</div>
 </div>
 
+<div class="item" data-themes="defense" data-region="france">
+  <a href="https://www.portail-ie.fr/univers/2026/ege-une-ecole-pour-la-france/" target="_blank" rel="noopener"><span class="perspective" style="color:#60a5fa;">[FR]</span>L’EGE, une école pour la France, avec Christian Harbulot et Jean-Claude Gallet</a>
+  <div class="meta">Portail de l'IE · 2026-06-11 · <span class="tag">defense</span></div>
+  <div class="summary"><p>A l’approche de son 30e anniversaire, un nouveau directeur, le Général Jean-Claude Gallet prend la tête de l’Ecole de Guerre Economique.   Formation pionnière en Intelligence Economique créée par le Général [&#8230;]</p>
+<p>L’article <a href="https://www.portail-ie.fr/univers/</div>
+</div>
+
+<div class="item" data-themes="defense,intelligence,weapons_industry" data-region="us">
+  <a href="https://www.portail-ie.fr/univers/defense-industrie-de-larmement-et-renseignement/2026/illusion-itar-free-europe-tutelle-americaine/" target="_blank" rel="noopener"><span class="perspective" style="color:#60a5fa;">[FR]</span>L’illusion « ITAR-free » : pourquoi l’Europe reste sous tutelle industrielle américaine ?</a>
+  <div class="meta">Portail de l'IE · 2026-06-04 · <span class="tag">defense</span> <span class="tag">Renseignement</span> <span class="tag">weapons_industry</span></div>
+  <div class="summary"><p>Derrière le débat sur l&#8217;ITAR se cache une réalité bien plus inquiétante : les États-Unis disposent d’autres leviers pour contraindre l&#8217;industrie de défense européenne, bien au-delà de la simple question [&#8230;]</p>
+<p>L’article <a href="https://www.portail-ie.fr/</div>
+</div>
+
+<div class="item" data-themes="defense,intelligence" data-region="middle_east_africa">
+  <a href="https://www.portail-ie.fr/univers/defense-industrie-de-larmement-et-renseignement/2026/lafarge-en-syrie-quand-un-geant-du-cac-40-a-finance-le-terrorisme/" target="_blank" rel="noopener"><span class="perspective" style="color:#60a5fa;">[FR]</span>Lafarge en Syrie : quand un géant du CAC 40 a financé le terrorisme</a>
+  <div class="meta">Portail de l'IE · 2026-06-03 · <span class="tag">defense</span> <span class="tag">Renseignement</span></div>
+  <div class="summary"><p>À l&#8217;aube de l&#8217;année 2026, la lutte contre le financement du terrorisme a franchi un seuil historique. Non pas sur un champ de bataille, ni à travers le démantèlement d&#8217;un [&#8230;]</p>
+<p>L’article <a href="https://www.portail-ie.fr/univers/defense-industrie-</div>
+</div>
+
+<div class="item" data-themes="defense,intelligence" data-region="us">
+  <a href="https://www.portail-ie.fr/univers/defense-industrie-de-larmement-et-renseignement/2026/classe-trump-cuirasse-us-navy/" target="_blank" rel="noopener"><span class="perspective" style="color:#60a5fa;">[FR]</span>Les cuirassés de classe Trump : un programme réaliste ou une utopie politique ? [Partie 1/2]</a>
+  <div class="meta">Portail de l'IE · 2026-06-01 · <span class="tag">defense</span> <span class="tag">Renseignement</span></div>
+  <div class="summary"><p>Le président américain Donald J. Trump a annoncé en décembre 2025 un projet de cuirassés dont la classe porterait son nom. Présentés comme les navires de surface les plus puissants [&#8230;]</p>
+<p>L’article <a href="https://www.portail-ie.fr/univers/defense-industrie-de-larme</div>
+</div>
+
+<div class="item" data-themes="intelligence" data-region="france">
+  <a href="https://www.portail-ie.fr/univers/2026/devoir-de-vigilance-le-renseignement-humain-au-service-de-la-conformite-partie-2-2/" target="_blank" rel="noopener"><span class="perspective" style="color:#60a5fa;">[FR]</span>Devoir de vigilance : le renseignement humain au service de la conformité [Partie 2/2]</a>
+  <div class="meta">Portail de l'IE · 2026-05-29 · <span class="tag">Renseignement</span></div>
+  <div class="summary"><p>L'affaire EACOP, examinée dans la première partie de cet article, n'est pas un cas isolé. Elle illustre une asymétrie structurelle entre des directions conformité enfermées dans la procédure documentaire et des ONG devenues, en pratique, des agences de renseignement humain. Ce</div>
+</div>
+
+<div class="item" data-themes="intelligence" data-region="france">
+  <a href="https://www.portail-ie.fr/univers/2026/devoir-de-vigilance-le-renseignement-humain-au-service-de-la-conformite-partie-1-2/" target="_blank" rel="noopener"><span class="perspective" style="color:#60a5fa;">[FR]</span>Devoir de vigilance : le renseignement humain au service de la conformité [Partie 1/2]</a>
+  <div class="meta">Portail de l'IE (Défense, armement & renseignement) · 2026-05-28 · <span class="tag">Renseignement</span></div>
+  <div class="summary"><p>Le 18 septembre 2025, le tribunal judiciaire de Paris a contraint TotalEnergies à produire les pièces internes de son mégaprojet pétrolier en Ouganda. </p>
+<p>L’article <a href="https://www.portail-ie.fr/univers/2026/devoir-de-vigilance-le-renseignement-humain-au-service-de-la</div>
+</div>
+
 <div class="item" data-themes="intelligence" data-region="other">
   <a href="https://bsky.app/profile/merics.bsky.social/post/3mmqnt2ykic25" target="_blank" rel="noopener"><span class="perspective" style="color:#a78bfa;">[EU]</span>As the EU-China trade deficit continued to grow in Q1 2026, a traditionally strong sector is now also affected by the ge</a>
   <div class="meta">MERICS · 2026-05-26 · <span class="tag">Renseignement</span></div>
   <div class="summary">As the EU-China trade deficit continued to grow in Q1 2026, a traditionally strong sector is now also affected by the general trend: EU agri-food exports. In the latest SOAPBOX newsletter, MERCIS Senior Associate Fellow Rafael Jimenez Buendia zooms in on the topic: open.substack.</div>
+</div>
+
+<div class="item" data-themes="defense,intelligence" data-region="france">
+  <a href="https://www.portail-ie.fr/univers/defense-industrie-de-larmement-et-renseignement/2026/emals-pang-dependance-technologique-americaine/" target="_blank" rel="noopener"><span class="perspective" style="color:#60a5fa;">[FR]</span>EMALS PANG : la dépendance technologique américaine (2/2)</a>
+  <div class="meta">Portail de l'IE (Défense, armement & renseignement) · 2026-05-20 · <span class="tag">defense</span> <span class="tag">Renseignement</span></div>
+  <div class="summary"><p>À l’horizon 2038, le France Libre doit succéder au Charles-de-Gaulle et garantir la continuité de la puissance aéronavale française. Entre ambitions stratégiques, contraintes budgétaires et enjeux de souveraineté technologique, ce [&#8230;]</p>
+<p>L’article <a href="https://ww</div>
+</div>
+
+<div class="item" data-themes="defense,intelligence" data-region="france">
+  <a href="https://www.portail-ie.fr/univers/defense-industrie-de-larmement-et-renseignement/2026/pang-porte-avions-heritage-ambition-strategique/" target="_blank" rel="noopener"><span class="perspective" style="color:#60a5fa;">[FR]</span>Le PANG : héritage, continuité et ambition stratégique (1/2)</a>
+  <div class="meta">Portail de l'IE (Défense, armement & renseignement) · 2026-05-19 · <span class="tag">defense</span> <span class="tag">Renseignement</span></div>
+  <div class="summary"><p>À l’horizon 2038, le France Libre doit succéder au Charles-de-Gaulle et garantir la continuité de la puissance aéronavale française. Entre ambitions stratégiques, contraintes budgétaires et enjeux de souveraineté technologique, ce [&#8230;]</p>
+<p>L’article <a href="https://ww</div>
 </div>
 
 <div class="item" data-themes="energy_industry" data-region="other">
@@ -1769,6 +1947,75 @@ www.irsem.fr/agenda/busin...</div>
 
 <div id="view-newsletters" style="display:none;">
   <main>
+<div class="edition" data-theme="energy_industry">
+  <div class="edition-head">
+    <div class="edition-title">📬 Énergie — 01/10/2026 à 08:58</div>
+    <div class="edition-count">0 publications</div>
+  </div>
+  <div class="edition-body">
+<div class="empty">Détails indisponibles.</div>
+  </div>
+</div>
+
+<div class="edition" data-theme="military">
+  <div class="edition-head">
+    <div class="edition-title">📬 Défense & Industrie militaire — 01/10/2026 à 08:58</div>
+    <div class="edition-count">0 publications</div>
+  </div>
+  <div class="edition-body">
+<div class="empty">Détails indisponibles.</div>
+  </div>
+</div>
+
+<div class="edition" data-theme="intelligence">
+  <div class="edition-head">
+    <div class="edition-title">📬 Renseignement — 01/10/2026 à 08:58</div>
+    <div class="edition-count">8 publications</div>
+  </div>
+  <div class="edition-body">
+<div class="edition-item">
+  <a href="https://www.portail-ie.fr/univers/2026/chapsvision-choisi-par-la-dgsi-un-choix-souverain-important-pour-la-france/" target="_blank" rel="noopener">ChapsVision choisi par la DGSI : un choix souverain important pour la France</a>
+  <div class="meta">Portail de l'IE · 2026-06-22</div>
+</div>
+
+<div class="edition-item">
+  <a href="https://www.portail-ie.fr/univers/defense-industrie-de-larmement-et-renseignement/2026/illusion-itar-free-europe-tutelle-americaine/" target="_blank" rel="noopener">L’illusion « ITAR-free » : pourquoi l’Europe reste sous tutelle industrielle américaine ?</a>
+  <div class="meta">Portail de l'IE · 2026-06-04</div>
+</div>
+
+<div class="edition-item">
+  <a href="https://www.portail-ie.fr/univers/defense-industrie-de-larmement-et-renseignement/2026/lafarge-en-syrie-quand-un-geant-du-cac-40-a-finance-le-terrorisme/" target="_blank" rel="noopener">Lafarge en Syrie : quand un géant du CAC 40 a financé le terrorisme</a>
+  <div class="meta">Portail de l'IE · 2026-06-03</div>
+</div>
+
+<div class="edition-item">
+  <a href="https://www.portail-ie.fr/univers/defense-industrie-de-larmement-et-renseignement/2026/classe-trump-cuirasse-us-navy/" target="_blank" rel="noopener">Les cuirassés de classe Trump : un programme réaliste ou une utopie politique ? [Partie 1/2]</a>
+  <div class="meta">Portail de l'IE · 2026-06-01</div>
+</div>
+
+<div class="edition-item">
+  <a href="https://www.portail-ie.fr/univers/2026/devoir-de-vigilance-le-renseignement-humain-au-service-de-la-conformite-partie-2-2/" target="_blank" rel="noopener">Devoir de vigilance : le renseignement humain au service de la conformité [Partie 2/2]</a>
+  <div class="meta">Portail de l'IE · 2026-05-29</div>
+</div>
+
+<div class="edition-item">
+  <a href="https://www.portail-ie.fr/univers/2026/devoir-de-vigilance-le-renseignement-humain-au-service-de-la-conformite-partie-1-2/" target="_blank" rel="noopener">Devoir de vigilance : le renseignement humain au service de la conformité [Partie 1/2]</a>
+  <div class="meta">Portail de l'IE (Défense, armement & renseignement) · 2026-05-28</div>
+</div>
+
+<div class="edition-item">
+  <a href="https://www.portail-ie.fr/univers/defense-industrie-de-larmement-et-renseignement/2026/emals-pang-dependance-technologique-americaine/" target="_blank" rel="noopener">EMALS PANG : la dépendance technologique américaine (2/2)</a>
+  <div class="meta">Portail de l'IE (Défense, armement & renseignement) · 2026-05-20</div>
+</div>
+
+<div class="edition-item">
+  <a href="https://www.portail-ie.fr/univers/defense-industrie-de-larmement-et-renseignement/2026/pang-porte-avions-heritage-ambition-strategique/" target="_blank" rel="noopener">Le PANG : héritage, continuité et ambition stratégique (1/2)</a>
+  <div class="meta">Portail de l'IE (Défense, armement & renseignement) · 2026-05-19</div>
+</div>
+
+  </div>
+</div>
+
 <div class="edition" data-theme="energy_industry">
   <div class="edition-head">
     <div class="edition-title">📬 Énergie — 30/09/2026 à 08:18</div>
