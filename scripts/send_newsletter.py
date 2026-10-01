@@ -16,12 +16,19 @@ drift, and one theme's cadence never affects another's.
 
 Requires environment variables (set as GitHub Actions secrets):
   RESEND_API_KEY    - your Resend API key
-  RESEND_TO_EMAIL   - the email address to send the digests to (you)
+  RESEND_TO_EMAIL   - the email address to send the digests to (you).
+                       Stays the single visible "To:" address.
   RESEND_FROM_EMAIL - sender address. If you haven't verified your own domain
                        on Resend, use "onboarding@resend.dev" (works out of the box).
   SITE_URL          - optional. Your GitHub Pages URL. When set, each
                        region section links to that region+theme
                        pre-filtered on the live site.
+  RECIPIENTS_CSV_URL - optional. A published Google Sheet CSV of peer
+                       signups (see recipients.py for the one-time setup).
+                       Each theme's edition is Bcc'd to whichever peers
+                       picked that theme, so peers never see each other's
+                       (or your) address. Unset -> behaves exactly as
+                       before, sent only to RESEND_TO_EMAIL.
 
 If RESEND_API_KEY is not set, this script just prints what it WOULD send
 for each theme and exits -- safe to run locally without secrets configured.
@@ -46,6 +53,7 @@ from common import (
     REGION_ORDER, REGION_LABELS, source_region_of, SOURCE_PERSPECTIVE,
     THEME_ORDER, THEME_LABELS,
 )
+from recipients import load_peer_recipients
 
 MIN_DAYS_BETWEEN = 6   # just under 7 days, matches the weekly cron schedule
                         # with a little tolerance for scheduling jitter
@@ -164,7 +172,7 @@ def build_email_html(theme, items, overflow_count=0, site_url=None):
     </div>"""
 
 
-def send_one_theme(theme, state, force):
+def send_one_theme(theme, state, force, peers_by_theme):
     last_sent = state["last_newsletter_sent"].get(theme)
     elapsed = days_since(last_sent)
 
@@ -195,15 +203,26 @@ def send_one_theme(theme, state, force):
         print(f"[{theme}] Would send {len(capped_items)} items (+{overflow} held back).")
         return
 
+    # Peers who picked this theme via the signup form, minus the owner
+    # (in case they also signed up themselves) and de-duplicated.
+    peer_emails = sorted({
+        e for e in peers_by_theme.get(theme, [])
+        if e.lower() != to_email.lower()
+    })
+
+    payload = {
+        "from": from_email,
+        "to": [to_email],
+        "subject": f"Veille Stratégique — {theme_label} — {datetime.now().strftime('%d/%m/%Y')} ({len(capped_items)} nouveautés)",
+        "html": html,
+    }
+    if peer_emails:
+        payload["bcc"] = peer_emails
+
     resp = requests.post(
         "https://api.resend.com/emails",
         headers={"Authorization": f"Bearer {api_key}"},
-        json={
-            "from": from_email,
-            "to": [to_email],
-            "subject": f"Veille Stratégique — {theme_label} — {datetime.now().strftime('%d/%m/%Y')} ({len(capped_items)} nouveautés)",
-            "html": html,
-        },
+        json=payload,
         timeout=20,
     )
 
@@ -211,7 +230,8 @@ def send_one_theme(theme, state, force):
         print(f"[{theme}] Resend API error {resp.status_code}: {resp.text}")
         return  # don't crash the whole run over one theme's send failure
 
-    print(f"[{theme}] Sent with {len(capped_items)} items shown ({overflow} held back).")
+    peer_note = f" + {len(peer_emails)} peer(s) in Bcc" if peer_emails else ""
+    print(f"[{theme}] Sent with {len(capped_items)} items shown ({overflow} held back){peer_note}.")
 
     now_iso = datetime.now(timezone.utc).isoformat()
     state["last_newsletter_sent"][theme] = now_iso
@@ -228,9 +248,13 @@ def send_one_theme(theme, state, force):
 def main():
     force = "--force" in sys.argv
     state = load_state()
+    peers_by_theme = load_peer_recipients()
+    total_peers = len({e for emails in peers_by_theme.values() for e in emails})
+    if total_peers:
+        print(f"Loaded {total_peers} peer recipient(s) across all themes from RECIPIENTS_CSV_URL.")
 
     for theme in THEME_ORDER:
-        send_one_theme(theme, state, force)
+        send_one_theme(theme, state, force, peers_by_theme)
 
     save_state(state)
 
