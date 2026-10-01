@@ -31,6 +31,11 @@
   url: "https://sinocism.com/feed"
   region: us
 
+- name: "Project OSINT"
+  type: rss
+  url: "https//projectosint.substack.com/feed
+  region: other
+
 # --- France ----------------------------------------------------------------
 - name: "IFRI"
   type: scrape
