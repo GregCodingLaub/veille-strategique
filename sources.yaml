@@ -33,8 +33,10 @@
 
 - name: "Project OSINT"
   type: rss
-  url: "https//projectosint.substack.com/feed
+  url: "https://projectosint.substack.com/feed"
   region: other
+  # "OSINT made simple" -- weekly tools/tips/case studies. NEEDS VALIDATION:
+  # run validate_sources.py to confirm the feed returns items.
 
 # --- France ----------------------------------------------------------------
 - name: "IFRI"
@@ -42,6 +44,21 @@
   url: "https://www.ifri.org/fr/publications"
   parser: ifri
   region: fr
+
+- name: "Portail de l'IE"
+  type: rss
+  url: "https://www.portail-ie.fr/feed/"
+  region: fr
+  # Official feed, linked from the site itself. Covers ALL topics (cyber,
+  # blockchain, law...) -- the keyword filter narrows it to your themes.
+
+- name: "Portail de l'IE (Défense, armement & renseignement)"
+  type: rss
+  url: "https://www.portail-ie.fr/category/univers/defense-industrie-de-larmement-et-renseignement/feed/"
+  region: fr
+  # Category feed, so defense/intelligence pieces don't get pushed out of the
+  # main feed's 10-item window between weekly runs (the site posts daily).
+  # Standard WordPress pattern, not yet confirmed -- validate before trusting.
 
 - name: "FRS (Fondation pour la Recherche Stratégique)"
   type: rss
@@ -115,6 +132,16 @@
   type: rss
   url: "https://jamestown.org/feed/"
   region: us
+
+# --- Trade press: intelligence-specific --------------------------------------
+- name: "Intelligence Online"
+  type: rss
+  url: "https://www.intelligenceonline.com/rss"
+  region: fr
+  # Paywalled trade press specialized in intelligence/security services --
+  # headlines + short teasers are free via RSS, full articles require a
+  # subscription (links will hit a paywall). NEEDS VALIDATION: feed URL is
+  # a guess based on common patterns; run validate_sources.py before trusting.
 
 # --- Wire services & trade press --------------------------------------------
 - name: "Reuters"
