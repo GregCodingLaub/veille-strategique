@@ -39,9 +39,12 @@ jobs:
           RESEND_TO_EMAIL: ${{ secrets.RESEND_TO_EMAIL }}
           RESEND_FROM_EMAIL: ${{ secrets.RESEND_FROM_EMAIL }}
           SITE_URL: ${{ secrets.SITE_URL }}
+          RECIPIENTS_CSV_URL: ${{ secrets.RECIPIENTS_CSV_URL }}
         run: python scripts/send_newsletter.py ${{ (github.event_name == 'workflow_dispatch' && inputs.force_send) && '--force' || '' }}
 
       - name: Build static site
+        env:
+          SIGNUP_FORM_URL: ${{ secrets.SIGNUP_FORM_URL }}
         run: python scripts/build_site.py
 
       - name: Commit updated data & site
