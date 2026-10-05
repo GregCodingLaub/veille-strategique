@@ -9,10 +9,20 @@ newsletter -- that's expected, since each is independent.
 Every sent edition is logged to data/newsletter_log.json (now tagged with
 its theme) so the website's "past editions" dashboard can show/filter them.
 
-Cadence logic: each theme has its OWN last-sent date (data/state.json),
-and sends only if >= MIN_DAYS_BETWEEN days have passed since THAT theme's
-last send. This is self-healing -- a skipped or failed run doesn't cause
-drift, and one theme's cadence never affects another's.
+Two modes:
+
+  OFFICIAL (default, used by the Monday cron): always sends, whatever
+  happened before. Each theme's last-sent date (data/state.json) is only
+  used to pick which items are new, plus a duplicate guard: if that theme
+  was officially sent less than MIN_HOURS_BETWEEN hours ago (e.g. someone
+  re-ran a finished workflow), it is skipped. Peers are Bcc'd, the state
+  and the edition log are updated.
+
+  TEST (--test, used by manual workflow runs): sends ONLY to
+  RESEND_TO_EMAIL, never to peers, subject prefixed "[TEST]". Contains
+  exactly what the next official send would contain, and touches neither
+  data/state.json nor data/newsletter_log.json, so it can be run as often
+  as you like without affecting the Monday edition.
 
 Requires environment variables (set as GitHub Actions secrets):
   RESEND_API_KEY    - your Resend API key
@@ -34,12 +44,10 @@ If RESEND_API_KEY is not set, this script just prints what it WOULD send
 for each theme and exits -- safe to run locally without secrets configured.
 
 Usage:
-  python scripts/send_newsletter.py            normal run (respects cadence,
-                                                 checked independently per theme)
-  python scripts/send_newsletter.py --force     ignore the day-count check for
-                                                 ALL three themes, useful for
-                                                 testing locally. Still won't
-                                                 send without RESEND_API_KEY set.
+  python scripts/send_newsletter.py            official send (all themes, peers in Bcc)
+  python scripts/send_newsletter.py --test      test send to RESEND_TO_EMAIL only,
+                                                 no state/log change
+Neither mode sends anything without RESEND_API_KEY set (dry run instead).
 """
 import os
 import sys
@@ -55,8 +63,9 @@ from common import (
 )
 from recipients import load_peer_recipients
 
-MIN_DAYS_BETWEEN = 6   # just under 7 days, matches the weekly cron schedule
-                        # with a little tolerance for scheduling jitter
+MIN_HOURS_BETWEEN = 20  # duplicate guard only (official mode): refuse a second
+                         # official send of the same theme within 20h. Does NOT
+                         # delay the weekly edition.
 MAX_PER_SOURCE = 6     # cap items from any single source in one email edition
 
 # Fallback site link used if the SITE_URL secret isn't set in GitHub, so the
@@ -65,11 +74,13 @@ MAX_PER_SOURCE = 6     # cap items from any single source in one email edition
 DEFAULT_SITE_URL = "https://gregcodinglaub.github.io/veille-strategique/"
 
 
-def days_since(iso_date_str):
+def hours_since(iso_date_str):
     if not iso_date_str:
         return None
     then = datetime.fromisoformat(iso_date_str)
-    return (datetime.now(timezone.utc) - then).days
+    if then.tzinfo is None:
+        then = then.replace(tzinfo=timezone.utc)
+    return (datetime.now(timezone.utc) - then).total_seconds() / 3600
 
 
 def cap_per_source(items, max_per_source):
@@ -172,12 +183,12 @@ def build_email_html(theme, items, overflow_count=0, site_url=None):
     </div>"""
 
 
-def send_one_theme(theme, state, force, peers_by_theme):
+def send_one_theme(theme, state, test, peers_by_theme):
     last_sent = state["last_newsletter_sent"].get(theme)
-    elapsed = days_since(last_sent)
+    elapsed = hours_since(last_sent)
 
-    if not force and elapsed is not None and elapsed < MIN_DAYS_BETWEEN:
-        print(f"[{theme}] Last sent {elapsed} day(s) ago (< {MIN_DAYS_BETWEEN}). Skipping.")
+    if not test and elapsed is not None and elapsed < MIN_HOURS_BETWEEN:
+        print(f"[{theme}] Officially sent {elapsed:.1f}h ago (< {MIN_HOURS_BETWEEN}h): duplicate guard, skipping.")
         return
 
     all_items = load_items()
@@ -205,15 +216,17 @@ def send_one_theme(theme, state, force, peers_by_theme):
 
     # Peers who picked this theme via the signup form, minus the owner
     # (in case they also signed up themselves) and de-duplicated.
-    peer_emails = sorted({
+    # In test mode peers are never contacted.
+    peer_emails = [] if test else sorted({
         e for e in peers_by_theme.get(theme, [])
         if e.lower() != to_email.lower()
     })
 
+    subject_prefix = "[TEST] " if test else ""
     payload = {
         "from": from_email,
         "to": [to_email],
-        "subject": f"Veille Stratégique — {theme_label} — {datetime.now().strftime('%d/%m/%Y')} ({len(capped_items)} nouveautés)",
+        "subject": f"{subject_prefix}Veille Stratégique — {theme_label} — {datetime.now().strftime('%d/%m/%Y')} ({len(capped_items)} nouveautés)",
         "html": html,
     }
     if peer_emails:
@@ -231,7 +244,11 @@ def send_one_theme(theme, state, force, peers_by_theme):
         return  # don't crash the whole run over one theme's send failure
 
     peer_note = f" + {len(peer_emails)} peer(s) in Bcc" if peer_emails else ""
-    print(f"[{theme}] Sent with {len(capped_items)} items shown ({overflow} held back){peer_note}.")
+    mode_note = "TEST, to owner only; state and log untouched" if test else "official"
+    print(f"[{theme}] Sent ({mode_note}) with {len(capped_items)} items shown ({overflow} held back){peer_note}.")
+
+    if test:
+        return  # a test must never move the "last official send" marker
 
     now_iso = datetime.now(timezone.utc).isoformat()
     state["last_newsletter_sent"][theme] = now_iso
@@ -246,7 +263,9 @@ def send_one_theme(theme, state, force, peers_by_theme):
 
 
 def main():
-    force = "--force" in sys.argv
+    test = "--test" in sys.argv
+    if test:
+        print("TEST MODE: sending to RESEND_TO_EMAIL only; state and edition log will not be modified.")
     state = load_state()
     peers_by_theme = load_peer_recipients()
     total_peers = len({e for emails in peers_by_theme.values() for e in emails})
@@ -254,9 +273,10 @@ def main():
         print(f"Loaded {total_peers} peer recipient(s) across all themes from RECIPIENTS_CSV_URL.")
 
     for theme in THEME_ORDER:
-        send_one_theme(theme, state, force, peers_by_theme)
+        send_one_theme(theme, state, test, peers_by_theme)
 
-    save_state(state)
+    if not test:
+        save_state(state)
 
 
 if __name__ == "__main__":
