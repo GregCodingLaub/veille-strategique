@@ -177,3 +177,35 @@ def test_scraper_irsem():
     src = {"name": "IRSEM", "region": "fr"}
     kept, _, _ = process_items(src, out, KW, RG, set(), TODAY)
     assert len(kept) == 2 and kept[0]["themes"] == ["military"]
+
+
+def test_smtp_transport(monkeypatch):
+    import smtplib
+    import send_newsletter as sn
+
+    sent = []
+
+    class FakeSMTP:
+        def __init__(self, host, port, timeout=None, context=None):
+            self.host = host
+        def login(self, user, pw):
+            if pw == "bad":
+                raise smtplib.SMTPAuthenticationError(535, b"nope")
+        def send_message(self, m):
+            sent.append(m)
+        def quit(self):
+            pass
+
+    monkeypatch.setattr(smtplib, "SMTP_SSL", FakeSMTP)
+    monkeypatch.setattr(sn.time, "sleep", lambda s: None)
+    cfg = {"user": "veille@gmail.com", "password": "ok", "name": "Veille stratégique",
+           "host": "smtp.gmail.com", "port": 465}
+    msgs = sn.build_messages("Objet é", "<p>Salut</p>", "Salut", "veille@gmail.com", "moi@x.org",
+                             ["a@x.org", "b@x.org"], "moi@x.org", "https://forms.gle/abc")
+    n, errs = sn.send_smtp(cfg, msgs)
+    assert n == 3 and not errs
+    assert [m["To"] for m in sent] == ["moi@x.org", "a@x.org", "b@x.org"]
+    assert "List-Unsubscribe" not in sent[0] and sent[1]["List-Unsubscribe"] == "<https://forms.gle/abc>"
+    assert sent[1].is_multipart() and "veille@gmail.com" in sent[1]["From"]
+    n, errs = sn.send_smtp(dict(cfg, password="bad"), msgs)
+    assert n == 0 and "login refused" in errs[0]
