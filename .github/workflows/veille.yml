@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       official_send:
-        description: "Envoi OFFICIEL (pairs inclus, met à jour le calendrier). Laisser décoché = TEST envoyé à toi seul, sans effet sur l'édition du lundi."
+        description: "Envoi OFFICIEL (pairs inclus, met à jour le calendrier). Laisser décoché = TEST."
         type: boolean
         default: false
 
