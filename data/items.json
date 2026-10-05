@@ -127,6 +127,34 @@
     "fetched_at": "2026-10-05T17:21:13.697628+00:00"
   },
   {
+    "id": "5918f4f3716daaac",
+    "title": "40 min de lecture Note de recherche 143 L’obligation de loyauté envers la constitution des soldats de la Bundeswehr et l’obligation de réserve des soldats français : Deux mécanismes d’encadrement des comportements antidémocratiques au sein des forces armées ORR Leonie Belk",
+    "link": "https://www.irsem.fr/publications/lobligation-de-loyaute-envers-la-constitution-des-soldats-de-la-bundeswehr-et-lobligation-de-reserve-des-soldats-francais-deux-mecanismes-dencadrement-des-comportements-antidemocratiques-au-sein-des-forces-armees",
+    "date": "2026-10-05",
+    "summary": "Note de recherche 143 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.992095+00:00"
+  },
+  {
+    "id": "232b88eb23dbe651",
+    "title": "Malaysia is invested in the industries of the future. Now it needs them to power productivity.",
+    "link": "https://www.atlanticcouncil.org/uncategorized/malaysia-is-invested-in-the-industries-of-the-future-now-it-needs-them-to-power-productivity",
+    "date": "2026-10-05",
+    "summary": "Malaysia has become a major destination for investment in semiconductors, data centers, AI, and advanced manufacturing. Its next challenge is to turn that investment into stronger domestic capabilities, higher productivity, and more value captured at home.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "fetched_at": "2026-10-05T17:44:30.251970+00:00"
+  },
+  {
     "id": "55e02b5c9284e501",
     "title": "Why an EU “associate membership” is the wrong Canada story",
     "link": "https://www.lowyinstitute.org/the-interpreter/why-an-eu-associate-membership-is-the-wrong-canada-story",
@@ -1717,6 +1745,20 @@
     "fetched_at": "2026-10-05T17:21:15.267019+00:00"
   },
   {
+    "id": "dd7489f2c14f773a",
+    "title": "For better or for worse, NATO’s future could define Trump’s foreign policy legacy",
+    "link": "https://www.atlanticcouncil.org/dispatches/for-better-or-for-worse-natos-future-could-define-trumps-foreign-policy-legacy",
+    "date": "2026-09-28",
+    "summary": "The Pentagon’s review of US force posture in Europe have high stakes for the United States and the president himself.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:30.283813+00:00"
+  },
+  {
     "id": "70e6137f3bd9b1c2",
     "title": "HII FF(X) Patrol Frigate Program Progressing as Navy Considers Foreign Options",
     "link": "https://news.usni.org/2026/09/27/hii-ffx-patrol-frigate-program-progressing-as-navy-considers-foreign-options",
@@ -2252,6 +2294,49 @@
     "fetched_at": "2026-10-05T17:20:58.650319+00:00"
   },
   {
+    "id": "fe106cbccda9c1f2",
+    "title": "The Saudi economy can hold out through year’s end—even if oil exports drop to zero",
+    "link": "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/the-saudi-economy-can-hold-out-through-years-end-even-if-oil-exports-drop-to-zero",
+    "date": "2026-09-24",
+    "summary": "First the Strait of Hormuz closed, so Saudi Arabia started sending more oil over land through its East-West Pipeline. Then drone strikes damaged the pipeline, and the Iran-backed Houthis fired missiles near the pipeline’s Red Sea terminus. Does Saudi Arabia need to plan for a near term without meaningful oil exports?",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "fetched_at": "2026-10-05T17:44:30.297248+00:00"
+  },
+  {
+    "id": "eb3f68689638bbce",
+    "title": "Ukraine’s defense tech sector must offer investors more than innovation",
+    "link": "https://www.atlanticcouncil.org/blogs/ukrainealert/ukraines-defense-tech-sector-must-offer-investors-more-than-innovation",
+    "date": "2026-09-24",
+    "summary": "Since the start of Russia’s full-scale invasion in 2022, Ukraine has built one of the world’s most dynamic defense tech ecosystems under conditions few industries ever face. However, innovation alone will not be enough to win over potential investors, writes Olga Usenko.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:30.299683+00:00"
+  },
+  {
+    "id": "a102e63f495832d2",
+    "title": "Putin’s Ukraine invasion has made Russia China’s junior partner",
+    "link": "https://www.atlanticcouncil.org/blogs/ukrainealert/putins-ukraine-invasion-has-made-russia-chinas-junior-partner",
+    "date": "2026-09-24",
+    "summary": "Putin’s evident inability to secure Beijing’s backing for the Power of Siberia-2 pipeline is strengthening international perceptions that the invasion of Ukraine has reduced Russia to the status of China’s junior partner, writes Zahar Hryniv.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "energy_industry"
+    ],
+    "fetched_at": "2026-10-05T17:44:30.308163+00:00"
+  },
+  {
     "id": "649b43bea2f73621",
     "title": "South Korea’s Deliberate Strategic Ambiguity on Taiwan",
     "link": "https://warontherocks.com/south-koreas-deliberate-strategic-ambiguity-on-taiwan/",
@@ -2506,6 +2591,35 @@
     "fetched_at": "2026-10-05T17:20:58.653969+00:00"
   },
   {
+    "id": "b52b3c74b6ebc111",
+    "title": "Building a multilateral cognitive warfare defense network: A collaborative framework for the United States, Japan, and Taiwan",
+    "link": "https://www.atlanticcouncil.org/in-depth-research-reports/report/building-a-multilateral-cognitive-warfare-defense-network",
+    "date": "2026-09-23",
+    "summary": "Beijing is pressuring Japan, South Korea, Taiwan, and the Philippines not only with ships and aircraft but also in the cognitive domain—which no multilateral mechanism defends. This report explores what it would take to build a coordinated multilateral defense network to combat this threat across the first island chain.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "china",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:30.311963+00:00"
+  },
+  {
+    "id": "e41c7b6a1a7558cb",
+    "title": "America is not ready for the drone threat",
+    "link": "https://www.atlanticcouncil.org/dispatches/america-is-not-ready-for-the-drone-threat",
+    "date": "2026-09-23",
+    "summary": "Counter-drone technology is not enough to address the threat to US critical infrastructure.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "fetched_at": "2026-10-05T17:44:30.314303+00:00"
+  },
+  {
     "id": "6267f7b701237f97",
     "title": "Premier Li on advanced manufacturing; Xi’s US visit; AI; “Enemy state” clauses",
     "link": "https://sinocism.com/p/premier-li-on-advanced-manufacturing",
@@ -2658,6 +2772,35 @@
     "fetched_at": "2026-09-25T17:17:15.692390+00:00",
     "source_region": "us",
     "subject_region": "us"
+  },
+  {
+    "id": "afc7062b024268c1",
+    "title": "Ukrainians are braced for a brutal winter. Are the Russians also ready?",
+    "link": "https://www.atlanticcouncil.org/blogs/ukrainealert/ukrainians-are-braced-for-a-brutal-winter-are-the-russians-also-ready",
+    "date": "2026-09-22",
+    "summary": "With Ukraine's air defenses running low, Russia is expected to escalate the bombardment of Ukrainian cities and civilian infrastructure ahead of the coming winter season in a bid to freeze the country into submission, writes Peter Dickinson.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:30.319728+00:00"
+  },
+  {
+    "id": "c3f12acdb1f862f6",
+    "title": "Strait talk: Yemen, mercenaries and the Iran war",
+    "link": "https://www.atlanticcouncil.org/commentary/podcast/strait-talk-yemen-mercenaries-and-the-iran-war",
+    "date": "2026-09-22",
+    "summary": "In this first video episode of the podcast, Alia is joined by Ibrahim Jalal, an expert on Yemen and the Gulf. Ibrahim describes the major military escalation unfolding along the Red Sea coast and the tactics used by the Houthis.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "fetched_at": "2026-10-05T17:44:30.321761+00:00"
   },
   {
     "id": "ad1311d439c0798e",
@@ -3026,6 +3169,76 @@
     "subject_region": "us"
   },
   {
+    "id": "3731e23cc6668228",
+    "title": "Fortifying USMCA through US–Mexico investment screening coordination",
+    "link": "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/fortifying-usmca-through-us-mexico-investment-screening-coordination",
+    "date": "2026-09-17",
+    "summary": "One of the biggest blind spots in the US-Mexico-Canada trade agreement is its treatment of capital and foreign investment screening. The current review presents an opportunity to address this and build a safer North America.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-05T17:44:30.344188+00:00"
+  },
+  {
+    "id": "bc09c351ae9f3319",
+    "title": "Putin is escalating against NATO but a Baltic incursion remains unlikely",
+    "link": "https://www.atlanticcouncil.org/blogs/ukrainealert/putin-is-escalating-against-nato-but-a-baltic-incursion-remains-unlikely",
+    "date": "2026-09-17",
+    "summary": "The recent escalation in Russian gray zone aggression across Europe has sparked a lively debate over how far the Kremlin may be prepared to go, but a Russian attack on the Baltic states remains unlikely, writes James Rice.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:30.349848+00:00"
+  },
+  {
+    "id": "f6314117e45b676c",
+    "title": "Macron won the argument over European strategic autonomy. Will better European defense come of it?",
+    "link": "https://www.atlanticcouncil.org/dispatches/macron-won-the-argument-over-european-strategic-autonomy-will-better-european-defense-come-of-it",
+    "date": "2026-09-17",
+    "summary": "Delivering real capabilities is where this vision of strategic autonomy will succeed or fail.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:30.351389+00:00"
+  },
+  {
+    "id": "5ebd1ca1fecf0df5",
+    "title": "Braw in BFBS on the importance of undersea cables",
+    "link": "https://www.atlanticcouncil.org/commentary/braw-in-bfbs-on-the-importance-of-undersea-cables",
+    "date": "2026-09-17",
+    "summary": "On September 17, Elisabeth Braw was quoted in BFBS in an article on the growing threat to the global maritime order.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "fetched_at": "2026-10-05T17:44:30.354492+00:00"
+  },
+  {
+    "id": "91c370e3fbf5181f",
+    "title": "In Al-Monitor, Yevgeniya Gaber comments on the Black Sea security architecture, saying closer coordination among the region’s NATO members are all the more important",
+    "link": "https://www.atlanticcouncil.org/insight-impact/in-the-news/yevgeniya-gaber-comments-on-the-black-sea-security-architecture-saying-closer-coordination-among-the-regions-nato-members-are-all-the-more-important",
+    "date": "2026-09-17",
+    "summary": "",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:30.356878+00:00"
+  },
+  {
     "id": "039e5b1f34b24f6b",
     "title": "Would NATO Membership for Ukraine Undermine Article 5 Itself?",
     "link": "https://warontherocks.com/would-nato-membership-for-ukraine-undermine-article-5-itself/",
@@ -3237,6 +3450,20 @@
     "subject_region": "middle_east_africa"
   },
   {
+    "id": "f9171dbfbb476c28",
+    "title": "Could the GCC and Iran collaborate to solve the Strait of Hormuz crisis?",
+    "link": "https://www.atlanticcouncil.org/blogs/menasource/could-the-gcc-and-iran-collaborate-to-solve-the-strait-of-hormuz-crisis",
+    "date": "2026-09-16",
+    "summary": "A Gulf-led maritime cooperation could break the Hormuz stalemate by offering Iran an off-ramp while preventing unilateral control.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "energy_industry"
+    ],
+    "fetched_at": "2026-10-05T17:44:30.364426+00:00"
+  },
+  {
     "id": "4f39dbae075e7078",
     "title": "Naval Group signs new submarine export contract",
     "link": "https://example.com/a3",
@@ -3321,6 +3548,20 @@
     "fetched_at": "2026-10-05T17:20:41.707302+00:00"
   },
   {
+    "id": "2f98176f76b34f19",
+    "title": "Braw in Wall Street Journal on Irish security",
+    "link": "https://www.atlanticcouncil.org/commentary/braw-in-wall-street-journal-on-irish-security",
+    "date": "2026-09-15",
+    "summary": "On September 15, Elisabeth Braw was quoted in the Wall Street Journal in an article on Russia’s shadow fleet using Irish waters to bypass NATO security.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:30.375086+00:00"
+  },
+  {
     "id": "4d206a4d6516585e",
     "title": "Bellingcat Official Merch Design Contest",
     "link": "https://www.bellingcat.com/uncategorized/2026/09/14/bellingcat-official-merch-design-contest/",
@@ -3403,6 +3644,34 @@
       "military"
     ],
     "fetched_at": "2026-10-05T17:20:49.477728+00:00"
+  },
+  {
+    "id": "64cec2415b0688cb",
+    "title": "Société Défense 56 min de lecture ETUDE 137 - 14/09/2026 Santé mentale et guerre de haute intensité - Un déterminant stratégique à ne plus négliger Marion Trousselard",
+    "link": "https://www.irsem.fr/publications/sante-mentale-et-guerre-de-haute-intensite-un-determinant-strategique-a-ne-plus-negliger",
+    "date": "2026-09-14",
+    "summary": "Etude 137 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.875159+00:00"
+  },
+  {
+    "id": "eee9bb6bc4a32349",
+    "title": "Beyond the Reaper: Rethinking the future of multirole drones",
+    "link": "https://www.atlanticcouncil.org/dispatches/beyond-the-reaper-rethinking-the-future-of-multirole-drones",
+    "date": "2026-09-14",
+    "summary": "The US Air Force should consider spreading the multirole model across networks of smaller, cheaper drones.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:30.381524+00:00"
   },
   {
     "id": "592752ec83c56950",
@@ -3730,6 +3999,91 @@
     "fetched_at": "2026-10-05T17:21:03.799670+00:00"
   },
   {
+    "id": "2317e8111ac8f2d8",
+    "title": "Défense Sécurité 1 min de lecture Etude 138 - 09/2026 Sahel au centre du djihadisme mondial Alexandre Lauret, Mathieu Mérino",
+    "link": "https://www.irsem.fr/publications/sahel-au-centre-du-djihadisme-mondial",
+    "date": "2026-09-01",
+    "summary": "Etude 138 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.866407+00:00"
+  },
+  {
+    "id": "7b9c1dea7fbc08b1",
+    "title": "8 min de lecture Brève stratégique 95 - 09/2026 Le Sahel au centre du monde - Les leçons d'une marge politique Alexandre Lauret",
+    "link": "https://www.irsem.fr/publications/le-sahel-au-centre-du-monde-les-lecons-dune-marge-politique",
+    "date": "2026-09-01",
+    "summary": "Brève stratégique 95 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.868466+00:00"
+  },
+  {
+    "id": "0c60c2e8e8bcf0ff",
+    "title": "Influence Stratégie 9 min de lecture Brève stratégique 94 - 09/2026 Bab el-Mandeb - La fin des mers libres Alexandre Lauret",
+    "link": "https://www.irsem.fr/publications/bab-el-mandeb-la-fin-des-mers-libres",
+    "date": "2026-09-01",
+    "summary": "Brève stratégique 94 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.870006+00:00"
+  },
+  {
+    "id": "83f61e7663d54d83",
+    "title": "Politique Sécurité 39 min de lecture Note stratégique - 09/2026 Le Groenland, nouvelle frontière des ambitions stratégiques américaines Maud Quessard, Estelle Pascal",
+    "link": "https://www.irsem.fr/publications/le-groenland-nouvelle-frontiere-des-ambitions-strategiques-americaines",
+    "date": "2026-09-01",
+    "summary": "Note stratégique de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.871770+00:00"
+  },
+  {
+    "id": "8fcbdbdb1b4537b3",
+    "title": "Énergie 8 min de lecture Brève stratégique 93 - 09/2026 Réseaux électriques et conflits - Mise en place et évolution des stratégies de résilience Angélique Palle",
+    "link": "https://www.irsem.fr/publications/reseaux-electriques-et-conflits-mise-en-place-et-evolution-des-strategies-de-resilience",
+    "date": "2026-09-01",
+    "summary": "Brève stratégique 93 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.873414+00:00"
+  },
+  {
+    "id": "eed70b4ad1d6e6f5",
+    "title": "Politique 2 min de lecture Livre - 09/2026 La puissance sans principe - Le nouvel empire américain Maud Quessard",
+    "link": "https://www.irsem.fr/publications/la-puissance-sans-principe-le-nouvel-empire-americain",
+    "date": "2026-09-01",
+    "summary": "Livre de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.876522+00:00"
+  },
+  {
     "id": "1454bdb5934a1507",
     "title": "The disaster in Nepal and Tibet; Xi at the SCO; Supporting consumption; National Defense Mobilization Law; Signals for PRC-US AI dialogue; New era for real estate",
     "link": "https://sinocism.com/p/the-disaster-in-nepal-and-tibet-xi",
@@ -3784,6 +4138,21 @@
       "military"
     ],
     "fetched_at": "2026-10-05T17:20:48.098149+00:00"
+  },
+  {
+    "id": "852ff4588fe698eb",
+    "title": "Défense 28 min de lecture Veille stratégique 5 - 31/08/2026 Empreinte de la Chine à l'étranger Hugo Tierny",
+    "link": "https://www.irsem.fr/publications/empreinte-de-la-chine-a-letranger-3",
+    "date": "2026-08-31",
+    "summary": "Veille stratégique 5 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "china",
+    "themes": [
+      "intelligence",
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.877902+00:00"
   },
   {
     "id": "f7774c64f70e5a28",
@@ -4592,6 +4961,77 @@
     "fetched_at": "2026-10-05T17:21:03.800659+00:00"
   },
   {
+    "id": "9c86d2497a2f0dfd",
+    "title": "Environnement 2h44min de lecture ETUDE 136 - 06/2026 Les interventions HADR face aux aléas environnementaux Marine de Guglielmo Weber, Florian Opillard, Carine Pina",
+    "link": "https://www.irsem.fr/publications/les-interventions-hadr-face-aux-aleas-environnementaux",
+    "date": "2026-06-01",
+    "summary": "Etude 136 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.879625+00:00"
+  },
+  {
+    "id": "9e5baa3aeec5c5b3",
+    "title": "Stratégie 1 min de lecture Enquête - 06/2026 2030: What to Expect? Philippe Perchoc, Marie Hiliquin",
+    "link": "https://www.irsem.fr/publications/2030-what-to-expect",
+    "date": "2026-06-01",
+    "summary": "Enquête de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.880950+00:00"
+  },
+  {
+    "id": "b3be79e9f29a5ff3",
+    "title": "1 min de lecture Publication - 06/2026 Le consentement des Français au financement des dépenses de défense : analyse de l’enquête du Conseil des prélèvements obligatoires (2025) Pierre C. Boyer, Martial Foucault, Jonathan Garson",
+    "link": "https://www.irsem.fr/publications/le-consentement-des-francais-au-financement-des-depenses-de-defense-analyse-de-lenquete-du-conseil-des-prelevements-obligatoires-2025",
+    "date": "2026-06-01",
+    "summary": "Publication de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.883132+00:00"
+  },
+  {
+    "id": "6eda7044f82894d0",
+    "title": "1 min de lecture Livre - 06/2026 La guerre d’Europe a commencé Céline Marangé",
+    "link": "https://www.irsem.fr/publications/la-guerre-deurope-a-commence",
+    "date": "2026-06-01",
+    "summary": "Livre de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.884296+00:00"
+  },
+  {
+    "id": "d93dd485b44f1586",
+    "title": "Influence 18 min de lecture Veille Stratégique 4 - 06/2026 Empreinte de la Chine à l’étranger Hugo Tierny",
+    "link": "https://www.irsem.fr/publications/empreinte-de-la-chine-a-letranger-2",
+    "date": "2026-06-01",
+    "summary": "Veille stratégique 4 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "china",
+    "themes": [
+      "intelligence",
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.885699+00:00"
+  },
+  {
     "id": "adc7a87cd72f4ca5",
     "title": "Devoir de vigilance : le renseignement humain au service de la conformité [Partie 2/2]",
     "link": "https://www.portail-ie.fr/univers/2026/devoir-de-vigilance-le-renseignement-humain-au-service-de-la-conformite-partie-2-2/",
@@ -4636,6 +5076,133 @@
     "fetched_at": "2026-10-05T17:20:38.702070+00:00"
   },
   {
+    "id": "e0669e331bbb8d1b",
+    "title": "Espace Stratégie 8 min de lecture Brève stratégique 92 - 05/2026 La coopération russo-iranienne dans le domaine spatial Nicolas Pillet",
+    "link": "https://www.irsem.fr/publications/la-cooperation-russo-iranienne-dans-le-domaine-spatial",
+    "date": "2026-05-01",
+    "summary": "Brève stratégique 92 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.887295+00:00"
+  },
+  {
+    "id": "a1f8d7f077901113",
+    "title": "Espace Stratégie 8 min de lecture Brève stratégique 91 - 05/2026 Quand la « transparence » devient une menace Béatrice Hainaut",
+    "link": "https://www.irsem.fr/publications/quand-la-transparence-devient-une-menace",
+    "date": "2026-05-01",
+    "summary": "Brève stratégique 91 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.888886+00:00"
+  },
+  {
+    "id": "b628780e1e8fd18a",
+    "title": "1 min de lecture Livre - 05/2026 Le Viêt Nam en 100 questions Benoît de Tréglodé",
+    "link": "https://www.irsem.fr/publications/le-viet-nam-en-100-questions",
+    "date": "2026-05-01",
+    "summary": "Livre de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.890034+00:00"
+  },
+  {
+    "id": "0bd7ce597bae3c4a",
+    "title": "Stratégie 1h31min de lecture Etude 135 - 05/2026 How do wars end ? \"Securitisation\" and the problem of victory and defeat Sir Hew Strachan",
+    "link": "https://www.irsem.fr/publications/how-do-wars-end-securitisation-and-the-problem-of-victory-and-defeat",
+    "date": "2026-05-01",
+    "summary": "Etude 135 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.891600+00:00"
+  },
+  {
+    "id": "3480690de31b750f",
+    "title": "Influence Stratégie 17 min de lecture VEILLE STRATÉGIQUE 3 - 04/2026 Récits et discours stratégiques de la République populaire de Chine Paul Charon",
+    "link": "https://www.irsem.fr/publications/recits-et-discours-strategiques-de-la-republique-populaire-de-chine",
+    "date": "2026-04-01",
+    "summary": "Veille stratégique 3 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "china",
+    "themes": [
+      "intelligence",
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.893316+00:00"
+  },
+  {
+    "id": "c4fdbd5eb06e6321",
+    "title": "Défense 8 min de lecture BRÈVE STRATÉGIQUE 90 - 04/2026 Repenser la posture de défense des États du Golfe après la guerre Olivier Passot",
+    "link": "https://www.irsem.fr/publications/repenser-la-posture-de-defense-des-etats-du-golfe-apres-la-guerre",
+    "date": "2026-04-01",
+    "summary": "Brève stratégique 90 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.894950+00:00"
+  },
+  {
+    "id": "8938145286e16c6f",
+    "title": "Environnement 2h25min de lecture ÉTUDE 134 - 04/2026 Penser la durabilité à l'ère de la préparation de la guerre Marine de Guglielmo Weber, Sophia Maller",
+    "link": "https://www.irsem.fr/publications/penser-la-durabilite-a-lair-de-la-preparation-de-la-guerre",
+    "date": "2026-04-01",
+    "summary": "Étude 134 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.896620+00:00"
+  },
+  {
+    "id": "88e3c842fd077dd2",
+    "title": "Influence Stratégie 2h18min de lecture ÉTUDE 133 - 04/2026 Stratégies chinoises et équilibres de puissance en Océanie insulaire Carine Pina",
+    "link": "https://www.irsem.fr/publications/strategies-chinoises-et-equilibres-de-puissance-en-oceanie-insulaire",
+    "date": "2026-04-01",
+    "summary": "Étude 133 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "china",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.898328+00:00"
+  },
+  {
+    "id": "306aa2e0ac6a0611",
+    "title": "Stratégie Politique 8 min de lecture BRÈVE STRATÉGIQUE 89 - 04/2026 Fragmentation ou complémentarité ? Le rôle de l'Union européenne dans la gouvernance des vulnérabilités informatiques Jeanne-Louise Roellinger",
+    "link": "https://www.irsem.fr/publications/fragmentation-ou-complementarite-le-role-de-lunion-europeenne-dans-la-gouvernance-des-vulnerabilites-informatiques",
+    "date": "2026-04-01",
+    "summary": "Brève stratégique 89 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.900902+00:00"
+  },
+  {
     "id": "b582250a298d1c43",
     "title": "Studies in Intelligence Vol. 70, No. 1 (Extracts, March 2026)",
     "link": "https://www.cia.gov/resources/csi/studies-in-intelligence/studies-in-intelligence-vol-70-no-1-extracts-march-2026",
@@ -4648,6 +5215,135 @@
       "intelligence"
     ],
     "fetched_at": "2026-10-05T17:21:03.801621+00:00"
+  },
+  {
+    "id": "d0f8098c9c03b701",
+    "title": "Stratégie Politique 56 min de lecture NOTE DE RECHERCHE 151 - 03/2026 La part du lion : Trump et les enjeux indivisibles Elie Baranets",
+    "link": "https://www.irsem.fr/publications/la-part-du-lion-trump-et-les-enjeux-indivisibles",
+    "date": "2026-03-01",
+    "summary": "Note de recherche 151 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.902804+00:00"
+  },
+  {
+    "id": "dfac04cef93ad94e",
+    "title": "Influence 15 min de lecture Veille Stratégique 02 - 03/2026 Empreinte de la Chine à l’étranger Hugo Tierny",
+    "link": "https://www.irsem.fr/publications/empreinte-de-la-chine-a-letranger-1",
+    "date": "2026-03-01",
+    "summary": "Veille stratégique 02 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "china",
+    "themes": [
+      "intelligence",
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.904849+00:00"
+  },
+  {
+    "id": "680e9e3eaff2253a",
+    "title": "Droit 2h32min de lecture Etude 132 - 03/2026 L’écriture des constitutions en période de conflit armé : étude interdisciplinaire Yaodia Sénou-Dumartin, Anne-Hélène Bertana, Julien Monnet, Manon Bonnet, Théo Fournier",
+    "link": "https://www.irsem.fr/publications/lecriture-des-constitutions-en-periode-de-conflit-arme-etude-interdisciplinaire",
+    "date": "2026-03-01",
+    "summary": "Etude 132 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.906970+00:00"
+  },
+  {
+    "id": "edaf7e74eeb2e646",
+    "title": "Renseignement 8 min de lecture Brève stratégique 88 - 02/2026 Négocier l'Ukraine. Les services de renseignement russes et la recomposition sécuritaire de la politique étrangère Clément Renault",
+    "link": "https://www.irsem.fr/publications/negocier-lukraine-les-services-de-renseignement-russes-et-la-recomposition-securitaire-de-la-politique-etrangere",
+    "date": "2026-02-01",
+    "summary": "Brève stratégique 88 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "intelligence",
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.908638+00:00"
+  },
+  {
+    "id": "902d13f7ed2e03f2",
+    "title": "Droit 8 min de lecture Brève stratégique 87 - 01/2026 L'opération « Absolute Resolve » : une attaque contre le droit Yaodia Senou-Dumartin, Julien Ancelin",
+    "link": "https://www.irsem.fr/publications/loperation-absolute-resolve-une-attaque-contre-le-droit",
+    "date": "2026-01-01",
+    "summary": "Brève stratégique 87 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.910407+00:00"
+  },
+  {
+    "id": "6bc67239ae0cd852",
+    "title": "Stratégie 8 min de lecture Brève stratégique 86 - 01/2026 La confrontation saoudo-émiratie au Yémen du Sud - Deux visions opposées de l'ordre régional Fatiha Dazi-Héni",
+    "link": "https://www.irsem.fr/publications/la-confrontation-saoudo-emiratie-au-yemen-du-sud-deux-visions-opposees-de-lordre-regional",
+    "date": "2026-01-01",
+    "summary": "Brève stratégique 86 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.912254+00:00"
+  },
+  {
+    "id": "e47f42a248780d33",
+    "title": "Politique Défense 3h38min de lecture Étude 131 - 01/2026 Dissuader la Chine ? Taïwan et les États-Unis face à leurs dilemmes défensifs Hugo Tierny",
+    "link": "https://www.irsem.fr/publications/dissuader-la-chine-taiwan-et-les-etats-unis-face-a-leurs-dilemmes-defensifs",
+    "date": "2026-01-01",
+    "summary": "Étude 131 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "china",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.913861+00:00"
+  },
+  {
+    "id": "62005562b7d49093",
+    "title": "14 min de lecture Veille stratégique 1 - 01/2026 Empreinte de la Chine à l'étranger Hugo Tierny",
+    "link": "https://www.irsem.fr/publications/empreinte-de-la-chine-a-letranger",
+    "date": "2026-01-01",
+    "summary": "Veille stratégique 1 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "china",
+    "themes": [
+      "intelligence",
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.915181+00:00"
+  },
+  {
+    "id": "d615cc9cf862e00b",
+    "title": "Société Sécurité 1h25min de lecture Étude 130 - 01/2026 Des institutions en (r)évolution : Armée et police en Tunisie après 2011 Audrey Pluta",
+    "link": "https://www.irsem.fr/publications/des-institutions-en-revolution-armee-et-police-en-tunisie-apres-2011",
+    "date": "2026-01-01",
+    "summary": "Étude 130 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.916775+00:00"
   },
   {
     "id": "ec217b9fed766aea",
@@ -4664,6 +5360,231 @@
     "fetched_at": "2026-10-05T17:21:03.802607+00:00"
   },
   {
+    "id": "49a355c1f0fb3372",
+    "title": "Influence Sécurité 1h56min de lecture Étude 129 - 12/2025 La Chine en Afrique des « diplomaties » alternatives pour de nouveaux enjeux sécuritaires Alexandre Lauret, Mathieu Mérino, Carine Pina",
+    "link": "https://www.irsem.fr/publications/la-chine-en-afrique-des-diplomaties-alternatives-pour-de-nouveaux-enjeux-securitaires",
+    "date": "2025-12-01",
+    "summary": "Étude 129 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "china",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.918729+00:00"
+  },
+  {
+    "id": "12994e36f9da4f46",
+    "title": "Société Histoire 1h56min de lecture Étude 128 - 11/2025 Le retour du service militaire en Europe : de la suppression des conscriptions après la fin de la guerre froide à leur rétablissement relatif depuis 2022 Maxime Launay",
+    "link": "https://www.irsem.fr/publications/le-retour-du-service-militaire-en-europe-de-la-suppression-des-conscriptions-apres-la-fin-de-la-guerre-froide-a-leur-retablissement-relatif-depuis-2022",
+    "date": "2025-11-01",
+    "summary": "Étude 128 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.920866+00:00"
+  },
+  {
+    "id": "8943cb141052b9a4",
+    "title": "Défense 27 min de lecture Note de recherche 150 - 11/2025 Bénin - derrière le mirage de stabilité : conflits armés transnationaux et fractures internes Tanguy Quidelleur",
+    "link": "https://www.irsem.fr/publications/benin-derriere-le-mirage-de-stabilite-conflits-armes-transnationaux-et-fractures-internes",
+    "date": "2025-11-01",
+    "summary": "Note de recherche 150 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.922659+00:00"
+  },
+  {
+    "id": "0b35e4490be34973",
+    "title": "Stratégie Politique 17 min de lecture Note de recherche 149 - 11/2025 Irak : un long chemin vers la réhabilitation Isabelle Lafargue",
+    "link": "https://www.irsem.fr/publications/irak-un-long-chemin-vers-la-rehabilitation",
+    "date": "2025-11-01",
+    "summary": "Note de recherche 149 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.924234+00:00"
+  },
+  {
+    "id": "993c5198989845b4",
+    "title": "Renseignement 1h53min de lecture Étude 127 - 10/2025 Surveiller sans voir : Les services de renseignement israéliens et l’échec du 7 octobre Clément Renault",
+    "link": "https://www.irsem.fr/publications/surveiller-sans-voir-les-services-de-renseignement-israeliens-et-lechec-du-7-octobre",
+    "date": "2025-10-01",
+    "summary": "Étude 127 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "intelligence",
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.925639+00:00"
+  },
+  {
+    "id": "e907add058f6d18d",
+    "title": "Stratégie 41 min de lecture Note de recherche 148 - 10/2025 Arabie Saoudite - Quels leviers de puissance au Proche-Moyen-Orient ? Fatiha Dazi-Héni",
+    "link": "https://www.irsem.fr/publications/arabie-saoudite-quels-leviers-de-puissance-au-proche-moyen-orient",
+    "date": "2025-10-01",
+    "summary": "Note de recherche 148 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.927314+00:00"
+  },
+  {
+    "id": "a4172d6f4d22235d",
+    "title": "Influence Défense Defense Influence 1h22min de lecture Focus 3 - 10/2025 Baybridge. Anatomy of a chinese information influence ecosystem Paul Charon, Tadaweb",
+    "link": "https://www.irsem.fr/publications/baybridge-anatomy-of-a-chinese-information-influence-ecosystem",
+    "date": "2025-10-01",
+    "summary": "Publication de l'IRSEM.",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "china",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.928581+00:00"
+  },
+  {
+    "id": "ce4d1df44de133a4",
+    "title": "Politique 2h1min de lecture Étude 126 - 09/2025 La puissance sans principe, géopolitique du trumpisme Maud Quessard",
+    "link": "https://www.irsem.fr/publications/la-puissance-sans-principe-geopolitique-du-trumpisme",
+    "date": "2025-09-01",
+    "summary": "Étude 126 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.929979+00:00"
+  },
+  {
+    "id": "0970060ffb19409e",
+    "title": "Stratégie Politique 8 min de lecture Brève stratégique 85 - 09/2025 Sommet de La Haye. De la (fausse) prudence stratégique à l’érosion politique Côme Lécossais",
+    "link": "https://www.irsem.fr/publications/sommet-de-la-haye-de-la-fausse-prudence-strategique-a-lerosion-politique",
+    "date": "2025-09-01",
+    "summary": "Brève stratégique 85 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.931753+00:00"
+  },
+  {
+    "id": "e0a877af56a8d73d",
+    "title": "Studies in Intelligence Vol. 69, No. 3 (Extracts, September 2025)",
+    "link": "https://www.cia.gov/resources/csi/studies-in-intelligence/studies-in-intelligence-vol-69-no-3-extracts-september-2025",
+    "date": "2025-09-01",
+    "summary": "Nouveau numéro de la revue du Center for the Study of Intelligence (CIA) : sommaire et PDF sur la page du numéro.",
+    "source": "CIA - Studies in Intelligence",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-05T17:44:26.620282+00:00"
+  },
+  {
+    "id": "91d455f3844f788d",
+    "title": "Droit 8 min de lecture Brève stratégique 84 - 08/2025 Inclure pour exclure ? La face cachée du texte constitutionnel en Guinée Yaodia Sénou-Dumartin",
+    "link": "https://www.irsem.fr/publications/inclure-pour-exclure-la-face-cachee-du-texte-constitutionnel-en-guinee",
+    "date": "2025-08-01",
+    "summary": "Brève stratégique 84 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.933431+00:00"
+  },
+  {
+    "id": "58e4e8deb2936804",
+    "title": "Politique 1h4min de lecture Focus 2 - 08/2025 Vers une sécession douce ? La fragmentation invisible : Géopolitique interne du Trumpisme et désunion post-libérale aux États-Unis Maud Quessard",
+    "link": "https://www.irsem.fr/publications/vers-une-secession-douce-la-fragmentation-invisible-geopolitique-interne-du-trumpisme-et-desunion-post-liberale-aux-etats-unis",
+    "date": "2025-08-01",
+    "summary": "Publication de l'IRSEM.",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.935570+00:00"
+  },
+  {
+    "id": "071c600ab2c43d94",
+    "title": "Influence Histoire 2h10min de lecture Focus 1 - 07/2025 L'influence chinoise dans les Kiribati. À l'épreuve de la longue durée Eric Frécon",
+    "link": "https://www.irsem.fr/publications/linfluence-chinoise-dans-les-kiribati-a-lepreuve-de-la-longue-duree",
+    "date": "2025-07-01",
+    "summary": "Publication de l'IRSEM.",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "china",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.937170+00:00"
+  },
+  {
+    "id": "fb40fcaabc462120",
+    "title": "Stratégie 1h20min de lecture Étude 125 - 06/2025 Estonie, Lettonie, Lituanie. De la périphérie au centre du débat stratégique européen Philippe Perchoc",
+    "link": "https://www.irsem.fr/publications/estonie-lettonie-lituanie-de-la-peripherie-au-centre-du-debat-strategique-europeen",
+    "date": "2025-06-01",
+    "summary": "Étude 125 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.938802+00:00"
+  },
+  {
+    "id": "d70e6ca596657e2c",
+    "title": "Droit Histoire 1h48min de lecture Étude 124 - 06/2025 L'état de siège sur le territoire métropolitain français. Approches historique, juridique et socio-géographique Maxime Launay, Florian Opillard",
+    "link": "https://www.irsem.fr/publications/letat-de-siege-sur-le-territoire-metropolitain-francais-approches-historique-juridique-et-socio-geographique",
+    "date": "2025-06-01",
+    "summary": "Étude 124 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.940734+00:00"
+  },
+  {
+    "id": "7d0a2c9a62718eb0",
+    "title": "Studies in Intelligence 69, No. 2 (Extracts, June 2025)",
+    "link": "https://www.cia.gov/resources/csi/studies-in-intelligence/studies-in-intelligence-69-no-2-extracts-june-2025",
+    "date": "2025-06-01",
+    "summary": "Nouveau numéro de la revue du Center for the Study of Intelligence (CIA) : sommaire et PDF sur la page du numéro.",
+    "source": "CIA - Studies in Intelligence",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-05T17:44:26.621749+00:00"
+  },
+  {
     "id": "269722c01414c1a4",
     "title": "Business Strategy in a Fragmenting World: Firms, States, and Civil Society - IRSEM",
     "link": "https://www.irsem.fr/agenda/business-strategy-in-a-fragmenting-world-firms-states-and-civil-society-1.html",
@@ -4676,5 +5597,611 @@
       "military"
     ],
     "fetched_at": "2026-09-27T20:41:04.991715+00:00"
+  },
+  {
+    "id": "c537a7356bb17650",
+    "title": "Espace 1h45min de lecture Étude 123 - 05/2025 La guerre des fréquences – Vers une marchandisation de la ressource spectre/orbite ? CNE Béatrice Hainaut",
+    "link": "https://www.irsem.fr/publications/la-guerre-des-frequences-vers-une-marchandisation-de-la-ressource-spectreorbite",
+    "date": "2025-05-01",
+    "summary": "Étude 123 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.942554+00:00"
+  },
+  {
+    "id": "d626bbea1264776b",
+    "title": "Droit 8 min de lecture Brève stratégique 83 - 04/2025 Annonces des retraits des Conventions d’Ottawa et d’Oslo : un signal inquiétant Julia Grignon, Inès Bouffartigue-Sebastia",
+    "link": "https://www.irsem.fr/publications/annonces-des-retraits-des-conventions-dottawa-et-doslo-un-signal-inquietant",
+    "date": "2025-04-01",
+    "summary": "Brève stratégique 83 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.944418+00:00"
+  },
+  {
+    "id": "015cf3a6fb70f988",
+    "title": "Stratégie Défense 1h51min de lecture Étude 122 - 04/2025 Quand la Chine frappe à la porte de la Nouvelle-Calédonie Anne-Marie Brady",
+    "link": "https://www.irsem.fr/publications/quand-la-chine-frappe-a-la-porte-de-la-nouvelle-caledonie",
+    "date": "2025-04-01",
+    "summary": "Étude 122 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "china",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.945907+00:00"
+  },
+  {
+    "id": "aa1bc1b96ff00f02",
+    "title": "Influence Stratégie 42 min de lecture Note de recherche 147 - 04/2025 L’aide américaine à l’Ukraine. Modalités, acteurs du soutien et perspectives face à Trump II Gabriel Porc",
+    "link": "https://www.irsem.fr/publications/laide-americaine-a-lukraine-modalites-acteurs-du-soutien-et-perspectives-face-a-trump-ii",
+    "date": "2025-04-01",
+    "summary": "Note de recherche 147 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.947785+00:00"
+  },
+  {
+    "id": "97326602d395b0bb",
+    "title": "Influence Environment 7 min de lecture Strategic Brief 82 - 03/2025 The Belt and Road Initiative in Central Asia: Trade, Influence and Rivalries Marie Hiliquin",
+    "link": "https://www.irsem.fr/publications/the-belt-and-road-initiative-in-central-asia-trade-influence-and-rivalries-1",
+    "date": "2025-03-01",
+    "summary": "Publication de l'IRSEM.",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.949524+00:00"
+  },
+  {
+    "id": "122b82c861992905",
+    "title": "Influence Histoire 7 min de lecture Brève stratégique 81 - 03/2025 Trump, Poutine et l’arsenalisation du révisionnisme historique. Réécrire la fin de la guerre froide et redéfinir l’ordre mondial Maud Quessard",
+    "link": "https://www.irsem.fr/publications/trump-poutine-et-larsenalisation-du-revisionnisme-historique-reecrire-la-fin-de-la-guerre-froide-et-redefinir-lordre-mondial",
+    "date": "2025-03-01",
+    "summary": "Brève stratégique 81 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.951616+00:00"
+  },
+  {
+    "id": "bc4636b4c3d89064",
+    "title": "Environnement 8 min de lecture Brève stratégique 80 - 03/2025 Les mesures de l’administration Trump 2 à l’égard des sciences : quelles conséquences pour la sécurité climatique ? Marine De Guglielmo Weber",
+    "link": "https://www.irsem.fr/publications/les-mesures-de-ladministration-trump-2-a-legard-des-sciences-quelles-consequences-pour-la-securite-climatique",
+    "date": "2025-03-01",
+    "summary": "Brève stratégique 80 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.953677+00:00"
+  },
+  {
+    "id": "0d2788b9a01c7a81",
+    "title": "Politique 8 min de lecture Brève stratégique 79 - 03/2025 Riyad et l'administration Trump 2 Fatiha Dazi-Héni",
+    "link": "https://www.irsem.fr/publications/riyad-et-ladministration-trump-2",
+    "date": "2025-03-01",
+    "summary": "Brève stratégique 79 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.955099+00:00"
+  },
+  {
+    "id": "c37e52b9df87d874",
+    "title": "Société 51 min de lecture Note de recherche 146 - 03/2025 Les pratiques chinoises d'ensemencement des nuages sur le plateau tibétain Marine de Guglielmo Weber, Amrita Jash",
+    "link": "https://www.irsem.fr/publications/les-pratiques-chinoises-densemencement-des-nuages-sur-le-plateau-tibetain",
+    "date": "2025-03-01",
+    "summary": "Note de recherche 146 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "china",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.956941+00:00"
+  },
+  {
+    "id": "9b7ff96171cf772b",
+    "title": "Société Stratégie 2h41min de lecture Étude 121 - 03/2025 Les wargames dans la formation de l'officier CNE Yves Auffret",
+    "link": "https://www.irsem.fr/publications/les-wargames-dans-la-formation-de-lofficier",
+    "date": "2025-03-01",
+    "summary": "Étude 121 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.958344+00:00"
+  },
+  {
+    "id": "ded6176049831145",
+    "title": "Studies in Intelligence 69, No. 1 (Extracts, March 2025)",
+    "link": "https://www.cia.gov/resources/csi/studies-in-intelligence/studies-in-intelligence-69-no-1-extracts-march-2025",
+    "date": "2025-03-01",
+    "summary": "Nouveau numéro de la revue du Center for the Study of Intelligence (CIA) : sommaire et PDF sur la page du numéro.",
+    "source": "CIA - Studies in Intelligence",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-05T17:44:26.623230+00:00"
+  },
+  {
+    "id": "696d606548d284a5",
+    "title": "Stratégie 7 min de lecture Brève stratégique 78 - 02/2025 The European Union and Trump 2.0: Principled Pragmatism and Strategic Patience Brice Didier",
+    "link": "https://www.irsem.fr/publications/The%20European%20Union%20and%20Trump%202.0:%20Principled%20Pragmatism%20and%20Strategic%20Patience",
+    "date": "2025-02-01",
+    "summary": "Brève stratégique 78 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.960030+00:00"
+  },
+  {
+    "id": "f236ff2c360b8f99",
+    "title": "Stratégie 7 min de lecture Brève stratégique 77 - 01/2025 The European Union and Trump 2.0: Transatlantic Rupture and Strategic Autonomy Brice Didier",
+    "link": "https://www.irsem.fr/publications/the-european-union-and-trump-20-transatlantic-rupture-and-strategic-autonomy-1-1",
+    "date": "2025-01-01",
+    "summary": "Brève stratégique 77 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.961698+00:00"
+  },
+  {
+    "id": "953e817dd99b1682",
+    "title": "Influence Stratégie 7 min de lecture Brève stratégique 76 - 01/2025 Smart Power: Foreign Policy Signalling of Taiwan under the Tsai Administration",
+    "link": "https://www.irsem.fr/publications/smart-power-foreign-policy-signalling-of-taiwan-under-the-tsai-administration-1",
+    "date": "2025-01-01",
+    "summary": "Brève stratégique 76 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "china",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.963377+00:00"
+  },
+  {
+    "id": "14707db7c3207d80",
+    "title": "Studies in Intelligence 68, No. 5 (Special Edition, IRTPA 20 Years On, December 2024)",
+    "link": "https://www.cia.gov/resources/csi/studies-in-intelligence/studies-in-intelligence-68-no-5-special-edition-irtpa-20-years-on-december-2024",
+    "date": "2024-12-01",
+    "summary": "Nouveau numéro de la revue du Center for the Study of Intelligence (CIA) : sommaire et PDF sur la page du numéro.",
+    "source": "CIA - Studies in Intelligence",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-05T17:44:26.625031+00:00"
+  },
+  {
+    "id": "cc18194b8f3bcb59",
+    "title": "Studies in Intelligence 68, No. 4 (Special Media Reviews, December 2024)",
+    "link": "https://www.cia.gov/resources/csi/studies-in-intelligence/studies-in-intelligence-68-no-4-special-media-reviews-december-2024",
+    "date": "2024-12-01",
+    "summary": "Nouveau numéro de la revue du Center for the Study of Intelligence (CIA) : sommaire et PDF sur la page du numéro.",
+    "source": "CIA - Studies in Intelligence",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-05T17:44:26.626698+00:00"
+  },
+  {
+    "id": "dec576b79dc8ee8b",
+    "title": "Société Politique 7 min de lecture Brève stratégique 75 - 11/2024 L’arsenalisation de la masculinité dans la campagne électorale de Donald Trump Projet de genre masculiniste et risque sécuritaire Florent Opillard",
+    "link": "https://www.irsem.fr/publications/larsenalisation-de-la-masculinite-dans-la-campagne-electorale-de-donald-trump-projet-de-genre-masculiniste-et-risque-securitaire",
+    "date": "2024-11-01",
+    "summary": "Brève stratégique 75 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.965476+00:00"
+  },
+  {
+    "id": "e544384d5ff371fb",
+    "title": "Stratégie Sécurité 8 min de lecture Brève stratégique 74 - 10/2024 Quelles options pour l’opération terrestre au Liban ? GBR (2) Olivier Passot",
+    "link": "https://www.irsem.fr/publications/quelles-options-pour-loperation-terrestre-au-liban",
+    "date": "2024-10-01",
+    "summary": "Brève stratégique 74 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.967139+00:00"
+  },
+  {
+    "id": "544ce4d76aca6d47",
+    "title": "Influence Stratégie 1h40min de lecture Étude 120 - 10/2024 Les ambitions de la Russie et de la Chine en Méditerranée Céline Marangé, Carine Pina",
+    "link": "https://www.irsem.fr/publications/les-ambitions-de-la-russie-et-de-la-chine-en-mediterranee",
+    "date": "2024-10-01",
+    "summary": "Étude 120 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.968739+00:00"
+  },
+  {
+    "id": "a3fda3b46bf173b5",
+    "title": "Sécurité 1h38min de lecture Étude 119 - 10/2024 À bas le néocolonialisme ! » - Résurgence d’un récit stratégique dans la Russie en guerre Maxime Audinet",
+    "link": "https://www.irsem.fr/publications/a-bas-le-neocolonialisme-resurgence-dun-recit-strategique-dans-la-russie-en-guerre",
+    "date": "2024-10-01",
+    "summary": "Étude 119 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.970392+00:00"
+  },
+  {
+    "id": "90161e219d1e09c1",
+    "title": "Politique 48 min de lecture Note de recherche 145 - 10/2024 L'administration Biden et le retour empêché des États-Unis à la primauté Maud Quessard",
+    "link": "https://www.irsem.fr/publications/ladministration-biden-et-le-retour-empeche-des-etats-unis-a-la-primaute-1",
+    "date": "2024-10-01",
+    "summary": "Note de recherche 145 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.972075+00:00"
+  },
+  {
+    "id": "aa95210d9d8fd56f",
+    "title": "Stratégie Histoire 3h49min de lecture Étude 118 - 09/2024 Les Houthistes et la mer Rouge Alexandre Lauret",
+    "link": "https://www.irsem.fr/publications/les-houthistes-et-la-mer-rouge",
+    "date": "2024-09-01",
+    "summary": "Étude 118 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.973337+00:00"
+  },
+  {
+    "id": "ab2d732f2047e3b9",
+    "title": "Politique 7 min de lecture Brève stratégique 73 - 09/2024 La crise géorgienne de 2024 : Un défi pour la coopération européenne Ariane Bachelet",
+    "link": "https://www.irsem.fr/publications/la-crise-georgienne-de-2024-un-defi-pour-la-cooperation-europeenne",
+    "date": "2024-09-01",
+    "summary": "Brève stratégique 73 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.974979+00:00"
+  },
+  {
+    "id": "38a920a83506edbc",
+    "title": "Studies in Intelligence 68, No. 3 (Extracts, September 2024)",
+    "link": "https://www.cia.gov/resources/csi/studies-in-intelligence/studies-in-intelligence-68-no-3-extracts-september-2024",
+    "date": "2024-09-01",
+    "summary": "Nouveau numéro de la revue du Center for the Study of Intelligence (CIA) : sommaire et PDF sur la page du numéro.",
+    "source": "CIA - Studies in Intelligence",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-05T17:44:26.628250+00:00"
+  },
+  {
+    "id": "f4de68bd36c8bfe0",
+    "title": "Défense Sécurité 31 min de lecture Note de recherche 144 - 07/2024 La stratégie nationale de sécurité allemande : rupture ou continuité stratégique ? Jéronimo L. S. Barbin",
+    "link": "https://www.irsem.fr/publications/la-strategie-nationale-de-securite-allemande-rupture-ou-continuite-strategique",
+    "date": "2024-07-01",
+    "summary": "Note de recherche 144 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.976781+00:00"
+  },
+  {
+    "id": "35e05b37559b4396",
+    "title": "Stratégie Défense 1h10min de lecture Étude 117 - 06/2024 La Marine Turque : un atout militaire pour l'OTAN ? CC Mayeul Pappens",
+    "link": "https://www.irsem.fr/publications/la-marine-turque-un-atout-militaire-pour-lotan",
+    "date": "2024-06-01",
+    "summary": "Étude 117 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.978237+00:00"
+  },
+  {
+    "id": "f8df5a7f9ab522eb",
+    "title": "Économie Environnement 7 min de lecture Brève stratégique 72 - 06/2024 L’exploitation des ressources minières des grands fonds marins internationaux dans le Pacifique : Le rêve de Nauru, de la Chine… et des États-Unis Carine Pina, Nolwenn Gueguen",
+    "link": "https://www.irsem.fr/publications/lexploitation-des-ressources-minieres-des-grands-fonds-marins-internationaux-dans-le-pacifique-le-reve-de-nauru-de-la-chine-et-des-etats-unis",
+    "date": "2024-06-01",
+    "summary": "Brève stratégique 72 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.980589+00:00"
+  },
+  {
+    "id": "51e9e2ec268cbb54",
+    "title": "Cyber Politique Droit 7 min de lecture Brève stratégique 71 - 06/2024 Plateformes alternatives et désinformation : Odyssee, un angle mort du Digital Service Act Dusan Bozalka",
+    "link": "https://www.irsem.fr/publications/plateformes-alternatives-et-desinformation-odyssee-un-angle-mort-du-digital-service-act",
+    "date": "2024-06-01",
+    "summary": "Brève stratégique 71 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "intelligence",
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.982388+00:00"
+  },
+  {
+    "id": "801a880a2f973367",
+    "title": "Cyber Droit 8 min de lecture Brève stratégique 70 - 06/2024 Extension de la loi FISA : La « souveraineté numérique » européenne loin des préoccupations américaines Clotilde Bômont",
+    "link": "https://www.irsem.fr/publications/extension-de-la-loi-fisa-la-souverainete-numerique-europeenne-loin-des-preoccupations-americaines",
+    "date": "2024-06-01",
+    "summary": "Brève stratégique 70 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.984284+00:00"
+  },
+  {
+    "id": "230789fdabf298b1",
+    "title": "Studies in Intelligence 68, No. 2 (June 2024)",
+    "link": "https://www.cia.gov/resources/csi/studies-in-intelligence/studies-in-intelligence-68-no-2-june-2024",
+    "date": "2024-06-01",
+    "summary": "Nouveau numéro de la revue du Center for the Study of Intelligence (CIA) : sommaire et PDF sur la page du numéro.",
+    "source": "CIA - Studies in Intelligence",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-05T17:44:26.629659+00:00"
+  },
+  {
+    "id": "e35252abdb72bb67",
+    "title": "Espace 7 min de lecture Brève stratégique 69 - 05/2024 Les ambitions spatiales de la Corée du Sud : de l’émergence du pays à « l’Alliance spatiale » avec les États-Unis Julien Cochet",
+    "link": "https://www.irsem.fr/publications/les-ambitions-spatiales-de-la-coree-du-sud-de-lemergence-du-pays-a-lalliance-spatiale-avec-les-etats-unis",
+    "date": "2024-05-01",
+    "summary": "Brève stratégique 69 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.986223+00:00"
+  },
+  {
+    "id": "dee7626938eefd1f",
+    "title": "Droit Environnement 8 min de lecture Brève stratégique 68 - 05/2024 La Russie dénoncera-t-elle la Convention des Nations unies sur le droit de la mer (CNUDM) ? Lukas B. Wahden",
+    "link": "https://www.irsem.fr/publications/la-russie-denoncera-t-elle-la-convention-des-nations-unies-sur-le-droit-de-la-mer-cnudm",
+    "date": "2024-05-01",
+    "summary": "Brève stratégique 68 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.988095+00:00"
+  },
+  {
+    "id": "a0bc333b008d09ed",
+    "title": "Société 1h34min de lecture Étude 116 - 04/2024 Les jeunes et la guerre : représentations et dispositions à l'engagement Anne Muxel",
+    "link": "https://www.irsem.fr/publications/les-jeunes-et-la-guerre-representations-et-dispositions-a-lengagement",
+    "date": "2024-04-01",
+    "summary": "Étude 116 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.989579+00:00"
+  },
+  {
+    "id": "4f8fa96bcbc24864",
+    "title": "Défense 32 min de lecture Note de recherche 142 - 03/2024 La guerre à Gaza et le retour de la question palestinienne : quels impacts sur le rôle de l'Arabie saoudite et sur les accords Abraham ? Fatiha Dazi-Héni",
+    "link": "https://www.irsem.fr/publications/la-guerre-a-gaza-et-le-retour-de-la-question-palestinienne-quels-impacts-sur-le-role-de-larabie-saoudite-et-sur-les-accords-abraham",
+    "date": "2024-03-01",
+    "summary": "Note de recherche 142 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.994205+00:00"
+  },
+  {
+    "id": "a186bcde0285587f",
+    "title": "Défense Sécurité 1h13min de lecture Étude 115 - 03/2024 La Chine et les opérations militaires autres que la guerre (军队非战争军事行动) à l’étranger : quelles conséquences sur le dilemme de sécurité ? Carine Pina",
+    "link": "https://www.irsem.fr/publications/la-chine-et-les-operations-militaires-autres-que-la-guerre-a-letranger-quelles-consequences-sur-le-dilemme-de-securite",
+    "date": "2024-03-01",
+    "summary": "Étude 115 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "china",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.996443+00:00"
+  },
+  {
+    "id": "69e99b2a76e15607",
+    "title": "Stratégie 51 min de lecture Note de recherhe 141 - 02/2024 Big words, small deeds Russia and China in the Arctic Lukas B. Wahden",
+    "link": "https://www.irsem.fr/publications/big-words-small-deeds-russia-and-china-in-the-arctic",
+    "date": "2024-02-01",
+    "summary": "Publication de l'IRSEM.",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.997942+00:00"
+  },
+  {
+    "id": "cf7e13bc021d94c5",
+    "title": "Défense 41 min de lecture Note de recherche 140 - 02/2024 The Korean defense industry enters the European security theater an analysis of Korea-Poland arms deals Wooyeal Paik",
+    "link": "https://www.irsem.fr/publications/the-korean-defense-industry-enters-the-european-security-theater-an-analysis-of-korea-poland-arms-deals",
+    "date": "2024-02-01",
+    "summary": "Note de recherche 140 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:03.999768+00:00"
+  },
+  {
+    "id": "86dbbf8f84800226",
+    "title": "Influence Politique 1h39min de lecture Étude 114 - 02/2024 Ce que veulent les grandes puissances : La quête de statut de la Chine et l’avenir de l’ordre international Elie Baranets",
+    "link": "https://www.irsem.fr/publications/ce-que-veulent-les-grandes-puissances-la-quete-de-statut-de-la-chine-et-lavenir-de-lordre-international",
+    "date": "2024-02-01",
+    "summary": "Étude 114 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "china",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:04.001620+00:00"
+  },
+  {
+    "id": "f27dd458906147f9",
+    "title": "Société Sécurité 47 min de lecture Étude 113 - 01/2024 Gendarmerie nationale et Guardia civil ; la coopération tous azimuts CNE Louis Vailhen",
+    "link": "https://www.irsem.fr/publications/gendarmerie-nationale-et-guardia-civil-la-cooperation-tous-azimuts",
+    "date": "2024-01-01",
+    "summary": "Étude 113 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:04.003216+00:00"
+  },
+  {
+    "id": "118a5f70d37f376b",
+    "title": "Influence Stratégie 2h16min de lecture Étude 112 - 12/2023 La guerre en Ukraine, un nouveau contexte stratégique pour la Turquie ? Sümbül Kaya",
+    "link": "https://www.irsem.fr/publications/la-guerre-en-ukraine-un-nouveau-contexte-strategique-pour-la-turquie",
+    "date": "2023-12-01",
+    "summary": "Étude 112 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:04.004857+00:00"
+  },
+  {
+    "id": "2f724c484cb715d8",
+    "title": "Espace Droit 3h1min de lecture Étude 111 - 11/2023 Le droit des conflits armés internationaux appliqué à l'espace extra-atmosphérique. Les défis posés par les satellites artificiels. Jennifer Lachance",
+    "link": "https://www.irsem.fr/publications/le-droit-des-conflits-armes-internationaux-applique-a-lespace-extra-atmospherique-les-defis-poses-par-les-satellites-artificiels",
+    "date": "2023-11-01",
+    "summary": "Étude 111 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "fetched_at": "2026-10-05T17:44:04.006756+00:00"
+  },
+  {
+    "id": "99c9bbe1aa05cd76",
+    "title": "Espace Droit 2h51min de lecture Étude 110 - 11/2023 L'établissement de normes de comportement dans l'espace extra-atmosphérique. De la Terre à la Lune, et au-delà. CNE Béatrice Hainaut",
+    "link": "https://www.irsem.fr/publications/letablissement-de-normes-de-comportement-dans-lespace-extra-atmospherique-de-la-terre-a-la-lune-et-au-dela",
+    "date": "2023-11-01",
+    "summary": "Étude 110 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:04.008694+00:00"
+  },
+  {
+    "id": "42018e6ef796b386",
+    "title": "Stratégie Sécurité 8 min de lecture Brève stratégique 67 - 11/2023 Une barrière trop intelligente ? Comment le Hamas s’est joué d’un système de protection très élaboré. GBR (2S) Olivier Passot",
+    "link": "https://www.irsem.fr/publications/une-barriere-trop-intelligente-comment-le-hamas-sest-joue-dun-systeme-de-protection-tres-elabore",
+    "date": "2023-11-01",
+    "summary": "Brève stratégique 67 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:44:04.010780+00:00"
   }
 ]
