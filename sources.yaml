@@ -88,14 +88,14 @@
   url: "https://www.irsem.fr/publications"
   parser: irsem
   region: fr
-  default_themes: [military]   # defence research institute: always relevant;
-                               # keywords add intelligence / energy when they match
-  max_pages: 2
-  initial_limit: 10
+  max_pages: 1            # page 1 holds the latest ~12 publications; enough for a daily fetch
+  initial_limit: 6
   stale_after_days: 60
-  # No RSS feed. The old Bluesky route only returned 1 item in a year (the
-  # account rarely links to irsem.fr). Scraper written from the listing's
-  # structure (publication links, dd/mm/yyyy or mm/yyyy dates); untested live.
+  # IRSEM's own category labels decide the theme (Défense/Sécurité/Stratégie/
+  # Influence -> Défense, Renseignement -> Renseignement, Énergie/Espace ->
+  # Énergie & Infrastructures). Categories below are ignored.
+  skip_categories: [droit, société, histoire, environnement]
+  # No RSS feed. Scraper written from the listing's text layout; untested live.
 
 # --- EU ----------------------------------------------------------------
 - name: "EUISS"
