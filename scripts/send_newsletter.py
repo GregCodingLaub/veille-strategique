@@ -15,8 +15,13 @@ Two modes
       neither state.json nor newsletter_log.json: run it as often as needed.
 
 Environment (GitHub Actions secrets)
-  RESEND_API_KEY      Resend API key. Missing -> dry run (prints, sends nothing).
-  RESEND_TO_EMAIL     the owner's address (always receives every edition).
+  Transport (one of the two; SMTP wins when SMTP_USER and SMTP_PASSWORD are set):
+    SMTP_USER, SMTP_PASSWORD   e.g. a dedicated Gmail account + its "app password".
+    SMTP_FROM_NAME             display name (default "Veille stratégique").
+    SMTP_HOST, SMTP_PORT       default smtp.gmail.com, 465 (SSL).
+    RESEND_API_KEY             Resend API key (needs a verified domain for peers).
+  Neither configured -> dry run (prints, sends nothing).
+  OWNER_EMAIL         (or RESEND_TO_EMAIL) the owner's address, always receives every edition.
   RESEND_FROM_EMAIL   sender. "onboarding@resend.dev" only delivers to the
                       Resend account owner: with it, peers are NOT contacted
                       (a warning is printed). Verify a domain on Resend to
@@ -33,10 +38,14 @@ Exit code: 1 if any send failed, so the run is visibly red; the workflow
 still commits whatever state was saved.
 """
 import os
+import smtplib
+import ssl
 import sys
 import time
 import traceback
 from datetime import datetime, timedelta, timezone
+from email.message import EmailMessage
+from email.utils import formataddr, formatdate, make_msgid
 
 import requests
 
@@ -104,6 +113,78 @@ def _post(url, api_key, payload, attempts=2):
     return False, last
 
 
+def smtp_settings():
+    user, pw = os.environ.get("SMTP_USER"), os.environ.get("SMTP_PASSWORD")
+    if not (user and pw):
+        return None
+    return {"user": user, "password": pw,
+            "name": os.environ.get("SMTP_FROM_NAME") or "Veille stratégique",
+            "host": os.environ.get("SMTP_HOST") or "smtp.gmail.com",
+            "port": int(os.environ.get("SMTP_PORT") or 465)}
+
+
+def to_mime(msg, sender):
+    """Resend-style payload dict -> email.message.EmailMessage."""
+    m = EmailMessage()
+    m["From"] = sender
+    m["To"] = ", ".join(msg["to"])
+    m["Subject"] = msg["subject"]
+    m["Date"] = formatdate(localtime=False)
+    m["Message-ID"] = make_msgid(domain=sender.rsplit("@", 1)[-1].rstrip(">"))
+    if msg.get("reply_to"):
+        m["Reply-To"] = msg["reply_to"]
+    for k, v in (msg.get("headers") or {}).items():
+        m[k] = v
+    m.set_content(msg.get("text") or "")
+    if msg.get("html"):
+        m.add_alternative(msg["html"], subtype="html")
+    return m
+
+
+def send_smtp(cfg, messages):
+    """Send over one SSL connection (re-opened once if the server drops it).
+    Returns (n_sent, [errors])."""
+    sender = formataddr((cfg["name"], cfg["user"]))
+    sent, errors = 0, []
+    server = None
+    try:
+        for msg in messages:
+            for attempt in (1, 2):
+                try:
+                    if server is None:
+                        server = smtplib.SMTP_SSL(cfg["host"], cfg["port"], timeout=30,
+                                                  context=ssl.create_default_context())
+                        server.login(cfg["user"], cfg["password"])
+                    server.send_message(to_mime(msg, sender))
+                    sent += 1
+                    break
+                except smtplib.SMTPServerDisconnected:
+                    server = None
+                    if attempt == 2:
+                        errors.append(f"{msg['to']}: connection lost")
+                except smtplib.SMTPAuthenticationError as e:
+                    errors.append(f"login refused ({e.smtp_code}): check SMTP_USER / app password")
+                    return sent, errors
+                except (smtplib.SMTPException, OSError) as e:
+                    errors.append(f"{msg['to']}: {e}")
+                    break
+            time.sleep(0.4)
+    finally:
+        if server is not None:
+            try:
+                server.quit()
+            except (smtplib.SMTPException, OSError):
+                pass
+    return sent, errors
+
+
+def deliver(ctx, messages):
+    """Send through the configured transport. Returns (n_sent, [errors])."""
+    if ctx["smtp"]:
+        return send_smtp(ctx["smtp"], messages)
+    return send_messages(ctx["api_key"], messages)
+
+
 def send_messages(api_key, messages):
     """Send a list of Resend payloads (batches of 100, falling back to single
     sends if a batch is refused). Returns (n_sent, [errors])."""
@@ -161,7 +242,7 @@ def send_theme(theme, ctx):
                f"{len(items)} publication{'s' if len(items) > 1 else ''}")
 
     if ctx["dry_run"]:
-        print(f"[{theme}] DRY RUN (no RESEND_API_KEY / RESEND_TO_EMAIL): would send {len(items)} items "
+        print(f"[{theme}] DRY RUN (no mail transport / owner address configured): would send {len(items)} items "
               f"(+{overflow} held back) to owner + {len(ctx['peers'].get(theme, []))} peer(s).")
         if ctx.get("dump_dir"):
             os.makedirs(ctx["dump_dir"], exist_ok=True)
@@ -172,15 +253,18 @@ def send_theme(theme, ctx):
         return True
 
     owner = ctx["owner"]
-    peers = [] if test else sorted({e for e in ctx["peers"].get(theme, []) if e.lower() != owner.lower()})
+    all_peers = sorted({e for e in ctx["peers"].get(theme, []) if e.lower() != owner.lower()})
+    peers = [] if test else all_peers
+    if test:
+        print(f"[{theme}] test: {len(all_peers)} peer(s) would receive the official edition (none contacted).")
     if peers and not ctx["can_write_to_peers"]:
         print(f"[{theme}] WARNING: sender is {ctx['from_email']}: Resend only delivers to the account owner "
-              f"with it. {len(peers)} peer(s) NOT contacted. Verify a domain on resend.com/domains.")
+              f"with it. {len(peers)} peer(s) NOT contacted. Verify a domain on resend.com/domains, or use SMTP_*.")
         peers = []
 
     messages = build_messages(subject, html, text, ctx["from_email"], owner, peers,
                               owner, ctx["unsubscribe_url"])
-    sent, errors = send_messages(ctx["api_key"], messages)
+    sent, errors = deliver(ctx, messages)
     ctx["emails_sent"] += sent
     if errors:
         for e in errors:
@@ -221,21 +305,23 @@ def send_health_alert(ctx):
     msg = {"from": ctx["from_email"], "to": [ctx["owner"]],
            "subject": f"{'[TEST] ' if ctx['test'] else ''}Veille : {len(problems)} source(s) à vérifier",
            "html": html, "text": text}
-    ok, info = _post(RESEND_URL, ctx["api_key"], msg)
-    if not ok:
-        print(f"Health alert not sent: {info}")
+    n, errs = deliver(ctx, [msg])
+    if not n:
+        print(f"Health alert not sent: {errs}")
 
 
 def main():
     test = "--test" in sys.argv
     api_key = os.environ.get("RESEND_API_KEY")
-    owner = os.environ.get("RESEND_TO_EMAIL")
-    from_email = os.environ.get("RESEND_FROM_EMAIL") or "onboarding@resend.dev"
-    dry_run = not (api_key and owner)
+    smtp = smtp_settings()
+    owner = os.environ.get("OWNER_EMAIL") or os.environ.get("RESEND_TO_EMAIL")
+    from_email = smtp["user"] if smtp else (os.environ.get("RESEND_FROM_EMAIL") or "onboarding@resend.dev")
+    dry_run = not ((api_key or smtp) and owner)
+    print(f"Transport: {'SMTP (' + smtp['host'] + ')' if smtp else 'Resend' if api_key else 'none (dry run)'}")
     if test:
         print("TEST MODE: owner only; state and edition log untouched.")
 
-    peers = {} if test else load_peer_recipients()
+    peers = load_peer_recipients()   # also in test mode: only to report who WOULD receive it
     n_peers = len({e for v in peers.values() for e in v})
     if n_peers:
         n_msgs = sum(1 + len(peers.get(t, [])) for t in THEME_ORDER)
@@ -244,7 +330,7 @@ def main():
             print(f"WARNING: {n_msgs} emails > Resend free daily limit (100). Reduce the list or upgrade the plan.")
 
     ctx = {
-        "test": test, "dry_run": dry_run, "api_key": api_key, "owner": owner,
+        "test": test, "dry_run": dry_run, "api_key": api_key, "smtp": smtp, "owner": owner,
         "from_email": from_email, "state": load_state(), "items": load_items(),
         "log": load_newsletter_log(), "peers": peers, "emails_sent": 0,
         "site_url": os.environ.get("SITE_URL") or DEFAULT_SITE_URL,
