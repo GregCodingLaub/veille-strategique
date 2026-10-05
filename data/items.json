@@ -57,6 +57,104 @@
     "fetched_at": "2026-10-05T15:25:57.056617+00:00"
   },
   {
+    "id": "d4e0b661d60a9d26",
+    "title": "US Army tests counter-drone tech at Mexican border as cartel drone use rises",
+    "link": "https://www.defensenews.com/news/your-military/2026/10/05/us-army-tests-counter-drone-tech-at-mexican-border-as-cartel-drone-use-rises",
+    "date": "2026-10-05",
+    "summary": "The service is seeking to sharpen its defenses against the growing threat of drone use by cartels.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:56.032938+00:00"
+  },
+  {
+    "id": "cfe8bf2afb808d35",
+    "title": "Germany pledges $1.1B military aid package to Ukraine flush with drone interceptors",
+    "link": "https://breakingdefense.com/2026/10/germany-pledges-1-1-b-military-aid-package-to-ukraine-flush-with-drone-interceptors",
+    "date": "2026-10-05",
+    "summary": "“Russia must know that we will take steps to defend ourselves against any further escalation,” said German Chancellor Friedrich Merz.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:57.275932+00:00"
+  },
+  {
+    "id": "5269c656b70fb6f3",
+    "title": "What are humanoid robots actually for on the battlefield?",
+    "link": "https://breakingdefense.com/2026/10/what-are-humanoid-robots-actually-for-on-the-battlefield",
+    "date": "2026-10-05",
+    "summary": "Despite their cinematic, sci-fi allure, humanoid robots could potentially address real manpower and survivability problems, a former Turkish general argues.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:57.277021+00:00"
+  },
+  {
+    "id": "5682dfaf1f5328ca",
+    "title": "Ukraine grocery chain ATB confirms cyberattack as hackers threaten to leak data",
+    "link": "https://therecord.media/atb-ukraine-cyberattack-ransomware",
+    "date": "2026-10-05",
+    "summary": "Ukraine’s largest grocery store chain, ATB, confirmed that it was hit by a cyberattack after hackers posted an extortion demand on its website.",
+    "source": "The Record (Recorded Future News)",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:21:13.695192+00:00"
+  },
+  {
+    "id": "0fd78a5f6e672952",
+    "title": "Belarusian hacktivists spent two years inside Russian healthcare network, researchers say",
+    "link": "https://therecord.media/belarusian-hacktivists-two-years-Russian-healthcare-network",
+    "date": "2026-10-05",
+    "summary": "Russian cybersecurity researchers attributed a quiet two-year espionage campaign to the Belarusian Cyber Partisans, a group better known for public attacks against governments and infrastructure.",
+    "source": "The Record (Recorded Future News)",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-05T17:21:13.697628+00:00"
+  },
+  {
+    "id": "55e02b5c9284e501",
+    "title": "Why an EU “associate membership” is the wrong Canada story",
+    "link": "https://www.lowyinstitute.org/the-interpreter/why-an-eu-associate-membership-is-the-wrong-canada-story",
+    "date": "2026-10-04",
+    "summary": "The label is noise but the substance is an economic security alliance that Australia should watch closely.",
+    "source": "Lowy Institute - The Interpreter",
+    "source_region": "other",
+    "subject_region": "eu",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-05T17:21:12.515040+00:00"
+  },
+  {
+    "id": "59e8e10bae14868d",
+    "title": "The Greens have squibbed it on Ukraine, abandoning a democracy under attack",
+    "link": "https://www.lowyinstitute.org/the-interpreter/the-greens-have-squibbed-it-on-ukraine-abandoning-a-democracy-under-attack",
+    "date": "2026-10-04",
+    "summary": "Opposing the arms trade is meant to stop atrocities – refusing to help Ukraine defend itself only enables one.",
+    "source": "Lowy Institute - The Interpreter",
+    "source_region": "other",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:21:12.517417+00:00"
+  },
+  {
     "id": "687d0ddee3f2d1ca",
     "title": "Carrier USS Dwight D. Eisenhower to Return to Port After Growler Mishap",
     "link": "https://news.usni.org/2026/10/03/carrier-uss-dwight-d-eisenhower-to-return-to-port-after-growler-mishap",
@@ -252,6 +350,63 @@
       "military"
     ],
     "fetched_at": "2026-10-05T15:25:59.641381+00:00"
+  },
+  {
+    "id": "cc8e28f1c81ab74e",
+    "title": "The Future of the Space Data Network: How the Pentagon Can Ensure a Competitive Marketplace",
+    "link": "https://www.csis.org/analysis/future-space-data-network-how-pentagon-can-ensure-competitive-marketplace",
+    "date": "2026-10-02",
+    "summary": "The Space Force must move quickly to build the Space Data Network, but speed should not come at the expense of competition. Matt Pearl examines how open standards, interoperability and vendor diversit...",
+    "source": "CSIS",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:46.691754+00:00"
+  },
+  {
+    "id": "e63d104cdf81a459",
+    "title": "In Ukraine, data centers ‘facing increased attacks’ in recent weeks: Ex-official",
+    "link": "https://breakingdefense.com/2026/10/in-ukraine-data-centers-facing-increased-attacks-in-recent-weeks-ex-official",
+    "date": "2026-10-02",
+    "summary": "“Naturally, you cannot move everything underground. … So an important aspect is boosting Ukrainian anti-ballistic and anti-drone capabilities, which are already in critically short supply,” Kateryna Chernohorenko, Ukraine’s former deputy minister of defense for digital transformation, told Breaking Defense.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "fetched_at": "2026-10-05T17:20:57.280696+00:00"
+  },
+  {
+    "id": "53bd7c7228103d2a",
+    "title": "What the US gains by keeping a military presence in Kosovo",
+    "link": "https://www.atlanticcouncil.org/dispatches/what-the-us-gains-by-keeping-a-military-presence-in-kosovo",
+    "date": "2026-10-02",
+    "summary": "A US withdrawal would be read as disengagement from the Western Balkans and, with it, from the regional security architecture that it helped shape.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:21:07.724977+00:00"
+  },
+  {
+    "id": "676194eef369ee4a",
+    "title": "The risks of the strategic petroleum reserve’s four-decade low",
+    "link": "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/the-risks-of-the-strategic-petroleum-reserves-four-decade-low",
+    "date": "2026-10-02",
+    "summary": "The US Strategic Petroleum Reserve has reached a historic low. As oil markets continue to tighten, refilling the reserve will become increasingly difficult.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "fetched_at": "2026-10-05T17:21:07.726172+00:00"
   },
   {
     "id": "b5603bd846c353b4",
@@ -492,6 +647,175 @@
     "fetched_at": "2026-10-05T15:26:02.942129+00:00"
   },
   {
+    "id": "9e733fc7f483f8a6",
+    "title": "Bewitched sleep: Russians’ views on Ukraine and the world – European Council on Foreign Relations",
+    "link": "https://ecfr.eu/publication/bewitched-sleep-russians-views-on-ukraine-and-the-world",
+    "date": "2026-10-01",
+    "summary": "New research shows Russians see little prospect of influencing the war in Ukraine, but expect relations with Europe to improve in the future.",
+    "source": "ECFR",
+    "source_region": "eu",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:42.982033+00:00"
+  },
+  {
+    "id": "00061539e6d2f32c",
+    "title": "Jaw-Jaw With Belarus, Revisited Amid Ukraine War",
+    "link": "https://warontherocks.com/jaw-jaw-with-belarus-revisited-amid-ukraine-war",
+    "date": "2026-10-01",
+    "summary": "In 2021, Michael Kimmage wrote, “Belarus and the Ukraine Trap,” where he argued the United States should adopt a realistic diplomatic relationship with Belarus that takes into account its strategic partnership with Russia and learns from overpromises made to Ukraine. Five years later, we asked Michael to revisit his arguments. Image: President of BelarusIn your 2021 article, you named Belarus as one of the most likely places for a war to break out between Russia and the West. Belarus became a staging ground for Russia’s invasion of Ukraine, yet a direct confrontation with NATO has not…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:47.984501+00:00"
+  },
+  {
+    "id": "4bb2893322b24458",
+    "title": "MacGyver at Scale: Winning Future Air Wars of Rapid Technological Adaptation",
+    "link": "https://warontherocks.com/cogs-of-war/macgyver-at-scale-winning-future-air-wars-of-rapid-technological-adaptation",
+    "date": "2026-10-01",
+    "summary": "During a recent training exercise in the western Pacific, a small group of engineers single-handedly saved the day.In the scenario, adversary covert forces used first-person view drones to intercept American helicopters that were shuttling between austere forward island airbases. Some helicopters were shot down, and the rest were forced to suspend flight operations, meaning the island bases were cut off from each other and from easy resupply. Fortunately, one of the U.S. bases included a small, forward-deployed team of military engineers and their equipment. They analyzed the adversary radio…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:47.988084+00:00"
+  },
+  {
+    "id": "40bd87691eedf880",
+    "title": "The PRC’s Compute Push Goes Global",
+    "link": "https://jamestown.org/the-prcs-compute-push-goes-global",
+    "date": "2026-10-01",
+    "summary": "Executive Summary: Chinese firms are languishing under a compute crunch due to U.S. export controls restricting access to high-end GPUs. Domestic manufacturers like Huawei, Cambricon, Biren Technologies, and others have yet to fill the gap. Yet, the People’s Republic of China (PRC) has not waited for these constraints to disappear before pushing its domestic computing […]",
+    "source": "Jamestown Foundation (China Brief)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-05T17:20:53.413508+00:00"
+  },
+  {
+    "id": "e83d7c1cd7d9ce6d",
+    "title": "DoD obligates $142B from reconciliation bill before deadline, leaving billions subject to cuts",
+    "link": "https://breakingdefense.com/2026/10/dod-obligates-142b-from-reconciliation-bill-before-deadline-leaving-billions-subject-to-cuts",
+    "date": "2026-10-01",
+    "summary": "Any funding from last year’s reconciliation bill left unspent by the Pentagon suffers an 8.3 percent cut known as sequestration as fiscal 2027 starts.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:57.281984+00:00"
+  },
+  {
+    "id": "5e9b0afda1901984",
+    "title": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery",
+    "link": "https://www.bellingcat.com/news/middle-east/2026/10/01/viral-google-maps-images-shared-widely-this-week-show-gaza-ruins-we-obtained-more-recent-satellite-imagery",
+    "date": "2026-10-01",
+    "summary": "Earlier this week, several viral social media posts and news articles stated that Google had updated satellite imagery over Gaza. The imagery shared in these posts and articles shows several areas, including the southern city of Rafah. Huge destruction is detailed in the images, including what appears to be entire neighbourhoods flattened But the imagery […]",
+    "source": "Bellingcat",
+    "source_region": "eu",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "intelligence",
+      "energy_industry"
+    ],
+    "fetched_at": "2026-10-05T17:20:59.990718+00:00"
+  },
+  {
+    "id": "2582dc0e6e9710ae",
+    "title": "A Leading U.S. Nuclear Negotiator of the Post-Cold War Era: Thomas Graham, Jr. (1933-2026)",
+    "link": "https://www.armscontrol.org/act/2026-10/arms-control-today/leading-us-nuclear-negotiator-post-cold-war-era-thomas-graham-jr",
+    "date": "2026-10-01",
+    "summary": "A Leading U.S. Nuclear Negotiator of the Post-Cold War Era: Thomas Graham, Jr. (1933-2026) Susan Burk",
+    "source": "Arms Control Association",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:21:01.327928+00:00"
+  },
+  {
+    "id": "1c1ba16d0e4f88ad",
+    "title": "Pentagon Acknowledges Space Weapons",
+    "link": "https://www.armscontrol.org/act/2026-10/news/pentagon-acknowledges-space-weapons",
+    "date": "2026-10-01",
+    "summary": "Pentagon Acknowledges Space Weapons Xiaodon Liang",
+    "source": "Arms Control Association",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:21:01.328452+00:00"
+  },
+  {
+    "id": "67d666cfd9106f40",
+    "title": "Putin aims to break Ukraine by terrorizing the civilian population",
+    "link": "https://www.atlanticcouncil.org/blogs/ukrainealert/putin-aims-to-break-ukraine-by-terrorizing-the-civilian-population",
+    "date": "2026-10-01",
+    "summary": "With the Russian army unable to defeat Ukraine on the battlefield, Putin is turning to terror tactics and is using ballistic missiles and jet drones in a bid to bomb Ukraine's civilian population into submission, writes Peter Dickinson.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:21:07.730486+00:00"
+  },
+  {
+    "id": "0cdc30fb3422f075",
+    "title": "Resilience has a cost. So does complacency.",
+    "link": "https://www.atlanticcouncil.org/blogs/menasource/resilience-has-a-cost-so-does-complacency",
+    "date": "2026-10-01",
+    "summary": "Gulf countries need to work together to build resilience, as they face new stresses from the Iran War.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:21:07.732899+00:00"
+  },
+  {
+    "id": "16353d05a36b277b",
+    "title": "5 questions (and expert answers) about Bosnia and Herzegovina’s election",
+    "link": "https://www.atlanticcouncil.org/content-series/eye-on-europes-elections/5-questions-and-expert-answers-about-bosnia-and-herzegovinas-election",
+    "date": "2026-10-01",
+    "summary": "Atlantic Council experts explain the players, voting system, and implications for the EU and NATO.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:21:07.734532+00:00"
+  },
+  {
+    "id": "85ebd532ffa27fef",
+    "title": "LTG David Miller Nominated as Next Leader of U.S. Space Command",
+    "link": "https://spacepolicyonline.com/news/ltg-david-miller-nominated-as-next-leader-of-u-s-space-command",
+    "date": "2026-10-01",
+    "summary": "U.S. Space Force Lieutenant General David Miller, Jr. has been nominated as the next Commander of U.S. Space Command, succeeding Gen. Stephen Whiting who will retire early next year. Yesterday, […]",
+    "source": "SpacePolicyOnline",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:21:15.264698+00:00"
+  },
+  {
     "id": "f8e1d46c9222ef5a",
     "title": "Poutine augmente la taille de l’armée russe pour la quatrième fois en six mois",
     "link": "https://legrandcontinent.eu/fr/2026/09/30/poutine-augmente-la-taille-de-larmee-russe-pour-la-quatrieme-fois-en-six-mois/",
@@ -674,6 +998,91 @@
       "military"
     ],
     "fetched_at": "2026-10-01T08:58:25.253839+00:00"
+  },
+  {
+    "id": "2e5a89aa6fcf54d4",
+    "title": "Rated Ready is Not Ready: What America’s Korea Exercises Actually Measure",
+    "link": "https://warontherocks.com/rated-ready-is-not-ready-what-americas-korea-exercises-actually-measure",
+    "date": "2026-09-30",
+    "summary": "“We want to stop the North Koreans as far from Pusan as we can. Block the main road as far north as possible. Contact General Church. If you can’t locate him, go to Taejon and beyond if you can. Sorry I can’t give you more information. That’s all I’ve got. Good luck to you, and God bless you and your men.” -Maj. Gen. William F. Dean, orders to Lt. Col. Charles B. Smith, July 1, 1950, four days before Task Force Smith was overrun at Osan.The battery I served in at Camp Casey, South Korea, the 333rd Field Artillery Target",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:47.995894+00:00"
+  },
+  {
+    "id": "9e2afa5c10b7f02c",
+    "title": "Writing the Playbook: A Strategy and Doctrine for American Economic Security",
+    "link": "https://warontherocks.com/writing-the-playbook-a-strategy-and-doctrine-for-american-economic-security",
+    "date": "2026-09-30",
+    "summary": "In January, this article series opened with a blunt question: Economic statecraft is back, but is America ready?Driving the question, in part, was the fact that the United States had not yet articulated (at least overtly) a strategy for economic statecraft. This was despite widening recognition that nations were increasingly using economic tools like tariffs and sanctions to pursue strategic objectives. U.S. awareness was particularly elevated by the realization during COVID-19 that decades of Chinese market manipulation, predatory trade behaviors, and security vulnerabilities deployed…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-05T17:20:48.000623+00:00"
+  },
+  {
+    "id": "25186975c744d653",
+    "title": "Aircraft carrier USS Harry S. Truman to undergo $5.1B mid-life overhaul",
+    "link": "https://www.defensenews.com/industry/techwatch/2026/09/30/aircraft-carrier-uss-harry-s-truman-to-undergo-51b-mid-life-overhaul",
+    "date": "2026-09-30",
+    "summary": "The aircraft carrier USS Harry S. Truman is slated to undergo a $5.1 billion overhaul that will ready the vessel for the second half of its service life.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:56.034534+00:00"
+  },
+  {
+    "id": "89825627d648551e",
+    "title": "Why the Pentagon just dropped $450M on tungsten mining",
+    "link": "https://www.defensenews.com/news/pentagon-congress/2026/09/30/why-the-pentagon-just-dropped-450m-on-tungsten-mining",
+    "date": "2026-09-30",
+    "summary": "The Pentagon recently announced a $450 million investment in The Elmet Group to strengthen the U.S. supply chain for the critical mineral tungsten.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "fetched_at": "2026-10-05T17:20:56.035466+00:00"
+  },
+  {
+    "id": "5acbf37bf1fd975b",
+    "title": "U.S. to Transfer Surveillance Aircraft to the Philippine Coast Guard",
+    "link": "https://news.usni.org/2026/09/30/u-s-to-transfer-surveillance-aircraft-to-the-philippine-coast-guard",
+    "date": "2026-09-30",
+    "summary": "MANILA, PHILIPPINES – The U.S. will transfer three King Air turboprop planes equipped for maritime domain awareness operations to the Philippine Coast Guard, the Pentagon announced Monday. Technology Service Corp. was awarded $39 million for the procurement and integration of intelligence, surveillance and reconnaissance kits onto King Air 350 Extended Range aircraft, reads the contract announcement. Two of the three aircraft will receive the ISR hardware and software modifications. Work also includes training on the surveillance suites and operation of the planes. While the contract did not…",
+    "source": "USNI News",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:58.641383+00:00"
+  },
+  {
+    "id": "efa339526b69f4df",
+    "title": "Europeanising NATO: The Defence Industry",
+    "link": "https://icds.ee/en/europeanising-nato-the-defence-industry",
+    "date": "2026-09-30",
+    "summary": "Defence industrial bases are vital for security of supply to the armed forces. Forgoing domestic production risks industrial dependency, which describes the need for imports due to a lack of industrial or technological capability, and political dependency, which reflects the unwillingness of potential exporters to supply systems, components, or spare parts.",
+    "source": "ICDS (Estonia)",
+    "source_region": "eu",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:21:11.190817+00:00"
   },
   {
     "id": "9eb78dafe89ea442",
@@ -956,6 +1365,133 @@
     "fetched_at": "2026-10-01T08:58:30.657413+00:00"
   },
   {
+    "id": "abe345149f846a50",
+    "title": "The Manhattan Project Mindset: How Nuclear Analogies Are Steering AI Policy Off Course",
+    "link": "https://warontherocks.com/the-manhattan-project-mindset-how-nuclear-analogies-are-steering-ai-policy-off-course",
+    "date": "2026-09-29",
+    "summary": "Analogies for artificial intelligence abound. In recent years, analysts have likened the development of AI to the advent of electricity, the Industrial Revolution, contact with extraterrestrials, and at least fifty other things. One analogy, however, appears to have won out over the rest: AI is like nuclear weapons.This comparison is now ubiquitous in government rhetoric, policy debates, and media accounts about AI. The risks of advanced AI are equated with the existential risk posed by nuclear weapons. There are several references to AI development as a modern-day Manhattan Project. The…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:48.004931+00:00"
+  },
+  {
+    "id": "a2cec5aecb774a16",
+    "title": "Europe needs a new strategy for Russian gray zone aggression",
+    "link": "https://www.atlanticcouncil.org/blogs/ukrainealert/europe-needs-a-new-strategy-for-russian-grey-zone-aggression",
+    "date": "2026-09-29",
+    "summary": "Europe needs a new counter-hybrid playbook, but an approach that focuses on coordinating responses after Russian attacks have already taken place is not an effective deterrent, write Maksym Beznosiuk and William Dixon.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:21:07.742435+00:00"
+  },
+  {
+    "id": "085f861d33c26745",
+    "title": "Vladimir Putin only has two options in Ukraine: Total victory or endless war",
+    "link": "https://www.atlanticcouncil.org/blogs/ukrainealert/vladimir-putin-only-has-two-options-in-ukraine-total-victory-or-endless-war",
+    "date": "2026-09-29",
+    "summary": "US-led efforts to end the Russia-Ukraine War by offering the Kremlin limited territorial concessions reflect a fundamental misunderstanding of the imperial ambitions driving Putin's invasion, writes Peter Dickinson.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:21:07.745189+00:00"
+  },
+  {
+    "id": "52e1f6e367432adf",
+    "title": "Trade and connectivity in the Europe-Gulf strategic partnership",
+    "link": "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/trade-and-connectivity-in-the-europe-gulf-strategic-partnership",
+    "date": "2026-09-29",
+    "summary": "Boosting trade between European and Gulf states requires progress on two key projects planned to connect the regions: the India-Middle East-Europe Economic Corridor, and a free trade agreement. Can the disruption caused by the Iran war provide an impetus to move these stalled projects forward?",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:21:07.748449+00:00"
+  },
+  {
+    "id": "00f3fc137e7b4b9a",
+    "title": "Three principles to guide European-Gulf defense cooperation",
+    "link": "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/three-principles-to-guide-european-gulf-defense-cooperation",
+    "date": "2026-09-29",
+    "summary": "How can Europe and Gulf cooperate more effectively on defense?",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:21:07.749041+00:00"
+  },
+  {
+    "id": "0adcb905591a1ad5",
+    "title": "How Europe and the Gulf can unite behind an energy-transition agenda",
+    "link": "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/how-europe-and-the-gulf-can-unite-behind-an-energy-transition-agenda",
+    "date": "2026-09-29",
+    "summary": "European and Gulf states share a strong interest in restoring the free flow of energy cut off by the Iran war, and in reducing their economies' exposure to chokepoints like the Strait of Hormuz. What's their best path forward?",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "fetched_at": "2026-10-05T17:21:07.750381+00:00"
+  },
+  {
+    "id": "217b126b93729301",
+    "title": "Europeanising NATO: The NB8 Model",
+    "link": "https://icds.ee/en/europeanising-nato-the-nb8-model",
+    "date": "2026-09-29",
+    "summary": "The Nordic-Baltic Eight (NB8: Denmark, Estonia, Finland, Iceland, Latvia, Lithuania, Norway, Sweden) are emerging as a model for the Europeanisation of NATO. They have enhanced their political and military cooperation significantly since 2022 to address the growing threats of Russian aggression and the US abandonment of NATO.",
+    "source": "ICDS (Estonia)",
+    "source_region": "eu",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:21:11.192496+00:00"
+  },
+  {
+    "id": "615937d1acd47bfd",
+    "title": "Moscow’s Mobilisation Message: A Multi-Layered Threat",
+    "link": "https://icds.ee/en/moscows-mobilisation-message-a-multi-layered-threat",
+    "date": "2026-09-29",
+    "summary": "There are credible signs that Russia is preparing the ground for a mobilisation. Unlike in the autumn of 2022, Moscow does not need a mass call-up of reservists. Russia can replenish, or even grow, its armed forces in quieter ways than a blunt televised address — ways it has been using for some time, creeping and unannounced. This article explores what means are available for mobilising without a mobilisation.",
+    "source": "ICDS (Estonia)",
+    "source_region": "eu",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:21:11.195077+00:00"
+  },
+  {
+    "id": "b1dc1d8c8df0476c",
+    "title": "Fast following: The edge Australia’s defence needs",
+    "link": "https://www.lowyinstitute.org/the-interpreter/fast-following-edge-australia-defence-needs",
+    "date": "2026-09-29",
+    "summary": "Innovation isn’t only about moving first but also about copying quickly, as warring states have discovered.",
+    "source": "Lowy Institute - The Interpreter",
+    "source_region": "other",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:21:12.522856+00:00"
+  },
+  {
     "id": "966ba60251e1670e",
     "title": "La guerre en Iran entre dans son huitième mois",
     "link": "https://legrandcontinent.eu/fr/2026/09/28/la-guerre-en-iran-entre-dans-son-huitieme-mois/",
@@ -1125,6 +1661,62 @@
     "fetched_at": "2026-09-30T08:18:49.552046+00:00"
   },
   {
+    "id": "5124e1e45d5103b2",
+    "title": "Why the Week’s Most Important Story Went Unwritten",
+    "link": "https://warontherocks.com/why-the-weeks-most-important-story-went-unwritten",
+    "date": "2026-09-28",
+    "summary": "Welcome to The Ukraine Compass, a weekly digest of Ukrainian commentary and analysis from across the political spectrum, only for War on the Rocks members. Each Monday, we bring you a curated selection of articles from Ukrainian media offering insight into how Ukrainians themselves debate the issues shaping their country.American coverage often narrows the view to the battlefield — these pieces widen it, revealing the texture of daily life, politics, and public argument in a nation at war. The perspectives gathered here are varied, candid, and often surprising, together forming a more…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:48.009266+00:00"
+  },
+  {
+    "id": "74f36811379e301b",
+    "title": "Laws of a Normless Word: A Baltic Perspective on Arms Control for Lethal Autonomous Weapon Systems",
+    "link": "https://icds.ee/en/laws-of-a-normless-word-a-baltic-perspective-on-arms-control-for-lethal-autonomous-weapon-systems",
+    "date": "2026-09-28",
+    "summary": "Efforts to understand the various implications of lethal autonomous weapon systems (LAWS) – from humanitarian and ethical to strategic – are well under way in various fora. Important as they are, the continuing discussions tend to ignore or gloss over geostrategic realities in some parts of the world where war has become a dominant theme of the security conversation and arms control has become marginalised.",
+    "source": "ICDS (Estonia)",
+    "source_region": "eu",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:21:11.198314+00:00"
+  },
+  {
+    "id": "37c767479720f213",
+    "title": "Speed over judgement is winning the AI arms race",
+    "link": "https://www.lowyinstitute.org/the-interpreter/speed-over-judgement-is-winning-the-ai-arms-race",
+    "date": "2026-09-28",
+    "summary": "Machines can out-fly and out-shoot humans, but deterrence still runs on a very human ability to imagine what comes next.",
+    "source": "Lowy Institute - The Interpreter",
+    "source_region": "other",
+    "subject_region": "other",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:21:12.527277+00:00"
+  },
+  {
+    "id": "1a30e6fb19bb9bca",
+    "title": "Starship Achieves Orbit for the First Time",
+    "link": "https://spacepolicyonline.com/news/starship-achieves-orbit-for-the-first-time",
+    "date": "2026-09-28",
+    "summary": "The flight did not go exactly as planned, but SpaceX’s Starship Integrated Flight Test-14 did make it into orbit for the first time today and deployed 26 operational Starlink V3 […]",
+    "source": "SpacePolicyOnline",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "fetched_at": "2026-10-05T17:21:15.267019+00:00"
+  },
+  {
     "id": "70e6137f3bd9b1c2",
     "title": "HII FF(X) Patrol Frigate Program Progressing as Navy Considers Foreign Options",
     "link": "https://news.usni.org/2026/09/27/hii-ffx-patrol-frigate-program-progressing-as-navy-considers-foreign-options",
@@ -1137,6 +1729,20 @@
       "military"
     ],
     "fetched_at": "2026-09-27T20:41:24.059771+00:00"
+  },
+  {
+    "id": "b55e9f318224b1e4",
+    "title": "AI needs trust – and Australia can provide the verification",
+    "link": "https://www.lowyinstitute.org/the-interpreter/ai-needs-trust-and-australia-can-provide-the-verification",
+    "date": "2026-09-27",
+    "summary": "AI arms control will fail without the means to check on commitments, just as nuclear disarmament would.",
+    "source": "Lowy Institute - The Interpreter",
+    "source_region": "other",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:21:12.529549+00:00"
   },
   {
     "id": "f734f238544c8a67",
@@ -1421,6 +2027,20 @@
     "fetched_at": "2026-09-27T20:41:24.062352+00:00"
   },
   {
+    "id": "0055e01f26b61c48",
+    "title": "USNI News Western Pacific Pulse: Sept. 25, 2026",
+    "link": "https://news.usni.org/2026/09/25/usni-news-western-pacific-pulse-sept-25-2026",
+    "date": "2026-09-25",
+    "summary": "﻿﻿ The following is a summary of major ship movements and exercises in the Western Pacific over the last week. In U.S. 7th Fleet Area of Operations The Abraham Lincoln Carrier Strike Group (CSG) is underway following a two-day stop in Guam last weekend. The strike group includes aircraft carrier USS Abraham Lincoln (CVN-72) with embarked Carrier Air Wing (CVW) and destroyer USS Frank E. Petersen Jr. (DDG-121). As of Friday, Abraham Lincoln has been deployed for 308 days. In the Philippine Sea Destroyer USS Carl M. Levin (DDG-120) is conducting routine operations in the Philippine Sea. Carl M.…",
+    "source": "USNI News",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:58.646121+00:00"
+  },
+  {
     "id": "6802bbd43e1e8203",
     "title": "Le Pakistan multiplie les raids aériens en Afghanistan",
     "link": "https://legrandcontinent.eu/fr/2026/09/24/le-pakistan-multiplie-les-raids-aeriens-en-afghanistan/",
@@ -1601,6 +2221,35 @@
     "fetched_at": "2026-09-25T17:17:15.691844+00:00",
     "source_region": "us",
     "subject_region": "us"
+  },
+  {
+    "id": "9e1db10f2cc2101c",
+    "title": "Accroissement de la menace – Les Assises de la Sécurité économique se tiennent ce jour – jeudi 24 septembre 2026 – au Ministère de l’Économie, à Bercy.",
+    "link": "https://www.portail-ie.fr/univers/droit-et-intelligence-juridique/2026/accroissement-de-la-menace-les-assises-de-la-securite-economique-se-tiennent-ce-jour-jeudi-24-septembre-2026-au-ministere-de-leconomie-a-bercy",
+    "date": "2026-09-24",
+    "summary": "Alors que le ciel s’assombrit au-dessus de Bercy, les assises de la sécurité économique se tiennent ce matin au Ministère de l’Économie. Organisées à la suite d’un constat dressé par […] L’article Accroissement de la menace – Les Assises de la Sécurité économique se tiennent ce jour – jeudi 24 septembre 2026 – au Ministère de l’Économie, à Bercy. est apparu en premier sur Portail de l'IE .",
+    "source": "Portail de l'IE",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-05T17:20:36.841690+00:00"
+  },
+  {
+    "id": "7adbe4acf475d7e6",
+    "title": "Report to Congress on Bahrain, Issues for U.S. Policy",
+    "link": "https://news.usni.org/2026/09/24/report-to-congress-on-bahrain-issues-for-u-s-policy",
+    "date": "2026-09-24",
+    "summary": "The following is the Sept. 23, 2026, Congressional Research Service report, Bahrain: Issues for U.S. Policy. From the Report The Kingdom of Bahrain is a small island nation connected by a causeway to Saudi Arabia (15.5 miles away) and once claimed by Iran (124 miles away). Wedged between these two larger regional powers, Bahrain has hosted a U.S. naval command headquarters since 1948. For decades, Bahrain has permitted U.S. access to its facilities and has hosted U.S. Naval Central Command (NAVCENT) and the U.S. Fifth Fleet at a base called “Naval Support Activity (NSA) Bahrain.” NSA Bahrain…",
+    "source": "USNI News",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "intelligence",
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:58.650319+00:00"
   },
   {
     "id": "649b43bea2f73621",
@@ -1813,6 +2462,48 @@
     "fetched_at": "2026-09-25T17:17:15.692169+00:00",
     "source_region": "us",
     "subject_region": "asia_pacific"
+  },
+  {
+    "id": "a6e469d4123c2449",
+    "title": "Xi arrives in DC; PLA Daily editorial on Zhang Youxia and Liu Zhenli; ODI; Nuclear weapons",
+    "link": "https://sinocism.com/p/xi-arrives-in-dc-pla-daily-editorial",
+    "date": "2026-09-23",
+    "summary": "We do not have much more visibility today than we did yesterday about possible outcomes from Xi’s visit. Treasury Secretary Bessent met again with He Lifeng today, and in brief comments held out the possibility of an even bigger deal. Perhaps part of the deal could be the F-35 parts that are now in China? - China Holds Sensitive F-35 Parts Diverted to Hong Kong From Australia The PRC made a good fentanyl-related gesture today, issuing new rules about prosecuting and sentencing fentanyl-related crimes, and “placing orphine-type substances as an entire class under control”.",
+    "source": "Sinocism",
+    "source_region": "us",
+    "subject_region": "china",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:32.854915+00:00"
+  },
+  {
+    "id": "02e61bd859549959",
+    "title": "Winning by the Rules: Optimizing Weapons Reviews in the Age of Technological Innovation",
+    "link": "https://warontherocks.com/cogs-of-war/winning-by-the-rules-optimizing-weapons-reviews-in-the-age-of-technological-innovation",
+    "date": "2026-09-23",
+    "summary": "We spare the reader another detailed story from Ukraine to establish the now-familiar point that battlefield technology changes faster than militaries can acquire, review, and field it. The villain in this story is easy to identify: bureaucracy. The fashionable remedies are equally familiar — cut the red tape slowing procurement, or revise the policy review requirements for autonomous weapon systems. But bureaucratic reform, however necessary, cannot eliminate the fundamental challenges machine-learning-based systems pose for rapid testing, evaluation, validation, and verification. Moreover…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:48.020320+00:00"
+  },
+  {
+    "id": "cf99e8f62bc6ecb0",
+    "title": "Taiwan Transfers Coast Guard Patrol Vessel to the Philippines",
+    "link": "https://news.usni.org/2026/09/23/taiwan-transfers-coast-guard-patrol-vessel-to-the-philippines",
+    "date": "2026-09-23",
+    "summary": "MANILA, PHILIPPINES – An ex-Taiwan Coast Guard Administration patrol vessel is now under a Philippine flag in the most significant maritime security development between Taipei and Manila in recent years. The decommissioned Kinmen, one of four 500-ton Taipei-class patrol vessels commissioned between 2001 and 2008, appeared registered under the Philippines with the name BLING NO.1 on Sept. 16. Maritime tracking website VesselFinder placed the patrol vessel at the Southern Taiwanese port city of Kaohsiung, home to the bulk of Taipei’s Navy and Coast Guard vessels. The Coast Guard Administration…",
+    "source": "USNI News",
+    "source_region": "us",
+    "subject_region": "china",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:58.653969+00:00"
   },
   {
     "id": "6267f7b701237f97",
@@ -2053,6 +2744,35 @@
     "subject_region": "us"
   },
   {
+    "id": "3321c376217b7b19",
+    "title": "Zelensky’s Perception Problem: Are New Partnerships a Solution?",
+    "link": "https://warontherocks.com/zelenskys-perception-problem-are-new-partnerships-a-solution",
+    "date": "2026-09-21",
+    "summary": "Welcome to The Ukraine Compass, a weekly digest of Ukrainian commentary and analysis from across the political spectrum, only for War on the Rocks members. Each Monday, we bring you a curated selection of articles from Ukrainian media offering insight into how Ukrainians themselves debate the issues shaping their country.American coverage often narrows the view to the battlefield — these pieces widen it, revealing the texture of daily life, politics, and public argument in a nation at war. The perspectives gathered here are varied, candid, and often surprising, together forming a more…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:48.031041+00:00"
+  },
+  {
+    "id": "cacd1aad7d5f05e5",
+    "title": "Washington’s Foreign Equity Bets Need Better Governance",
+    "link": "https://warontherocks.com/cogs-of-war/washingtons-foreign-equity-bets-need-better-governance",
+    "date": "2026-09-21",
+    "summary": "What do a rare earth mine in Brazil and a graphite mine in Mozambique have in common? Both have received significant United States government funding. The rub? Neither was subject, when the financing was committed, to the corporate governance standards that American listed companies are: an independent board, an independent audit committee, and audited disclosure to shareholders.There are strong national and economic security justifications for the recent push to use equity strategically to build secure American supply chains. Congress created the Development Finance Corporation in 2018 and…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "intelligence",
+      "energy_industry"
+    ],
+    "fetched_at": "2026-10-05T17:20:48.035061+00:00"
+  },
+  {
     "id": "0ccdc123dbd87da9",
     "title": "La France renforce sa posture de dissuasion nucléaire",
     "link": "https://example.com/a1",
@@ -2079,6 +2799,20 @@
     "fetched_at": "2026-09-25T17:17:15.692711+00:00",
     "source_region": "us",
     "subject_region": "us"
+  },
+  {
+    "id": "9a76236a8ec0731c",
+    "title": "Christy Kinahan’s UAE Residence Visa Cancelled",
+    "link": "https://www.bellingcat.com/news/2026/09/19/christy-kinahans-uae-residence-visa-cancelled",
+    "date": "2026-09-19",
+    "summary": "This article is the result of a collaboration with The Sunday Times. You can find their corresponding piece here. Christy Kinahan, the Irish founder of the Kinahan Organised Crime Group who is being pursued by authorities around the world […]",
+    "source": "Bellingcat",
+    "source_region": "eu",
+    "subject_region": "eu",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-05T17:20:59.992510+00:00"
   },
   {
     "id": "0a263c15dc1f91a5",
@@ -2573,6 +3307,20 @@
     "subject_region": "us"
   },
   {
+    "id": "c58911eb802653bb",
+    "title": "More arrows to Europe's quiver: How to manage transatlantic relations beyond the midterms",
+    "link": "https://www.iss.europa.eu/publications/briefs/more-arrows-europes-quiver-how-manage-transatlantic-relations-beyond-midterms",
+    "date": "2026-09-15",
+    "summary": "More arrows to Europe's quiver: How to manage transatlantic relations beyond the midterms marianna.liana… 11 minutes Transatlantic relations went through major crises in 2026 but did not collapse. The Trump administration confronted European allies over Greenland, and threatened to withdraw forces from NATO commitments in response to disagreements over the war in Iran. Yet Europe largely resisted this pressure without triggering a wider rupture, maintaining cooperation with the US where interest s aligned. Europe’s balancing act may, however, rest on the assumption that the 2026 midterms will…",
+    "source": "EUISS",
+    "source_region": "eu",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:41.707302+00:00"
+  },
+  {
     "id": "4d206a4d6516585e",
     "title": "Bellingcat Official Merch Design Contest",
     "link": "https://www.bellingcat.com/uncategorized/2026/09/14/bellingcat-official-merch-design-contest/",
@@ -2585,6 +3333,104 @@
     "fetched_at": "2026-09-25T17:17:17.092868+00:00",
     "source_region": "eu",
     "subject_region": "eu"
+  },
+  {
+    "id": "c209dd84cbbec17c",
+    "title": "Reading the Kremlin’s Mind: Ukrainian Writers Attempt to Understand Putin",
+    "link": "https://warontherocks.com/reading-the-kremlins-mind-ukrainian-writers-attempt-to-understand-putin",
+    "date": "2026-09-14",
+    "summary": "Welcome to The Ukraine Compass, a weekly digest of Ukrainian commentary and analysis from across the political spectrum, only for War on the Rocks members. Each Monday, we bring you a curated selection of articles from Ukrainian media offering insight into how Ukrainians themselves debate the issues shaping their country.American coverage often narrows the view to the battlefield — these pieces widen it, revealing the texture of daily life, politics, and public argument in a nation at war. The perspectives gathered here are varied, candid, and often surprising, together forming a more…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:48.047552+00:00"
+  },
+  {
+    "id": "f078a7905d49de23",
+    "title": "This Is Not Your Father’s Nuclear Flight Test Vehicle",
+    "link": "https://warontherocks.com/cogs-of-war/this-is-not-your-fathers-nuclear-flight-test-vehicle",
+    "date": "2026-09-14",
+    "summary": "For decades, the United States’ nuclear weapons enterprise has wrestled with an institutional paradox. On one hand is the imperative to make the complex more “responsive” to global tumult and technical surprise, able to field new weapons quickly in reaction to unanticipated threats. On the other are the unforgiving engineering requirements of thermonuclear warheads, devices whose development is measured in years. No silver bullet solution to this unstoppable-force-meets-immovable-object conundrum will likely present itself. But the contours of a new model in systems development are taking…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:48.051717+00:00"
+  },
+  {
+    "id": "ab679a5484fc5011",
+    "title": "The Big Bet on the Emerging Space Economy",
+    "link": "https://warontherocks.com/cogs-of-war/the-big-bet-on-the-emerging-space-economy",
+    "date": "2026-09-14",
+    "summary": "The space economy has surpassed $600 billion in annual value, with some projecting it will reach a trillion by the 2030s. Jonathan Panter is joined by Joseph Yaffe (Cowboy Space), Brian Weeden (The Aerospace Corporation), and Dan Wald (Booz Allen) to weigh where the real growth is. They discuss how AI infrastructure is blurring the line between the space economy and the regular economy, the regulatory tangle, the leap toward autonomous constellations of hundreds of thousands of satellites, competition with China, and the dual-use risks of data centers in orbit.Image: Giuseppe Donatiello via…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "china",
+    "themes": [
+      "energy_industry"
+    ],
+    "fetched_at": "2026-10-05T17:20:48.055655+00:00"
+  },
+  {
+    "id": "b6a3d1a9b7e42982",
+    "title": "The Age of Strategic Exclusion",
+    "link": "https://warontherocks.com/the-age-of-strategic-exclusion",
+    "date": "2026-09-14",
+    "summary": "Major powers are increasingly trying to shut out their rivals. Russia invaded Ukraine in part to prevent the latter’s further integration with the West. The United States is restricting China’s access to advanced semiconductors and encouraging allies to do the same. China’s Belt and Road Initiative secures privileged positions in strategic infrastructure and economic relationships. Though these examples vary in aims and methods, they reflect a growing willingness of major powers to restrict rivals’ access and influence.I use the term ‘strategic exclusion’ to describe policies that move…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "energy_industry"
+    ],
+    "fetched_at": "2026-10-05T17:20:48.059737+00:00"
+  },
+  {
+    "id": "3cb894be0ffc07ed",
+    "title": "The Iran War’s Climate, Environmental, and Human Security Fallout",
+    "link": "https://carnegieendowment.org/research/2026/09/iran-war-climate-environmental-human-security-fallout",
+    "date": "2026-09-14",
+    "summary": "Understanding the climatic pain points is necessary for policymakers hoping to minimize the war’s negative environmental consequences.",
+    "source": "Carnegie Endowment",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:49.477728+00:00"
+  },
+  {
+    "id": "592752ec83c56950",
+    "title": "Automating the Action Officer: Between Bureaucracy and Technology",
+    "link": "https://warontherocks.com/cogs-of-war/automating-the-action-officer-between-bureaucracy-and-technology",
+    "date": "2026-09-10",
+    "summary": "If there is a revolution brewing in the automation of white-collar work, you wouldn’t know it at the Pentagon. Here, the typical action officers, staff who tackle the daily work of the bureaucracy, perform essentially the same duties as their predecessors in 1996 or 1956: creating charts, authoring papers, delivering briefings, and coordinating across offices. Given the promise of AI tools, allowing this staff ecosystem to remain stuck in the past represents a dangerous failure to adapt, especially as senior leaders criticize the workforce for lacking organizational speed. Having served as an…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:48.068707+00:00"
+  },
+  {
+    "id": "aa6b7c9f8a075a9b",
+    "title": "The Assessment Gap in U.S. Counter-Terrorism Strikes",
+    "link": "https://warontherocks.com/the-assessment-gap-in-u-s-counter-terrorism-strikes",
+    "date": "2026-09-10",
+    "summary": "For eight years I helped decide whether American counter-terrorism money was working.As a programs advisor in the State Department’s Bureau of Counterterrorism from 2018 to 2025, I oversaw about 20 projects in East Africa worth roughly $80 million a year. None of that money moved without a performance monitoring plan. We established baselines before work started and agreed on indicators in advance. When a project underperformed, or the reporting came late, we withheld funding. Reporting tracked activities against those metrics across the life of the program. Independent evaluations validated…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:48.072065+00:00"
   },
   {
     "id": "b7753617d2b75cb4",
@@ -2657,6 +3503,34 @@
     "subject_region": "us"
   },
   {
+    "id": "f1995c98bea492c2",
+    "title": "The Two Questions Ukraine Asks Before Every Decision",
+    "link": "https://warontherocks.com/the-two-questions-ukraine-asks-before-every-decision",
+    "date": "2026-09-08",
+    "summary": "Welcome to The Ukraine Compass, a weekly digest of Ukrainian commentary and analysis from across the political spectrum, only for War on the Rocks members. Each Monday, we bring you a curated selection of articles from Ukrainian media offering insight into how Ukrainians themselves debate the issues shaping their country.American coverage often narrows the view to the battlefield — these pieces widen it, revealing the texture of daily life, politics, and public argument in a nation at war. The perspectives gathered here are varied, candid, and often surprising, together forming a more…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:48.075843+00:00"
+  },
+  {
+    "id": "cc45676b8ed776cf",
+    "title": "China’s Warrior Scientists: Insights from Recent Operations Around Taiwan",
+    "link": "https://warontherocks.com/chinas-warrior-scientists-insights-from-recent-operations-around-taiwan",
+    "date": "2026-09-08",
+    "summary": "China’s marine scientific research ships are expanding their operations around Taiwan, and they are not just there to advance the frontiers of human knowledge. Their operations serve to undermine Taiwan’s independent political status and to force international acceptance of Beijing’s claim of sovereignty over the island and its surrounding waters. This pressure campaign by the People’s Republic of China began intensifying in 2022. While media coverage of this development has focused on the activities of the People’s Liberation Army and the China Coast Guard, China’s civilian survey ships…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "china",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:48.079093+00:00"
+  },
+  {
     "id": "a10c8428178e6ed4",
     "title": "The Strategic Fiber of America: Kevlar’s Impact on Warfighters",
     "link": "https://warontherocks.com/cogs-of-war/the-strategic-fiber-of-america-kevlars-impact-on-warfighters/",
@@ -2726,6 +3600,34 @@
     "fetched_at": "2026-09-25T16:44:11.007263+00:00",
     "source_region": "us",
     "subject_region": "russia_eurasia"
+  },
+  {
+    "id": "e49c81a0b313ed38",
+    "title": "The Future of Combat Medicine",
+    "link": "https://warontherocks.com/the-future-of-combat-medicine",
+    "date": "2026-09-03",
+    "summary": "War has always been a brutal engine of medical innovation, running on a feedback loop: Civilian breakthroughs are adapted for the battlefield, while battlefield necessity pushes advances back into civilian care. We asked three experts to identify the innovations from the last five years most likely to shape the future of combat medicine.Read more below.John Quinn Adjunct Lecturer, College of Remote and Offshore Medicine Foundation Medical Volunteer in UkraineThe war in Ukraine has made it clear that the most important combat-medical innovations are not gadgets, but new distributions of risk…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:48.084826+00:00"
+  },
+  {
+    "id": "492ad8a6929fa9ae",
+    "title": "Where Does AI Escalation Come From? We Don’t Know. We Should Find Out.",
+    "link": "https://warontherocks.com/where-does-ai-escalation-come-from-we-dont-know-we-should-find-out",
+    "date": "2026-09-03",
+    "summary": "We played a wargame using AI players. Two nuclear-armed nations — Red and Blue — with a long-standing, fierce border dispute were placed into a militarized crisis. Over the course of several turns, the states managed to avoid escalation to war, though there were non-operational nuclear demonstrations. Surprised by the lack of escalation we’d been primed to find by Juan-Pablo Rivera, Gabriel Mukobi, Anka Reuel, Max Lamparth, Chandler Smith, and Jacquelyn Schneider, as well as Kenneth Payne, we tried upping the stakes. We gave Red some new tactical nuclear weapons, altering the balance a bit in…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:48.089063+00:00"
   },
   {
     "id": "3419f67ea2365896",
@@ -2814,6 +3716,20 @@
     "subject_region": "us"
   },
   {
+    "id": "fc3914ac1fea9212",
+    "title": "Studies in intelligence Vol. 70, No. 3 (Extracts, September 2026)",
+    "link": "https://www.cia.gov/resources/csi/studies-in-intelligence/studies-in-intelligence-vol-70-no-3-extracts-september-2026",
+    "date": "2026-09-01",
+    "summary": "Nouveau numéro de la revue du Center for the Study of Intelligence (CIA) : sommaire et PDF sur la page du numéro.",
+    "source": "CIA - Studies in Intelligence",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-05T17:21:03.799670+00:00"
+  },
+  {
     "id": "1454bdb5934a1507",
     "title": "The disaster in Nepal and Tibet; Xi at the SCO; Supporting consumption; National Defense Mobilization Law; Signals for PRC-US AI dialogue; New era for real estate",
     "link": "https://sinocism.com/p/the-disaster-in-nepal-and-tibet-xi",
@@ -2856,6 +3772,20 @@
     "subject_region": "eu"
   },
   {
+    "id": "adbf6c7b1d0fda1e",
+    "title": "The Divine Calculus of the Ukraine War’s End",
+    "link": "https://warontherocks.com/the-divine-calculus-of-the-ukraine-wars-end",
+    "date": "2026-08-31",
+    "summary": "Welcome to The Ukraine Compass, a weekly digest of Ukrainian commentary and analysis from across the political spectrum, only for War on the Rocks members. Each Monday, we bring you a curated selection of articles from Ukrainian media offering insight into how Ukrainians themselves debate the issues shaping their country.American coverage often narrows the view to the battlefield — these pieces widen it, revealing the texture of daily life, politics, and public argument in a nation at war. The perspectives gathered here are varied, candid, and often surprising, together forming a more…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:48.098149+00:00"
+  },
+  {
     "id": "f7774c64f70e5a28",
     "title": "The Goldilocks Fallacy: The Undefined Limits of Korea’s Nuclear Role",
     "link": "https://warontherocks.com/the-goldilocks-fallacy-the-undefined-limits-of-koreas-nuclear-role/",
@@ -2868,6 +3798,20 @@
     "fetched_at": "2026-09-25T14:38:37.609920+00:00",
     "source_region": "us",
     "subject_region": "us"
+  },
+  {
+    "id": "d976f97caf47551c",
+    "title": "Beneath the Surface: Overlooked Cyber Security Threats",
+    "link": "https://warontherocks.com/beneath-the-surface-overlooked-cyber-security-threats",
+    "date": "2026-08-27",
+    "summary": "Cyber security remains a persistent concern for public and private sector organizations alike. Given the potential impact of cyber threats from criminal groups, adversarial states, and extremists, the topic draws substantial attention. Yet, in a field that evolves so quickly, some risks slip through the cracks. We asked four experts to identify and assess a key cyber security threat to U.S. national security that analysts and policymakers often overlook.Read more below. Emily HardingDirector of the Intelligence, National Security, and Technology Program and Vice President of the Defense and…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:48.105955+00:00"
   },
   {
     "id": "c88473ffbf693a23",
@@ -2899,6 +3843,20 @@
     "subject_region": "middle_east_africa"
   },
   {
+    "id": "3fa7edd01bf0dac6",
+    "title": "Would Wartime Elections Save Democracy or End It?",
+    "link": "https://warontherocks.com/would-wartime-elections-save-democracy-or-end-it",
+    "date": "2026-08-26",
+    "summary": "Welcome to The Ukraine Compass, a weekly digest of Ukrainian commentary and analysis from across the political spectrum, only for War on the Rocks members. Each Monday, we bring you a curated selection of articles from Ukrainian media offering insight into how Ukrainians themselves debate the issues shaping their country.American coverage often narrows the view to the battlefield — these pieces widen it, revealing the texture of daily life, politics, and public argument in a nation at war. The perspectives gathered here are varied, candid, and often surprising, together forming a more…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:48.112637+00:00"
+  },
+  {
     "id": "c7d346240d577cb1",
     "title": "Russia’s Next Top General: Promotions in Russian Military Leadership",
     "link": "https://warontherocks.com/russias-next-top-general-promotions-in-russian-military-leadership/",
@@ -2911,6 +3869,20 @@
     "fetched_at": "2026-09-25T14:38:37.610249+00:00",
     "source_region": "us",
     "subject_region": "russia_eurasia"
+  },
+  {
+    "id": "117731d6956e0450",
+    "title": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
+    "link": "https://www.bellingcat.com/news/africa/2026/08/25/patria-sanctioned-russian-vessel-russia-us-africa-cameroon-gabon-lagos-nigeria",
+    "date": "2026-08-25",
+    "summary": "Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. A sanctioned vessel that was previously reported to have transported weapons destined for Russian mercenaries has been traversing ports on the west coast of Africa since March, exhibiting what experts told Bellingcat was an unusual set of movements and behaviours. Patria (IMO: […]",
+    "source": "Bellingcat",
+    "source_region": "eu",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-05T17:20:59.995194+00:00"
   },
   {
     "id": "32173d2e0679c6b5",
@@ -3012,6 +3984,21 @@
     "subject_region": "china"
   },
   {
+    "id": "b6bf041baed45377",
+    "title": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park",
+    "link": "https://www.bellingcat.com/news/us-canada/2026/08/20/satellite-imagery-documents-new-border-patrol-road-construction-in-big-bend-national-park",
+    "date": "2026-08-20",
+    "summary": "Satellite images obtained and analysed by Bellingcat show over five miles of new road constructed in Big Bend National Park in southwestern Texas, part of a US Customs and Border Protection (CBP) “Smart Wall” installation, which includes roads, barriers, […]",
+    "source": "Bellingcat",
+    "source_region": "eu",
+    "subject_region": "us",
+    "themes": [
+      "intelligence",
+      "energy_industry"
+    ],
+    "fetched_at": "2026-10-05T17:20:59.997462+00:00"
+  },
+  {
     "id": "d1689ad71544c654",
     "title": "Contested Logistics and the “Last Unmanned Mile”",
     "link": "https://warontherocks.com/cogs-of-war/contested-logistics-and-the-last-unmanned-mile/",
@@ -3068,6 +4055,34 @@
     "subject_region": "us"
   },
   {
+    "id": "0f717e4aae0b6dec",
+    "title": "How Feasible Is a European Nuclear Deterrent Without Washington?",
+    "link": "https://warontherocks.com/how-feasible-is-a-european-nuclear-deterrent-without-washington",
+    "date": "2026-08-18",
+    "summary": "In 2025, James Cameron wrote, “Eurodeterrent: A Vision for an Anglo-French Nuclear Force,” where he argued the United Kingdom and France should cooperate to develop a nuclear deterrent umbrella for Europe, independent of Washington. A year later, after French President Emmanuel Macron’s landmark nuclear speech, we asked him to revisit his argument. Image: SAC Rob Bourne/MODIn your 2025 article, you argued that, given Europe’s perceived uncertainty about the U.S. commitment to its security and defense, the United Kingdom and France should cooperate to develop a nuclear deterrent umbrella…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:48.121071+00:00"
+  },
+  {
+    "id": "0604e83e58427988",
+    "title": "AI and the Risks of Tearing Down an Old System",
+    "link": "https://warontherocks.com/ai-and-the-risks-of-tearing-down-an-old-system",
+    "date": "2026-08-18",
+    "summary": "Operation Epic Fury made clear that AI is now at the heart of American warfighting. Central Command used Claude through Palantir’s Maven Smart System platform to generate and prioritize roughly 1,000 targets in the first 24 hours of the campaign, at an operational tempo that more than doubled the opening phase of the 2003 Iraq invasion. Over 38 days, the campaign reached 13,000 total strikes, according to Pentagon data. Project Maven says that the program has accelerated targeting even further to 5,000 in a single day. The question is whether the department can evaluate what it deploys before…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:48.124468+00:00"
+  },
+  {
     "id": "e74004816fce44f1",
     "title": "A Life in Army Special Operations, from Desert Storm to the Next War",
     "link": "https://warontherocks.com/a-life-in-army-special-operations-from-desert-storm-to-the-next-war/",
@@ -3108,6 +4123,20 @@
     "fetched_at": "2026-09-25T16:44:11.007429+00:00",
     "source_region": "us",
     "subject_region": "middle_east_africa"
+  },
+  {
+    "id": "be99057166b5727a",
+    "title": "The Tension Between Collectivism and Individualism in Ukraine",
+    "link": "https://warontherocks.com/the-tension-between-collectivism-and-individualism-in-ukraine",
+    "date": "2026-08-17",
+    "summary": "Welcome to The Ukraine Compass, a weekly digest of Ukrainian commentary and analysis from across the political spectrum, only for War on the Rocks members. Each Monday, we bring you a curated selection of articles from Ukrainian media offering insight into how Ukrainians themselves debate the issues shaping their country.American coverage often narrows the view to the battlefield — these pieces widen it, revealing the texture of daily life, politics, and public argument in a nation at war. The perspectives gathered here are varied, candid, and often surprising, together forming a more…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T17:20:48.130594+00:00"
   },
   {
     "id": "9fad834ffb45bc41",
@@ -3365,6 +4394,34 @@
     "subject_region": "us"
   },
   {
+    "id": "cf6354feb6a1592b",
+    "title": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
+    "link": "https://www.bellingcat.com/news/2026/08/01/welcome-to-dubai-kinahan-cartels-visas-revealed",
+    "date": "2026-08-01",
+    "summary": "This article is the result of a collaboration with The Sunday Times. You can find their corresponding piece here. A key leader of the Kinahan cartel who is wanted by authorities around the world and has been living in hiding in Dubai for a decade has just had his Emirates residence permit renewed. A Bellingcat […]",
+    "source": "Bellingcat",
+    "source_region": "eu",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-05T17:20:59.999687+00:00"
+  },
+  {
+    "id": "9e74eed3663be9f7",
+    "title": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
+    "link": "https://www.bellingcat.com/news/2026/07/30/will-ronaldo-cry-world-cup-fans-bet-billions-through-prediction-markets",
+    "date": "2026-07-30",
+    "summary": "Football fans wagered more than US $14 billion on the FIFA World Cup through prediction markets Polymarket and Kalshi, a Bellingcat analysis has found. On the crypto-based Polymarket, which provides more information about individual trading accounts than its rival American site Kalshi, we also found that just 1% of users collected the vast majority of […]",
+    "source": "Bellingcat",
+    "source_region": "eu",
+    "subject_region": "us",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-05T17:21:00.002641+00:00"
+  },
+  {
     "id": "238433a3978b0df7",
     "title": "Shahed-Type Drones Filmed During Mali Village Attacks",
     "link": "https://www.bellingcat.com/news/2026/07/24/shahed-type-drones-filmed-during-attack-on-mali-villages/",
@@ -3465,6 +4522,20 @@
     "fetched_at": "2026-10-01T08:58:02.372144+00:00"
   },
   {
+    "id": "7413740d269aaa26",
+    "title": "Outbound investment protections + Expanded export controls + Xi in Pyongyang",
+    "link": "https://merics.org/en/merics-briefs/outbound-investment-protections-expanded-export-controls-xi-pyongyang",
+    "date": "2026-06-12",
+    "summary": "Top Story China challenges EU de-risking by boosting outbound investment protections Beijing has taken steps to better protect Chinese overseas investments and deter foreign governments from imposing ...",
+    "source": "MERICS",
+    "source_region": "eu",
+    "subject_region": "china",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-05T17:20:45.472721+00:00"
+  },
+  {
     "id": "7a7172b2b1c8efde",
     "title": "L’EGE, une école pour la France, avec Christian Harbulot et Jean-Claude Gallet",
     "link": "https://www.portail-ie.fr/univers/2026/ege-une-ecole-pour-la-france/",
@@ -3507,6 +4578,20 @@
     "fetched_at": "2026-10-01T08:58:02.378306+00:00"
   },
   {
+    "id": "81e7ad28cc7912f9",
+    "title": "Studies in Intelligence Vol. 70, No. 2 (Extracts, June 2026)",
+    "link": "https://www.cia.gov/resources/csi/studies-in-intelligence/studies-in-intelligence-vol-70-no-2-extracts-june-2026",
+    "date": "2026-06-01",
+    "summary": "Nouveau numéro de la revue du Center for the Study of Intelligence (CIA) : sommaire et PDF sur la page du numéro.",
+    "source": "CIA - Studies in Intelligence",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-05T17:21:03.800659+00:00"
+  },
+  {
     "id": "adc7a87cd72f4ca5",
     "title": "Devoir de vigilance : le renseignement humain au service de la conformité [Partie 2/2]",
     "link": "https://www.portail-ie.fr/univers/2026/devoir-de-vigilance-le-renseignement-humain-au-service-de-la-conformite-partie-2-2/",
@@ -3534,6 +4619,49 @@
       "energy_industry"
     ],
     "fetched_at": "2026-10-01T08:58:03.734576+00:00"
+  },
+  {
+    "id": "479525ea153a732e",
+    "title": "PLANET LABS COUPE LE ROBINET : QUAND L’IMAGE SATELLITE DEVIENT ARME D’ÉTAT AMÉRICAINE",
+    "link": "https://www.portail-ie.fr/univers/osint-et-veille/2026/planet-labs-osint-souverainete-europeenne",
+    "date": "2026-05-26",
+    "summary": "Le délai de 96 heures imposé sur les images du Golfe révèle la dépendance européenne à l'infrastructure OSINT américaine et l'urgence d'une souveraineté observationnelle. L’article PLANET LABS COUPE LE ROBINET : QUAND L’IMAGE SATELLITE DEVIENT ARME D’ÉTAT AMÉRICAINE est apparu en premier sur Portail de l'IE .",
+    "source": "Portail de l'IE (Défense, armement & renseignement)",
+    "source_region": "fr",
+    "subject_region": "us",
+    "themes": [
+      "intelligence",
+      "energy_industry"
+    ],
+    "fetched_at": "2026-10-05T17:20:38.702070+00:00"
+  },
+  {
+    "id": "b582250a298d1c43",
+    "title": "Studies in Intelligence Vol. 70, No. 1 (Extracts, March 2026)",
+    "link": "https://www.cia.gov/resources/csi/studies-in-intelligence/studies-in-intelligence-vol-70-no-1-extracts-march-2026",
+    "date": "2026-03-01",
+    "summary": "Nouveau numéro de la revue du Center for the Study of Intelligence (CIA) : sommaire et PDF sur la page du numéro.",
+    "source": "CIA - Studies in Intelligence",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-05T17:21:03.801621+00:00"
+  },
+  {
+    "id": "ec217b9fed766aea",
+    "title": "Studies in Intelligence Vol. 69, No. 4 (Extracts, December 2025)",
+    "link": "https://www.cia.gov/resources/csi/studies-in-intelligence/studies-in-intelligence-vol-69-no-4-extracts-december-2025",
+    "date": "2025-12-01",
+    "summary": "Nouveau numéro de la revue du Center for the Study of Intelligence (CIA) : sommaire et PDF sur la page du numéro.",
+    "source": "CIA - Studies in Intelligence",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-05T17:21:03.802607+00:00"
   },
   {
     "id": "269722c01414c1a4",
