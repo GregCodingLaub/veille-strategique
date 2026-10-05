@@ -1,0 +1,283 @@
+{
+  "Le Grand Continent": {
+    "last_run": "2026-10-05T18:39:05.443592+00:00",
+    "last_status": "ok",
+    "last_error": null,
+    "consecutive_failures": 0,
+    "last_raw_count": 10,
+    "consecutive_empty_runs": 0,
+    "latest_item_date": "2026-10-05"
+  },
+  "Sinocism": {
+    "last_run": "2026-10-05T18:39:06.728498+00:00",
+    "last_status": "ok",
+    "last_error": null,
+    "consecutive_failures": 0,
+    "last_raw_count": 20,
+    "consecutive_empty_runs": 0,
+    "latest_item_date": "2026-10-01"
+  },
+  "Project OSINT": {
+    "last_run": "2026-10-05T18:39:07.797821+00:00",
+    "last_status": "fail",
+    "last_error": "403 Client Error: Forbidden for url: https://projectosint.substack.com/feed",
+    "consecutive_failures": 1
+  },
+  "IFRI": {
+    "last_run": "2026-10-05T18:39:08.906741+00:00",
+    "last_status": "fail",
+    "last_error": "403 Client Error: Forbidden for url: https://www.ifri.org/fr/publications",
+    "consecutive_failures": 1
+  },
+  "Portail de l'IE": {
+    "last_run": "2026-10-05T18:39:10.703101+00:00",
+    "last_status": "ok",
+    "last_error": null,
+    "consecutive_failures": 0,
+    "last_raw_count": 10,
+    "consecutive_empty_runs": 0,
+    "latest_item_date": "2026-10-02"
+  },
+  "IRSEM": {
+    "last_run": "2026-10-05T18:39:12.730456+00:00",
+    "last_status": "ok",
+    "last_error": null,
+    "consecutive_failures": 0,
+    "last_raw_count": 34,
+    "consecutive_empty_runs": 0,
+    "latest_item_date": "2026-09-01"
+  },
+  "EUISS": {
+    "last_run": "2026-10-05T18:39:14.501707+00:00",
+    "last_status": "ok",
+    "last_error": null,
+    "consecutive_failures": 0,
+    "last_raw_count": 10,
+    "consecutive_empty_runs": 0,
+    "latest_item_date": "2026-10-02"
+  },
+  "ECFR": {
+    "last_run": "2026-10-05T18:39:15.805700+00:00",
+    "last_status": "ok",
+    "last_error": null,
+    "consecutive_failures": 0,
+    "last_raw_count": 12,
+    "consecutive_empty_runs": 0,
+    "latest_item_date": "2026-10-04"
+  },
+  "Bruegel": {
+    "last_run": "2026-10-05T18:39:17.023944+00:00",
+    "last_status": "fail",
+    "last_error": "403 Client Error: Forbidden for url: https://www.bruegel.org/rss.xml",
+    "consecutive_failures": 1
+  },
+  "MERICS": {
+    "last_run": "2026-10-05T18:39:18.185433+00:00",
+    "last_status": "ok",
+    "last_error": null,
+    "consecutive_failures": 0,
+    "last_raw_count": 9,
+    "consecutive_empty_runs": 0,
+    "latest_item_date": "2026-07-20"
+  },
+  "CSIS": {
+    "last_run": "2026-10-05T18:39:19.511282+00:00",
+    "last_status": "ok",
+    "last_error": null,
+    "consecutive_failures": 0,
+    "last_raw_count": 4,
+    "consecutive_empty_runs": 0,
+    "latest_item_date": "2026-10-05"
+  },
+  "War on the Rocks": {
+    "last_run": "2026-10-05T18:39:20.907917+00:00",
+    "last_status": "ok",
+    "last_error": null,
+    "consecutive_failures": 0,
+    "last_raw_count": 100,
+    "consecutive_empty_runs": 0,
+    "latest_item_date": "2026-10-05"
+  },
+  "Carnegie Endowment": {
+    "last_run": "2026-10-05T18:39:22.053415+00:00",
+    "last_status": "ok",
+    "last_error": null,
+    "consecutive_failures": 0,
+    "last_raw_count": 14,
+    "consecutive_empty_runs": 0,
+    "latest_item_date": "2026-09-18"
+  },
+  "RAND": {
+    "last_run": "2026-10-05T18:39:23.206426+00:00",
+    "last_status": "ok",
+    "last_error": null,
+    "consecutive_failures": 0,
+    "last_raw_count": 8,
+    "consecutive_empty_runs": 0,
+    "latest_item_date": "2026-10-04"
+  },
+  "SIPRI": {
+    "last_run": "2026-10-05T18:39:24.446915+00:00",
+    "last_status": "ok",
+    "last_error": null,
+    "consecutive_failures": 0,
+    "last_raw_count": 6,
+    "consecutive_empty_runs": 0,
+    "latest_item_date": "2026-09-29"
+  },
+  "Jamestown Foundation (China Brief)": {
+    "last_run": "2026-10-05T18:39:25.661766+00:00",
+    "last_status": "ok",
+    "last_error": null,
+    "consecutive_failures": 0,
+    "last_raw_count": 10,
+    "consecutive_empty_runs": 0,
+    "latest_item_date": "2026-10-04"
+  },
+  "Reuters": {
+    "last_run": "2026-10-05T18:39:27.029590+00:00",
+    "last_status": "ok",
+    "last_error": null,
+    "consecutive_failures": 0,
+    "last_raw_count": 0,
+    "consecutive_empty_runs": 1
+  },
+  "Defense News (Industry)": {
+    "last_run": "2026-10-05T18:39:28.507259+00:00",
+    "last_status": "ok",
+    "last_error": null,
+    "consecutive_failures": 0,
+    "last_raw_count": 25,
+    "consecutive_empty_runs": 0,
+    "latest_item_date": "2026-10-05"
+  },
+  "Breaking Defense": {
+    "last_run": "2026-10-05T18:39:30.066569+00:00",
+    "last_status": "ok",
+    "last_error": null,
+    "consecutive_failures": 0,
+    "last_raw_count": 15,
+    "consecutive_empty_runs": 0,
+    "latest_item_date": "2026-10-05",
+    "last_new_item_at": "2026-10-05T18:39:30.066576+00:00",
+    "total_kept": 1
+  },
+  "USNI News": {
+    "last_run": "2026-10-05T18:39:31.466046+00:00",
+    "last_status": "ok",
+    "last_error": null,
+    "consecutive_failures": 0,
+    "last_raw_count": 30,
+    "consecutive_empty_runs": 0,
+    "latest_item_date": "2026-10-05",
+    "last_new_item_at": "2026-10-05T18:39:31.466051+00:00",
+    "total_kept": 1
+  },
+  "Bellingcat": {
+    "last_run": "2026-10-05T18:39:32.862834+00:00",
+    "last_status": "ok",
+    "last_error": null,
+    "consecutive_failures": 0,
+    "last_raw_count": 10,
+    "consecutive_empty_runs": 0,
+    "latest_item_date": "2026-10-01"
+  },
+  "Arms Control Association": {
+    "last_run": "2026-10-05T18:39:34.374818+00:00",
+    "last_status": "ok",
+    "last_error": null,
+    "consecutive_failures": 0,
+    "last_raw_count": 10,
+    "consecutive_empty_runs": 0,
+    "latest_item_date": "2026-10-01"
+  },
+  "Bulletin of the Atomic Scientists": {
+    "last_run": "2026-10-05T18:39:35.527290+00:00",
+    "last_status": "fail",
+    "last_error": "403 Client Error: Forbidden for url: https://thebulletin.org/feed/",
+    "consecutive_failures": 1
+  },
+  "CIA - Studies in Intelligence": {
+    "last_run": "2026-10-05T18:39:36.699571+00:00",
+    "last_status": "ok",
+    "last_error": null,
+    "consecutive_failures": 0,
+    "last_raw_count": 11,
+    "consecutive_empty_runs": 0,
+    "latest_item_date": "2026-09-01"
+  },
+  "IFRI - Centre Énergie & Climat": {
+    "last_run": "2026-10-05T18:39:37.743589+00:00",
+    "last_status": "fail",
+    "last_error": "403 Client Error: Forbidden for url: https://www.ifri.org/en/center-energy-climate",
+    "consecutive_failures": 1
+  },
+  "CSIS - Critical Minerals Security": {
+    "last_run": "2026-10-05T18:39:39.257162+00:00",
+    "last_status": "fail",
+    "last_error": "403 Client Error: Forbidden for url: https://www.csis.org/programs/energy-security-and-climate-change-program/projects/project-critical-minerals-security?page=1",
+    "consecutive_failures": 1
+  },
+  "Atlantic Council": {
+    "last_run": "2026-10-05T18:39:40.576793+00:00",
+    "last_status": "ok",
+    "last_error": null,
+    "consecutive_failures": 0,
+    "last_raw_count": 100,
+    "consecutive_empty_runs": 0,
+    "latest_item_date": "2026-10-05"
+  },
+  "CEPA (Center for European Policy Analysis)": {
+    "last_run": "2026-10-05T18:39:41.754402+00:00",
+    "last_status": "ok",
+    "last_error": null,
+    "consecutive_failures": 0,
+    "last_raw_count": 10,
+    "consecutive_empty_runs": 0,
+    "latest_item_date": "2026-10-05",
+    "last_new_item_at": "2026-10-05T18:39:41.754406+00:00",
+    "total_kept": 3
+  },
+  "ICDS (Estonia)": {
+    "last_run": "2026-10-05T18:39:44.284260+00:00",
+    "last_status": "ok",
+    "last_error": null,
+    "consecutive_failures": 0,
+    "last_raw_count": 9,
+    "consecutive_empty_runs": 0,
+    "latest_item_date": "2026-10-02"
+  },
+  "Lowy Institute - The Interpreter": {
+    "last_run": "2026-10-05T18:39:45.815712+00:00",
+    "last_status": "ok",
+    "last_error": null,
+    "consecutive_failures": 0,
+    "last_raw_count": 50,
+    "consecutive_empty_runs": 0,
+    "latest_item_date": "2026-10-05"
+  },
+  "The Record (Recorded Future News)": {
+    "last_run": "2026-10-05T18:39:49.545335+00:00",
+    "last_status": "ok",
+    "last_error": null,
+    "consecutive_failures": 0,
+    "last_raw_count": 5,
+    "consecutive_empty_runs": 0,
+    "latest_item_date": "2026-10-05"
+  },
+  "SpacePolicyOnline": {
+    "last_run": "2026-10-05T18:39:51.166929+00:00",
+    "last_status": "ok",
+    "last_error": null,
+    "consecutive_failures": 0,
+    "last_raw_count": 10,
+    "consecutive_empty_runs": 0,
+    "latest_item_date": "2026-10-04"
+  },
+  "CSIS - Project on Nuclear Issues": {
+    "last_run": "2026-10-05T18:39:52.504219+00:00",
+    "last_status": "fail",
+    "last_error": "403 Client Error: Forbidden for url: https://www.csis.org/programs/project-nuclear-issues?page=1",
+    "consecutive_failures": 1
+  }
+}

@@ -155,6 +155,34 @@
     "fetched_at": "2026-10-05T17:44:30.251970+00:00"
   },
   {
+    "id": "a484a144e3ef16d0",
+    "title": "Northrop logs first flight for self-funded drone wingman",
+    "link": "https://breakingdefense.com/2026/10/northrop-logs-first-flight-for-self-funded-drone-wingman",
+    "date": "2026-10-05",
+    "summary": "The YFQ-48A performed fully autonomous “taxi, takeoff, in-flight maneuvers and landing” over the Mojave Desert in California, according to Northrop Grumman.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T18:39:30.063390+00:00"
+  },
+  {
+    "id": "fb7e81319e2b3815",
+    "title": "USNI News Fleet and Marine Tracker: Oct. 5, 2026",
+    "link": "https://news.usni.org/2026/10/05/usni-news-fleet-and-marine-tracker-oct-5-2026",
+    "date": "2026-10-05",
+    "summary": "These are the approximate positions of the U.S. Navy’s deployed carrier strike groups and amphibious ready groups throughout the world as of Oct. 5, 2026, based on Navy and public data. In cases in which a CSG or ARG is conducting disaggregated operations, the chart reflects the location of the capital ship. Total Battle Force Deployed Underway 286 (USS 228, USNS 58) 109 (USS 78, USNS 31) (46 FDNF, 63 Rotational) 79 (61 Deployed, 18 Local) In Japan USS Tripoli (LHA-7) is in port in Sasebo, Japan. In Phuket, Thailand Aircraft carrier USS George H. W. Bush (CVN-77) arrived Sunday",
+    "source": "USNI News",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T18:39:31.461513+00:00"
+  },
+  {
     "id": "55e02b5c9284e501",
     "title": "Why an EU “associate membership” is the wrong Canada story",
     "link": "https://www.lowyinstitute.org/the-interpreter/why-an-eu-associate-membership-is-the-wrong-canada-story",
@@ -435,6 +463,20 @@
       "energy_industry"
     ],
     "fetched_at": "2026-10-05T17:21:07.726172+00:00"
+  },
+  {
+    "id": "6af02180fb261891",
+    "title": "A Time to Reap: Ukraine’s Operation Vivaldi",
+    "link": "https://cepa.org/article/a-time-to-reap-ukraines-operation-vivaldi",
+    "date": "2026-10-02",
+    "summary": "Much of Europe still fails to see Ukraine as the continent’s first line of defense. Its strategic distance from Kyiv looks increasingly like betrayal.",
+    "source": "CEPA (Center for European Policy Analysis)",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T18:39:41.747985+00:00"
   },
   {
     "id": "b5603bd846c353b4",
@@ -1111,6 +1153,34 @@
       "military"
     ],
     "fetched_at": "2026-10-05T17:21:11.190817+00:00"
+  },
+  {
+    "id": "db467fe3fe0c5c76",
+    "title": "FSB Focuses Crosshairs on Russian Exiles",
+    "link": "https://cepa.org/article/fsb-focuses-crosshairs-on-russian-exiles",
+    "date": "2026-09-30",
+    "summary": "The Kremlin’s campaign to harass, intimidate, and murder opponents takes another major step back to the days of Stalin.",
+    "source": "CEPA (Center for European Policy Analysis)",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-05T18:39:41.751856+00:00"
+  },
+  {
+    "id": "bdd5251dfb09dfbe",
+    "title": "NATO Drones: Swarm or Be Swarmed",
+    "link": "https://cepa.org/article/nato-drones-swarm-or-be-swarmed",
+    "date": "2026-09-30",
+    "summary": "Ukraine already uses drone swarm systems; NATO needs to follow, and swiftly.",
+    "source": "CEPA (Center for European Policy Analysis)",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-05T18:39:41.752604+00:00"
   },
   {
     "id": "9eb78dafe89ea442",
