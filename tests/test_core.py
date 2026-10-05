@@ -154,14 +154,26 @@ def test_scraper_irsem():
     html = """
     <div class="grid">
       <div class="card"><a href="/publications/sahel-au-centre-du-djihadisme-mondial">
-        <span>Défense Sécurité</span><span>Etude 138</span><span>09/2026</span>
-        <h3>Sahel au centre du djihadisme mondial</h3></a></div>
-      <div class="card"><a href="/publications/sante-mentale-et-guerre"><span>ETUDE 137</span>
-        <span>14/09/2026</span><h3>Santé mentale et guerre de haute intensité</h3></a></div>
+        <span>Défense</span> <span>Sécurité</span> <span>1 min de lecture</span>
+        <span>Sahel au centre du djihadisme mondial</span>
+        <span>Etude 138 - 09/2026</span><span>Sahel au centre du djihadisme mondial</span>
+        <span>Alexandre Lauret</span></a></div>
+      <div class="card"><a href="/publications/sante-mentale"><span>Société Défense</span>
+        <span>2h44min de lecture</span><span>Santé mentale et guerre de haute intensité</span>
+        <span>ETUDE 137 - 14/09/2026</span></a></div>
+      <div class="card"><a href="/publications/droit-des-conflits"><span>Droit</span>
+        <span>3 min de lecture</span><span>Le droit des conflits armés</span><span>Publication - 06/2026</span></a></div>
+      <div class="card"><a href="/publications/reseaux-electriques"><span>Énergie</span>
+        <span>2 min de lecture</span><span>Réseaux électriques et conflits</span><span>Brève stratégique 93 - 09/2026</span></a></div>
       <a href="/publications?page=2">2</a><a href="/equipe/someone">x</a>
     </div>"""
     s = FakeSession({"https://www.irsem.fr/publications": html})
-    out = scrapers.irsem(s, "https://www.irsem.fr/publications", {"max_pages": 1})
-    assert [o["date"] for o in out] == ["2026-09-01", "2026-09-14"]
-    assert out[0]["title"] == "Sahel au centre du djihadisme mondial"
+    opts = {"max_pages": 1, "skip_categories": ["droit", "société"]}
+    out = scrapers.irsem(s, "https://www.irsem.fr/publications", opts)
+    assert [o["title"] for o in out] == ["Sahel au centre du djihadisme mondial", "Réseaux électriques et conflits"]
+    assert out[0]["date"] == "2026-09-01" and out[0]["themes_hint"] == ["military"]
+    assert out[1]["themes_hint"] == ["energy_industry"]
     assert "Etude 138" in out[0]["summary"]
+    src = {"name": "IRSEM", "region": "fr"}
+    kept, _, _ = process_items(src, out, KW, RG, set(), TODAY)
+    assert len(kept) == 2 and kept[0]["themes"] == ["military"]
