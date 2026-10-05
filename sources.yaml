@@ -275,6 +275,6 @@
   url: "https://www.csis.org/programs/project-nuclear-issues"
   parser: csis_program
   region: us
-  default_themes: [military]
+  default_themes: [energy_industry]
   max_pages: 3
   initial_limit: 8
