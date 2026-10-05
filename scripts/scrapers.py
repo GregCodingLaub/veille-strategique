@@ -24,7 +24,7 @@ from urllib.parse import urljoin, urlsplit
 
 from bs4 import BeautifulSoup
 
-from common import parse_date_from_text, clean_text
+from common import parse_date_from_text, clean_text, fold
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -202,11 +202,24 @@ def cia_csi(session, url, options=None):
 # ----------------------------------------------------------------------------
 # IRSEM (no RSS feed; listing at /publications, pager ?page=2, ?page=3 ...)
 # ----------------------------------------------------------------------------
+# A card reads, in text order:
+#   "<categories> <N min de lecture> <title> <type N - date> <title> <authors>"
+#   e.g. "Défense Sécurité 1 min de lecture Sahel au centre du djihadisme mondial
+#         Etude 138 - 09/2026 Sahel au centre du djihadisme mondial A. Lauret"
+# The parser cuts that string at the reading time and at the type/date label.
 _IRSEM_DATE = re.compile(r"\b(?:(\d{1,2})/)?(\d{1,2})/(20\d{2})\b")
 _IRSEM_TYPE = re.compile(
     r"\b(étude|etude|brève stratégique|breve strategique|note de recherche|note stratégique|"
     r"note strategique|veille stratégique|veille strategique|livre|enquête|enquete|"
-    r"rapport|publication)\b(?:\s*(?:n°\s*)?(\d+))?", re.I)
+    r"rapport|publication)\b(?:\s*(?:n°\s*)?(\d+))?\s*-?\s*(?=\d{1,2}/)", re.I)
+_IRSEM_READING = re.compile(r"(?:\d+\s*h\s*)?\d+\s*min(?:utes?)?\s+de\s+lecture", re.I)
+_IRSEM_CATEGORIES = ["Défense", "Sécurité", "Influence", "Stratégie", "Politique", "Énergie",
+                     "Société", "Environnement", "Droit", "Espace", "Renseignement", "Histoire"]
+# category -> newsletter theme (an item with none of these goes through the keyword filter)
+_IRSEM_THEME_HINT = {
+    "défense": "military", "sécurité": "military", "stratégie": "military", "influence": "military",
+    "renseignement": "intelligence", "énergie": "energy_industry", "espace": "energy_industry",
+}
 
 
 def _irsem_date(text):
@@ -220,14 +233,35 @@ def _irsem_date(text):
     return f"{year:04d}-{month:02d}-{int(day or 1):02d}"
 
 
+def _irsem_parse_card(text, fallback_title=""):
+    """Split a card's text into (categories, title, type label, date)."""
+    reading = _IRSEM_READING.search(text)
+    head = text[:reading.start()] if reading else ""
+    cats = [c for c in _IRSEM_CATEGORIES if re.search(rf"\b{c}\b", head, re.I)]
+    rest = text[reading.end():].strip() if reading else text
+    kind = _IRSEM_TYPE.search(rest)
+    dmatch = _IRSEM_DATE.search(rest)
+    cut = kind.start() if kind else (dmatch.start() if dmatch else len(rest))
+    title = rest[:cut].strip(" -–·")
+    if len(title) < 8:
+        title = fallback_title
+    label = ""
+    if kind:
+        label = " ".join(g for g in (kind.group(1), kind.group(2)) if g).capitalize()
+    return cats, title, label, _irsem_date(rest)
+
+
 def irsem(session, url, options=None):
-    """IRSEM publications (studies, strategic briefs, research notes, books).
-    A publication link is /publications/<slug>. Dates are written dd/mm/yyyy
-    or mm/yyyy in the card. The card is the largest ancestor of the link that
-    contains no other publication link, so the parser does not depend on CSS
-    class names. Pages: the base URL, then ?page=2, ?page=3 ... up to
-    `max_pages` (default 2)."""
-    max_pages = int((options or {}).get("max_pages", 2))
+    """IRSEM publications. A publication link is /publications/<slug>; the
+    card is the largest ancestor of the link that holds no other publication
+    link (no dependency on CSS class names). Options (sources.yaml):
+      max_pages            pages to read: base URL, then ?page=2, ?page=3 (default 1)
+      skip_categories      IRSEM categories to ignore, e.g. [droit, société]
+                           (accent/case-insensitive)
+    The IRSEM category labels also give each item its newsletter theme(s)."""
+    opts = options or {}
+    max_pages = int(opts.get("max_pages", 1))
+    skip = {fold(c) for c in (opts.get("skip_categories") or [])}
     items, seen = [], set()
     for page in range(1, max_pages + 1):
         page_url = url if page == 1 else f"{url}{'&' if '?' in url else '?'}page={page}"
@@ -254,19 +288,24 @@ def irsem(session, url, options=None):
                 if len(inside) > 1:
                     break
                 node = node.parent
-            heading = node.find(["h1", "h2", "h3", "h4"])
-            title = clean_text(heading.get_text(" ", strip=True)) if heading else _best_text(anchors)
-            if len(title) < 8:
-                continue
             seen.add(href)
             new_on_page += 1
-            card_text = clean_text(node.get_text(" ", strip=True))
-            kind = _IRSEM_TYPE.search(card_text)
-            label = " ".join(g for g in (kind.group(1), kind.group(2)) if g).capitalize() if kind else ""
+            heading = node.find(["h1", "h2", "h3", "h4"])
+            fallback = clean_text(heading.get_text(" ", strip=True)) if heading else _best_text(anchors)
+            cats, title, label, date = _irsem_parse_card(clean_text(node.get_text(" ", strip=True)), fallback)
+            if len(title) < 8:
+                continue
+            if skip and any(fold(c) in skip for c in cats):
+                continue
+            hints = []
+            for c in cats:
+                t = _IRSEM_THEME_HINT.get(c.lower())
+                if t and t not in hints:
+                    hints.append(t)
+            summary = " · ".join(x for x in (label, ", ".join(cats)) if x)
             items.append({
-                "title": title, "link": href, "date": _irsem_date(card_text),
-                "summary": f"{label} de l'IRSEM (Institut de recherche stratégique de l'École militaire)."
-                           if label else "Publication de l'IRSEM.",
+                "title": title, "link": href, "date": date, "themes_hint": hints,
+                "summary": f"{summary} (IRSEM)" if summary else "Publication de l'IRSEM.",
             })
         if new_on_page == 0:
             break
