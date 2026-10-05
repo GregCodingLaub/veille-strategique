@@ -32,14 +32,16 @@ Tests : `pip install pytest && pytest`.
 
 | Secret | Rôle |
 |---|---|
-| `RESEND_API_KEY`, `RESEND_TO_EMAIL`, `RESEND_FROM_EMAIL` | envoi (Resend) |
+| `SMTP_USER`, `SMTP_PASSWORD`, `SMTP_FROM_NAME` | envoi par un compte Gmail dédié (mot de passe d'application) ; prioritaire sur Resend s'il est renseigné |
+| `RESEND_API_KEY`, `RESEND_FROM_EMAIL` | envoi par Resend (domaine vérifié requis pour écrire à des tiers) |
+| `RESEND_TO_EMAIL` | votre adresse, destinataire de toutes les éditions |
 | `SITE_URL` | URL GitHub Pages (liens des emails) |
 | `RECIPIENTS_CSV_URL` | CSV publié de la Google Sheet des abonnés |
 | `SIGNUP_FORM_URL` | formulaire d'inscription (bouton du site, lien de désabonnement) |
 
 ## Ouverture à des tiers : points de vigilance
 
-1. **Domaine d'envoi vérifié obligatoire.** Avec `onboarding@resend.dev`, Resend ne livre qu'au propriétaire du compte : les abonnés ne sont alors pas contactés (avertissement dans les logs). Vérifier un domaine sur resend.com/domains.
+1. **Avec Resend : domaine d'envoi vérifié obligatoire.** (Avec un compte Gmail dédié via `SMTP_*`, non.) Avec `onboarding@resend.dev`, Resend ne livre qu'au propriétaire du compte : les abonnés ne sont alors pas contactés (avertissement dans les logs). Vérifier un domaine sur resend.com/domains.
 2. **Limite gratuite** : 100 emails par jour. Chaque abonné reçoit un message individuel par thème choisi ; le script avertit au-delà de 90.
 3. **Désabonnement** : ajouter l'option « Me désabonner » aux cases « Thèmes » du formulaire ; la dernière réponse d'une adresse prévaut. Le lien du pied d'email pointe vers le formulaire.
 4. **Pas de double opt-in** : n'importe qui peut saisir l'adresse d'un tiers. À accepter pour un cercle de pairs, à traiter avant tout élargissement.
