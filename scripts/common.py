@@ -1,8 +1,14 @@
 """Shared helpers used by fetch.py, build_site.py, send_newsletter.py."""
 import hashlib
+import html as html_lib
 import json
 import os
 import re
+import unicodedata
+from datetime import datetime, timezone
+from functools import lru_cache
+from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
+
 import yaml
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -12,37 +18,77 @@ REGIONS_PATH = os.path.join(ROOT, "regions.yaml")
 ITEMS_PATH = os.path.join(ROOT, "data", "items.json")
 STATE_PATH = os.path.join(ROOT, "data", "state.json")
 NEWSLETTER_LOG_PATH = os.path.join(ROOT, "data", "newsletter_log.json")
+HEALTH_PATH = os.path.join(ROOT, "data", "source_health.json")
 DOCS_DIR = os.path.join(ROOT, "docs")
 
-# Order defines both matching priority (first match wins) and display order
-# in the email/website. Keep in sync with regions.yaml's section names.
-REGION_ORDER = ["france", "eu", "us", "china", "middle_east_africa", "other"]
+# Order = display order in the email/website AND tie-break order when an item
+# matches several regions equally. Keep in sync with regions.yaml.
+REGION_ORDER = [
+    "france", "eu", "us", "russia_eurasia", "china",
+    "asia_pacific", "middle_east_africa", "other",
+]
 REGION_LABELS = {
     "france": "France",
-    "eu": "Union Européenne",
+    "eu": "Europe",
     "us": "États-Unis",
+    "russia_eurasia": "Russie & Eurasie",
     "china": "Chine",
+    "asia_pacific": "Indo-Pacifique",
     "middle_east_africa": "Moyen-Orient & Afrique",
     "other": "Autres",
+}
+# Categorical colours for the "by zone" bar (email + site). Muted, distinct.
+REGION_COLORS = {
+    "france": "#2f6fdb",
+    "eu": "#7c5cd6",
+    "us": "#d6455d",
+    "russia_eurasia": "#8a5a44",
+    "china": "#d9822b",
+    "asia_pacific": "#1a9e8f",
+    "middle_east_africa": "#b8a000",
+    "other": "#8a96a3",
 }
 
 # One newsletter per theme. Keep in sync with keywords.yaml's theme keys.
 THEME_ORDER = ["intelligence", "military", "energy_industry"]
 THEME_LABELS = {
-    "intelligence": "Renseignement",
+    "intelligence": "Renseignement & Intelligence économique",
     "military": "Défense & Industrie militaire",
-    "energy_industry": "Énergie",
+    "energy_industry": "Énergie & Infrastructures",
+}
+THEME_SHORT_LABELS = {
+    "intelligence": "Renseignement",
+    "military": "Défense",
+    "energy_industry": "Énergie & Infra.",
+}
+# Accent colour of each newsletter (masthead band, section rules, links).
+THEME_COLORS = {
+    "intelligence": "#0e7490",
+    "military": "#4d6b2f",
+    "energy_industry": "#b45309",
 }
 
-# Maps a SOURCE's own region code (sources.yaml's short "fr"/"eu"/"us")
-# to the matching SUBJECT region key (regions.yaml's "france"/"eu"/"us"/...).
-# Used as a fallback when an article's text has no explicit region keyword.
+# Maps a SOURCE's own region code to the matching SUBJECT region key. Used as
+# a fallback when an article's text has no explicit region keyword.
 SOURCE_TO_SUBJECT_REGION = {
     "fr": "france",
     "eu": "eu",
     "us": "us",
     "other": "other",
 }
+
+# Small perspective tag: where the PUBLISHING institution is based.
+# (label, text colour, tint background)
+SOURCE_PERSPECTIVE = {
+    "fr": ("FR", "#1d4ed8", "#e6eefc"),
+    "eu": ("EU", "#6d28d9", "#efe8fb"),
+    "us": ("US", "#b91c1c", "#fbe9e9"),
+    "other": ("—", "#52606d", "#eceff2"),
+}
+
+# ----------------------------------------------------------------------------
+# Loading / saving
+# ----------------------------------------------------------------------------
 
 
 def load_sources():
@@ -60,6 +106,16 @@ def load_regions():
         return yaml.safe_load(f) or {}
 
 
+def _atomic_write_json(path, data):
+    """Write JSON through a temp file so a crash can never leave a
+    half-written (corrupt) data file behind."""
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    tmp = path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    os.replace(tmp, path)
+
+
 def load_items():
     if not os.path.exists(ITEMS_PATH):
         return []
@@ -69,11 +125,8 @@ def load_items():
     try:
         return json.loads(raw)
     except json.JSONDecodeError as e:
-        # A previous manual edit (through GitHub's web editor, especially on
-        # a large file) can leave behind a stray trailing comma. Rather than
-        # letting this take down the entire weekly pipeline, try a
-        # conservative auto-repair (strip a comma right before a closing
-        # ] or }) before giving up.
+        # A manual edit through GitHub's web editor can leave a stray trailing
+        # comma. Try a conservative auto-repair before giving up.
         print(f"WARNING: data/items.json has invalid JSON ({e}). Attempting auto-repair...")
         repaired = re.sub(r',(\s*[\]}])', r'\1', raw)
         try:
@@ -81,8 +134,7 @@ def load_items():
         except json.JSONDecodeError:
             raise RuntimeError(
                 f"data/items.json is corrupted and could not be auto-repaired: {e}\n"
-                f"Run 'python scripts/fix_json.py' locally, or check line {e.lineno} "
-                f"by hand, then push the corrected file."
+                f"Check line {e.lineno} by hand, then push the corrected file."
             ) from e
         print("Auto-repair succeeded. Saving the corrected file so this doesn't recur.")
         save_items(data)
@@ -90,22 +142,16 @@ def load_items():
 
 
 def save_items(items):
-    os.makedirs(os.path.dirname(ITEMS_PATH), exist_ok=True)
     # newest first
     items = sorted(items, key=lambda x: x.get("date") or "", reverse=True)
-    with open(ITEMS_PATH, "w", encoding="utf-8") as f:
-        json.dump(items, f, ensure_ascii=False, indent=2)
+    _atomic_write_json(ITEMS_PATH, items)
 
 
 def load_state():
-    """State is per-theme: {"last_newsletter_sent": {"intelligence": "...",
-    "military": "...", "energy_industry": "..."}}. Each value is an ISO
-    date string or None if that newsletter has never been sent.
-
-    Handles migrating the old single-newsletter format automatically: if
-    last_newsletter_sent is a plain string (or missing), it's converted to
-    a per-theme dict, using that old date as the starting point for every
-    theme so the transition doesn't cause an immediate re-send of all three."""
+    """State is per-theme: {"last_newsletter_sent": {"intelligence": "ISO",
+    "military": "ISO", "energy_industry": "ISO"}}. A value is an ISO datetime
+    or None if that newsletter was never sent. Migrates the old
+    single-date format automatically."""
     if not os.path.exists(STATE_PATH):
         return {"last_newsletter_sent": {t: None for t in THEME_ORDER}}
     with open(STATE_PATH, "r", encoding="utf-8") as f:
@@ -113,25 +159,15 @@ def load_state():
 
     last_sent = state.get("last_newsletter_sent")
     if not isinstance(last_sent, dict):
-        # Old format (a single date, or missing) -- migrate.
         state["last_newsletter_sent"] = {t: last_sent for t in THEME_ORDER}
     else:
-        # Make sure every current theme has a key, even if new since the
-        # last run (e.g. a theme added after this file was created).
         for t in THEME_ORDER:
             state["last_newsletter_sent"].setdefault(t, None)
     return state
 
 
 def save_state(state):
-    os.makedirs(os.path.dirname(STATE_PATH), exist_ok=True)
-    with open(STATE_PATH, "w", encoding="utf-8") as f:
-        json.dump(state, f, ensure_ascii=False, indent=2)
-
-
-def item_id(link):
-    """Stable unique id for an item, used for deduplication."""
-    return hashlib.sha256(link.encode("utf-8")).hexdigest()[:16]
+    _atomic_write_json(STATE_PATH, state)
 
 
 def load_newsletter_log():
@@ -145,93 +181,272 @@ def append_newsletter_log(entry):
     """Add one sent-edition record. Newest first."""
     log = load_newsletter_log()
     log.insert(0, entry)
-    os.makedirs(os.path.dirname(NEWSLETTER_LOG_PATH), exist_ok=True)
-    with open(NEWSLETTER_LOG_PATH, "w", encoding="utf-8") as f:
-        json.dump(log, f, ensure_ascii=False, indent=2)
+    _atomic_write_json(NEWSLETTER_LOG_PATH, log)
+
+
+def load_health():
+    if not os.path.exists(HEALTH_PATH):
+        return {}
+    try:
+        with open(HEALTH_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+
+def save_health(health):
+    _atomic_write_json(HEALTH_PATH, health)
+
+
+def edition_number(theme, log=None):
+    """Official edition number of `theme`: number of logged official sends
+    of that theme, plus one (the one being prepared)."""
+    log = load_newsletter_log() if log is None else log
+    return 1 + sum(1 for e in log if e.get("theme") == theme)
+
+
+# ----------------------------------------------------------------------------
+# Text cleaning
+# ----------------------------------------------------------------------------
+
+_BOILERPLATE = [
+    re.compile(r"\s*The post .{0,200}? appeared first on .{0,120}?\.?\s*$", re.I | re.S),
+    re.compile(r"\s*Cet article .{0,200}? est apparu en premier sur .{0,120}?\.?\s*$", re.I | re.S),
+    re.compile(r"\s*(Continue reading|Read more|Lire la suite|En savoir plus)\b.{0,40}$", re.I | re.S),
+]
+
+
+def clean_text(raw):
+    """HTML (or plain text) -> one line of plain text: tags dropped, entities
+    decoded, whitespace collapsed, feed boilerplate removed. Safe to escape
+    and display anywhere."""
+    if not raw:
+        return ""
+    text = str(raw)
+    # Some feeds double-encode their markup (&lt;span&gt;): decode first.
+    if "&lt;" in text or "&#60;" in text:
+        text = html_lib.unescape(text)
+    if "<" in text and ">" in text:
+        # Drop script/style/embedded content wholesale, then the tags.
+        text = re.sub(r"(?is)<(script|style|iframe|noscript)\b.*?</\1\s*>", " ", text)
+        text = re.sub(r"(?s)<[^>]*>", " ", text)
+    # A summary cut in the middle of a tag leaves a dangling "<a href=..."
+    text = re.sub(r"<[^<>]*$", " ", text)
+    text = html_lib.unescape(text)
+    text = re.sub(r"Sign up here to receive Bellingcat.s biggest investigations by email as soon as they are published\.?", " ", text, flags=re.I)
+    text = re.sub(r"\[email\s*protected\]", " ", text, flags=re.I)
+    # Drupal feeds: "author.name... Mon, 09/28/2026 - 11:11"
+    text = re.sub(r"\S*\.\.\.?\s+[A-Z][a-z]{2}, \d\d/\d\d/\d{4} - \d\d:\d\d", " ", text)
+    text = re.sub(r"\b[A-Z][a-z]{2}, \d\d/\d\d/\d{4} - \d\d:\d\d", " ", text)
+    text = text.replace("\u00a0", " ")
+    text = re.sub(r"\s+", " ", text).strip()
+    for pat in _BOILERPLATE:
+        text = pat.sub("", text).strip()
+    return text
+
+
+def truncate(text, limit):
+    """Cut at a word boundary and add an ellipsis. No-op if short enough."""
+    text = text or ""
+    if len(text) <= limit:
+        return text
+    cut = text[:limit].rsplit(" ", 1)[0].rstrip(",;:-– ")
+    return (cut or text[:limit]) + "…"
+
+
+_TRACKING_PARAMS = re.compile(r"^(utm_.*|fbclid|gclid|mc_.*|mkt_tok|ref|ref_src|cmpid|igshid|spm)$", re.I)
+
+
+def canonical_link(url):
+    """Normalise a URL for de-duplication: lower-case host, no fragment, no
+    tracking/empty query parameters, no trailing slash."""
+    try:
+        parts = urlsplit((url or "").strip())
+    except ValueError:
+        return (url or "").strip()
+    query = [
+        (k, v) for k, v in parse_qsl(parts.query, keep_blank_values=True)
+        if v != "" and not _TRACKING_PARAMS.match(k)
+    ]
+    path = parts.path.rstrip("/") or ("/" if not parts.netloc else "")
+    return urlunsplit((parts.scheme.lower(), parts.netloc.lower(), path, urlencode(query), ""))
+
+
+def item_id(link):
+    """Stable unique id for an item (hash of its canonical link)."""
+    return hashlib.sha256(canonical_link(link).encode("utf-8")).hexdigest()[:16]
+
+
+def legacy_item_id(link):
+    """Id as computed before canonicalisation (hash of the raw link). Kept so
+    items archived by earlier versions are still recognised as duplicates."""
+    return hashlib.sha256(link.encode("utf-8")).hexdigest()[:16]
+
+
+_MONTHS = {
+    "january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6,
+    "july": 7, "august": 8, "september": 9, "october": 10, "november": 11, "december": 12,
+    "janvier": 1, "fevrier": 2, "mars": 3, "avril": 4, "mai": 5, "juin": 6,
+    "juillet": 7, "aout": 8, "septembre": 9, "octobre": 10, "novembre": 11, "decembre": 12,
+    "jan": 1, "feb": 2, "mar": 3, "apr": 4, "jun": 6, "jul": 7, "aug": 8,
+    "sep": 9, "sept": 9, "oct": 10, "nov": 11, "dec": 12,
+}
+
+
+def fold(text):
+    """Lower-case, strip accents, straighten quotes: the form keyword
+    matching works on, so 'Défense', 'defense' and 'DÉFENSE' are equal."""
+    text = (text or "").replace("’", "'").replace("‘", "'").replace("ʼ", "'")
+    text = unicodedata.normalize("NFKD", text)
+    text = "".join(c for c in text if not unicodedata.combining(c))
+    return text.lower()
+
+
+def parse_date_from_text(text, month_only=False):
+    """Find a date written in English or French prose ('21 September 2026',
+    'October 1, 2026', '21 septembre 2026'). Returns 'YYYY-MM-DD' or None.
+    With month_only=True also accepts 'September 2026' (-> first of month)."""
+    t = fold(text)
+    names = "|".join(sorted(_MONTHS, key=len, reverse=True))
+    m = re.search(rf"\b(\d{{1,2}})(?:st|nd|rd|th|er)?\s+({names})\.?,?\s+(\d{{4}})\b", t)
+    if m:
+        d, mon, y = int(m.group(1)), _MONTHS[m.group(2)], int(m.group(3))
+    else:
+        m = re.search(rf"\b({names})\.?\s+(\d{{1,2}})(?:st|nd|rd|th)?,?\s+(\d{{4}})\b", t)
+        if m:
+            mon, d, y = _MONTHS[m.group(1)], int(m.group(2)), int(m.group(3))
+        elif month_only:
+            m = re.search(rf"\b({names})\.?,?\s+(\d{{4}})\b", t)
+            if not m:
+                return None
+            mon, d, y = _MONTHS[m.group(1)], 1, int(m.group(2))
+        else:
+            return None
+    try:
+        return datetime(y, mon, d).strftime("%Y-%m-%d")
+    except ValueError:
+        return None
+
+
+# ----------------------------------------------------------------------------
+# Keyword / region matching
+# ----------------------------------------------------------------------------
+# Matching is on whole words (so 'cia' never matches inside 'social'), but
+# tolerant of plurals ('drone' matches 'drones', 'armée' matches 'armées')
+# and of accents/curly quotes, on text that has first been cleaned of HTML.
+
+
+@lru_cache(maxsize=None)
+def _keyword_pattern(keyword):
+    kw = fold(keyword).strip()
+    if not kw:
+        return None
+    # Every alphabetic word of the keyword may carry a plural ending, so
+    # "guerre hybride" also matches "guerres hybrides".
+    pieces = re.split(r"(\s+|-)", kw)
+    out = []
+    for piece in pieces:
+        if not piece:
+            continue
+        if re.fullmatch(r"\s+|-", piece):
+            out.append(r"[\s-]+" if piece != "-" else r"-")
+        elif piece[-1].isalpha():
+            out.append(re.escape(piece) + r"(?:s|x|es)?")
+        else:
+            out.append(re.escape(piece))
+    return re.compile(r"(?<![a-z0-9])" + "".join(out) + r"(?![a-z0-9])")
 
 
 def _whole_word_match(keyword, text_low):
-    """True if `keyword` appears in `text_low` as a whole word/phrase, not
-    as a fragment inside a longer word (e.g. 'cia' must not match inside
-    'social'). Word boundaries handle accented French text correctly too."""
-    pattern = r'(?<![^\W_])' + re.escape(keyword.lower()) + r'(?![^\W_])'
-    return re.search(pattern, text_low) is not None
+    """True if `keyword` appears in the (already folded) text as a whole
+    word/phrase, plural-tolerant."""
+    pat = _keyword_pattern(keyword)
+    return bool(pat and pat.search(fold(text_low)))
 
 
 def matches_keywords(text, keywords_by_theme):
-    """Return a list of matched theme names for a given text (title+summary).
-    The special 'exclude_technical' key is never returned as a theme -- see
-    is_excluded_technical() for how it's used instead."""
-    text_low = (text or "").lower()
+    """Matched theme names for a text (title+summary). 'exclude_technical'
+    is never returned as a theme -- see is_excluded_technical()."""
+    folded = fold(text)
     matched = []
     for theme, words in keywords_by_theme.items():
         if theme == "exclude_technical":
             continue
-        for w in words:
-            if _whole_word_match(w, text_low):
+        for w in words or []:
+            pat = _keyword_pattern(w)
+            if pat and pat.search(folded):
                 matched.append(theme)
                 break
     return matched
 
 
 def is_excluded_technical(text, keywords_by_theme):
-    """True if the text matches any exclude_technical keyword -- meaning
-    it should be dropped even if it also matched a real theme (too
-    technical/scientific rather than strategic/policy analysis)."""
-    text_low = (text or "").lower()
-    for w in keywords_by_theme.get("exclude_technical", []):
-        if _whole_word_match(w, text_low):
+    """True if the text hits an exclude_technical keyword: too technical,
+    promotional or event-announcement to be worth a strategic digest."""
+    folded = fold(text)
+    for w in keywords_by_theme.get("exclude_technical", []) or []:
+        pat = _keyword_pattern(w)
+        if pat and pat.search(folded):
             return True
     return False
 
 
-# Words that signal "this is an actual report/study/analysis", not a
-# passing remark, event plug, or news blurb. Used as an extra quality gate
-# specifically for Bluesky-sourced items (see fetch.py) -- RSS/scrape
-# sources are already real articles by nature, so this only applies where
-# "is this substantial enough to include" is a real question.
+# Words that signal "this is an actual report/study/analysis". Optional extra
+# gate for noisy social-media sources (source option `require_report: true`).
 REPORT_INDICATORS = [
-    "report", "rapport", "study", "étude", "analysis", "analyse",
-    "paper", "policy brief", "note de synthèse", "briefing", "assessment",
-    "évaluation", "index", "tracker", "database", "guide", "handbook",
+    "report", "rapport", "study", "etude", "analysis", "analyse",
+    "paper", "policy brief", "note de synthese", "briefing", "assessment",
+    "evaluation", "index", "tracker", "database", "guide", "handbook",
     "white paper", "working paper", "policy paper", "publication",
 ]
 
 
 def looks_like_a_report(text):
-    """True if the text contains language suggesting it's pointing to a
-    substantial document, not just a passing social-media remark."""
-    text_low = (text or "").lower()
-    return any(_whole_word_match(w, text_low) for w in REPORT_INDICATORS)
+    folded = fold(text)
+    return any(_keyword_pattern(w).search(folded) for w in REPORT_INDICATORS)
 
 
-def match_region(text, regions_by_name):
-    """Return the single best-matching subject region for a text (title+
-    summary), checked in REGION_ORDER priority. Falls back to 'other' if
-    nothing matches -- every item gets exactly one subject region."""
-    text_low = (text or "").lower()
+# "US" is a pronoun in lower case, so it is only recognised in capitals.
+_US_TOKEN = re.compile(r"(?<![A-Za-z])(?:US|USA|U\.S\.A?\.?)(?![A-Za-z])")
+
+
+def region_scores(text, regions_by_name):
+    """{region: number of distinct region keywords found} for a text."""
+    folded = fold(text)
+    scores = {}
     for region in REGION_ORDER:
         if region == "other":
             continue
-        for w in regions_by_name.get(region, []):
-            if _whole_word_match(w, text_low):
-                return region
+        hits = 0
+        for w in regions_by_name.get(region, []) or []:
+            pat = _keyword_pattern(w)
+            if pat and pat.search(folded):
+                hits += 1
+        if region == "us" and _US_TOKEN.search(text or ""):
+            hits += 1
+        if hits:
+            scores[region] = hits
+    return scores
+
+
+def match_region(text, regions_by_name):
+    """Single best subject region for a text: the region with the most
+    distinct keyword hits (ties resolved by REGION_ORDER). 'other' if none."""
+    scores = region_scores(text, regions_by_name)
+    if not scores:
+        return "other"
+    best = max(scores.values())
+    for region in REGION_ORDER:
+        if scores.get(region) == best:
+            return region
     return "other"
 
 
 def source_region_of(item):
-    """The publishing institution's own home base (for the small perspective
-    tag), with a fallback for items fetched before this field existed."""
+    """The publishing institution's home base (for the small perspective
+    tag), with a fallback for items archived before this field existed."""
     return item.get("source_region") or item.get("region") or "other"
 
 
-# Small colored "perspective" tag shown next to each item, indicating where
-# the PUBLISHING institution is based -- distinct from subject_region (what
-# the article is about), which drives the main region grouping. Shared
-# between the email and the website so the two stay visually consistent.
-SOURCE_PERSPECTIVE = {
-    "fr": ("FR", "#60a5fa"),      # blue
-    "eu": ("EU", "#a78bfa"),      # violet
-    "us": ("US", "#f87171"),      # red
-    "other": ("—", "#9ca3af"),    # gray
-}
+def now_utc_iso():
+    return datetime.now(timezone.utc).isoformat()

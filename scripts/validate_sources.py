@@ -1,82 +1,46 @@
 """
-Check every source in sources.yaml and report whether it actually works.
+Check every enabled source in sources.yaml: does it answer, and how many
+items would survive the keyword filter right now?
 
-Run this:
-  - once right after setup
-  - any time you add a new source
-  - if the digest suddenly looks thin (a source may have broken)
-
-Usage: python scripts/validate_sources.py
+Run it after adding a source, or when a newsletter looks thin.
+Usage: python scripts/validate_sources.py [name fragment]
+Exit code 1 if at least one source fails or returns nothing.
 """
+import os
 import sys
+from datetime import datetime, timezone
+
 import requests
-import feedparser
-import urllib3
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-sys.path.insert(0, __file__.rsplit("/", 1)[0])
-from common import load_sources
-from scrapers import PARSERS
-from bluesky import fetch_bluesky
-
-USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-
-
-def check_rss(url, verify_ssl=True):
-    resp = requests.get(url, timeout=20, headers={"User-Agent": USER_AGENT}, verify=verify_ssl)
-    resp.raise_for_status()
-    parsed = feedparser.parse(resp.content)
-    if parsed.bozo and not parsed.entries:
-        raise ValueError(f"Not a valid feed (bozo error: {parsed.bozo_exception})")
-    if not parsed.entries:
-        raise ValueError("Feed parsed but contains 0 entries")
-    return len(parsed.entries)
-
-
-def check_scrape(url, parser_name):
-    parser_fn = PARSERS.get(parser_name)
-    if not parser_fn:
-        raise ValueError(f"No parser named '{parser_name}' defined in scrapers.py")
-    session = requests.Session()
-    items = parser_fn(session, url)
-    if not items:
-        raise ValueError("Parser ran but returned 0 items -- site structure may have changed")
-    return len(items)
-
-
-def check_bluesky(handle):
-    session = requests.Session()
-    items = fetch_bluesky(session, handle)
-    if not items:
-        raise ValueError("Handle reachable but returned 0 usable posts")
-    return len(items)
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from common import load_sources, load_keywords, load_regions  # noqa: E402
+from fetch import fetch_source, process_items  # noqa: E402
 
 
 def main():
-    sources = load_sources()
-    ok, fail = 0, 0
-
-    for src in sources:
-        name = src["name"]
+    only = sys.argv[1].lower() if len(sys.argv) > 1 else None
+    keywords, regions = load_keywords(), load_regions()
+    today = datetime.now(timezone.utc)
+    session = requests.Session()
+    ok = fail = 0
+    for src in load_sources():
+        if only and only not in src["name"].lower():
+            continue
+        if src.get("enabled", True) is False:
+            print(f"[SKIP] {src['name']:45s} disabled")
+            continue
         try:
-            if src["type"] == "rss":
-                n = check_rss(src["url"], verify_ssl=src.get("verify_ssl", True))
-            elif src["type"] == "scrape":
-                n = check_scrape(src["url"], src.get("parser"))
-            elif src["type"] == "bluesky":
-                n = check_bluesky(src["url"])
-            else:
-                raise ValueError(f"Unknown type '{src['type']}'")
-            print(f"[OK]   {name:45s} {n} items found")
+            raw = fetch_source(session, src)
+            if not raw:
+                raise ValueError("0 entries: feed empty or page structure changed")
+            kept, _, latest = process_items(src, raw, keywords, regions, set(), today)
+            print(f"[OK]   {src['name']:45s} {len(raw):3d} fetched, {len(kept):3d} relevant, newest {latest or '?'}")
             ok += 1
-        except Exception as e:
-            print(f"[FAIL] {name:45s} {e}")
+        except Exception as e:  # noqa: BLE001
+            print(f"[FAIL] {src['name']:45s} {e}")
             fail += 1
-
-    print(f"\n{ok} working, {fail} broken, out of {len(sources)} sources.")
-    if fail:
-        print("Fix or remove broken sources in sources.yaml before relying on them.")
-        sys.exit(1)
+    print(f"\n{ok} working, {fail} broken.")
+    sys.exit(1 if fail else 0)
 
 
 if __name__ == "__main__":

@@ -1,342 +1,240 @@
 """
 Generate the static site (docs/index.html) from data/items.json and
-data/newsletter_log.json. GitHub Pages serves /docs directly -- no build
-step needed on GitHub's end.
+data/newsletter_log.json. GitHub Pages serves /docs directly.
 
-Supports URL query params for pre-filtering on load, e.g.
-  index.html?region=eu           -> opens with EU pre-selected
-  index.html?region=eu&theme=energy_industry  -> EU + Energy pre-selected
-This is what lets the emailed "view on site" links land pre-filtered.
-
-Run manually: python scripts/build_site.py
+Pre-filter through the URL, which is what the "Voir sur le site" links of the
+emails use:  index.html?region=eu&theme=energy_industry
 
 Optional env var:
-  SIGNUP_FORM_URL - link for the "S'abonner" button in the header, pointing
-                     at the peer-signup Google Form (see recipients.py for
-                     the one-time setup). Omitted from the page entirely if
-                     this isn't set.
-"""
-import sys
-from datetime import datetime
+  SIGNUP_FORM_URL  link of the "S'abonner" button (peer signup form).
 
-sys.path.insert(0, __file__.rsplit("/", 1)[0])
-from common import (
-    load_items, load_newsletter_log, DOCS_DIR,
-    REGION_ORDER, REGION_LABELS, source_region_of, SOURCE_PERSPECTIVE,
-)
+Everything coming from the feeds is HTML-escaped. Items are written in the
+page itself (readable without JavaScript); the script only filters them.
+"""
 import os
+import sys
+from datetime import datetime, timezone
+from html import escape
 
-THEME_LABELS = {
-    "intelligence": "Renseignement",
-    "military": "Défense & Industrie militaire",
-    "energy_industry": "Énergie",
-}
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from common import (  # noqa: E402
+    load_items, load_newsletter_log, DOCS_DIR, truncate,
+    REGION_ORDER, REGION_LABELS, REGION_COLORS, THEME_ORDER, THEME_LABELS,
+    THEME_SHORT_LABELS, THEME_COLORS, SOURCE_PERSPECTIVE, source_region_of,
+)
+from email_render import date_fr, short_date_fr  # noqa: E402
 
-PAGE_TEMPLATE = """<!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Veille Stratégique</title>
-<style>
-  :root {{
-    --bg: #0f1115; --card: #171a21; --text: #e8e9ec; --muted: #9099a8;
-    --accent: #5b8def; --border: #262a33;
-  }}
-  * {{ box-sizing: border-box; }}
-  body {{
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-    background: var(--bg); color: var(--text); margin: 0; padding: 0 16px 60px;
-  }}
-  header {{ max-width: 900px; margin: 0 auto; padding: 32px 0 16px; display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; flex-wrap: wrap; }}
-  h1 {{ font-size: 22px; margin: 0 0 4px; }}
-  .sub {{ color: var(--muted); font-size: 14px; }}
-  .signup-btn {{
-    display: inline-block; background: var(--accent); color: #fff; text-decoration: none;
-    font-size: 13px; font-weight: 600; padding: 9px 16px; border-radius: 8px; white-space: nowrap;
-    margin-top: 4px;
-  }}
-  .signup-btn:hover {{ opacity: 0.9; }}
-  .tabs {{ max-width: 900px; margin: 24px auto 0; display: flex; gap: 4px; border-bottom: 1px solid var(--border); }}
-  .tab-btn {{
-    background: none; border: none; color: var(--muted); padding: 10px 16px;
-    font-size: 14px; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px;
-  }}
-  .tab-btn.active {{ color: var(--text); border-bottom-color: var(--accent); }}
-  .filter-group-label {{ color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em; margin: 18px auto 6px; max-width: 900px; }}
-  .filters {{ max-width: 900px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 8px; }}
-  .filter-btn {{
-    background: var(--card); border: 1px solid var(--border); color: var(--text);
-    padding: 6px 12px; border-radius: 20px; font-size: 13px; cursor: pointer;
-  }}
-  .filter-btn.active {{ background: var(--accent); border-color: var(--accent); color: #fff; }}
-  main {{ max-width: 900px; margin: 24px auto; }}
-  .item {{
-    background: var(--card); border: 1px solid var(--border); border-radius: 10px;
-    padding: 16px 18px; margin-bottom: 12px;
-  }}
-  .item a {{ color: var(--text); text-decoration: none; font-size: 16px; font-weight: 600; }}
-  .item a:hover {{ color: var(--accent); }}
-  .meta {{ color: var(--muted); font-size: 12.5px; margin-top: 6px; }}
-  .tag {{
-    display: inline-block; background: #1f2937; color: #93c5fd; font-size: 11px;
-    padding: 2px 8px; border-radius: 10px; margin-right: 6px;
-  }}
-  .perspective {{ font-size: 11px; font-weight: 700; letter-spacing: 0.02em; margin-right: 6px; }}
-  .summary {{ color: #c3c7d1; font-size: 13.5px; margin-top: 8px; line-height: 1.4; }}
-  footer {{ max-width: 900px; margin: 40px auto; color: var(--muted); font-size: 12px; }}
-
-  .edition {{
-    background: var(--card); border: 1px solid var(--border); border-radius: 10px;
-    padding: 18px 20px; margin-bottom: 14px;
-  }}
-  .edition-head {{
-    display: flex; align-items: center; justify-content: space-between; cursor: pointer;
-  }}
-  .edition-title {{ font-size: 15px; font-weight: 600; }}
-  .edition-count {{ color: var(--muted); font-size: 13px; }}
-  .edition-body {{ display: none; margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--border); }}
-  .edition.open .edition-body {{ display: block; }}
-  .edition-item {{ padding: 8px 0; border-bottom: 1px solid #23262f; }}
-  .edition-item:last-child {{ border-bottom: none; }}
-  .edition-item a {{ color: var(--text); text-decoration: none; font-size: 14px; }}
-  .edition-item a:hover {{ color: var(--accent); }}
-  .edition-item .meta {{ font-size: 11.5px; margin-top: 3px; }}
-  .empty {{ color: var(--muted); font-size: 14px; padding: 24px 0; }}
-</style>
-</head>
-<body>
-<header>
-  <div>
-    <h1>🛰 Veille Stratégique</h1>
-    <div class="sub">{count} publications suivies · Défense · Renseignement · Intelligence économique · Énergie & armement · Généré le {generated}</div>
-  </div>
-  {signup_button}
-</header>
-
-<div class="tabs">
-  <button class="tab-btn active" data-view="items">Toutes les publications</button>
-  <button class="tab-btn" data-view="newsletters">Éditions envoyées ({edition_count})</button>
-</div>
-
-<div id="view-items">
-  <div class="filter-group-label">Zone</div>
-  <div class="filters" id="region-filters">
-    <button class="filter-btn active" data-region="all">Tout</button>
-    {region_buttons}
-  </div>
-  <div class="filter-group-label">Secteur</div>
-  <div class="filters" id="theme-filters">
-    <button class="filter-btn active" data-theme="all">Tout</button>
-    {theme_buttons}
-  </div>
-  <main id="items">
-{items_html}
-  </main>
-</div>
-
-<div id="view-newsletters" style="display:none;">
-  <main>
-{newsletters_html}
-  </main>
-</div>
-
-<footer>Veille personnelle · sources et mots-clés configurables dans le dépôt GitHub.</footer>
-<script>
-  const params = new URLSearchParams(window.location.search);
-  const initialRegion = params.get('region') || 'all';
-  const initialTheme = params.get('theme') || 'all';
-
-  const regionButtons = document.querySelectorAll('#region-filters .filter-btn');
-  const themeButtons = document.querySelectorAll('#theme-filters .filter-btn');
-  const items = document.querySelectorAll('.item');
-
-  let activeRegion = initialRegion;
-  let activeTheme = initialTheme;
-
-  function applyFilters() {{
-    items.forEach(it => {{
-      const regionOk = (activeRegion === 'all' || it.dataset.region === activeRegion);
-      const themeOk = (activeTheme === 'all' || it.dataset.themes.includes(activeTheme));
-      it.style.display = (regionOk && themeOk) ? '' : 'none';
-    }});
-  }}
-
-  regionButtons.forEach(btn => {{
-    if (btn.dataset.region === initialRegion) {{ regionButtons.forEach(b => b.classList.remove('active')); btn.classList.add('active'); }}
-    btn.addEventListener('click', () => {{
-      regionButtons.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      activeRegion = btn.dataset.region;
-      applyFilters();
-    }});
-  }});
-
-  themeButtons.forEach(btn => {{
-    if (btn.dataset.theme === initialTheme) {{ themeButtons.forEach(b => b.classList.remove('active')); btn.classList.add('active'); }}
-    btn.addEventListener('click', () => {{
-      themeButtons.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      activeTheme = btn.dataset.theme;
-      applyFilters();
-    }});
-  }});
-
-  applyFilters();
-
-  // Top-level tabs
-  const tabButtons = document.querySelectorAll('.tab-btn');
-  const views = {{ items: document.getElementById('view-items'), newsletters: document.getElementById('view-newsletters') }};
-  tabButtons.forEach(btn => btn.addEventListener('click', () => {{
-    tabButtons.forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    Object.entries(views).forEach(([key, el]) => {{ el.style.display = (key === btn.dataset.view) ? '' : 'none'; }});
-  }}));
-
-  // Expand/collapse newsletter editions
-  document.querySelectorAll('.edition-head').forEach(head => {{
-    head.addEventListener('click', () => head.closest('.edition').classList.toggle('open'));
-  }});
-</script>
-</body>
-</html>
+CSS = """
+:root{--bg:#eceff3;--paper:#fff;--ink:#101a2b;--body:#445063;--muted:#6b7686;--rule:#e1e6ec;
+  --masthead:#0f1b2a;--chip:#f1f4f7;--accent:#0e7490}
+@media (prefers-color-scheme:dark){:root{--bg:#0c1017;--paper:#141a24;--ink:#f1f4f8;--body:#b7c1cf;
+  --muted:#8b97a8;--rule:#252e3c;--masthead:#0a111b;--chip:#1c2431}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--body);font:15px/1.55 -apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+a{color:inherit}
+.masthead{background:var(--masthead);color:#fff;border-top:6px solid var(--accent)}
+.wrap{max-width:860px;margin:0 auto;padding:0 20px}
+.masthead .wrap{padding-top:30px;padding-bottom:26px;display:flex;gap:16px;justify-content:space-between;flex-wrap:wrap;align-items:flex-end}
+h1{font:700 32px/1.15 Georgia,"Times New Roman",serif;margin:0}
+.sub{color:#9fb0c4;font-size:14px;margin-top:8px;max-width:520px}
+.btn{display:inline-block;background:#fff;color:#0f1b2a;text-decoration:none;font-weight:700;font-size:14px;padding:10px 18px;border-radius:6px}
+.btn:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid #5aa9ff;outline-offset:2px}
+.tabs{background:var(--paper);border-bottom:1px solid var(--rule);position:sticky;top:0;z-index:5}
+.tabs .wrap{display:flex;gap:4px}
+.tab{background:none;border:0;border-bottom:3px solid transparent;color:var(--muted);font:600 14px inherit;padding:14px 14px 11px;cursor:pointer}
+.tab[aria-selected=true]{color:var(--ink);border-bottom-color:var(--accent)}
+.panel{padding:22px 0 60px}
+.tools{display:grid;gap:12px;margin-bottom:18px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.row .lab{font-size:13px;color:var(--muted);min-width:56px}
+.chip{background:var(--chip);border:1px solid var(--rule);color:var(--body);border-radius:999px;padding:5px 12px;font:13px inherit;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.chip .dot{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:6px}
+input[type=search],select{font:14px inherit;padding:8px 10px;border-radius:6px;border:1px solid var(--rule);background:var(--paper);color:var(--ink)}
+input[type=search]{flex:1;min-width:200px}
+.count{font-size:13px;color:var(--muted);margin:4px 0 6px}
+.item{background:var(--paper);border-left:4px solid var(--zone);padding:15px 18px 14px;margin-bottom:10px}
+.item h2{font:700 18px/1.35 Georgia,"Times New Roman",serif;margin:0}
+.item h2 a{color:var(--ink);text-decoration:none}
+.item h2 a:hover{text-decoration:underline}
+.item p{margin:6px 0 0;font-size:14.5px}
+.meta{font-size:12.5px;color:var(--muted);margin-top:8px;display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center}
+.persp{font-weight:700;font-size:10.5px;padding:3px 5px;border-radius:3px}
+.tag{font-size:12px;padding:1px 8px;border-radius:999px;border:1px solid var(--tc);color:var(--tc)}
+.zone{font-size:12px}
+.more{display:block;margin:18px auto;padding:10px 22px}
+.empty{padding:30px 0;color:var(--muted)}
+.edition{background:var(--paper);border-left:4px solid var(--tc);margin-bottom:10px}
+.edition summary{cursor:pointer;padding:14px 18px;list-style:none;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.edition summary::-webkit-details-marker{display:none}
+.edition b{font:700 17px Georgia,serif;color:var(--ink)}
+.edition .body{padding:0 18px 14px;border-top:1px solid var(--rule)}
+.edition .body div{padding:8px 0;border-bottom:1px solid var(--rule);font-size:14px}
+.edition .body div:last-child{border:0}
+footer{color:var(--muted);font-size:12.5px;padding-bottom:40px}
+.hidden{display:none!important}
+@media (max-width:560px){h1{font-size:26px}.item{padding:13px 14px}}
 """
 
-ITEM_TEMPLATE = """<div class="item" data-themes="{themes_raw}" data-region="{region}">
-  <a href="{link}" target="_blank" rel="noopener"><span class="perspective" style="color:{persp_color};">[{persp_code}]</span>{title}</a>
-  <div class="meta">{source} · {date} · {tags}</div>
-  {summary_html}
-</div>
-"""
-
-EDITION_TEMPLATE = """<div class="edition" data-theme="{theme}">
-  <div class="edition-head">
-    <div class="edition-title">📬 {theme_label} — {date_display}</div>
-    <div class="edition-count">{item_count} publications{overflow_note}</div>
-  </div>
-  <div class="edition-body">
-{items_html}
-  </div>
-</div>
-"""
-
-EDITION_ITEM_TEMPLATE = """<div class="edition-item">
-  <a href="{link}" target="_blank" rel="noopener">{title}</a>
-  <div class="meta">{source} · {date}</div>
-</div>
+JS = """
+(function(){
+  var p=new URLSearchParams(location.search);
+  var st={region:p.get('region')||'all',theme:p.get('theme')||'all',q:'',src:'all',days:0,shown:40};
+  var items=[].slice.call(document.querySelectorAll('.item'));
+  var PAGE=40;
+  function visibleList(){
+    var q=st.q.trim().toLowerCase();
+    var limit=st.days?new Date(Date.now()-st.days*864e5).toISOString().slice(0,10):'';
+    return items.filter(function(it){
+      var d=it.dataset;
+      if(st.region!=='all'&&d.region!==st.region)return false;
+      if(st.theme!=='all'&&d.themes.split(' ').indexOf(st.theme)<0)return false;
+      if(st.src!=='all'&&d.source!==st.src)return false;
+      if(limit&&(d.date||'')<limit)return false;
+      if(q&&d.search.indexOf(q)<0)return false;
+      return true;});
+  }
+  function render(){
+    var list=visibleList();
+    items.forEach(function(it){it.classList.add('hidden');});
+    list.slice(0,st.shown).forEach(function(it){it.classList.remove('hidden');});
+    document.getElementById('count').textContent=list.length+' publication'+(list.length>1?'s':'');
+    document.getElementById('more').classList.toggle('hidden',list.length<=st.shown);
+    document.getElementById('none').classList.toggle('hidden',list.length>0);
+    document.querySelectorAll('[data-f]').forEach(function(b){
+      b.setAttribute('aria-pressed',String(st[b.dataset.f]===b.dataset.v));});
+  }
+  document.querySelectorAll('[data-f]').forEach(function(b){
+    b.addEventListener('click',function(){st[b.dataset.f]=b.dataset.v;st.shown=PAGE;render();});});
+  document.getElementById('q').addEventListener('input',function(e){st.q=e.target.value;st.shown=PAGE;render();});
+  document.getElementById('src').addEventListener('change',function(e){st.src=e.target.value;st.shown=PAGE;render();});
+  document.getElementById('days').addEventListener('change',function(e){st.days=+e.target.value;st.shown=PAGE;render();});
+  document.getElementById('more').addEventListener('click',function(){st.shown+=PAGE;render();});
+  var tabs=[].slice.call(document.querySelectorAll('.tab'));
+  tabs.forEach(function(t){t.addEventListener('click',function(){
+    tabs.forEach(function(x){x.setAttribute('aria-selected',String(x===t));});
+    document.getElementById('view-items').classList.toggle('hidden',t.dataset.view!=='items');
+    document.getElementById('view-eds').classList.toggle('hidden',t.dataset.view!=='eds');});});
+  render();
+})();
 """
 
 
-def render_items(items):
-    html = []
-    for it in items:
-        tags = " ".join(f'<span class="tag">{THEME_LABELS.get(t, t)}</span>' for t in it.get("themes", []))
-        summary = it.get("summary", "").strip()
-        summary_html = f'<div class="summary">{summary[:280]}</div>' if summary else ""
-        persp_code, persp_color = SOURCE_PERSPECTIVE.get(source_region_of(it), SOURCE_PERSPECTIVE["other"])
-        html.append(ITEM_TEMPLATE.format(
-            themes_raw=",".join(it.get("themes", [])),
-            region=it.get("subject_region", "other"),
-            link=it["link"],
-            title=it["title"],
-            source=it["source"],
-            date=it.get("date") or "date inconnue",
-            tags=tags,
-            summary_html=summary_html,
-            persp_code=persp_code,
-            persp_color=persp_color,
-        ))
-    return "\n".join(html) if html else '<div class="empty">Aucune publication pour le moment.</div>'
+def e(x):
+    return escape(str(x or ""), quote=True)
 
 
-def render_theme_buttons(items):
-    present = set()
-    for it in items:
-        present.update(it.get("themes", []))
-    buttons = []
-    for theme in THEME_LABELS:
-        if theme in present:
-            buttons.append(f'<button class="filter-btn" data-theme="{theme}">{THEME_LABELS[theme]}</button>')
-    return "\n  ".join(buttons)
+def render_item(it):
+    zone = it.get("subject_region", "other")
+    zone = zone if zone in REGION_COLORS else "other"
+    code, colour, tint = SOURCE_PERSPECTIVE.get(source_region_of(it), SOURCE_PERSPECTIVE["other"])
+    themes = [t for t in THEME_ORDER if t in (it.get("themes") or [])]
+    tags = "".join(
+        f'<span class="tag" style="--tc:{THEME_COLORS[t]}">{e(THEME_SHORT_LABELS[t])}</span>' for t in themes)
+    summary = truncate(it.get("summary") or "", 320)
+    search = f"{it['title']} {it.get('summary') or ''} {it['source']}".lower()
+    when = it.get("date") or ""
+    try:
+        y, m, d = (int(x) for x in when.split("-"))
+        when_h = date_fr(datetime(y, m, d))
+    except ValueError:
+        when_h = "date inconnue"
+    return (
+        f'<article class="item" style="--zone:{REGION_COLORS[zone]}" data-region="{zone}" '
+        f'data-themes="{e(" ".join(themes))}" data-source="{e(it["source"])}" data-date="{e(when)}" '
+        f'data-search="{e(search)}">'
+        f'<h2><a href="{e(it["link"])}" target="_blank" rel="noopener">{e(it["title"])}</a></h2>'
+        + (f"<p>{e(summary)}</p>" if summary else "")
+        + f'<div class="meta"><span class="persp" style="background:{tint};color:{colour}">{e(code)}</span>'
+        f'<span>{e(it["source"])}</span><span>{e(when_h)}</span>'
+        f'<span class="zone" style="color:{REGION_COLORS[zone]}">{e(REGION_LABELS[zone])}</span>{tags}</div>'
+        "</article>"
+    )
 
 
-def render_region_buttons(items):
-    present = set(it.get("subject_region", "other") for it in items)
-    buttons = []
-    for region in REGION_ORDER:
-        if region in present:
-            buttons.append(f'<button class="filter-btn" data-region="{region}">{REGION_LABELS[region]}</button>')
-    return "\n  ".join(buttons)
+def chips(kind, options, extra_all="Tout"):
+    out = [f'<button class="chip" data-f="{kind}" data-v="all" aria-pressed="false">{extra_all}</button>']
+    for key, label, colour in options:
+        dot = f'<span class="dot" style="background:{colour}"></span>' if colour else ""
+        out.append(f'<button class="chip" data-f="{kind}" data-v="{key}" aria-pressed="false">{dot}{e(label)}</button>')
+    return "".join(out)
 
 
-def render_newsletters(log, items_by_id):
+def render_editions(log, items_by_id):
     if not log:
         return '<div class="empty">Aucune édition envoyée pour le moment.</div>'
-
-    html = []
+    out = []
     for entry in log:
+        theme = entry.get("theme")
+        label = THEME_LABELS.get(theme, "Édition")
         try:
-            dt = datetime.fromisoformat(entry["date"])
-            date_display = dt.strftime("%d/%m/%Y à %H:%M")
+            d = date_fr(datetime.fromisoformat(entry["date"]))
         except (KeyError, ValueError):
-            date_display = entry.get("date", "date inconnue")
-
-        overflow = entry.get("overflow_count", 0)
-        overflow_note = f" (+{overflow} non affichées)" if overflow else ""
-
-        edition_items = []
+            d = "date inconnue"
+        rows = []
         for iid in entry.get("item_ids", []):
             it = items_by_id.get(iid)
-            if not it:
-                continue
-            edition_items.append(EDITION_ITEM_TEMPLATE.format(
-                link=it["link"],
-                title=it["title"],
-                source=it["source"],
-                date=it.get("date") or "",
-            ))
-
-        html.append(EDITION_TEMPLATE.format(
-            theme=entry.get("theme", "other"),
-            theme_label=THEME_LABELS.get(entry.get("theme"), "Édition (ancien format)"),
-            date_display=date_display,
-            item_count=entry.get("item_count", len(edition_items)),
-            overflow_note=overflow_note,
-            items_html="\n".join(edition_items) if edition_items else '<div class="empty">Détails indisponibles.</div>',
-        ))
-    return "\n".join(html)
-
-
-def render_signup_button():
-    form_url = os.environ.get("SIGNUP_FORM_URL")
-    if not form_url:
-        return ""
-    return (
-        f'<a class="signup-btn" href="{form_url}" target="_blank" rel="noopener">'
-        f'✉️ S\'abonner à la newsletter</a>'
-    )
+            if it:
+                rows.append(f'<div><a href="{e(it["link"])}" target="_blank" rel="noopener">{e(it["title"])}</a>'
+                            f'<br><span class="meta">{e(it["source"])} · {e(short_date_fr(it.get("date")))}</span></div>')
+        num = f"n° {entry['edition']} · " if entry.get("edition") else ""
+        body = "".join(rows) or '<div class="meta">Détail indisponible.</div>'
+        out.append(
+            f'<details class="edition" style="--tc:{THEME_COLORS.get(theme, "#52606d")}"><summary>'
+            f'<b>{e(label)}</b><span class="meta">{e(num)}{e(d)} · {entry.get("item_count", len(rows))} publications</span>'
+            f'</summary><div class="body">{body}</div></details>')
+    return "".join(out)
 
 
 def main():
     items = load_items()
+    items.sort(key=lambda it: (it.get("date") or "", it.get("fetched_at") or ""), reverse=True)
     log = load_newsletter_log()
-    items_by_id = {it["id"]: it for it in items}
+    by_id = {it["id"]: it for it in items}
+    sources = sorted({it["source"] for it in items})
+    present_regions = {it.get("subject_region", "other") for it in items}
+    form = os.environ.get("SIGNUP_FORM_URL")
+    signup = (f'<a class="btn" href="{e(form)}" target="_blank" rel="noopener">S\'abonner à la newsletter</a>'
+              if form else "")
+    now = datetime.now(timezone.utc)
 
+    page = f"""<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Veille stratégique</title><style>{CSS}</style></head>
+<body>
+<header class="masthead"><div class="wrap"><div>
+  <h1>Veille stratégique</h1>
+  <div class="sub">Renseignement, défense et énergie sous l'angle géopolitique : {len(items)} publications suivies dans {len(sources)} sources. Mis à jour le {e(date_fr(now))}.</div>
+</div>{signup}</div></header>
+<nav class="tabs"><div class="wrap" role="tablist">
+  <button class="tab" role="tab" data-view="items" aria-selected="true">Publications</button>
+  <button class="tab" role="tab" data-view="eds" aria-selected="false">Éditions envoyées ({len(log)})</button>
+</div></nav>
+<main class="wrap panel">
+<section id="view-items">
+  <div class="tools">
+    <div class="row"><input id="q" type="search" placeholder="Rechercher un mot, un sujet, une source" aria-label="Rechercher">
+      <select id="src" aria-label="Source"><option value="all">Toutes les sources</option>{"".join(f'<option value="{e(s)}">{e(s)}</option>' for s in sources)}</select>
+      <select id="days" aria-label="Période"><option value="0">Toute la période</option><option value="7">7 derniers jours</option><option value="30">30 derniers jours</option><option value="90">90 derniers jours</option></select></div>
+    <div class="row"><span class="lab">Thème</span>{chips("theme", [(t, THEME_SHORT_LABELS[t], THEME_COLORS[t]) for t in THEME_ORDER])}</div>
+    <div class="row"><span class="lab">Zone</span>{chips("region", [(r, REGION_LABELS[r], REGION_COLORS[r]) for r in REGION_ORDER if r in present_regions])}</div>
+  </div>
+  <div class="count" id="count" aria-live="polite"></div>
+  <div id="list">{"".join(render_item(it) for it in items)}</div>
+  <div class="empty hidden" id="none">Aucune publication ne correspond à ces filtres. Élargissez la période ou retirez un filtre.</div>
+  <button class="chip more hidden" id="more">Afficher plus</button>
+</section>
+<section id="view-eds" class="hidden">{render_editions(log, by_id)}</section>
+</main>
+<footer class="wrap">Sélection automatique par mots-clés : les liens mènent aux sources originales. Les pastilles FR, EU et US indiquent le pays de l'institution qui publie ; la couleur de la bordure indique la zone du sujet traité.</footer>
+<script>{JS}</script>
+</body></html>"""
     os.makedirs(DOCS_DIR, exist_ok=True)
-    html = PAGE_TEMPLATE.format(
-        count=len(items),
-        generated=datetime.now().strftime("%d/%m/%Y %H:%M"),
-        theme_buttons=render_theme_buttons(items),
-        region_buttons=render_region_buttons(items),
-        items_html=render_items(items),
-        edition_count=len(log),
-        newsletters_html=render_newsletters(log, items_by_id),
-        signup_button=render_signup_button(),
-    )
-    out_path = os.path.join(DOCS_DIR, "index.html")
-    with open(out_path, "w", encoding="utf-8") as f:
-        f.write(html)
-    print(f"Site written to {out_path} ({len(items)} items, {len(log)} newsletter editions)")
+    out = os.path.join(DOCS_DIR, "index.html")
+    with open(out, "w", encoding="utf-8") as f:
+        f.write(page)
+    print(f"Site written to {out} ({len(items)} items, {len(log)} editions)")
 
 
 if __name__ == "__main__":

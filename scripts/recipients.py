@@ -8,7 +8,9 @@ Setup (one-time, ~5 minutes, no coding):
        - "Thèmes" (checkboxes) with exactly these three options:
            Renseignement
            Défense & Industrie militaire
-           Énergie
+           Énergie & Infrastructures
+           Me désabonner      (optional but needed for unsubscribing: ticking
+                               it removes the person from every list)
   2. In the Form's "Responses" tab, click the Sheets icon to create a
      linked Google Sheet.
   3. Open that Sheet -> File -> Share -> Publish to web -> choose the
@@ -44,7 +46,10 @@ THEME_LABEL_TO_KEY = {
     "defense & industrie militaire": "military",  # no-accent fallback
     "énergie": "energy_industry",
     "energie": "energy_industry",  # no-accent fallback
+    "énergie & infrastructures": "energy_industry",
+    "energie & infrastructures": "energy_industry",
 }
+UNSUBSCRIBE_MARKERS = ("désabonner", "desabonner", "unsubscribe")
 
 
 def _parse_themes_cell(raw):
@@ -56,6 +61,8 @@ def _parse_themes_cell(raw):
     keys = []
     for piece in raw.split(","):
         label = piece.strip().lower()
+        if any(m in label for m in UNSUBSCRIBE_MARKERS):
+            return []  # "Me désabonner" ticked: no theme at all
         key = THEME_LABEL_TO_KEY.get(label)
         if key and key not in keys:
             keys.append(key)

@@ -1,282 +1,272 @@
 """
-Send THREE separate weekly digest emails via Resend (https://resend.com,
-free tier) -- one per theme (Renseignement, Défense & Industrie militaire,
-Énergie) -- instead of one combined newsletter. Each is self-contained and
-grouped by subject region (France, EU, US, China, Middle East & Africa).
-An item relevant to more than one theme can appear in more than one
-newsletter -- that's expected, since each is independent.
+Send the three weekly newsletters (one per theme) through Resend.
 
-Every sent edition is logged to data/newsletter_log.json (now tagged with
-its theme) so the website's "past editions" dashboard can show/filter them.
+Two modes
+  OFFICIAL (default; the Monday cron and manual runs with "official_send")
+      Sends each theme to the owner AND to the peers who picked it. Every
+      peer gets an individual message (nobody sees anybody else's address).
+      On success the theme's "last sent" date (data/state.json) and the
+      edition log (data/newsletter_log.json) are updated, immediately, so a
+      crash on theme 3 never makes themes 1-2 go out twice.
+      A theme with no new item is SKIPPED (no empty email) and does not
+      count as an edition.
+  TEST (--test; manual runs by default)
+      Sends only to RESEND_TO_EMAIL, subject prefixed [TEST], and touches
+      neither state.json nor newsletter_log.json: run it as often as needed.
 
-Two modes:
+Environment (GitHub Actions secrets)
+  RESEND_API_KEY      Resend API key. Missing -> dry run (prints, sends nothing).
+  RESEND_TO_EMAIL     the owner's address (always receives every edition).
+  RESEND_FROM_EMAIL   sender. "onboarding@resend.dev" only delivers to the
+                      Resend account owner: with it, peers are NOT contacted
+                      (a warning is printed). Verify a domain on Resend to
+                      write to peers.
+  SITE_URL            GitHub Pages URL (links to the site, pre-filtered).
+  RECIPIENTS_CSV_URL  published Google Sheet CSV of peers (see recipients.py).
+  SIGNUP_FORM_URL     the signup form: used as the unsubscribe / change-my-themes
+                      link in the footer and in the List-Unsubscribe header.
 
-  OFFICIAL (default, used by the Monday cron): always sends, whatever
-  happened before. Each theme's last-sent date (data/state.json) is only
-  used to pick which items are new, plus a duplicate guard: if that theme
-  was officially sent less than MIN_HOURS_BETWEEN hours ago (e.g. someone
-  re-ran a finished workflow), it is skipped. Peers are Bcc'd, the state
-  and the edition log are updated.
+After the sends, a short "sources to check" email goes to the owner when the
+health file shows a broken or silent source (see health.py).
 
-  TEST (--test, used by manual workflow runs): sends ONLY to
-  RESEND_TO_EMAIL, never to peers, subject prefixed "[TEST]". Contains
-  exactly what the next official send would contain, and touches neither
-  data/state.json nor data/newsletter_log.json, so it can be run as often
-  as you like without affecting the Monday edition.
-
-Requires environment variables (set as GitHub Actions secrets):
-  RESEND_API_KEY    - your Resend API key
-  RESEND_TO_EMAIL   - the email address to send the digests to (you).
-                       Stays the single visible "To:" address.
-  RESEND_FROM_EMAIL - sender address. If you haven't verified your own domain
-                       on Resend, use "onboarding@resend.dev" (works out of the box).
-  SITE_URL          - optional. Your GitHub Pages URL. When set, each
-                       region section links to that region+theme
-                       pre-filtered on the live site.
-  RECIPIENTS_CSV_URL - optional. A published Google Sheet CSV of peer
-                       signups (see recipients.py for the one-time setup).
-                       Each theme's edition is Bcc'd to whichever peers
-                       picked that theme, so peers never see each other's
-                       (or your) address. Unset -> behaves exactly as
-                       before, sent only to RESEND_TO_EMAIL.
-
-If RESEND_API_KEY is not set, this script just prints what it WOULD send
-for each theme and exits -- safe to run locally without secrets configured.
-
-Usage:
-  python scripts/send_newsletter.py            official send (all themes, peers in Bcc)
-  python scripts/send_newsletter.py --test      test send to RESEND_TO_EMAIL only,
-                                                 no state/log change
-Neither mode sends anything without RESEND_API_KEY set (dry run instead).
+Exit code: 1 if any send failed, so the run is visibly red; the workflow
+still commits whatever state was saved.
 """
 import os
 import sys
-from datetime import datetime, timezone
+import time
+import traceback
+from datetime import datetime, timedelta, timezone
 
 import requests
 
-sys.path.insert(0, __file__.rsplit("/", 1)[0])
-from common import (
-    load_items, load_state, save_state, append_newsletter_log,
-    REGION_ORDER, REGION_LABELS, source_region_of, SOURCE_PERSPECTIVE,
-    THEME_ORDER, THEME_LABELS,
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from common import (  # noqa: E402
+    load_items, load_state, save_state, load_newsletter_log, append_newsletter_log,
+    load_health, load_sources, edition_number, THEME_ORDER, THEME_LABELS,
 )
-from recipients import load_peer_recipients
+from email_render import build_email_html, build_email_text, date_fr  # noqa: E402
+from health import health_problems  # noqa: E402
+from recipients import load_peer_recipients  # noqa: E402
 
-MIN_HOURS_BETWEEN = 20  # duplicate guard only (official mode): refuse a second
-                         # official send of the same theme within 20h. Does NOT
-                         # delay the weekly edition.
-MAX_PER_SOURCE = 6     # cap items from any single source in one email edition
+RESEND_BATCH_URL = "https://api.resend.com/emails/batch"
+RESEND_URL = "https://api.resend.com/emails"
+MIN_HOURS_BETWEEN = 20     # duplicate guard (official only): same theme twice within 20h
+MAX_PER_SOURCE = 6         # cap per source in one edition
+FIRST_EDITION_DAYS = 21    # window when a theme was never sent / was sent long ago
+DAILY_LIMIT_WARNING = 90   # Resend free tier: 100 emails/day
 
-# Fallback site link used if the SITE_URL secret isn't set in GitHub, so the
-# email always links to the site regardless of whether that secret exists.
-# Set the real SITE_URL secret to override this if your Pages URL differs.
 DEFAULT_SITE_URL = "https://gregcodinglaub.github.io/veille-strategique/"
 
 
-def hours_since(iso_date_str):
-    if not iso_date_str:
+def hours_since(iso):
+    if not iso:
         return None
-    then = datetime.fromisoformat(iso_date_str)
+    then = datetime.fromisoformat(iso)
     if then.tzinfo is None:
         then = then.replace(tzinfo=timezone.utc)
     return (datetime.now(timezone.utc) - then).total_seconds() / 3600
 
 
-def cap_per_source(items, max_per_source):
-    """Keep at most `max_per_source` items per source (most recent first,
-    since items are already sorted newest-first). Returns (kept, overflow_count)."""
-    counts = {}
-    kept = []
-    overflow = 0
-    for it in items:
-        src = it["source"]
-        counts[src] = counts.get(src, 0)
-        if counts[src] < max_per_source:
+def select_items(theme, items, last_sent, now):
+    """New items of `theme` since the last official send (at most
+    FIRST_EDITION_DAYS back), newest first, capped per source.
+    Returns (kept, overflow)."""
+    floor = (now - timedelta(days=FIRST_EDITION_DAYS)).isoformat()
+    since = max(last_sent, floor) if last_sent else floor
+    new = [it for it in items
+           if theme in (it.get("themes") or []) and (it.get("fetched_at") or "") > since]
+    new.sort(key=lambda it: (it.get("date") or "", it.get("fetched_at") or ""), reverse=True)
+    counts, kept, overflow = {}, [], 0
+    for it in new:
+        n = counts.get(it["source"], 0)
+        if n < MAX_PER_SOURCE:
             kept.append(it)
-            counts[src] += 1
+            counts[it["source"]] = n + 1
         else:
             overflow += 1
     return kept, overflow
 
 
-def group_by_region(items):
-    """{region: [items]} for a SINGLE theme's items -- no theme sub-grouping
-    needed since the whole newsletter is already one theme."""
-    groups = {r: [] for r in REGION_ORDER}
-    for it in items:
-        region = it.get("subject_region", "other")
-        if region not in groups:
-            region = "other"
-        groups[region].append(it)
-    return groups
+def _post(url, api_key, payload, attempts=2):
+    last = None
+    for i in range(attempts):
+        try:
+            r = requests.post(url, headers={"Authorization": f"Bearer {api_key}"}, json=payload, timeout=30)
+            if r.status_code < 300:
+                return True, r.text
+            last = f"{r.status_code} {r.text[:300]}"
+            if r.status_code < 500 and r.status_code != 429:
+                break
+        except requests.RequestException as e:
+            last = str(e)
+        time.sleep(2 * (i + 1))
+    return False, last
 
 
-def render_item_row(it):
-    code, color = SOURCE_PERSPECTIVE.get(source_region_of(it), SOURCE_PERSPECTIVE["other"])
-    tag = (
-        f'<span style="display:inline-block;color:{color};font-size:11px;'
-        f'font-weight:700;letter-spacing:0.02em;margin-right:6px;">[{code}]</span>'
-    )
-    return f"""
-    <div style="padding:14px 0;border-bottom:1px solid #2a2a2a;">
-      <a href="{it['link']}" style="font-size:15px;font-weight:600;color:#f5f5f5;text-decoration:none;line-height:1.4;">{tag}{it['title']}</a>
-      <div style="color:#8a8a8a;font-size:12px;margin-top:5px;">{it['source']} · {it.get('date') or ''}</div>
-    </div>"""
-
-
-def build_email_html(theme, items, overflow_count=0, site_url=None):
-    site_url = site_url or DEFAULT_SITE_URL
-    grouped = group_by_region(items)
-    region_blocks = []
-
-    for region in REGION_ORDER:
-        region_items = grouped[region]
-        if not region_items:
+def send_messages(api_key, messages):
+    """Send a list of Resend payloads (batches of 100, falling back to single
+    sends if a batch is refused). Returns (n_sent, [errors])."""
+    sent, errors = 0, []
+    for i in range(0, len(messages), 100):
+        chunk = messages[i:i + 100]
+        ok, info = _post(RESEND_BATCH_URL, api_key, chunk)
+        if ok:
+            sent += len(chunk)
             continue
-
-        rows = "".join(render_item_row(it) for it in region_items)
-        sep = "&" if "?" in site_url else "?"
-        region_link = (
-            f'<a href="{site_url}{sep}region={region}&theme={theme}" '
-            f'style="color:#93c5fd;font-size:12px;text-decoration:none;font-weight:normal;">'
-            f'→ voir sur le site</a>'
-        )
-
-        region_blocks.append(f"""
-        <div style="margin-bottom:32px;">
-          <div style="display:flex;align-items:baseline;justify-content:space-between;
-                      border-bottom:2px solid #333;padding-bottom:8px;margin-bottom:16px;">
-            <h3 style="margin:0;font-size:17px;color:#fff;">{REGION_LABELS[region]} · {len(region_items)}</h3>
-            {region_link}
-          </div>
-          {rows}
-        </div>""")
-
-    body = "\n".join(region_blocks) if region_blocks else (
-        "<p style='color:#999;'>Aucune nouvelle publication pertinente cette semaine.</p>"
-    )
-
-    overflow_note = ""
-    if overflow_count:
-        overflow_note = (
-            f'<p style="color:#777;font-size:12px;margin-top:8px;">'
-            f'+{overflow_count} autres publications (limite de {MAX_PER_SOURCE}/source '
-            f'par édition) — disponibles sur le site.</p>'
-        )
-
-    sep = "&" if "?" in site_url else "?"
-    site_link = (
-        f'<p style="margin-top:24px;">'
-        f'<a href="{site_url}{sep}theme={theme}" style="color:#93c5fd;font-size:13px;text-decoration:none;">'
-        f'→ Voir l\'archive complète en ligne</a></p>'
-    )
-
-    theme_label = THEME_LABELS[theme]
-    return f"""
-    <div style="background:#0f1115;color:#eee;font-family:-apple-system,Helvetica,Arial,sans-serif;padding:28px;max-width:600px;margin:0 auto;">
-      <h2 style="margin:0 0 4px;font-size:20px;">🛰 Veille Stratégique — {theme_label}</h2>
-      <p style="color:#8a8a8a;font-size:13px;margin:0 0 24px;">newsletter Grégoire Laubry · {datetime.now().strftime('%d/%m/%Y')} · {len(items)} publications</p>
-      {body}
-      {overflow_note}
-      {site_link}
-    </div>"""
+        print(f"  batch refused ({info}); retrying one by one")
+        for m in chunk:
+            ok, info = _post(RESEND_URL, api_key, m)
+            if ok:
+                sent += 1
+            else:
+                errors.append(f"{m['to']}: {info}")
+            time.sleep(0.6)  # Resend: 2 requests/second
+    return sent, errors
 
 
-def send_one_theme(theme, state, test, peers_by_theme):
+def build_messages(subject, html, text, from_email, owner, peers, reply_to, unsubscribe_url):
+    def msg(to, with_unsub):
+        m = {"from": from_email, "to": [to], "subject": subject, "html": html, "text": text,
+             "reply_to": reply_to}
+        if with_unsub and unsubscribe_url and unsubscribe_url.startswith("https://"):
+            m["headers"] = {"List-Unsubscribe": f"<{unsubscribe_url}>"}
+        return m
+    return [msg(owner, False)] + [msg(p, True) for p in peers]
+
+
+def send_theme(theme, ctx):
+    """Handle one theme. Returns True if it went fine (including 'nothing to send')."""
+    now = datetime.now(timezone.utc)
+    test = ctx["test"]
+    state = ctx["state"]
     last_sent = state["last_newsletter_sent"].get(theme)
     elapsed = hours_since(last_sent)
-
     if not test and elapsed is not None and elapsed < MIN_HOURS_BETWEEN:
-        print(f"[{theme}] Officially sent {elapsed:.1f}h ago (< {MIN_HOURS_BETWEEN}h): duplicate guard, skipping.")
-        return
+        print(f"[{theme}] sent {elapsed:.1f}h ago (< {MIN_HOURS_BETWEEN}h): duplicate guard, skipped.")
+        return True
 
-    all_items = load_items()
-    new_items = [
-        it for it in all_items
-        if theme in (it.get("themes") or [])
-        and (last_sent is None or it.get("fetched_at", "") > last_sent)
-    ]
-    capped_items, overflow = cap_per_source(new_items, MAX_PER_SOURCE)
-    if overflow:
-        print(f"[{theme}] Capped: {len(capped_items)} shown, {overflow} held back (per-source limit {MAX_PER_SOURCE}).")
+    items, overflow = select_items(theme, ctx["items"], last_sent, now)
+    label = THEME_LABELS[theme]
+    if not items:
+        print(f"[{theme}] no new item: nothing sent{' (test)' if test else ', not counted as an edition'}.")
+        return True
 
-    api_key = os.environ.get("RESEND_API_KEY")
-    to_email = os.environ.get("RESEND_TO_EMAIL")
-    from_email = os.environ.get("RESEND_FROM_EMAIL", "onboarding@resend.dev")
-    site_url = os.environ.get("SITE_URL")
+    edition = edition_number(theme, ctx["log"])
+    kwargs = dict(edition=edition, today=now, overflow=overflow, site_url=ctx["site_url"],
+                  unsubscribe_url=ctx["unsubscribe_url"], test=test)
+    html = build_email_html(theme, items, **kwargs)
+    text = build_email_text(theme, items, **kwargs)
+    subject = (f"{'[TEST] ' if test else ''}Veille stratégique n° {edition} · {label} · "
+               f"{len(items)} publication{'s' if len(items) > 1 else ''}")
 
-    html = build_email_html(theme, capped_items, overflow_count=overflow, site_url=site_url)
-    theme_label = THEME_LABELS[theme]
+    if ctx["dry_run"]:
+        print(f"[{theme}] DRY RUN (no RESEND_API_KEY / RESEND_TO_EMAIL): would send {len(items)} items "
+              f"(+{overflow} held back) to owner + {len(ctx['peers'].get(theme, []))} peer(s).")
+        if ctx.get("dump_dir"):
+            os.makedirs(ctx["dump_dir"], exist_ok=True)
+            with open(os.path.join(ctx["dump_dir"], f"{theme}.html"), "w", encoding="utf-8") as f:
+                f.write(html)
+            with open(os.path.join(ctx["dump_dir"], f"{theme}.txt"), "w", encoding="utf-8") as f:
+                f.write(text)
+        return True
 
-    if not api_key or not to_email:
-        print(f"[{theme}] RESEND_API_KEY / RESEND_TO_EMAIL not set -- DRY RUN, not sending.")
-        print(f"[{theme}] Would send {len(capped_items)} items (+{overflow} held back).")
-        return
+    owner = ctx["owner"]
+    peers = [] if test else sorted({e for e in ctx["peers"].get(theme, []) if e.lower() != owner.lower()})
+    if peers and not ctx["can_write_to_peers"]:
+        print(f"[{theme}] WARNING: sender is {ctx['from_email']}: Resend only delivers to the account owner "
+              f"with it. {len(peers)} peer(s) NOT contacted. Verify a domain on resend.com/domains.")
+        peers = []
 
-    # Peers who picked this theme via the signup form, minus the owner
-    # (in case they also signed up themselves) and de-duplicated.
-    # In test mode peers are never contacted.
-    peer_emails = [] if test else sorted({
-        e for e in peers_by_theme.get(theme, [])
-        if e.lower() != to_email.lower()
-    })
+    messages = build_messages(subject, html, text, ctx["from_email"], owner, peers,
+                              owner, ctx["unsubscribe_url"])
+    sent, errors = send_messages(ctx["api_key"], messages)
+    ctx["emails_sent"] += sent
+    if errors:
+        for e in errors:
+            print(f"[{theme}] FAILED: {e}")
+    owner_ok = sent >= 1 and not any(e.startswith(f"['{owner}']") for e in errors)
+    print(f"[{theme}] {'TEST ' if test else ''}edition {edition}: {sent}/{len(messages)} message(s) sent, "
+          f"{len(items)} items ({overflow} held back).")
 
-    subject_prefix = "[TEST] " if test else ""
-    payload = {
-        "from": from_email,
-        "to": [to_email],
-        "subject": f"{subject_prefix}Veille Stratégique — {theme_label} — {datetime.now().strftime('%d/%m/%Y')} ({len(capped_items)} nouveautés)",
-        "html": html,
-    }
-    if peer_emails:
-        payload["bcc"] = peer_emails
+    if test or not owner_ok:
+        return owner_ok  # a test never moves the calendar; a failed owner send is retried next run
 
-    resp = requests.post(
-        "https://api.resend.com/emails",
-        headers={"Authorization": f"Bearer {api_key}"},
-        json=payload,
-        timeout=20,
-    )
-
-    if resp.status_code >= 300:
-        print(f"[{theme}] Resend API error {resp.status_code}: {resp.text}")
-        return  # don't crash the whole run over one theme's send failure
-
-    peer_note = f" + {len(peer_emails)} peer(s) in Bcc" if peer_emails else ""
-    mode_note = "TEST, to owner only; state and log untouched" if test else "official"
-    print(f"[{theme}] Sent ({mode_note}) with {len(capped_items)} items shown ({overflow} held back){peer_note}.")
-
-    if test:
-        return  # a test must never move the "last official send" marker
-
-    now_iso = datetime.now(timezone.utc).isoformat()
-    state["last_newsletter_sent"][theme] = now_iso
-
+    iso = now.isoformat()
+    state["last_newsletter_sent"][theme] = iso
+    save_state(state)                      # saved right away, theme by theme
     append_newsletter_log({
-        "date": now_iso,
-        "theme": theme,
-        "item_count": len(capped_items),
-        "overflow_count": overflow,
-        "item_ids": [it["id"] for it in capped_items],
+        "date": iso, "theme": theme, "edition": edition, "item_count": len(items),
+        "overflow_count": overflow, "recipients": len(messages), "item_ids": [it["id"] for it in items],
     })
+    ctx["log"] = load_newsletter_log()
+    return not errors
+
+
+def send_health_alert(ctx):
+    problems = health_problems(load_health(), load_sources())
+    if not problems:
+        print("Sources: no problem to report.")
+        return
+    print(f"Sources: {len(problems)} to check.")
+    for name, why in problems:
+        print(f"  - {name}: {why}")
+    if ctx["dry_run"]:
+        return
+    rows = "".join(f"<li><b>{name}</b> : {why}</li>" for name, why in problems)
+    html = (f"<p>Sources à vérifier dans <code>sources.yaml</code> :</p><ul>{rows}</ul>"
+            "<p>Détail : <code>data/source_health.json</code>. Une source peut être mise en pause avec "
+            "<code>enabled: false</code>.</p>")
+    text = "Sources à vérifier :\n" + "\n".join(f"- {n} : {w}" for n, w in problems)
+    msg = {"from": ctx["from_email"], "to": [ctx["owner"]],
+           "subject": f"{'[TEST] ' if ctx['test'] else ''}Veille : {len(problems)} source(s) à vérifier",
+           "html": html, "text": text}
+    ok, info = _post(RESEND_URL, ctx["api_key"], msg)
+    if not ok:
+        print(f"Health alert not sent: {info}")
 
 
 def main():
     test = "--test" in sys.argv
+    api_key = os.environ.get("RESEND_API_KEY")
+    owner = os.environ.get("RESEND_TO_EMAIL")
+    from_email = os.environ.get("RESEND_FROM_EMAIL") or "onboarding@resend.dev"
+    dry_run = not (api_key and owner)
     if test:
-        print("TEST MODE: sending to RESEND_TO_EMAIL only; state and edition log will not be modified.")
-    state = load_state()
-    peers_by_theme = load_peer_recipients()
-    total_peers = len({e for emails in peers_by_theme.values() for e in emails})
-    if total_peers:
-        print(f"Loaded {total_peers} peer recipient(s) across all themes from RECIPIENTS_CSV_URL.")
+        print("TEST MODE: owner only; state and edition log untouched.")
 
+    peers = {} if test else load_peer_recipients()
+    n_peers = len({e for v in peers.values() for e in v})
+    if n_peers:
+        n_msgs = sum(1 + len(peers.get(t, [])) for t in THEME_ORDER)
+        print(f"{n_peers} peer(s) loaded; up to {n_msgs} emails this run.")
+        if n_msgs > DAILY_LIMIT_WARNING:
+            print(f"WARNING: {n_msgs} emails > Resend free daily limit (100). Reduce the list or upgrade the plan.")
+
+    ctx = {
+        "test": test, "dry_run": dry_run, "api_key": api_key, "owner": owner,
+        "from_email": from_email, "state": load_state(), "items": load_items(),
+        "log": load_newsletter_log(), "peers": peers, "emails_sent": 0,
+        "site_url": os.environ.get("SITE_URL") or DEFAULT_SITE_URL,
+        "unsubscribe_url": os.environ.get("SIGNUP_FORM_URL") or None,
+        "can_write_to_peers": not from_email.lower().endswith("@resend.dev"),
+        "dump_dir": os.environ.get("NEWSLETTER_DUMP_DIR"),
+    }
+
+    all_ok = True
     for theme in THEME_ORDER:
-        send_one_theme(theme, state, test, peers_by_theme)
+        try:
+            all_ok &= bool(send_theme(theme, ctx))
+        except Exception:  # noqa: BLE001 - one theme must not stop the others
+            traceback.print_exc()
+            all_ok = False
 
-    if not test:
-        save_state(state)
+    try:
+        send_health_alert(ctx)
+    except Exception:  # noqa: BLE001
+        traceback.print_exc()
+
+    sys.exit(0 if all_ok else 1)
 
 
 if __name__ == "__main__":

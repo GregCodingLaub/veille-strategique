@@ -49,6 +49,8 @@ def fetch_bluesky(session, handle, limit=30, allowed_domains=None):
         date = created[:10] if created else None
 
         embed = record.get("embed") or {}
+        if embed.get("$type", "").startswith("app.bsky.embed.recordWithMedia"):
+            embed = embed.get("media") or {}
         external = embed.get("external") or {}
         link = external.get("uri")
         title = external.get("title")
@@ -63,9 +65,12 @@ def fetch_bluesky(session, handle, limit=30, allowed_domains=None):
         # If allowed_domains is set, only keep links that actually point
         # back to the institution's own site -- not a co-authored paper on
         # a journal platform, a third-party writeup, an event host, etc.
+        domain = urlparse(link).netloc.lower().split(":")[0]
+        if domain.endswith("bsky.app"):
+            continue  # a link to another Bluesky post is chatter, not a publication
         if allowed_domains:
-            domain = urlparse(link).netloc.lower()
-            if not any(allowed in domain for allowed in allowed_domains):
+            # exact domain or sub-domain ("rand.org" must not match "brand.org")
+            if not any(domain == a or domain.endswith("." + a) for a in (d.lower() for d in allowed_domains)):
                 continue
 
         items.append({
