@@ -99,8 +99,7 @@ def fetch_source(session, src):
 def process_items(src, raw_items, keywords, regions, known_ids, today):
     """Clean, filter and classify the raw items of ONE source.
     Returns (kept_items, stats). Pure function (no network, no disk)."""
-    default_themes = [t for t in (src.get("default_themes") or []) if t in THEME_ORDER]
-    trusted = bool(default_themes)
+    source_defaults = [t for t in (src.get("default_themes") or []) if t in THEME_ORDER]
     kept, seen_here = [], set()
     stats = {"duplicate": 0, "irrelevant": 0, "technical": 0, "not_report": 0, "invalid": 0}
     latest_date = None
@@ -133,6 +132,11 @@ def process_items(src, raw_items, keywords, regions, known_ids, today):
             stats["not_report"] += 1
             continue
 
+        # A parser may classify an item itself (raw["themes_hint"], e.g. IRSEM
+        # categories): that item is then trusted like a default_themes source.
+        default_themes = source_defaults + [t for t in (raw.get("themes_hint") or [])
+                                            if t in THEME_ORDER and t not in source_defaults]
+        trusted = bool(default_themes)
         themes = matches_keywords(text, keywords)
         if not trusted and themes and is_excluded_technical(text, keywords):
             stats["technical"] += 1
