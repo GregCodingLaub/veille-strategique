@@ -14,6 +14,9 @@ Item ids are NOT changed (the edition log refers to them).
 Usage:
   python scripts/backfill_items.py            dry run: report only
   python scripts/backfill_items.py --apply    write data/items.json
+  python scripts/backfill_items.py --apply --drop-source "IRSEM"
+        also remove every archived item of that source, so the next fetch
+        re-imports it from scratch (use it after fixing a scraper).
 
 Run it after changing keywords.yaml, regions.yaml or a source's default_themes
 if you want the existing archive to follow the new rules.
@@ -86,6 +89,11 @@ def rebuild(items, sources, keywords, regions):
 def main():
     apply = "--apply" in sys.argv
     items = load_items()
+    if "--drop-source" in sys.argv:
+        name = sys.argv[sys.argv.index("--drop-source") + 1]
+        n = len(items)
+        items = [it for it in items if it.get("source") != name]
+        print(f"--drop-source {name!r}: {n - len(items)} item(s) set aside\n")
     kept, dropped = rebuild(items, load_sources(), load_keywords(), load_regions())
 
     print(f"Archive: {len(items)} items -> {len(kept)} kept, {len(items) - len(kept)} removed\n")
