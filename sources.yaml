@@ -14,6 +14,17 @@
 #   region: fr | eu | us | other   (for display/grouping only)
 #   parser: (scrape only) name of the parser function in scrapers.py
 #
+# Optional keys:
+#   enabled: false        keep the entry but do not fetch it (broken/unverified)
+#   default_themes: [..]  themes always given to the source's items (intelligence,
+#                         military, energy_industry). Use it for sources that are
+#                         on-topic by nature: no keyword needed. See fetch.py.
+#   initial_limit: N      on a source's first fetch keep only its N latest items
+#   max_pages: N          (scrape) pages to read, for parsers that paginate
+#   stale_after_days: N   weekly health alert if the newest item is older (default 90)
+#   require_report: true  keep only items that look like a report/study
+#   verify_ssl: false / allowed_domains: [..]   (see fetch.py / bluesky.py)
+#
 # After adding a source, run: python scripts/validate_sources.py
 # to confirm it actually returns items before trusting it.
 # ==============================================================================
@@ -35,8 +46,9 @@
   type: rss
   url: "https://projectosint.substack.com/feed"
   region: other
-  # "OSINT made simple" -- weekly tools/tips/case studies. NEEDS VALIDATION:
-  # run validate_sources.py to confirm the feed returns items.
+  default_themes: [intelligence]
+  # "OSINT made simple": weekly. Feed checked. On-topic by nature, so it
+  # bypasses the keyword filter (its titles contain no classic keywords).
 
 # --- France ----------------------------------------------------------------
 - name: "IFRI"
@@ -65,7 +77,9 @@
   url: "https://www.frstrategie.org/rss.xml"
   region: fr
   verify_ssl: false  # their site's SSL cert chain fails verification; safe for read-only RSS
-  # NEEDS FIXING: still 404 -- wrong path. Try finding it via validate_sources.py locally.
+  enabled: false
+  # DISABLED: this feed path returns 404 (it has since the beginning). Find the
+  # real feed URL (look for the RSS link in the site footer), then set enabled: true.
 
 - name: "IRSEM"
   type: bluesky
@@ -125,7 +139,7 @@
 - name: "SIPRI"
   type: bluesky
   url: "sipri.org"
-  region: us
+  region: eu
   allowed_domains: ["sipri.org"]
 
 - name: "Jamestown Foundation (China Brief)"
@@ -138,10 +152,10 @@
   type: rss
   url: "https://www.intelligenceonline.com/rss"
   region: fr
-  # Paywalled trade press specialized in intelligence/security services --
-  # headlines + short teasers are free via RSS, full articles require a
-  # subscription (links will hit a paywall). NEEDS VALIDATION: feed URL is
-  # a guess based on common patterns; run validate_sources.py before trusting.
+  enabled: false
+  # DISABLED: the feed URL was a guess and has never returned an item. Paywalled
+  # trade press (headlines free, articles behind a subscription). Find the real
+  # RSS link on their site, set it here, then set enabled: true.
 
 # --- Wire services & trade press --------------------------------------------
 - name: "Reuters"
@@ -176,6 +190,7 @@
   type: rss
   url: "https://www.bellingcat.com/feed/"
   region: eu
+  default_themes: [intelligence]
 
 - name: "Arms Control Association"
   type: rss
@@ -186,3 +201,80 @@
   type: rss
   url: "https://thebulletin.org/feed/"
   region: us
+
+# --- Intelligence: journals and institutions ---------------------------------
+- name: "CIA - Studies in Intelligence"
+  type: scrape
+  url: "https://www.cia.gov/resources/csi/studies-in-intelligence/"
+  parser: cia_csi
+  region: us
+  default_themes: [intelligence]
+  initial_limit: 4
+  stale_after_days: 150   # quarterly journal: no alert before ~5 months of silence
+  # Quarterly journal: one newsletter line per new issue, linking to the issue
+  # page (table of contents + PDF). No RSS feed exists. Scraper written from the
+  # page's content, not yet run against the live site: run validate_sources.py.
+
+# --- Energy, minerals and infrastructure (geopolitical lens) -----------------
+- name: "IFRI - Centre Énergie & Climat"
+  type: scrape
+  url: "https://www.ifri.org/en/center-energy-climate"
+  parser: ifri
+  region: fr
+  default_themes: [energy_industry]
+  initial_limit: 6
+
+- name: "CSIS - Critical Minerals Security"
+  type: scrape
+  url: "https://www.csis.org/programs/energy-security-and-climate-change-program/projects/project-critical-minerals-security"
+  parser: csis_program
+  region: us
+  default_themes: [energy_industry]
+  max_pages: 3
+  initial_limit: 8
+  # No RSS feed: read from the project page (analysis pieces only, 3 pages deep).
+
+- name: "Atlantic Council"
+  type: rss
+  url: "https://www.atlanticcouncil.org/feed/"
+  region: us
+  # High volume (about 50 items in the feed): the keyword filter does the work.
+
+- name: "CEPA (Center for European Policy Analysis)"
+  type: rss
+  url: "https://cepa.org/feed/"
+  region: us
+
+- name: "ICDS (Estonia)"
+  type: rss
+  url: "https://icds.ee/en/feed/"
+  region: eu
+
+- name: "Lowy Institute - The Interpreter"
+  type: rss
+  url: "https://www.lowyinstitute.org/the-interpreter/rss.xml"
+  region: other
+  # Asia-Pacific view (cables, ports, energy, defence). Broad feed: keyword filter.
+
+- name: "The Record (Recorded Future News)"
+  type: rss
+  url: "https://therecord.media/feed"
+  region: us
+  # State cyber operations and critical infrastructure; the feed is short (about
+  # 5 items), which is why the pipeline now fetches daily.
+
+- name: "SpacePolicyOnline"
+  type: rss
+  url: "https://spacepolicyonline.com/feed/"
+  region: us
+  # Space policy (satellites, Space Force, launch). Keyword filter applies.
+
+# --- Defence / nuclear policy -------------------------------------------------
+- name: "CSIS - Project on Nuclear Issues"
+  type: scrape
+  url: "https://www.csis.org/programs/project-nuclear-issues"
+  parser: csis_program
+  region: us
+  default_themes: [military]
+  max_pages: 3
+  initial_limit: 8

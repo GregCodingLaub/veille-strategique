@@ -1,47 +1,83 @@
 # ==============================================================================
-# KEYWORDS CONFIG — controls what counts as "relevant" for the veille.
-# An item is kept if its title+summary matches ANY keyword below, in EITHER
-# language. Matching is case-insensitive substring matching.
+# KEYWORDS — what counts as "relevant" for each newsletter.
 #
-# Add/remove keywords freely. More keywords = more recall (fewer misses,
-# more noise). Fewer keywords = tighter but riskier of missing things.
-# Changes only apply to NEW items fetched after the change (see README).
+# An item is kept if its TITLE + SUMMARY (cleaned of HTML) matches any keyword
+# of a theme. It then appears in that theme's newsletter. One item can match
+# several themes.
+#
+# How matching works (see scripts/common.py):
+#   - whole words/phrases only: "cia" never matches inside "social"
+#   - case-, accent- and curly-quote-insensitive: "Défense" = "defense"
+#   - plural-tolerant: "drone" also matches "drones", "armée" -> "armées"
+#     (so list the SINGULAR form only)
+# Theme keys MUST match THEME_ORDER in scripts/common.py (checked in CI by
+# scripts/check_config.py). Changes apply to items fetched after the change;
+# run scripts/backfill_items.py to re-evaluate the existing archive.
+#
+# exclude_technical: items matching any of these are dropped even if they match
+# a theme (too technical, promotional, or just an event announcement).
 # ==============================================================================
 
-defense:
-  - defense
-  - defence
-  - défense
-  - military
-  - militaire
-  - armed forces
-  - forces armées
-  - nato
-  - otan
-  - deterrence
-  - dissuasion
-  - warfare
-  - guerre
-  - army
-  - armée
-  - navy
-  - marine nationale
-  - air force
-  - armée de l'air
-  - strategic autonomy
-  - autonomie stratégique
-  - eu defence
-  - défense européenne
-  - common security and defence policy
-  - politique de sécurité et de défense
-  - csdp
-  - psdc
-  - ministry of defense
-  - ministère des armées
-  - arms control
-  - contrôle des armements
-
-competitive_intelligence:
+# --- Renseignement & intelligence économique --------------------------------
+intelligence:
+  # services and agencies
+  - intelligence service
+  - intelligence agency
+  - intelligence agencies
+  - intelligence community
+  - services de renseignement
+  - service de renseignement
+  - renseignement
+  - espionage
+  - espionnage
+  - spy
+  - spying
+  - espion
+  - spy agency
+  - spies
+  - dgse
+  - dgsi
+  - cia
+  - nsa
+  - gchq
+  - mi5
+  - mi6
+  - mossad
+  - fsb
+  - gru
+  - svr
+  - bnd
+  - aivd
+  # disciplines
+  - signals intelligence
+  - sigint
+  - humint
+  - osint
+  - geoint
+  - imint
+  - open source intelligence
+  - open-source intelligence
+  - sources ouvertes
+  - counterintelligence
+  - counter-intelligence
+  - contre-espionnage
+  - contre-ingérence
+  - cyber espionage
+  - cyberespionnage
+  - spyware
+  - surveillance program
+  - programme de surveillance
+  - cloud act
+  # influence and information
+  - influence operation
+  - opérations d'influence
+  - foreign interference
+  - ingérence étrangère
+  - disinformation
+  - désinformation
+  - information warfare
+  - guerre de l'information
+  # intelligence économique
   - competitive intelligence
   - intelligence économique
   - economic intelligence
@@ -50,96 +86,313 @@ competitive_intelligence:
   - corporate espionage
   - industrial espionage
   - espionnage industriel
-  - business intelligence
   - strategic intelligence
   - intelligence stratégique
-  - influence operations
-  - opérations d'influence
+  - veille stratégique
+  - economic security
+  - sécurité économique
+  - economic coercion
+  - export control
+  - contrôle à l'exportation
+  - investment screening
+  - contrôle des investissements étrangers
 
-intelligence:
-  - intelligence services
-  - services de renseignement
-  - renseignement
-  - espionage
-  - espionnage
-  - spy
-  - spying
-  - espion
-  - dgse
-  - dgsi
-  - cia
-  - mi6
-  - signals intelligence
-  - sigint
-  - humint
-  - counterintelligence
-  - contre-espionnage
-  - surveillance program
-  - programme de surveillance
-  - CIA
-  - NSA
-  - Cloud Act
-
-
-weapons_industry:
+# --- Défense & industrie militaire ------------------------------------------
+military:
+  # armed forces, doctrine
+  - defense
+  - defence
+  - défense
+  - military
+  - militaire
+  - armed forces
+  - forces armées
+  - armed conflict
+  - conflit armé
+  - nato
+  - otan
+  - deterrence
+  - deterrent
+  - dissuasion
+  - warfare
+  - hybrid warfare
+  - hybrid threat
+  - menace hybride
+  - guerre hybride
+  - army
+  - armies
+  - armée
+  - navy
+  - marine nationale
+  - marine corps
+  - air force
+  - armée de l'air
+  - armée de terre
+  - space force
+  - space command
+  - special forces
+  - forces spéciales
+  - air defense
+  - air defence
+  - défense aérienne
+  - military readiness
+  - rearmament
+  - réarmement
+  - ceasefire
+  - cessez-le-feu
+  - battlefield
+  - champ de bataille
+  - counter-terrorism
+  - contre-terrorisme
+  - strategic autonomy
+  - autonomie stratégique
+  - common security and defence policy
+  - politique de sécurité et de défense
+  - csdp
+  - psdc
+  - ministry of defense
+  - ministry of defence
+  - department of defense
+  - department of war
+  - ministère des armées
+  - pentagon
+  - pentagone
+  - defense spending
+  - defence spending
+  - defense budget
+  - budget de la défense
+  - military aid
+  - aide militaire
+  # conflicts (named, to avoid matching every use of "war")
+  - ukraine war
+  - war in ukraine
+  - guerre en ukraine
+  - iran war
+  - gaza war
+  - war in gaza
+  - guerre à gaza
+  - guerre froide
+  - guerre en iran
+  - guerre au moyen-orient
+  - guerre des villes
+  - guerre d'usure
+  - guerre de haute intensité
+  - guerre au liban
+  - guerre en mer rouge
+  - cold war
+  - nuclear weapon
+  - armes nucléaires
+  - arme nucléaire
+  - nuclear arsenal
+  - nuclear deterrence
+  - nuclear posture
+  - ballistic missile
+  - missile balistique
+  - hypersonic
+  - arms control
+  - contrôle des armements
+  - non-proliferation
+  - nonproliferation
+  - non-prolifération
+  - disarmament
+  - désarmement
+  # cyber (state-level)
+  - cyber warfare
+  - cyberguerre
+  - cyber operation
+  - state-sponsored
+  - cyberattaque
+  - cyberattack
+  # weapons industry
   - arms industry
   - industrie de l'armement
   - defense industry
   - defence industry
   - industrie de défense
+  - defense industrial base
+  - base industrielle et technologique de défense
+  - bitd
   - arms trade
   - commerce des armes
   - arms export
   - exportation d'armes
+  - arms race
+  - course aux armements
   - weapons manufacturer
+  - weapon system
   - armament
   - armement
-  - munitions
+  - munition
   - arms sales
   - ventes d'armes
   - defense contractor
   - defence contractor
   - military procurement
+  - defense procurement
   - marché public de défense
   - appel d'offres défense
+  - procurement contract
+  - contrat d'armement
   - drone
   - missile
   - submarine
   - sous-marin
   - frigate
   - frégate
+  - destroyer
+  - aircraft carrier
+  - porte-avions
+  - carrier strike group
+  - fleet
   - fighter jet
   - avion de chasse
+  - battle tank
+  - char de combat
+  - artillery
+  - artillerie
   - naval group
   - thales
   - dassault
   - airbus defence
-  - procurement contract
-  - contrat d'armement
+  - rheinmetall
+  - lockheed martin
+  - raytheon
+  - rtx
+  - northrop grumman
+  - bae systems
+  - leonardo
+  - mbda
 
+# --- Énergie & infrastructures (lecture géopolitique) -----------------------
 energy_industry:
+  # energy security and geopolitics
   - energy security
   - sécurité énergétique
   - energy policy
   - politique énergétique
+  - energy geopolitics
+  - géopolitique de l'énergie
+  - energy independence
+  - indépendance énergétique
+  - energy sovereignty
+  - souveraineté énergétique
+  - energy supply
+  - energy crisis
+  - crise énergétique
+  - energy transition
+  - transition énergétique
+  - energy embargo
+  - energy weapon
   - oil market
   - marché pétrolier
+  - oil price
+  - opec
+  - opec+
+  - opep
+  - strategic petroleum reserve
+  - price cap
   - natural gas
   - gaz naturel
+  - russian gas
+  - gaz russe
   - lng
   - gnl
   - nuclear energy
   - énergie nucléaire
-  - renewable energy
-  - énergie renouvelable
-  - energy transition
-  - transition énergétique
-  - pipeline
-  - opec
-  - opep
-  - critical minerals
-  - minéraux critiques
-  - gazoduc 
+  - nuclear power
+  - civil nuclear
+  - nucléaire civil
+  - uranium
+  # critical materials
+  - critical mineral
+  - minerais critiques
+  - critical raw material
+  - matières premières critiques
+  - rare earth
+  - terres rares
+  - lithium
+  - cobalt
+  - copper
+  - graphite
+  # energy infrastructure
+  - gas pipeline
+  - oil pipeline
+  - gazoduc
+  - oléoduc
   - nord stream
-  - ARAMCO
-  - Total
+  - turkstream
+  - power of siberia
+  - energy infrastructure
+  - infrastructure énergétique
+  - power grid
+  - electricity grid
+  - réseau électrique
+  - interconnector
+  - interconnexion
+  - lng terminal
+  - terminal méthanier
+  # digital / space infrastructure
+  - critical infrastructure
+  - infrastructure critique
+  - subsea cable
+  - undersea cable
+  - submarine cable
+  - câble sous-marin
+  - fibre optic
+  - optical cable
+  - data center
+  - data centre
+  - datacenter
+  - centre de données
+  - satellite
+  - space infrastructure
+  - starlink
+  - gps jamming
+  - brouillage gps
+  # chokepoints and sabotage
+  - chokepoint
+  - strait of hormuz
+  - détroit d'ormuz
+  - red sea
+  - mer rouge
+  - suez canal
+  - baltic sea
+  - mer baltique
+  - sabotage
+  - belt and road
+  - nouvelles routes de la soie
+  # companies that are geopolitical actors
+  - totalenergies
+  - aramco
+  - gazprom
+  - rosneft
+  - lukoil
+  - equinor
+  - qatarenergy
+  - sonatrach
+  - edf
+
+# --- Exclusions --------------------------------------------------------------
+exclude_technical:
+  - peer-reviewed
+  - preprint
+  - arxiv
+  - perovskite
+  - electrolyser
+  - electrolyzer
+  - electrolysis
+  - solid-state battery
+  - battery chemistry
+  - heat pump
+  - sponsored content
+  - sponsored post
+  - paid post
+  - advertorial
+  - partner content
+  - webinar
+  - save the date
+  - register now
+  - call for applications
+  - call for papers
+  - we are hiring
+  - job opening

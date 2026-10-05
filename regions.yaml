@@ -1,22 +1,21 @@
 # ==============================================================================
-# REGIONS CONFIG — classifies what an article is ABOUT (its subject), not
-# where the publishing institution is based. Used to group the newsletter
-# and website by geographic area.
+# REGIONS — what an article is ABOUT (its subject), used to group the
+# newsletters and the website by geographic area. Not to be confused with a
+# source's own "region:" in sources.yaml (the institution's home base, shown as
+# the small FR / EU / US tag).
 #
-# This is separate from a source's own "region:" field in sources.yaml,
-# which reflects the INSTITUTION's home base (shown as a small perspective
-# tag next to each item, e.g. "[EU]") -- a France-based source can easily
-# write about the US, and vice versa.
-#
-# Order matters: an item is assigned to the FIRST region below whose
-# keywords match. Put more specific regions before broader ones if you add
-# new categories. Items matching none of these fall into "other".
+# Matching: same rules as keywords.yaml (whole words, accent/case-insensitive,
+# plural-tolerant). The item goes to the region with the MOST distinct hits;
+# ties are resolved in the order of REGION_ORDER in scripts/common.py. The
+# capitalised tokens "US", "USA", "U.S." are recognised separately (code).
+# No hit at all -> the publisher's own region, else "other".
+# Region keys MUST match REGION_ORDER (checked by scripts/check_config.py).
 # ==============================================================================
 
 france:
   - france
   - français
-  - française
+  - french
   - paris
   - élysée
   - matignon
@@ -24,12 +23,16 @@ france:
   - assemblée nationale
   - ministère des armées
   - hexagone
+  - macron
 
 eu:
+  - europe
+  - european
+  - européen
   - european union
   - union européenne
-  - "eu"
-  - "l'ue"
+  - eu
+  - ue
   - brussels
   - bruxelles
   - european commission
@@ -43,30 +46,96 @@ eu:
   - zone euro
   - germany
   - allemagne
+  - german
   - italy
   - italie
   - spain
   - espagne
   - poland
   - pologne
-  - nato
-  - otan
+  - netherlands
+  - pays-bas
+  - belgium
+  - belgique
+  - sweden
+  - suède
+  - finland
+  - finlande
+  - norway
+  - norvège
+  - denmark
+  - danemark
+  - baltic
+  - baltic states
+  - pays baltes
+  - estonia
+  - estonie
+  - latvia
+  - lettonie
+  - lithuania
+  - lituanie
+  - romania
+  - roumanie
+  - hungary
+  - hongrie
+  - united kingdom
+  - royaume-uni
+  - britain
+  - british
+  - uk
 
 us:
   - united states
+  - états-unis
+  - etats-unis
   - "u.s."
-  - "usa"
+  - usa
   - washington
   - white house
   - maison blanche
   - pentagon
   - pentagone
+  - department of war
   - congress
   - congrès américain
   - capitol hill
   - american
   - américain
   - américaine
+  - trump
+  - biden
+
+russia_eurasia:
+  - russia
+  - russie
+  - russian
+  - russe
+  - kremlin
+  - moscow
+  - moscou
+  - putin
+  - poutine
+  - ukraine
+  - ukrainian
+  - ukrainien
+  - kyiv
+  - kiev
+  - belarus
+  - biélorussie
+  - caucasus
+  - caucase
+  - central asia
+  - asie centrale
+  - kazakhstan
+  - azerbaijan
+  - azerbaïdjan
+  - armenia
+  - arménie
+  - moldova
+  - moldavie
+  - gazprom
+  - rosneft
+  - wagner
 
 china:
   - china
@@ -83,8 +152,41 @@ china:
   - armée populaire de libération
   - taiwan
   - taïwan
+  - hong kong
   - south china sea
   - mer de chine méridionale
+
+asia_pacific:
+  - indo-pacific
+  - indo-pacifique
+  - asia-pacific
+  - asie-pacifique
+  - pacific
+  - pacifique
+  - japan
+  - japon
+  - japanese
+  - south korea
+  - corée du sud
+  - north korea
+  - corée du nord
+  - korean peninsula
+  - péninsule coréenne
+  - india
+  - inde
+  - indian ocean
+  - océan indien
+  - australia
+  - australie
+  - aukus
+  - philippines
+  - vietnam
+  - indonesia
+  - indonésie
+  - asean
+  - singapore
+  - singapour
+  - pakistan
 
 middle_east_africa:
   - middle east
@@ -94,14 +196,28 @@ middle_east_africa:
   - gaza
   - iran
   - iranien
+  - iraq
+  - irak
   - saudi arabia
   - arabie saoudite
   - syria
   - syrie
   - lebanon
   - liban
+  - yemen
+  - yémen
+  - houthi
+  - hormuz
+  - ormuz
+  - red sea
+  - mer rouge
+  - qatar
+  - emirates
+  - émirats
   - gulf states
   - golfe persique
+  - turkey
+  - turquie
   - africa
   - afrique
   - sahel
@@ -110,3 +226,12 @@ middle_east_africa:
   - égypte
   - sudan
   - soudan
+  - libya
+  - libye
+  - algeria
+  - algérie
+  - morocco
+  - maroc
+  - ethiopia
+  - éthiopie
+  - congo
