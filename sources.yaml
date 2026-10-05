@@ -65,6 +65,8 @@
   # blockchain, law...) -- the keyword filter narrows it to your themes.
 
 - name: "Portail de l'IE (Défense, armement & renseignement)"
+  enabled: false   # redundant: the main feed above already carries every category,
+                   # and this category feed has been silent since June (false alarms)
   type: rss
   url: "https://www.portail-ie.fr/category/univers/defense-industrie-de-larmement-et-renseignement/feed/"
   region: fr
@@ -82,10 +84,18 @@
   # real feed URL (look for the RSS link in the site footer), then set enabled: true.
 
 - name: "IRSEM"
-  type: bluesky
-  url: "irsem.bsky.social"
+  type: scrape
+  url: "https://www.irsem.fr/publications"
+  parser: irsem
   region: fr
-  allowed_domains: ["irsem.fr"]
+  default_themes: [military]   # defence research institute: always relevant;
+                               # keywords add intelligence / energy when they match
+  max_pages: 2
+  initial_limit: 10
+  stale_after_days: 60
+  # No RSS feed. The old Bluesky route only returned 1 item in a year (the
+  # account rarely links to irsem.fr). Scraper written from the listing's
+  # structure (publication links, dd/mm/yyyy or mm/yyyy dates); untested live.
 
 # --- EU ----------------------------------------------------------------
 - name: "EUISS"
@@ -275,6 +285,6 @@
   url: "https://www.csis.org/programs/project-nuclear-issues"
   parser: csis_program
   region: us
-  default_themes: [energy_industry]
+  default_themes: [military]
   max_pages: 3
   initial_limit: 8

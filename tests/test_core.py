@@ -148,3 +148,20 @@ def test_scraper_csis_and_cia():
     s = FakeSession({"https://www.cia.gov/resources/csi/studies-in-intelligence/": cia})
     out = scrapers.cia_csi(s, "https://www.cia.gov/resources/csi/studies-in-intelligence/", {})
     assert len(out) == 1 and out[0]["date"] == "2026-09-01"
+
+
+def test_scraper_irsem():
+    html = """
+    <div class="grid">
+      <div class="card"><a href="/publications/sahel-au-centre-du-djihadisme-mondial">
+        <span>Défense Sécurité</span><span>Etude 138</span><span>09/2026</span>
+        <h3>Sahel au centre du djihadisme mondial</h3></a></div>
+      <div class="card"><a href="/publications/sante-mentale-et-guerre"><span>ETUDE 137</span>
+        <span>14/09/2026</span><h3>Santé mentale et guerre de haute intensité</h3></a></div>
+      <a href="/publications?page=2">2</a><a href="/equipe/someone">x</a>
+    </div>"""
+    s = FakeSession({"https://www.irsem.fr/publications": html})
+    out = scrapers.irsem(s, "https://www.irsem.fr/publications", {"max_pages": 1})
+    assert [o["date"] for o in out] == ["2026-09-01", "2026-09-14"]
+    assert out[0]["title"] == "Sahel au centre du djihadisme mondial"
+    assert "Etude 138" in out[0]["summary"]

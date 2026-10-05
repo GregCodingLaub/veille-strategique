@@ -199,9 +199,84 @@ def cia_csi(session, url, options=None):
     return items
 
 
+# ----------------------------------------------------------------------------
+# IRSEM (no RSS feed; listing at /publications, pager ?page=2, ?page=3 ...)
+# ----------------------------------------------------------------------------
+_IRSEM_DATE = re.compile(r"\b(?:(\d{1,2})/)?(\d{1,2})/(20\d{2})\b")
+_IRSEM_TYPE = re.compile(
+    r"\b(étude|etude|brève stratégique|breve strategique|note de recherche|note stratégique|"
+    r"note strategique|veille stratégique|veille strategique|livre|enquête|enquete|"
+    r"rapport|publication)\b(?:\s*(?:n°\s*)?(\d+))?", re.I)
+
+
+def _irsem_date(text):
+    """'14/09/2026' -> 2026-09-14 ; '09/2026' (month only) -> 2026-09-01."""
+    m = _IRSEM_DATE.search(text)
+    if not m:
+        return None
+    day, month, year = m.group(1), int(m.group(2)), int(m.group(3))
+    if not 1 <= month <= 12:
+        return None
+    return f"{year:04d}-{month:02d}-{int(day or 1):02d}"
+
+
+def irsem(session, url, options=None):
+    """IRSEM publications (studies, strategic briefs, research notes, books).
+    A publication link is /publications/<slug>. Dates are written dd/mm/yyyy
+    or mm/yyyy in the card. The card is the largest ancestor of the link that
+    contains no other publication link, so the parser does not depend on CSS
+    class names. Pages: the base URL, then ?page=2, ?page=3 ... up to
+    `max_pages` (default 2)."""
+    max_pages = int((options or {}).get("max_pages", 2))
+    items, seen = [], set()
+    for page in range(1, max_pages + 1):
+        page_url = url if page == 1 else f"{url}{'&' if '?' in url else '?'}page={page}"
+        soup = _get_soup(session, page_url, "fr-FR,fr;q=0.9,en;q=0.8")
+        by_href = {}
+        for a in soup.find_all("a", href=True):
+            href = urljoin(url, a["href"]).split("#")[0].split("?")[0].rstrip("/")
+            parts = urlsplit(href)
+            if not parts.netloc.endswith("irsem.fr"):
+                continue
+            segs = [x for x in parts.path.split("/") if x]
+            if len(segs) != 2 or segs[0] != "publications":
+                continue
+            by_href.setdefault(href, []).append(a)
+
+        new_on_page = 0
+        for href, anchors in by_href.items():
+            if href in seen:
+                continue
+            node = anchors[0]
+            while node.parent is not None and node.parent.name not in ("body", "html"):
+                inside = {urljoin(url, x["href"]).split("#")[0].split("?")[0].rstrip("/")
+                          for x in node.parent.find_all("a", href=True)} & set(by_href)
+                if len(inside) > 1:
+                    break
+                node = node.parent
+            heading = node.find(["h1", "h2", "h3", "h4"])
+            title = clean_text(heading.get_text(" ", strip=True)) if heading else _best_text(anchors)
+            if len(title) < 8:
+                continue
+            seen.add(href)
+            new_on_page += 1
+            card_text = clean_text(node.get_text(" ", strip=True))
+            kind = _IRSEM_TYPE.search(card_text)
+            label = " ".join(g for g in (kind.group(1), kind.group(2)) if g).capitalize() if kind else ""
+            items.append({
+                "title": title, "link": href, "date": _irsem_date(card_text),
+                "summary": f"{label} de l'IRSEM (Institut de recherche stratégique de l'École militaire)."
+                           if label else "Publication de l'IRSEM.",
+            })
+        if new_on_page == 0:
+            break
+    return items
+
+
 # Registry: maps the "parser" name used in sources.yaml to the function above.
 PARSERS = {
     "ifri": ifri,
     "csis_program": csis_program,
     "cia_csi": cia_csi,
+    "irsem": irsem,
 }
