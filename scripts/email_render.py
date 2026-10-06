@@ -104,6 +104,10 @@ def _item_row(it):
     )
     when = short_date_fr(it.get("date"))
     meta = f'{chip}{escape(it["source"])}' + (f" &nbsp;·&nbsp; {when}" if when else "")
+    for extra in it.get("meta") or []:
+        meta += f" &nbsp;·&nbsp; {escape(extra)}"
+    if it.get("also"):
+        meta += f" &nbsp;·&nbsp; aussi : {escape(', '.join(it['also']))}"
     return f"""
 <tr><td class="rule" style="padding:15px 0 14px;border-top:1px solid #e5e9ee;">
   <a class="t-title" href="{link}" style="font:700 17px/1.35 {SERIF};color:#101a2b;text-decoration:none;">{title}</a>
@@ -258,7 +262,10 @@ def build_email_text(theme, items, *, edition, today, overflow=0, site_url=None,
             s = truncate(it.get("summary") or "", SUMMARY_IN_EMAIL)
             if s:
                 out.append(s)
-            out.append(f'{it["source"]} · {it.get("date") or ""}')
+            line = " · ".join(x for x in [it["source"], it.get("date") or "", *(it.get("meta") or [])] if x)
+            if it.get("also"):
+                line += " · aussi : " + ", ".join(it["also"])
+            out.append(line)
             out.append(it["link"])
             out.append("")
     if overflow:
