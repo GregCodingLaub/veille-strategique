@@ -173,7 +173,7 @@ def test_scraper_irsem():
     assert [o["title"] for o in out] == ["Sahel au centre du djihadisme mondial", "Réseaux électriques et conflits"]
     assert out[0]["date"] == "2026-09-01" and out[0]["themes_hint"] == ["military"]
     assert out[1]["themes_hint"] == ["energy_industry"]
-    assert "Etude 138" in out[0]["summary"]
+    assert out[0]["summary"] == "" and out[0]["meta"][0] == "Étude 138" and out[0]["meta"][1] == "1 min de lecture"
     src = {"name": "IRSEM", "region": "fr"}
     kept, _, _ = process_items(src, out, KW, RG, set(), TODAY)
     assert len(kept) == 2 and kept[0]["themes"] == ["military"]
@@ -296,3 +296,50 @@ def test_rss_fallback_via_relay(monkeypatch):
     assert out[0]["date"] == "2026-10-01" and out[0]["link"].endswith("/p/a")
     with pytest.raises(requests.HTTPError):
         fetch.fetch_rss(S(), "https://x.substack.com/feed")
+
+
+def test_irsem_meta_display():
+    import scrapers
+    cats, title, label, date, reading = scrapers._irsem_parse_card(
+        "Énergie 2h44min de lecture Réseaux électriques et conflits Brève stratégique 93 - 09/2026 "
+        "Réseaux électriques et conflits Alexandre Lauret")
+    assert cats == ["Énergie"] and title == "Réseaux électriques et conflits"
+    assert label == "Brève stratégique 93" and date == "2026-09-01" and reading == "2 h 44 min de lecture"
+
+
+def test_dedupe_same_story_rules():
+    from dedupe import same_story
+    base = {"date": "2026-10-01", "link": "https://a"}
+    a = dict(base, title="Hormuz Strait closure threatens Qatar LNG exports", link="https://a")
+    b = dict(base, title="Hormuz Strait closure threatens Qatar LNG exports to Asia", link="https://b")
+    c = dict(base, title="Détroit d'Ormuz : Qatar LNG, Hormuz et Asie", link="https://c")
+    d = dict(base, title="Russia and Ukraine peace talks resume in Istanbul", link="https://d")
+    e = dict(base, title="Ukraine and Russia grain exports halted", link="https://e")
+    p1 = dict(base, title="Devoir de vigilance [Partie 1/2]", link="https://p1")
+    p2 = dict(base, title="Devoir de vigilance [Partie 2/2]", link="https://p2")
+    assert same_story(a, b)
+    assert not same_story(d, e)          # two shared country names only: not enough
+    assert not same_story(p1, p2)
+    assert not same_story(a, dict(b, date="2026-09-01"))
+
+
+def test_plan_editions_one_edition_per_story():
+    from datetime import datetime, timezone
+    import send_newsletter as sn
+    now = datetime(2026, 10, 5, tzinfo=timezone.utc)
+    mk = lambda i, src, title, themes, summ="": {"id": i, "source": src, "title": title, "summary": summ,
+        "themes": themes, "link": f"https://x/{i}", "date": "2026-10-03", "fetched_at": "2026-10-04T00:00:00+00:00"}
+    items = [
+        mk("1", "Defense News", "US Navy awards Raytheon $24.4B missile contract", ["military"], "long summary here"),
+        mk("2", "Breaking Defense", "US Navy awards Raytheon $24.4B missile contract", ["military"]),
+        mk("3", "IRSEM", "Réseaux électriques et conflits", ["military", "energy_industry"]),
+    ]
+    items[2]["trusted_themes"] = ["energy_industry"]
+    state = {"last_newsletter_sent": {t: None for t in sn.THEME_ORDER}}
+    plan = sn.plan_editions(items, state, [], now, KW)
+    flat = [(t, i["id"], i.get("also")) for t, (its, _) in plan.items() for i in its]
+    assert ("military", "1", ["Breaking Defense"]) in flat
+    assert ("energy_industry", "3", []) in flat and len(flat) == 2
+    log = [{"date": "2026-10-04T00:00:00+00:00", "item_ids": ["1"]}]
+    plan = sn.plan_editions(items, state, log, now, KW)
+    assert sum(len(its) for its, _ in plan.values()) == 1   # story 1/2 already sent
