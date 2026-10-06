@@ -343,3 +343,15 @@ def test_plan_editions_one_edition_per_story():
     log = [{"date": "2026-10-04T00:00:00+00:00", "item_ids": ["1"]}]
     plan = sn.plan_editions(items, state, log, now, KW)
     assert sum(len(its) for its, _ in plan.values()) == 1   # story 1/2 already sent
+
+
+def test_irsem_card_layouts():
+    t = "L’obligation de loyauté des soldats de la Bundeswehr : deux mécanismes d’encadrement au sein des forces armées"
+    for text, fb in [("40 min de lecture Note de recherche 143 " + t + " ORR Leonie Belk", ""),
+                     ("40 min de lecture Note de recherche 143 " + t + " ORR Leonie Belk", t),
+                     ("Défense Société 40 min de lecture Note de recherche 143 - 09/2026 " + t + " " + t + " ORR Leonie Belk", "")]:
+        cats, title, label, date, reading = scrapers._irsem_parse_card(text, fb)
+        assert title == t
+        assert label == "Note de recherche 143"
+        assert reading == "40 min de lecture"
+    assert scrapers._irsem_parse_card("Défense 3 min de lecture Rapport sur la dissuasion 14/09/2026")[1] == "Rapport sur la dissuasion"
