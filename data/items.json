@@ -393,6 +393,63 @@
     "fetched_at": "2026-10-06T14:05:52.593826+00:00"
   },
   {
+    "id": "bbf9d227a3e88f12",
+    "title": "Un ancien chef du renseignement extérieur allemand a été arrêté pour trahison",
+    "link": "https://www.opex360.com/2026/10/06/un-ancien-chef-du-renseignement-exterieur-allemand-a-ete-arrete-pour-trahison",
+    "date": "2026-10-06",
+    "summary": "Que des agents de renseignement se fassent prendre pour avoir transmis des informations confidentielles à une puissance étrangère, que ce soit contre de l’argent, par chantage ou par sympathie idéologique, c’est assez commun. Du moins, les cas de ce genre sont relativement nombreux dans l’histoire. En revanche, qu’un ancien «maître-espion» soit soupçonné de trahison est...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "intelligence",
+      "military"
+    ],
+    "fetched_at": "2026-10-06T14:25:47.541504+00:00"
+  },
+  {
+    "id": "d0ab3fb3f09e9a85",
+    "title": "Attack on oil tanker leaves 12 injured, Indian ministry says",
+    "link": "https://reut.rs/3VtqrDL",
+    "date": "2026-10-06",
+    "summary": "Twelve crew members were injured after an unknown projectile struck ​Panama-flagged oil tanker On Peace while ‌it was passing through the Strait of Hormuz, India's foreign ministry said on Tuesday.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "energy_industry"
+    ],
+    "fetched_at": "2026-10-06T14:26:04.685884+00:00"
+  },
+  {
+    "id": "0f275ac603c0e4bc",
+    "title": "Anduril, US Navy invest $6.6 billion to boost submarine parts production",
+    "link": "https://www.defensenews.com/industry/techwatch/2026/10/06/anduril-us-navy-invest-66-billion-to-boost-submarine-parts-production",
+    "date": "2026-10-06",
+    "summary": "Anduril will invest $3.7 billion to develop a new shipyard in Maryland to build critical components for the Navy’s Virginia-class submarines.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T14:26:06.819806+00:00"
+  },
+  {
+    "id": "312e86796be8a6d0",
+    "title": "Unpacking Boeing’s F/A-XX win, plus a report from wartime Ukraine",
+    "link": "https://breakingdefense.com/2026/10/unpacking-boeings-f-a-xx-win-plus-a-report-from-wartime-ukraine",
+    "date": "2026-10-06",
+    "summary": "Boeing’s victory caps a significant turnaround for its defense business, while Breaking Defense reports from western Ukraine on technology and life in wartime.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T14:26:08.019461+00:00"
+  },
+  {
     "id": "15b1208fcfd71570",
     "title": "The AI-Assisted Strategic Own Goal in the Kill Chain",
     "link": "https://warontherocks.com/cogs-of-war/the-ai-assisted-strategic-own-goal-in-the-kill-chain/",
@@ -1433,6 +1490,20 @@
       "military"
     ],
     "fetched_at": "2026-10-06T14:05:12.132544+00:00"
+  },
+  {
+    "id": "ae5679c580836902",
+    "title": "Germany's Tomahawk Procurement: Costs, Quantities, and Delivery Timelines",
+    "link": "https://missilematters.substack.com/p/germanys-tomahawk-purchase-costs",
+    "date": "2026-10-04",
+    "summary": "What €3.4 billion buys, when the missiles are likely to arrive, and what procurement rationales still exist.",
+    "source": "Missile Matters",
+    "source_region": "eu",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T14:25:31.590797+00:00"
   },
   {
     "id": "687d0ddee3f2d1ca",
@@ -3605,6 +3676,20 @@
     "fetched_at": "2026-10-06T14:04:50.449642+00:00"
   },
   {
+    "id": "bca98645d71cbc39",
+    "title": "Project Osint Tuesday, September 29, 2026",
+    "link": "https://projectosint.substack.com/p/project-osint-tuesday-september-29",
+    "date": "2026-09-29",
+    "summary": "Weekly OSINT, digital investigations and verification workflows for analysts, journalists and researchers.",
+    "source": "Project OSINT",
+    "source_region": "other",
+    "subject_region": "other",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-06T14:25:25.470194+00:00"
+  },
+  {
     "id": "966ba60251e1670e",
     "title": "La guerre en Iran entre dans son huitième mois",
     "link": "https://legrandcontinent.eu/fr/2026/09/28/la-guerre-en-iran-entre-dans-son-huitieme-mois/",
@@ -4166,6 +4251,20 @@
       "military"
     ],
     "fetched_at": "2026-10-05T17:20:58.646121+00:00"
+  },
+  {
+    "id": "75f8b0ea88c7f996",
+    "title": "Claude Opus 5.5: What Changes for OSINT Investigations?",
+    "link": "https://projectosint.substack.com/p/claude-opus-55-what-changes-for-osint",
+    "date": "2026-09-25",
+    "summary": "Anthropic released Claude Opus 5.5 on 22 September 2026, presenting it as a substantial improvement over Opus 5 in performance, speed and operating cost.",
+    "source": "Project OSINT",
+    "source_region": "other",
+    "subject_region": "other",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-06T14:25:25.472730+00:00"
   },
   {
     "id": "6802bbd43e1e8203",
@@ -4902,6 +5001,20 @@
     "fetched_at": "2026-10-05T17:44:30.321761+00:00"
   },
   {
+    "id": "459ec9ad64f2bf88",
+    "title": "Project Osint Tuesday, September 22, 2026",
+    "link": "https://projectosint.substack.com/p/project-osint-tuesday-september-22",
+    "date": "2026-09-22",
+    "summary": "Weekly OSINT, digital investigations and verification workflows for analysts, journalists and researchers.",
+    "source": "Project OSINT",
+    "source_region": "other",
+    "subject_region": "other",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-06T14:25:25.474210+00:00"
+  },
+  {
     "id": "ad1311d439c0798e",
     "title": "Fifth Plenum date set; Xi’s US visit confirmed as negotiators meet in New York; Zhang Youxia and Liu Zhenli expelled from Party and PLA",
     "link": "https://sinocism.com/p/fifth-plenum-date-set-xis-us-visit",
@@ -5027,6 +5140,20 @@
     "fetched_at": "2026-09-25T12:40:19.438974+00:00",
     "source_region": "fr",
     "subject_region": "france"
+  },
+  {
+    "id": "a91ae72fe4c2eb8f",
+    "title": "Can Ukraine Hunt Russian Mobile Missile Launchers?",
+    "link": "https://missilematters.substack.com/p/can-ukraine-hunt-russian-mobile-missile",
+    "date": "2026-09-20",
+    "summary": "Why Ukraine's effort to interdict Russian Iskander-M launchers is difficult but not impossible",
+    "source": "Missile Matters",
+    "source_region": "eu",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T14:25:31.592259+00:00"
   },
   {
     "id": "0c2d84cfe794c4bc",
@@ -5704,6 +5831,20 @@
     "fetched_at": "2026-10-05T17:44:30.375086+00:00"
   },
   {
+    "id": "db723a6cd1d56842",
+    "title": "Project Osint Tuesday, September 15, 2026",
+    "link": "https://projectosint.substack.com/p/project-osint-tuesday-september-15",
+    "date": "2026-09-15",
+    "summary": "Weekly OSINT, digital investigations and verification workflows for analysts, journalists and researchers.",
+    "source": "Project OSINT",
+    "source_region": "other",
+    "subject_region": "other",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-06T14:25:25.475697+00:00"
+  },
+  {
     "id": "4d206a4d6516585e",
     "title": "Bellingcat Official Merch Design Contest",
     "link": "https://www.bellingcat.com/uncategorized/2026/09/14/bellingcat-official-merch-design-contest/",
@@ -5831,6 +5972,20 @@
     "fetched_at": "2026-10-06T14:04:54.666910+00:00"
   },
   {
+    "id": "1de1035546e7c92b",
+    "title": "The Low-Cost Cruise Missile Market Moves Into Deep Strike",
+    "link": "https://missilematters.substack.com/p/the-european-lower-cost-cruise-missile",
+    "date": "2026-09-13",
+    "summary": "A new entrant intensifies competition in Europe's most sensitive missile segment",
+    "source": "Missile Matters",
+    "source_region": "eu",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T14:25:31.593707+00:00"
+  },
+  {
     "id": "c8b7bf91ac581079",
     "title": "Nucléaire civil : les défis de l’organisation de la sûreté",
     "link": "https://www.institutmontaigne.org/expressions/nucleaire-civil-les-defis-de-lorganisation-de-la-surete",
@@ -5843,6 +5998,20 @@
       "energy_industry"
     ],
     "fetched_at": "2026-10-06T14:04:54.670142+00:00"
+  },
+  {
+    "id": "af286210c6719978",
+    "title": "Following the Waste Back to Italy: An OSINT Case Study from Croatia",
+    "link": "https://projectosint.substack.com/p/following-the-waste-back-to-italy-2b3",
+    "date": "2026-09-11",
+    "summary": "The Gospić case shows how an environmental investigation can move from a physical site to companies, permits and cross-border shipments, while keeping reconstruction separate from attribution.",
+    "source": "Project OSINT",
+    "source_region": "other",
+    "subject_region": "eu",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-06T14:25:25.478181+00:00"
   },
   {
     "id": "592752ec83c56950",
@@ -5986,6 +6155,20 @@
     "fetched_at": "2026-10-05T17:20:48.079093+00:00"
   },
   {
+    "id": "d0493af0f68f060e",
+    "title": "Project Osint Tuesday 8 september",
+    "link": "https://projectosint.substack.com/p/project-osint-tuesday-8-september",
+    "date": "2026-09-08",
+    "summary": "Weekly OSINT, cyber investigations, and practical workflows for analysts, journalists, and curious researchers.",
+    "source": "Project OSINT",
+    "source_region": "other",
+    "subject_region": "other",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-06T14:25:25.479619+00:00"
+  },
+  {
     "id": "a10c8428178e6ed4",
     "title": "The Strategic Fiber of America: Kevlar’s Impact on Warfighters",
     "link": "https://warontherocks.com/cogs-of-war/the-strategic-fiber-of-america-kevlars-impact-on-warfighters/",
@@ -6012,6 +6195,20 @@
     "fetched_at": "2026-09-25T14:38:37.608870+00:00",
     "source_region": "us",
     "subject_region": "middle_east_africa"
+  },
+  {
+    "id": "8a43618994bdbe05",
+    "title": "Cheap, Fast, and Mass-Produced: Russia's New Low-Cost Cruise Missile Arsenal",
+    "link": "https://missilematters.substack.com/p/cheap-fast-and-mass-produced-russias",
+    "date": "2026-09-06",
+    "summary": "Profiling the systems now filling the gap between drones and high-end missiles",
+    "source": "Missile Matters",
+    "source_region": "eu",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T14:25:31.595269+00:00"
   },
   {
     "id": "31d963ff2f565eef",
@@ -6055,6 +6252,21 @@
       "military"
     ],
     "fetched_at": "2026-10-06T14:04:54.675782+00:00"
+  },
+  {
+    "id": "37c9a69b2ab1944c",
+    "title": "When an AI-Generated War Video Comes From the White House: The Trump–Kharg Case",
+    "link": "https://projectosint.substack.com/p/when-an-ai-generated-war-video-comes",
+    "date": "2026-09-04",
+    "summary": "In a military crisis, the first task is not to decide what an image appears to show.",
+    "source": "Project OSINT",
+    "source_region": "other",
+    "subject_region": "us",
+    "themes": [
+      "intelligence",
+      "military"
+    ],
+    "fetched_at": "2026-10-06T14:25:25.480996+00:00"
   },
   {
     "id": "4febd8ee034ec253",
@@ -6369,6 +6581,48 @@
     "fetched_at": "2026-10-05T17:44:03.877902+00:00"
   },
   {
+    "id": "6a14a68bba514756",
+    "title": "Project Osint Tuesday 1^ september",
+    "link": "https://projectosint.substack.com/p/project-osint-tuesday-1-september",
+    "date": "2026-08-31",
+    "summary": "Weekly OSINT, cyber investigations, and practical workflows for analysts, journalists, and curious researchers.",
+    "source": "Project OSINT",
+    "source_region": "other",
+    "subject_region": "other",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-06T14:25:25.482450+00:00"
+  },
+  {
+    "id": "2d2e3cb18fc48fcd",
+    "title": "High-Low Mix: The Three Tiers of Modern Missile Arsenals",
+    "link": "https://missilematters.substack.com/p/high-low-mix-the-three-tiered-structure",
+    "date": "2026-08-30",
+    "summary": "High-end systems, low-cost missiles, long-range drones, and the future missile arsenals of the world",
+    "source": "Missile Matters",
+    "source_region": "eu",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T14:25:31.596863+00:00"
+  },
+  {
+    "id": "cd763209faf79f13",
+    "title": "Why an Expired Card Can Still Pay: Inside the \"Zombie Card\" Contactless Attack",
+    "link": "https://projectosint.substack.com/p/why-an-expired-card-can-still-pay",
+    "date": "2026-08-28",
+    "summary": "A cardholder replaces an expired Visa contactless card, cuts it in half out of habit, and drops it in a kitchen drawer instead of the trash.",
+    "source": "Project OSINT",
+    "source_region": "other",
+    "subject_region": "other",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-06T14:25:25.484784+00:00"
+  },
+  {
     "id": "f7774c64f70e5a28",
     "title": "The Goldilocks Fallacy: The Undefined Limits of Korea’s Nuclear Role",
     "link": "https://warontherocks.com/the-goldilocks-fallacy-the-undefined-limits-of-koreas-nuclear-role/",
@@ -6468,6 +6722,20 @@
     "fetched_at": "2026-10-05T17:20:59.995194+00:00"
   },
   {
+    "id": "8e04590440415bb2",
+    "title": "Project Osint Tuesday 25 august",
+    "link": "https://projectosint.substack.com/p/project-osint-tuesday-25-august",
+    "date": "2026-08-25",
+    "summary": "Weekly OSINT, cyber investigations, and practical workflows for analysts, journalists, and curious researchers.",
+    "source": "Project OSINT",
+    "source_region": "other",
+    "subject_region": "other",
+    "themes": [
+      "intelligence"
+    ],
+    "fetched_at": "2026-10-06T14:25:25.486196+00:00"
+  },
+  {
     "id": "32173d2e0679c6b5",
     "title": "Command and Politics in the War Between Moscow and Kyiv",
     "link": "https://warontherocks.com/command-and-politics-in-the-war-between-moscow-and-kyiv/",
@@ -6508,6 +6776,20 @@
     "fetched_at": "2026-09-25T14:38:37.610395+00:00",
     "source_region": "us",
     "subject_region": "china"
+  },
+  {
+    "id": "4132a2127d53ce9d",
+    "title": "Running Twice as Fast to Stand Still",
+    "link": "https://missilematters.substack.com/p/running-twice-as-fast-to-stand-still",
+    "date": "2026-08-23",
+    "summary": "The West’s ballistic missile defense strategy is failing against adversaries that build at industrial scale. Two options now remain.",
+    "source": "Missile Matters",
+    "source_region": "eu",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T14:25:31.598218+00:00"
   },
   {
     "id": "e136d1384c7c5664",
@@ -6722,6 +7004,20 @@
     "fetched_at": "2026-10-05T17:20:48.130594+00:00"
   },
   {
+    "id": "e8716d4c78f71b3d",
+    "title": "Can Ukraine Become a Missile and Long-Range Drone Exporter?",
+    "link": "https://missilematters.substack.com/p/exporting-deep-strike-the-export",
+    "date": "2026-08-17",
+    "summary": "Internal, competitive, and legal barriers to Ukrainian deep-strike exports",
+    "source": "Missile Matters",
+    "source_region": "eu",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T14:25:31.599603+00:00"
+  },
+  {
     "id": "9fad834ffb45bc41",
     "title": "Cheap Drones, Dry Taps: The Iran War Opens a New Era of Water Infrastructure Risk",
     "link": "https://warontherocks.com/cheap-drones-dry-taps-the-iran-war-opens-a-new-era-of-water-infrastructure-risk/",
@@ -6907,6 +7203,20 @@
     "subject_region": "us"
   },
   {
+    "id": "b59f752d4ffc3993",
+    "title": "Ukraine's Missile Defense Crisis: Causes, Consequences, and Solutions",
+    "link": "https://missilematters.substack.com/p/ukraines-missile-defense-crisis-causes",
+    "date": "2026-08-08",
+    "summary": "How Russian ballistic missiles overwhelm Ukraine's missile defenses and what can be done",
+    "source": "Missile Matters",
+    "source_region": "eu",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T14:25:31.600814+00:00"
+  },
+  {
     "id": "22161e3c3455dfe5",
     "title": "Warlords of Greece: Warfare in Homer’s World",
     "link": "https://warontherocks.com/warlords-of-greece-warfare-in-homers-world/",
@@ -6991,6 +7301,20 @@
     "fetched_at": "2026-10-06T14:05:52.598731+00:00"
   },
   {
+    "id": "cd1eea53592c2e03",
+    "title": "10,000 Subscribers and a New Chapter: Missile Matters Adds a Paid Tier",
+    "link": "https://missilematters.substack.com/p/10000-subscribers-the-future-of-missile",
+    "date": "2026-08-02",
+    "summary": "Missile Matters is launching paid subscriptions. Much of the blog stays free. Here is what changes and why.",
+    "source": "Missile Matters",
+    "source_region": "eu",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T14:25:31.602620+00:00"
+  },
+  {
     "id": "cf6354feb6a1592b",
     "title": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
     "link": "https://www.bellingcat.com/news/2026/08/01/welcome-to-dubai-kinahan-cartels-visas-revealed",
@@ -7017,6 +7341,20 @@
       "intelligence"
     ],
     "fetched_at": "2026-10-05T17:21:00.002641+00:00"
+  },
+  {
+    "id": "e24ea347989546f7",
+    "title": "The State Makes the Missile, and the Missile Makes the State",
+    "link": "https://missilematters.substack.com/p/the-state-makes-the-missile-and-the",
+    "date": "2026-07-26",
+    "summary": "The power to hurt: Ukraine's deep-strike campaign and the transformation of the Ukrainian state",
+    "source": "Missile Matters",
+    "source_region": "eu",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T14:25:31.604201+00:00"
   },
   {
     "id": "238433a3978b0df7",
