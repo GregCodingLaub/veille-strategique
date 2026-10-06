@@ -22,6 +22,7 @@
 #   initial_limit: N      on a source's first fetch keep only its N latest items
 #   max_pages: N          (scrape) pages to read, for parsers that paginate
 #   stale_after_days: N   weekly health alert if the newest item is older (default 90)
+#   fallback: rss2json    (rss) read the feed through a relay when the site answers 403
 #   require_any / exclude_any: [..]  per-source filter: keep only items containing one
 #                         of these terms / drop items containing one of them
 #   require_report: true  keep only items that look like a report/study
@@ -48,6 +49,7 @@
   type: rss
   url: "https://projectosint.substack.com/feed"
   region: other
+  fallback: rss2json   # substack.com refuses GitHub's servers (403): read through a relay
   default_themes: [intelligence]
   # "OSINT made simple": weekly. Feed checked. On-topic by nature, so it
   # bypasses the keyword filter (its titles contain no classic keywords).
@@ -56,12 +58,14 @@
   type: rss
   url: "https://missilematters.substack.com/feed"
   region: eu
+  fallback: rss2json   # substack.com refuses GitHub's servers (403): read through a relay
   default_themes: [military]
 
 - name: "The OSINT Newsletter"
   type: rss
   url: "https://osintnewsletter.substack.com/feed"
   region: other
+  fallback: rss2json   # substack.com refuses GitHub's servers (403): read through a relay
   default_themes: [intelligence]
 
 # --- France ----------------------------------------------------------------
@@ -329,6 +333,9 @@
 
 # --- Energy, minerals and infrastructure (geopolitical lens) -----------------
 - name: "IFRI - Centre Énergie & Climat"
+  enabled: false   # ifri.org's bot protection refuses GitHub's servers (403) on every
+                   # attempt. Its publications still arrive through the IFRI Bluesky account
+                   # above, classified by keywords (energy, electricity, minerals, grids...).
   type: scrape
   url: "https://www.ifri.org/en/center-energy-climate"
   parser: ifri
