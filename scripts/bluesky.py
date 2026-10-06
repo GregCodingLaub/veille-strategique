@@ -30,16 +30,26 @@ from urllib.parse import urlparse
 API = "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed"
 
 
-def fetch_bluesky(session, handle, limit=30, allowed_domains=None):
-    resp = session.get(
-        API,
-        params={"actor": handle, "limit": limit},
-        headers={"Accept": "application/json"},
-        timeout=20,
-    )
-    resp.raise_for_status()
-    data = resp.json()
+def fetch_bluesky(session, handle, limit=30, allowed_domains=None, max_pages=1):
+    """Posts with a link card from `handle`. `limit` posts per page (max 100),
+    `max_pages` pages (cursor pagination): busy accounts such as Reuters post
+    every few minutes, so 30 posts only reach back a couple of hours."""
+    items, cursor = [], None
+    for _ in range(max(1, max_pages)):
+        params = {"actor": handle, "limit": min(limit, 100)}
+        if cursor:
+            params["cursor"] = cursor
+        resp = session.get(API, params=params, headers={"Accept": "application/json"}, timeout=20)
+        resp.raise_for_status()
+        data = resp.json()
+        items.extend(_items_of(data, allowed_domains))
+        cursor = data.get("cursor")
+        if not cursor or not data.get("feed"):
+            break
+    return items
 
+
+def _items_of(data, allowed_domains):
     items = []
     for entry in data.get("feed", []):
         post = entry.get("post", {})
