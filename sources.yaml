@@ -22,6 +22,8 @@
 #   initial_limit: N      on a source's first fetch keep only its N latest items
 #   max_pages: N          (scrape) pages to read, for parsers that paginate
 #   stale_after_days: N   weekly health alert if the newest item is older (default 90)
+#   require_any / exclude_any: [..]  per-source filter: keep only items containing one
+#                         of these terms / drop items containing one of them
 #   require_report: true  keep only items that look like a report/study
 #   verify_ssl: false / allowed_domains: [..]   (see fetch.py / bluesky.py)
 #
@@ -50,10 +52,10 @@
   # "OSINT made simple": weekly. Feed checked. On-topic by nature, so it
   # bypasses the keyword filter (its titles contain no classic keywords).
 
-- name: "Missile Matters" 
-  type: rss 
+- name: "Missile Matters"
+  type: rss
   url: "https://missilematters.substack.com/feed"
-  region: eu 
+  region: eu
   default_themes: [military]
 
 - name: "The OSINT Newsletter"
@@ -64,10 +66,13 @@
 
 # --- France ----------------------------------------------------------------
 - name: "IFRI"
-  type: scrape
-  url: "https://www.ifri.org/fr/publications"
-  parser: ifri
+  type: bluesky
+  url: "ifri.bsky.social"
   region: fr
+  allowed_domains: ["ifri.org"]
+  limit: 50
+  # ifri.org answers 403 to GitHub's servers (bot protection), so the general feed
+  # comes from IFRI's Bluesky account. The energy centre below still tries the site.
 
 - name: "Portail de l'IE"
   type: rss
@@ -109,6 +114,85 @@
   skip_categories: [droit, société, histoire, environnement]
   # No RSS feed. Scraper written from the listing's text layout; untested live.
 
+- name: "IRIS"
+  type: rss
+  url: "https://www.iris-france.org/feed/"
+  region: fr
+  # Geopolitics and strategic affairs, all regions: the keyword filter does the work.
+
+- name: "Zone Militaire (Opex360)"
+  type: rss
+  url: "https://www.opex360.com/feed/"
+  region: fr
+  default_themes: [military]   # pure defence news: on-topic by nature
+  # About 3-4 items a day; the per-source cap (6 per edition) keeps the most recent.
+
+- name: "Institut Montaigne"
+  type: rss
+  url: "https://www.institutmontaigne.org/rss.xml"
+  region: fr
+  # The feed mixes in domestic policy (social cohesion, democratic life, education...):
+  # keep only energy / security / defence / geopolitics, and drop the rest.
+  require_any:
+    - énergie
+    - nucléaire
+    - gaz
+    - pétrole
+    - électricité
+    - minerais
+    - matières premières
+    - défense
+    - sécurité
+    - militaire
+    - armée
+    - armement
+    - guerre
+    - OTAN
+    - Ukraine
+    - Russie
+    - Chine
+    - Taïwan
+    - Iran
+    - Israël
+    - Moyen-Orient
+    - Indo-Pacifique
+    - Afrique
+    - États-Unis
+    - Trump
+    - géopolitique
+    - souveraineté
+    - ingérence
+    - sanctions
+    - cyber
+    - renseignement
+    - satellite
+    - câbles
+    - conflictualité
+    - puissance
+    - dissuasion
+  exclude_any:
+    - cohésion sociale
+    - vie démocratique
+    - démocratie
+    - élection
+    - éducation
+    - école
+    - enseignement
+    - santé
+    - sécurité sociale
+    - retraite
+    - emploi
+    - travail
+    - logement
+    - jeunesse
+    - laïcité
+    - islam
+    - immigration
+    - intégration
+    - territoires
+    - numérique
+    - repères de Montaigne
+
 # --- EU ----------------------------------------------------------------
 - name: "EUISS"
   type: rss
@@ -123,9 +207,11 @@
   # Guessed handle based on their domain -- validate before trusting.
 
 - name: "Bruegel"
-  type: rss
-  url: "https://www.bruegel.org/rss.xml"
+  type: bluesky
+  url: "bruegel.org"
   region: eu
+  allowed_domains: ["bruegel.org"]
+  # bruegel.org/rss.xml answers 403 to GitHub's servers (bot protection): Bluesky instead.
 
 - name: "MERICS"
   type: bluesky
@@ -184,7 +270,9 @@
   type: bluesky
   url: "reuters.com"
   region: us
-  allowed_domains: ["reuters.com"]
+  allowed_domains: ["reuters.com", "reut.rs"]   # their posts link to the reut.rs short domain
+  limit: 100
+  max_pages: 6      # ~600 posts: Reuters posts every few minutes, 30 only reached back ~2 hours
   # Main account, all topics -- keyword filter narrows it to relevant items.
   # Guessed handle based on their domain (confirmed pattern via their verticals
   # like breakingviews.reuters.com) -- validate before trusting.
@@ -220,9 +308,11 @@
   region: us
 
 - name: "Bulletin of the Atomic Scientists"
-  type: rss
-  url: "https://thebulletin.org/feed/"
+  type: bluesky
+  url: "thebulletin.org"
   region: us
+  allowed_domains: ["thebulletin.org"]
+  # thebulletin.org/feed answers 403 to GitHub's servers: Bluesky instead.
 
 # --- Intelligence: journals and institutions ---------------------------------
 - name: "CIA - Studies in Intelligence"
