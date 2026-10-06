@@ -425,6 +425,34 @@ def matches_keywords(text, keywords_by_theme):
     return matched
 
 
+def theme_scores(text, keywords_by_theme):
+    """{theme: number of distinct keywords found} for a text."""
+    folded = fold(text)
+    out = {}
+    for theme, words in keywords_by_theme.items():
+        if theme == "exclude_technical":
+            continue
+        n = 0
+        for w in words or []:
+            pat = _keyword_pattern(w)
+            if pat and pat.search(folded):
+                n += 1
+        out[theme] = n
+    return out
+
+
+def primary_theme(item, keywords_by_theme):
+    """The ONE newsletter an item belongs to: the theme with the most keyword
+    hits, +3 for a theme the source or parser vouches for (item["trusted_themes"]);
+    ties go to THEME_ORDER. Only the item's own themes are considered."""
+    themes = [t for t in THEME_ORDER if t in (item.get("themes") or [])]
+    if not themes:
+        return None
+    scores = theme_scores(f"{item.get('title', '')} {item.get('summary', '')}", keywords_by_theme)
+    trusted = set(item.get("trusted_themes") or [])
+    return max(themes, key=lambda t: (scores.get(t, 0) + (3 if t in trusted else 0), -THEME_ORDER.index(t)))
+
+
 def is_excluded_technical(text, keywords_by_theme):
     """True if the text hits an exclude_technical keyword: too technical,
     promotional or event-announcement to be worth a strategic digest."""
