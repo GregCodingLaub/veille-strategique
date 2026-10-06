@@ -24,7 +24,7 @@ from urllib.parse import urljoin, urlsplit
 
 from bs4 import BeautifulSoup
 
-from common import parse_date_from_text, clean_text, fold
+from common import parse_date_from_text, clean_text, fold, http_get
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -33,12 +33,7 @@ USER_AGENT = (
 
 
 def _get_soup(session, url, lang="en-US,en;q=0.9"):
-    resp = session.get(
-        url, timeout=25,
-        headers={"User-Agent": USER_AGENT, "Accept-Language": lang,
-                 "Accept": "text/html,application/xhtml+xml"},
-    )
-    resp.raise_for_status()
+    resp = http_get(session, url, lang=lang, accept="text/html,application/xhtml+xml")
     return BeautifulSoup(resp.text, "html.parser")
 
 
@@ -128,7 +123,12 @@ def csis_program(session, url, options=None):
     items, seen = [], set()
     for page in range(max_pages):
         page_url = url if page == 0 else f"{url}{'&' if '?' in url else '?'}page={page}"
-        soup = _get_soup(session, page_url)
+        try:
+            soup = _get_soup(session, page_url)
+        except Exception:  # noqa: BLE001
+            if page == 0:
+                raise          # first page unreachable: real failure
+            break              # a deeper page refused: keep what we already have
         by_href = {}
         for a in soup.find_all("a", href=True):
             href = urljoin(url, a["href"]).split("#")[0].split("?")[0]
