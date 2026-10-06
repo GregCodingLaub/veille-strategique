@@ -213,6 +213,10 @@ _IRSEM_TYPE = re.compile(
     r"note strategique|veille stratégique|veille strategique|livre|enquête|enquete|"
     r"rapport|publication)\b(?:\s*(?:n°\s*)?(\d+))?\s*-?\s*(?=\d{1,2}/)", re.I)
 _IRSEM_READING = re.compile(r"(?:\d+\s*h\s*)?\d+\s*min(?:utes?)?\s+de\s+lecture", re.I)
+_IRSEM_LABELS = {"etude": "Étude", "breve strategique": "Brève stratégique",
+                 "note strategique": "Note stratégique", "note de recherche": "Note de recherche",
+                 "veille strategique": "Veille stratégique", "enquete": "Enquête",
+                 "livre": "Livre", "rapport": "Rapport", "publication": "Publication"}
 _IRSEM_CATEGORIES = ["Défense", "Sécurité", "Influence", "Stratégie", "Politique", "Énergie",
                      "Société", "Environnement", "Droit", "Espace", "Renseignement", "Histoire"]
 # category -> newsletter theme (an item with none of these goes through the keyword filter)
@@ -247,8 +251,14 @@ def _irsem_parse_card(text, fallback_title=""):
         title = fallback_title
     label = ""
     if kind:
-        label = " ".join(g for g in (kind.group(1), kind.group(2)) if g).capitalize()
-    return cats, title, label, _irsem_date(rest)
+        name = _IRSEM_LABELS.get(fold(kind.group(1)), kind.group(1).capitalize())
+        label = " ".join(g for g in (name, kind.group(2)) if g)
+    reading_time = ""
+    if reading:
+        reading_time = re.sub(r"\s*de\s+lecture\s*$", "", reading.group(0), flags=re.I)
+        reading_time = re.sub(r"(\d)\s*h\s*(\d)", r"\1 h \2", reading_time)
+        reading_time = re.sub(r"(\d)(min)", r"\1 \2", reading_time) + " de lecture"
+    return cats, title, label, _irsem_date(rest), reading_time
 
 
 def irsem(session, url, options=None):
@@ -292,7 +302,7 @@ def irsem(session, url, options=None):
             new_on_page += 1
             heading = node.find(["h1", "h2", "h3", "h4"])
             fallback = clean_text(heading.get_text(" ", strip=True)) if heading else _best_text(anchors)
-            cats, title, label, date = _irsem_parse_card(clean_text(node.get_text(" ", strip=True)), fallback)
+            cats, title, label, date, reading_time = _irsem_parse_card(clean_text(node.get_text(" ", strip=True)), fallback)
             if len(title) < 8:
                 continue
             if skip and any(fold(c) in skip for c in cats):
@@ -302,10 +312,11 @@ def irsem(session, url, options=None):
                 t = _IRSEM_THEME_HINT.get(c.lower())
                 if t and t not in hints:
                     hints.append(t)
-            summary = " · ".join(x for x in (label, ", ".join(cats)) if x)
+            # Displayed as small text next to the date: "Étude 138 · 4 min de lecture".
+            # IRSEM's own category labels and the authors are not shown.
             items.append({
                 "title": title, "link": href, "date": date, "themes_hint": hints,
-                "summary": f"{summary} (IRSEM)" if summary else "Publication de l'IRSEM.",
+                "summary": "", "meta": [label, reading_time],
             })
         if new_on_page == 0:
             break
