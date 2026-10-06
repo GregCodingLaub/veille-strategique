@@ -81,6 +81,7 @@ def rebuild(items, sources, keywords, regions):
         new.update({
             "title": title, "summary": summary, "link": link,
             "themes": themes, "source_region": source_region, "subject_region": region,
+            "trusted_themes": [t for t in default_themes if t in themes] or it.get("trusted_themes") or [],
         })
         kept.append(new)
     return kept, dropped
