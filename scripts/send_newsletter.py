@@ -52,8 +52,10 @@ import requests
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import (  # noqa: E402
     load_items, load_state, save_state, load_newsletter_log, append_newsletter_log,
-    load_health, load_sources, edition_number, THEME_ORDER, THEME_LABELS,
+    load_health, load_sources, load_keywords, primary_theme, edition_number,
+    THEME_ORDER, THEME_LABELS,
 )
+from dedupe import cluster, representative  # noqa: E402
 from email_render import build_email_html, build_email_text, date_fr  # noqa: E402
 from health import health_problems  # noqa: E402
 from recipients import load_peer_recipients  # noqa: E402
@@ -95,6 +97,60 @@ def select_items(theme, items, last_sent, now):
         else:
             overflow += 1
     return kept, overflow
+
+
+def cap_per_source(items):
+    """Newest first, at most MAX_PER_SOURCE per source. Returns (kept, overflow)."""
+    items = sorted(items, key=lambda it: (it.get("date") or "", it.get("fetched_at") or ""), reverse=True)
+    counts, kept, overflow = {}, [], 0
+    for it in items:
+        n = counts.get(it["source"], 0)
+        if n < MAX_PER_SOURCE:
+            kept.append(it)
+            counts[it["source"]] = n + 1
+        else:
+            overflow += 1
+    return kept, overflow
+
+
+def plan_editions(items, state, log, now, keywords):
+    """Decide what goes in which newsletter, once for all three.
+
+    - each item belongs to ONE newsletter (its primary theme: most keyword hits,
+      or the theme its source vouches for), so a story is never in two editions;
+    - items about the same story (same or another source, French or English) are
+      merged: one entry, with "aussi : <other sources>";
+    - a story already sent in the last 14 days is not sent again.
+    Returns {theme: (items, overflow)}."""
+    floor = (now - timedelta(days=FIRST_EDITION_DAYS)).isoformat()
+    since = {}
+    for t in THEME_ORDER:
+        last = state["last_newsletter_sent"].get(t)
+        since[t] = max(last, floor) if last else floor
+
+    eligible = []
+    for it in items:
+        prim = primary_theme(it, keywords)
+        if prim and (it.get("fetched_at") or "") > since[prim]:
+            eligible.append((it, prim))
+
+    by_id = {it["id"]: it for it in items}
+    recent = (now - timedelta(days=14)).isoformat()
+    already = [by_id[i] for e in log if (e.get("date") or "") > recent
+               for i in e.get("item_ids", []) if i in by_id]
+    already_ids = {it["id"] for it in already}
+
+    prim_of = {it["id"]: p for it, p in eligible}
+    pool = [it for it, _ in eligible] + [it for it in already if it["id"] not in prim_of]
+    plan = {t: [] for t in THEME_ORDER}
+    for group in cluster(pool):
+        if any(it["id"] in already_ids for it in group):
+            continue                       # story already covered by a recent edition
+        rep = representative(group)
+        also = sorted({it["source"] for it in group if it["source"] != rep["source"]})
+        entry = dict(rep, also=also)
+        plan[prim_of[rep["id"]]].append(entry)
+    return {t: cap_per_source(plan[t]) for t in THEME_ORDER}
 
 
 def _post(url, api_key, payload, attempts=2):
@@ -227,7 +283,7 @@ def send_theme(theme, ctx):
         print(f"[{theme}] sent {elapsed:.1f}h ago (< {MIN_HOURS_BETWEEN}h): duplicate guard, skipped.")
         return True
 
-    items, overflow = select_items(theme, ctx["items"], last_sent, now)
+    items, overflow = ctx["plan"].get(theme, ([], 0))
     label = THEME_LABELS[theme]
     if not items:
         print(f"[{theme}] no new item: nothing sent{' (test)' if test else ', not counted as an edition'}.")
@@ -333,12 +389,15 @@ def main():
         "test": test, "dry_run": dry_run, "api_key": api_key, "smtp": smtp, "owner": owner,
         "from_email": from_email, "state": load_state(), "items": load_items(),
         "log": load_newsletter_log(), "peers": peers, "emails_sent": 0,
+        "keywords": load_keywords(),
         "site_url": os.environ.get("SITE_URL") or DEFAULT_SITE_URL,
         "unsubscribe_url": os.environ.get("SIGNUP_FORM_URL") or None,
         "can_write_to_peers": not from_email.lower().endswith("@resend.dev"),
         "dump_dir": os.environ.get("NEWSLETTER_DUMP_DIR"),
     }
 
+    ctx["plan"] = plan_editions(ctx["items"], ctx["state"], ctx["log"],
+                                datetime.now(timezone.utc), ctx["keywords"])
     all_ok = True
     for theme in THEME_ORDER:
         try:
