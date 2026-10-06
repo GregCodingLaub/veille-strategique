@@ -273,3 +273,26 @@ def test_source_require_and_exclude_filters():
     kept, stats, _ = process_items(src, raw, KW, RG, set(), TODAY)
     assert [k["link"] for k in kept] == ["https://m.org/1", "https://m.org/5"]
     assert stats["filtered"] == 3
+
+
+def test_rss_fallback_via_relay(monkeypatch):
+    import requests
+    import fetch
+
+    def refuse(session, url, **kw):
+        raise requests.HTTPError("403")
+    monkeypatch.setattr(fetch, "http_get", refuse)
+
+    class R:
+        def raise_for_status(self): pass
+        def json(self):
+            return {"status": "ok", "items": [{"title": "T", "link": "https://x.substack.com/p/a",
+                                              "pubDate": "2026-10-01 09:00:00", "description": "<p>d</p>"}]}
+
+    class S:
+        def get(self, url, **kw): return R()
+
+    out = fetch.fetch_rss(S(), "https://x.substack.com/feed", fallback="rss2json")
+    assert out[0]["date"] == "2026-10-01" and out[0]["link"].endswith("/p/a")
+    with pytest.raises(requests.HTTPError):
+        fetch.fetch_rss(S(), "https://x.substack.com/feed")
