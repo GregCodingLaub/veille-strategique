@@ -450,6 +450,22 @@
     "fetched_at": "2026-10-06T14:26:08.019461+00:00"
   },
   {
+    "id": "42426aeb05f2786f",
+    "title": "Australia’s Guided Weapons and Munitions effort makes progress, but risks remain",
+    "link": "https://breakingdefense.com/2026/10/australias-guided-weapons-and-munitions-effort-makes-progress-but-risks-remain",
+    "date": "2026-10-06",
+    "summary": "Experts have called on GWEO efforts to diversify sources and ensure workforce readiness",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-06T14:59:01.815579+00:00"
+  },
+  {
     "id": "15b1208fcfd71570",
     "title": "The AI-Assisted Strategic Own Goal in the Kill Chain",
     "link": "https://warontherocks.com/cogs-of-war/the-ai-assisted-strategic-own-goal-in-the-kill-chain/",
@@ -2930,6 +2946,24 @@
     "fetched_at": "2026-10-06T14:05:33.483799+00:00"
   },
   {
+    "id": "116b4e92e32a4394",
+    "title": "The OSINT Newsletter - Issue #124",
+    "link": "https://osintnewsletter.com/p/124",
+    "date": "2026-10-01",
+    "summary": "Company Research: Using OSINT to Look Behind the Marketing",
+    "source": "The OSINT Newsletter",
+    "source_region": "other",
+    "subject_region": "other",
+    "themes": [
+      "intelligence"
+    ],
+    "trusted_themes": [
+      "intelligence"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-06T14:58:31.752863+00:00"
+  },
+  {
     "id": "f8e1d46c9222ef5a",
     "title": "Poutine augmente la taille de l’armée russe pour la quatrième fois en six mois",
     "link": "https://legrandcontinent.eu/fr/2026/09/30/poutine-augmente-la-taille-de-larmee-russe-pour-la-quatrieme-fois-en-six-mois/",
@@ -5015,6 +5049,24 @@
     "fetched_at": "2026-10-06T14:25:25.474210+00:00"
   },
   {
+    "id": "2f03e15789728365",
+    "title": "The OSINT Newsletter - Issue #123",
+    "link": "https://osintnewsletter.com/p/123",
+    "date": "2026-09-22",
+    "summary": "OSINT Tool Tuesday: Telegago",
+    "source": "The OSINT Newsletter",
+    "source_region": "other",
+    "subject_region": "other",
+    "themes": [
+      "intelligence"
+    ],
+    "trusted_themes": [
+      "intelligence"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-06T14:58:31.753475+00:00"
+  },
+  {
     "id": "ad1311d439c0798e",
     "title": "Fifth Plenum date set; Xi’s US visit confirmed as negotiators meet in New York; Zhang Youxia and Liu Zhenli expelled from Party and PLA",
     "link": "https://sinocism.com/p/fifth-plenum-date-set-xis-us-visit",
@@ -5255,6 +5307,24 @@
     "subject_region": "us"
   },
   {
+    "id": "3c6cdce0948b575e",
+    "title": "Episode 23: Locking Down Your OpSec, Mapping Online Communities, and Mining Vinted for OSINT",
+    "link": "https://osintnewsletter.com/p/episode-23-locking-down-your-opsec",
+    "date": "2026-09-18",
+    "summary": "Listen now (42 mins) | Tools, tactics, and fresh investigations expanding the open-source intelligence toolkit.",
+    "source": "The OSINT Newsletter",
+    "source_region": "other",
+    "subject_region": "other",
+    "themes": [
+      "intelligence"
+    ],
+    "trusted_themes": [
+      "intelligence"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-06T14:58:31.754514+00:00"
+  },
+  {
     "id": "015e7d9b66033450",
     "title": "Latin America’s Balancing Act: Washington, Beijing, and the Post-Maduro Environment",
     "link": "https://warontherocks.com/latin-americas-balancing-act-washington-beijing-and-the-post-maduro-environment/",
@@ -5491,6 +5561,24 @@
       "military"
     ],
     "fetched_at": "2026-10-06T14:04:44.086240+00:00"
+  },
+  {
+    "id": "8ec0a13f5e63d9e0",
+    "title": "The OSINT Newsletter - Issue #122",
+    "link": "https://osintnewsletter.com/p/122",
+    "date": "2026-09-17",
+    "summary": "A Deep Dive into Vinted for OSINT",
+    "source": "The OSINT Newsletter",
+    "source_region": "other",
+    "subject_region": "other",
+    "themes": [
+      "intelligence"
+    ],
+    "trusted_themes": [
+      "intelligence"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-06T14:58:31.754873+00:00"
   },
   {
     "id": "039e5b1f34b24f6b",
@@ -6169,6 +6257,24 @@
     "fetched_at": "2026-10-06T14:25:25.479619+00:00"
   },
   {
+    "id": "0f4d689f6fcc7353",
+    "title": "The OSINT Newsletter - Issue #121",
+    "link": "https://osintnewsletter.com/p/121",
+    "date": "2026-09-08",
+    "summary": "OSINT Tool Tuesday: Waybien",
+    "source": "The OSINT Newsletter",
+    "source_region": "other",
+    "subject_region": "other",
+    "themes": [
+      "intelligence"
+    ],
+    "trusted_themes": [
+      "intelligence"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-06T14:58:31.755201+00:00"
+  },
+  {
     "id": "a10c8428178e6ed4",
     "title": "The Strategic Fiber of America: Kevlar’s Impact on Warfighters",
     "link": "https://warontherocks.com/cogs-of-war/the-strategic-fiber-of-america-kevlars-impact-on-warfighters/",
@@ -6651,6 +6757,24 @@
     "fetched_at": "2026-10-05T17:20:48.105955+00:00"
   },
   {
+    "id": "fa5a740e5898345f",
+    "title": "The OSINT Newsletter - Issue #120",
+    "link": "https://osintnewsletter.com/p/120",
+    "date": "2026-08-27",
+    "summary": "You Are the Leak: OSINT and Operational Security (OpSec)",
+    "source": "The OSINT Newsletter",
+    "source_region": "other",
+    "subject_region": "other",
+    "themes": [
+      "intelligence"
+    ],
+    "trusted_themes": [
+      "intelligence"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-06T14:58:31.755679+00:00"
+  },
+  {
     "id": "c88473ffbf693a23",
     "title": "The Marine Corps’ Plan for the Future of Ground Combat",
     "link": "https://warontherocks.com/the-marine-corps-plan-for-the-future-of-ground-combat/",
@@ -6862,6 +6986,24 @@
       "energy_industry"
     ],
     "fetched_at": "2026-10-05T17:20:59.997462+00:00"
+  },
+  {
+    "id": "b262601569d876c2",
+    "title": "The OSINT Newsletter - Issue #119",
+    "link": "https://osintnewsletter.com/p/119",
+    "date": "2026-08-20",
+    "summary": "Creating a Facial Recognition Search Engine Without Storing Faces",
+    "source": "The OSINT Newsletter",
+    "source_region": "other",
+    "subject_region": "other",
+    "themes": [
+      "intelligence"
+    ],
+    "trusted_themes": [
+      "intelligence"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-06T14:58:31.756175+00:00"
   },
   {
     "id": "d1689ad71544c654",
@@ -7175,6 +7317,24 @@
     "subject_region": "us"
   },
   {
+    "id": "bb4ffe628105abfd",
+    "title": "The OSINT Newsletter - Issue #118",
+    "link": "https://osintnewsletter.com/p/118",
+    "date": "2026-08-11",
+    "summary": "OSINT Tool Tuesday: Library of Leaks",
+    "source": "The OSINT Newsletter",
+    "source_region": "other",
+    "subject_region": "other",
+    "themes": [
+      "intelligence"
+    ],
+    "trusted_themes": [
+      "intelligence"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-06T14:58:31.756547+00:00"
+  },
+  {
     "id": "fa98e0d90d372469",
     "title": "What America Learned About Democracy When It Gained Stealth",
     "link": "https://warontherocks.com/cogs-of-war/what-america-learned-about-democracy-when-it-gained-stealth/",
@@ -7301,6 +7461,24 @@
     "fetched_at": "2026-10-06T14:05:52.598731+00:00"
   },
   {
+    "id": "0e6eac5e5075c556",
+    "title": "The OSINT Newsletter - Issue #117",
+    "link": "https://osintnewsletter.com/p/117",
+    "date": "2026-08-06",
+    "summary": "Everything Must Go (Including Their OPSEC): OSINT on eCommerce and Marketplace",
+    "source": "The OSINT Newsletter",
+    "source_region": "other",
+    "subject_region": "other",
+    "themes": [
+      "intelligence"
+    ],
+    "trusted_themes": [
+      "intelligence"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-06T14:58:31.757117+00:00"
+  },
+  {
     "id": "cd1eea53592c2e03",
     "title": "10,000 Subscribers and a New Chapter: Missile Matters Adds a Paid Tier",
     "link": "https://missilematters.substack.com/p/10000-subscribers-the-future-of-missile",
@@ -7327,6 +7505,24 @@
       "intelligence"
     ],
     "fetched_at": "2026-10-05T17:20:59.999687+00:00"
+  },
+  {
+    "id": "6fe8036a70696084",
+    "title": "Episode 22: Reply Guys and Robot Toolsmiths: Mining Forums for Long-Term History and Building an OSINT Tool That Improves Itself",
+    "link": "https://osintnewsletter.com/p/episode-22-reply-guys-and-robot-toolsmiths",
+    "date": "2026-07-31",
+    "summary": "Listen now | Tools, tactics, and fresh investigations expanding the open-source intelligence toolkit.",
+    "source": "The OSINT Newsletter",
+    "source_region": "other",
+    "subject_region": "other",
+    "themes": [
+      "intelligence"
+    ],
+    "trusted_themes": [
+      "intelligence"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-06T14:58:31.758261+00:00"
   },
   {
     "id": "9e74eed3663be9f7",
