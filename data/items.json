@@ -1,5 +1,61 @@
 [
   {
+    "id": "3368ef70b6f6b154",
+    "title": "L’ère de la guerre politique",
+    "link": "https://legrandcontinent.eu/fr/2026/10/06/lere-de-la-guerre-politique",
+    "date": "2026-10-06",
+    "summary": "Pour comprendre ce que Poutine et Trump font déjà sur le continent, la notion de « guerre hybride » est devenue inadéquate L’article L’ère de la guerre politique est apparu en premier sur Le Grand Continent .",
+    "source": "Le Grand Continent",
+    "source_region": "eu",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T12:42:55.169086+00:00"
+  },
+  {
+    "id": "a25013e3ed4f99cc",
+    "title": "Iran Faces Severe Challenges to Rebuild Missile and Drone Production",
+    "link": "https://warontherocks.com/iran-faces-severe-challenges-to-rebuild-missile-and-drone-production",
+    "date": "2026-10-06",
+    "summary": "With the significant Israeli and U.S. military attacks against Iran in 2025 and early 2026, analysts have discussed and debated Iran’s ability to replenish its missile and drone arsenal. Since 2024, Iran has burned through thousands of ballistic missiles, cruise missiles, and one-way attack drones in its retaliatory attacks against Israel, U.S. military bases, and other targets in the region. In addition, air and missile strikes destroyed many more Iranian missiles and drones along with their launchers. Importantly, Israeli and U.S. attacks in 2024, 2025, and especially 2026 cumulatively…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T12:43:11.096442+00:00"
+  },
+  {
+    "id": "2a1ffe5ba9e84061",
+    "title": "Leonardo DRS announces new UK-based subsidiary",
+    "link": "https://breakingdefense.com/2026/10/leonardo-drs-announces-new-uk-based-subsidiary",
+    "date": "2026-10-06",
+    "summary": "The new subsidiary will help support UK requirements for counter-drone capabilities, air defense and active protection systems, DRS said.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T12:43:19.712512+00:00"
+  },
+  {
+    "id": "ccf10c810bede281",
+    "title": "Europeanising NATO: The Arctic",
+    "link": "https://icds.ee/en/europeanising-nato-the-arctic",
+    "date": "2026-10-06",
+    "summary": "The Arctic has become an additional test of transatlantic cohesion after the Trump administration's claim to Greenland. The Europeanisation of NATO serves two purposes in this regard: strengthening European confidence in solidarity with Denmark; and providing for a more dedicated European (and Canadian) effort in the High North and thus indirectly for protecting the US homeland against Russian and Chinese threats.",
+    "source": "ICDS (Estonia)",
+    "source_region": "eu",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T12:43:34.425124+00:00"
+  },
+  {
     "id": "15b1208fcfd71570",
     "title": "The AI-Assisted Strategic Own Goal in the Kill Chain",
     "link": "https://warontherocks.com/cogs-of-war/the-ai-assisted-strategic-own-goal-in-the-kill-chain/",
@@ -181,6 +237,189 @@
       "military"
     ],
     "fetched_at": "2026-10-05T18:39:31.461513+00:00"
+  },
+  {
+    "id": "a4feb889fc75798a",
+    "title": "What Is Space Superiority?",
+    "link": "https://www.csis.org/analysis/what-space-superiority",
+    "date": "2026-10-05",
+    "summary": "What did CENTCOM mean when it declared space superiority over Iran? Joint and Space Force doctrine give different answers, while leaving unresolved who can make that declaration and what evidence is n...",
+    "source": "CSIS",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T12:43:09.873392+00:00"
+  },
+  {
+    "id": "29d444beb53fa502",
+    "title": "Certainty is a Luxury Ukrainians Must Create",
+    "link": "https://warontherocks.com/certainty-is-a-luxury-ukrainians-must-create",
+    "date": "2026-10-05",
+    "summary": "Welcome to The Ukraine Compass, a weekly digest of Ukrainian commentary and analysis from across the political spectrum only for War on the Rocks members. Each week, we bring you a curated selection of articles from Ukrainian media offering insight into how Ukrainians themselves debate the issues shaping their country.Western coverage often narrows the view to the battlefield — these pieces widen it, revealing the texture of daily life, politics, and public argument in a nation at war. The perspectives gathered here are varied, candid, and often surprising, together forming a more complete…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T12:43:11.102719+00:00"
+  },
+  {
+    "id": "6e4def81fb172f3a",
+    "title": "Chornomorsk Concession Advances Ukraine’s Maritime Recovery",
+    "link": "https://jamestown.org/chornomorsk-concession-advances-ukraines-maritime-recovery",
+    "date": "2026-10-05",
+    "summary": "Executive Summary: Russian and Ukrainian drone strikes continue to make shipping though the Black Sea troublesome and places security risks on ports (see EDM, September 25). At the Ukraine Recovery Conference in Gdańsk on June 25, the Ukrainian government announced the pre-qualification results for the concession of the First and Container Terminals at Chornomorsk Seaport. […]",
+    "source": "Jamestown Foundation (China Brief)",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T12:43:16.133318+00:00"
+  },
+  {
+    "id": "05fdb672293662bc",
+    "title": "Russian Military Uses Chemical Agents as a Standard Battlefield Tactic",
+    "link": "https://jamestown.org/russian-military-uses-chemical-agents-as-a-standard-battlefield-tactic",
+    "date": "2026-10-05",
+    "summary": "Executive Summary: As of September, Ukraine reported nearly 14,000 cases of Russia using hazardous chemical substances on the front lines (Telegram/@GeneralStaffZSU, July 2; Armiia Inform, September 15). The main means of delivery were hand-thrown gas grenades and improvised devices containing 2-chlorobenzalmalononitrile (CS)—commonly called tear gas—and chloroacetophenone (CN)—the active ingredient in mace—dropped from drones onto Ukrainian […]",
+    "source": "Jamestown Foundation (China Brief)",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T12:43:16.137882+00:00"
+  },
+  {
+    "id": "44235dc36c0789d7",
+    "title": "Russian Doctrine Designs Fire-Strike Complex Its Own Army Is Assembling by Hand",
+    "link": "https://jamestown.org/russian-doctrine-designs-fire-strike-complex-its-own-army-is-assembling-by-hand",
+    "date": "2026-10-05",
+    "summary": "Executive Summary: Russian military thought now casts modern war as a contest of technologies passing into art, in which victory falls to whoever can see, understand, and act first on a formulation that reads less like Soviet field theory than like a Western network-centric-warfare brief (Voennaya Mysl’, No. 6, 2026). The framing presented in this […]",
+    "source": "Jamestown Foundation (China Brief)",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T12:43:16.141620+00:00"
+  },
+  {
+    "id": "56425d94ebdc3519",
+    "title": "Has the Pentagon given up on AI polygraph analysis of trustworthiness?",
+    "link": "https://www.defensenews.com/news/pentagon-congress/2026/10/05/has-the-pentagon-given-up-on-ai-polygraph-analysis-of-trustworthiness",
+    "date": "2026-10-05",
+    "summary": "AI-aided scanning of speech patterns, vocal stress or facial expressions to read minds lacks scientific backing and will compound errors, critics argue.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T12:43:18.543813+00:00"
+  },
+  {
+    "id": "4ddc8db13719529a",
+    "title": "Pentagon picks 4 vendors for counter-drone directed energy pilot program",
+    "link": "https://breakingdefense.com/2026/10/pentagon-picks-4-vendors-for-counter-drone-directed-energy-pilot-program",
+    "date": "2026-10-05",
+    "summary": "AeroVironment, Epirus, Kord and Boeing were selected for JIATF-401’s pilot program.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T12:43:19.714069+00:00"
+  },
+  {
+    "id": "4c8bc33999d88ca5",
+    "title": "Boeing nabs potential $14.7 billion PAC-3 seeker contract",
+    "link": "https://breakingdefense.com/2026/10/boeing-nabs-potential-14-7-billion-pac-3-seeker-contract",
+    "date": "2026-10-05",
+    "summary": "The award was issued as an undefinitized contract by PAC-3 prime contractor Lockheed Martin.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T12:43:19.715841+00:00"
+  },
+  {
+    "id": "5cf6c2272d31ea1a",
+    "title": "US OKs missile guidance kits, Patriot repairs, Javelins for Middle East partners",
+    "link": "https://breakingdefense.com/2026/10/us-oks-missile-guidance-kits-patriot-repairs-javelins-to-middle-east-partners",
+    "date": "2026-10-05",
+    "summary": "One proposed deal would allow the United Arab Emirates to purchase $1 billion-worth of Advanced Precision Kill System-II Guidance Sections.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T12:43:19.718321+00:00"
+  },
+  {
+    "id": "f19c0e25dc94e1ab",
+    "title": "The New Federation of American Shipyards",
+    "link": "https://news.usni.org/2026/10/05/the-new-federation-of-american-shipyards",
+    "date": "2026-10-05",
+    "summary": "MOBILE, Ala. —Three decks high and shrouded in a plastic, air-conditioned barrier, some of the most important spaces of a pair of Virginia-class attack boats are taking shape on the shores of the Mobile River — 1,200 miles from the rest of the submarine. Already painted in the Navy’s calming shade of seafoam green, the control room modules are being outfitted with hatches, chairs, terminals, doors, desks, screens, outlets, fixtures, lightbulbs and a chart table before getting shrink-wrapped and barged up the East Coast to General Dynamics Electric Boat’s facility in Rhode Island. Then, the…",
+    "source": "USNI News",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T12:43:21.038904+00:00"
+  },
+  {
+    "id": "65930c1c50ab2d41",
+    "title": "Carrier USS George H.W. Bush Makes Port Call in Thailand",
+    "link": "https://news.usni.org/2026/10/05/carrier-uss-george-h-w-bush-makes-port-call-in-thailand",
+    "date": "2026-10-05",
+    "summary": "Aircraft carrier USS George H.W. Bush (CVN-77) pulled into Phuket, Thailand, on Sunday, the Navy announced. The port call for Bush and USS Delbert D. Black (DDG-119) comes after the carrier spent the last five months on station in U.S. Central Command amid the ongoing U.S. war with Iran. “Phuket will be the first port visit for GHWBCSG since its departure from Norfolk, Virginia, and Mayport, Florida, in March for operations in the U.S. 5th Fleet and U.S. 7th fleet area of operations (AO),” reads a Navy news release. After deploying in March, Bush sailed around Africa, taking the long",
+    "source": "USNI News",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T12:43:21.049544+00:00"
+  },
+  {
+    "id": "6280f408d9b1d917",
+    "title": "Russia Attacks – Would NATO Freeze?",
+    "link": "https://cepa.org/article/russia-attacks-would-nato-freeze",
+    "date": "2026-10-05",
+    "summary": "The idea that NATO forces would hesitate if engaged by the Russians is misguided, says former alliance official and US Army Maj. Gen. (rtd.) Skip Davis.",
+    "source": "CEPA (Center for European Policy Analysis)",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T12:43:32.460778+00:00"
+  },
+  {
+    "id": "0634e89bbe4b0c69",
+    "title": "Golden Dome: A cheap test of who wants binding rules in space",
+    "link": "https://www.lowyinstitute.org/the-interpreter/golden-dome-a-cheap-test-of-who-wants-binding-rules-in-space",
+    "date": "2026-10-05",
+    "summary": "The US has not destroyed a satellite with a missile since 2008, but that restraint has never become statute.",
+    "source": "Lowy Institute - The Interpreter",
+    "source_region": "other",
+    "subject_region": "us",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "fetched_at": "2026-10-06T12:43:35.685225+00:00"
   },
   {
     "id": "55e02b5c9284e501",
@@ -477,6 +716,21 @@
       "military"
     ],
     "fetched_at": "2026-10-05T18:39:41.747985+00:00"
+  },
+  {
+    "id": "011b34f1edb91ce3",
+    "title": "Braw in POLITICO on Russia’s gray-zone war with Europe",
+    "link": "https://www.atlanticcouncil.org/commentary/braw-in-politico-on-russias-gray-zone-war-with-europe",
+    "date": "2026-10-02",
+    "summary": "On October 2, Elisabeth Braw was interviewed on POLITICO’s Brussels Playbook Podcast on how Europe should respond to Russian sabotage, arson, cyberattacks, and attacks on critical infrastructure.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "fetched_at": "2026-10-06T12:43:30.910595+00:00"
   },
   {
     "id": "b5603bd846c353b4",
@@ -884,6 +1138,20 @@
       "military"
     ],
     "fetched_at": "2026-10-05T17:21:15.264698+00:00"
+  },
+  {
+    "id": "c22f6f4b6da0ce1b",
+    "title": "Braw in Financial Times on Australia’s banks planning for cable blackouts",
+    "link": "https://www.atlanticcouncil.org/uncategorized/braw-in-financial-times-on-australias-banks-planning-for-cable-blackouts",
+    "date": "2026-10-01",
+    "summary": "On October 1, Elisabeth Braw was published in Financial Times on how Australia is preparing its financial system for undersea warfare.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "military"
+    ],
+    "fetched_at": "2026-10-06T12:43:30.916901+00:00"
   },
   {
     "id": "f8e1d46c9222ef5a",
