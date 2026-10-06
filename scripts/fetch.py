@@ -41,9 +41,9 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import (  # noqa: E402
     load_sources, load_keywords, load_regions, load_items, save_items,
-    load_health, save_health, item_id, legacy_item_id, canonical_link,
+    load_health, save_health, http_get, item_id, legacy_item_id, canonical_link,
     clean_text, truncate, matches_keywords, is_excluded_technical,
-    looks_like_a_report, match_region, now_utc_iso,
+    looks_like_a_report, any_term, match_region, now_utc_iso,
     SOURCE_TO_SUBJECT_REGION, THEME_ORDER,
 )
 from scrapers import PARSERS  # noqa: E402
@@ -59,8 +59,8 @@ SUMMARY_MAX = 600
 
 def fetch_rss(session, url, verify_ssl=True):
     """Return list of {title, link, date, summary} from an RSS/Atom feed."""
-    resp = session.get(url, timeout=25, headers={"User-Agent": USER_AGENT}, verify=verify_ssl)
-    resp.raise_for_status()
+    resp = http_get(session, url, verify=verify_ssl,
+                    accept="application/rss+xml,application/atom+xml,application/xml,text/xml,*/*")
     parsed = feedparser.parse(resp.content)
     items = []
     for entry in parsed.entries:
@@ -92,7 +92,9 @@ def fetch_source(session, src):
     if kind == "scrape":
         return fetch_scrape(session, src)
     if kind == "bluesky":
-        return fetch_bluesky(session, src["url"], allowed_domains=src.get("allowed_domains"))
+        return fetch_bluesky(session, src["url"], limit=int(src.get("limit", 30)),
+                             allowed_domains=src.get("allowed_domains"),
+                             max_pages=int(src.get("max_pages", 1)))
     raise ValueError(f"Unknown source type: {kind}")
 
 
@@ -101,7 +103,7 @@ def process_items(src, raw_items, keywords, regions, known_ids, today):
     Returns (kept_items, stats). Pure function (no network, no disk)."""
     source_defaults = [t for t in (src.get("default_themes") or []) if t in THEME_ORDER]
     kept, seen_here = [], set()
-    stats = {"duplicate": 0, "irrelevant": 0, "technical": 0, "not_report": 0, "invalid": 0}
+    stats = {"duplicate": 0, "irrelevant": 0, "technical": 0, "not_report": 0, "invalid": 0, "filtered": 0}
     latest_date = None
 
     for raw in raw_items:
@@ -137,6 +139,15 @@ def process_items(src, raw_items, keywords, regions, known_ids, today):
         default_themes = source_defaults + [t for t in (raw.get("themes_hint") or [])
                                             if t in THEME_ORDER and t not in source_defaults]
         trusted = bool(default_themes)
+        # Per-source gates (sources.yaml): drop an item that hits an exclude_any
+        # term, or that hits no require_any term. Apply to trusted sources too.
+        if src.get("exclude_any") and any_term(text, src["exclude_any"]):
+            stats["filtered"] += 1
+            continue
+        if src.get("require_any") and not any_term(text, src["require_any"]):
+            stats["filtered"] += 1
+            continue
+
         themes = matches_keywords(text, keywords)
         if not trusted and themes and is_excluded_technical(text, keywords):
             stats["technical"] += 1
@@ -235,7 +246,7 @@ def main():
                 note = "  <-- EMPTY: the source returned nothing"
             print(f"[OK]   {name}: {len(raw_items)} fetched, {len(kept)} new & relevant "
                   f"(dup {stats['duplicate']}, off-topic {stats['irrelevant']}, "
-                  f"technical {stats['technical']}){note}")
+                  f"technical {stats['technical']}, source filters {stats['filtered']}){note}")
             report.append((name, "ok" if raw_items else "EMPTY", len(raw_items), len(kept)))
 
         except Exception as e:  # noqa: BLE001 - a broken source must not stop the others
