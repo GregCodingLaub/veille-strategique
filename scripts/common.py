@@ -9,6 +9,9 @@ from datetime import datetime, timezone
 from functools import lru_cache
 from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 
+import time
+
+import requests
 import yaml
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -85,6 +88,36 @@ SOURCE_PERSPECTIVE = {
     "us": ("US", "#b91c1c", "#fbe9e9"),
     "other": ("—", "#52606d", "#eceff2"),
 }
+
+# ----------------------------------------------------------------------------
+# HTTP
+# ----------------------------------------------------------------------------
+_USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/124.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (compatible; VeilleStrategique/1.0; +https://github.com)",
+    "feedparser/6.0.11 +https://github.com/kurtmckee/feedparser/",
+    "curl/8.5.0",
+]
+_BLOCKED = (403, 406, 429, 503)
+
+
+def http_get(session, url, timeout=25, verify=True, accept="*/*", lang="en-US,en;q=0.9"):
+    """GET with fallbacks. Cloud IPs (GitHub Actions) are often refused by
+    bot protections that decide on the User-Agent: on 403/406/429/503 the
+    request is retried with other identities (browser, honest bot, feed reader,
+    curl). Raises requests.HTTPError if every one is refused."""
+    resp = None
+    for i, ua in enumerate(_USER_AGENTS):
+        resp = session.get(url, timeout=timeout, verify=verify,
+                           headers={"User-Agent": ua, "Accept": accept, "Accept-Language": lang})
+        if resp.status_code not in _BLOCKED:
+            break
+        if i < len(_USER_AGENTS) - 1:
+            time.sleep(1.5)
+    resp.raise_for_status()
+    return resp
+
 
 # ----------------------------------------------------------------------------
 # Loading / saving
@@ -362,6 +395,18 @@ def _whole_word_match(keyword, text_low):
     word/phrase, plural-tolerant."""
     pat = _keyword_pattern(keyword)
     return bool(pat and pat.search(fold(text_low)))
+
+
+def any_term(text, terms):
+    """True if one of `terms` appears in `text` (whole words, accent/case
+    insensitive, plural-tolerant). Used by the per-source options
+    require_any / exclude_any."""
+    folded = fold(text)
+    for t in terms or []:
+        pat = _keyword_pattern(t)
+        if pat and pat.search(folded):
+            return True
+    return False
 
 
 def matches_keywords(text, keywords_by_theme):
