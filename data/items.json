@@ -11,7 +11,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T12:42:55.169086+00:00"
+    "fetched_at": "2026-10-06T12:42:55.169086+00:00",
+    "trusted_themes": []
   },
   {
     "id": "a25013e3ed4f99cc",
@@ -25,7 +26,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T12:43:11.096442+00:00"
+    "fetched_at": "2026-10-06T12:43:11.096442+00:00",
+    "trusted_themes": []
   },
   {
     "id": "2a1ffe5ba9e84061",
@@ -39,7 +41,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T12:43:19.712512+00:00"
+    "fetched_at": "2026-10-06T12:43:19.712512+00:00",
+    "trusted_themes": []
   },
   {
     "id": "ccf10c810bede281",
@@ -53,7 +56,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T12:43:34.425124+00:00"
+    "fetched_at": "2026-10-06T12:43:34.425124+00:00",
+    "trusted_themes": []
   },
   {
     "id": "1d73cc502b90d73a",
@@ -67,7 +71,10 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:04:53.126121+00:00"
+    "fetched_at": "2026-10-06T14:04:53.126121+00:00",
+    "trusted_themes": [
+      "military"
+    ]
   },
   {
     "id": "bc9ea85eba61b067",
@@ -81,7 +88,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:11.746540+00:00"
+    "fetched_at": "2026-10-06T14:05:11.746540+00:00",
+    "trusted_themes": []
   },
   {
     "id": "d46a2cbeb3b18091",
@@ -95,7 +103,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:11.750645+00:00"
+    "fetched_at": "2026-10-06T14:05:11.750645+00:00",
+    "trusted_themes": []
   },
   {
     "id": "9f405851589e2c7c",
@@ -109,7 +118,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:11.758818+00:00"
+    "fetched_at": "2026-10-06T14:05:11.758818+00:00",
+    "trusted_themes": []
   },
   {
     "id": "f6e513af34fa530b",
@@ -123,7 +133,8 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-06T14:05:11.766319+00:00"
+    "fetched_at": "2026-10-06T14:05:11.766319+00:00",
+    "trusted_themes": []
   },
   {
     "id": "52c98ae469aba0a6",
@@ -137,7 +148,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:11.768929+00:00"
+    "fetched_at": "2026-10-06T14:05:11.768929+00:00",
+    "trusted_themes": []
   },
   {
     "id": "93a0d1bd9b190e6d",
@@ -151,7 +163,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:11.771376+00:00"
+    "fetched_at": "2026-10-06T14:05:11.771376+00:00",
+    "trusted_themes": []
   },
   {
     "id": "192b441fc56e15e3",
@@ -165,7 +178,8 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-06T14:05:11.782876+00:00"
+    "fetched_at": "2026-10-06T14:05:11.782876+00:00",
+    "trusted_themes": []
   },
   {
     "id": "dbf201e22cde48aa",
@@ -180,7 +194,8 @@
       "military",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:11.794960+00:00"
+    "fetched_at": "2026-10-06T14:05:11.794960+00:00",
+    "trusted_themes": []
   },
   {
     "id": "aa3c2dd58d7e1257",
@@ -194,7 +209,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:11.810572+00:00"
+    "fetched_at": "2026-10-06T14:05:11.810572+00:00",
+    "trusted_themes": []
   },
   {
     "id": "b8e6a9fa5ac6b5a2",
@@ -208,7 +224,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:11.812280+00:00"
+    "fetched_at": "2026-10-06T14:05:11.812280+00:00",
+    "trusted_themes": []
   },
   {
     "id": "235ff7bd563b9e97",
@@ -222,7 +239,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:11.814145+00:00"
+    "fetched_at": "2026-10-06T14:05:11.814145+00:00",
+    "trusted_themes": []
   },
   {
     "id": "776e78ee2cda5641",
@@ -236,7 +254,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:11.831534+00:00"
+    "fetched_at": "2026-10-06T14:05:11.831534+00:00",
+    "trusted_themes": []
   },
   {
     "id": "c1a48eb3d8668555",
@@ -250,7 +269,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:11.840478+00:00"
+    "fetched_at": "2026-10-06T14:05:11.840478+00:00",
+    "trusted_themes": []
   },
   {
     "id": "495ae533be0fad47",
@@ -264,7 +284,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:11.842001+00:00"
+    "fetched_at": "2026-10-06T14:05:11.842001+00:00",
+    "trusted_themes": []
   },
   {
     "id": "000217c30112497d",
@@ -278,7 +299,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:11.846316+00:00"
+    "fetched_at": "2026-10-06T14:05:11.846316+00:00",
+    "trusted_themes": []
   },
   {
     "id": "5b0c823f0cfdba53",
@@ -292,7 +314,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:11.849427+00:00"
+    "fetched_at": "2026-10-06T14:05:11.849427+00:00",
+    "trusted_themes": []
   },
   {
     "id": "2fda15ab3112b01f",
@@ -306,7 +329,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:11.853583+00:00"
+    "fetched_at": "2026-10-06T14:05:11.853583+00:00",
+    "trusted_themes": []
   },
   {
     "id": "96dd547c87e94272",
@@ -320,7 +344,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:11.856276+00:00"
+    "fetched_at": "2026-10-06T14:05:11.856276+00:00",
+    "trusted_themes": []
   },
   {
     "id": "ff404fca0054e52d",
@@ -334,7 +359,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:11.865517+00:00"
+    "fetched_at": "2026-10-06T14:05:11.865517+00:00",
+    "trusted_themes": []
   },
   {
     "id": "b7a0d22eb4976c01",
@@ -348,7 +374,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:16.213540+00:00"
+    "fetched_at": "2026-10-06T14:05:16.213540+00:00",
+    "trusted_themes": []
   },
   {
     "id": "ea7057baf54ee5b7",
@@ -362,7 +389,10 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:33.485139+00:00"
+    "fetched_at": "2026-10-06T14:05:33.485139+00:00",
+    "trusted_themes": [
+      "energy_industry"
+    ]
   },
   {
     "id": "e9cdf153c41356bf",
@@ -376,7 +406,10 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:33.485655+00:00"
+    "fetched_at": "2026-10-06T14:05:33.485655+00:00",
+    "trusted_themes": [
+      "energy_industry"
+    ]
   },
   {
     "id": "9dc12bba4b8180e6",
@@ -390,7 +423,10 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:52.593826+00:00"
+    "fetched_at": "2026-10-06T14:05:52.593826+00:00",
+    "trusted_themes": [
+      "military"
+    ]
   },
   {
     "id": "bbf9d227a3e88f12",
@@ -405,7 +441,10 @@
       "intelligence",
       "military"
     ],
-    "fetched_at": "2026-10-06T14:25:47.541504+00:00"
+    "fetched_at": "2026-10-06T14:25:47.541504+00:00",
+    "trusted_themes": [
+      "military"
+    ]
   },
   {
     "id": "d0ab3fb3f09e9a85",
@@ -419,7 +458,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:26:04.685884+00:00"
+    "fetched_at": "2026-10-06T14:26:04.685884+00:00",
+    "trusted_themes": []
   },
   {
     "id": "0f275ac603c0e4bc",
@@ -433,7 +473,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:26:06.819806+00:00"
+    "fetched_at": "2026-10-06T14:26:06.819806+00:00",
+    "trusted_themes": []
   },
   {
     "id": "312e86796be8a6d0",
@@ -447,7 +488,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:26:08.019461+00:00"
+    "fetched_at": "2026-10-06T14:26:08.019461+00:00",
+    "trusted_themes": []
   },
   {
     "id": "42426aeb05f2786f",
@@ -466,6 +508,22 @@
     "fetched_at": "2026-10-06T14:59:01.815579+00:00"
   },
   {
+    "id": "695fa944cc7ed560",
+    "title": "Iran drone plot fears led US to remove bombers from UK base, US officials say",
+    "link": "https://reut.rs/4j37oKh",
+    "date": "2026-10-06",
+    "summary": "A suspected plot involving Iran to launch a complex drone ​attack on a key British airbase ‌led the United States to remove its B-1 bomber aircraft from the base, two ​US officials told Reuters on Tuesday, ​speaking on condition of anonymity.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-06T15:09:58.048268+00:00"
+  },
+  {
     "id": "15b1208fcfd71570",
     "title": "The AI-Assisted Strategic Own Goal in the Kill Chain",
     "link": "https://warontherocks.com/cogs-of-war/the-ai-assisted-strategic-own-goal-in-the-kill-chain/",
@@ -477,7 +535,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:25:48.623723+00:00"
+    "fetched_at": "2026-10-05T15:25:48.623723+00:00",
+    "trusted_themes": []
   },
   {
     "id": "5cd53ec2d722eccb",
@@ -491,7 +550,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:25:48.625485+00:00"
+    "fetched_at": "2026-10-05T15:25:48.625485+00:00",
+    "trusted_themes": []
   },
   {
     "id": "af257e894cb59be4",
@@ -505,7 +565,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:25:57.055314+00:00"
+    "fetched_at": "2026-10-05T15:25:57.055314+00:00",
+    "trusted_themes": []
   },
   {
     "id": "2c9b5b507a2eddc5",
@@ -520,7 +581,8 @@
       "military",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-05T15:25:57.056617+00:00"
+    "fetched_at": "2026-10-05T15:25:57.056617+00:00",
+    "trusted_themes": []
   },
   {
     "id": "d4e0b661d60a9d26",
@@ -534,7 +596,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:56.032938+00:00"
+    "fetched_at": "2026-10-05T17:20:56.032938+00:00",
+    "trusted_themes": []
   },
   {
     "id": "cfe8bf2afb808d35",
@@ -548,7 +611,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:57.275932+00:00"
+    "fetched_at": "2026-10-05T17:20:57.275932+00:00",
+    "trusted_themes": []
   },
   {
     "id": "5269c656b70fb6f3",
@@ -562,7 +626,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:57.277021+00:00"
+    "fetched_at": "2026-10-05T17:20:57.277021+00:00",
+    "trusted_themes": []
   },
   {
     "id": "5682dfaf1f5328ca",
@@ -576,7 +641,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:21:13.695192+00:00"
+    "fetched_at": "2026-10-05T17:21:13.695192+00:00",
+    "trusted_themes": []
   },
   {
     "id": "0fd78a5f6e672952",
@@ -590,21 +656,8 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-05T17:21:13.697628+00:00"
-  },
-  {
-    "id": "5918f4f3716daaac",
-    "title": "40 min de lecture Note de recherche 143 L’obligation de loyauté envers la constitution des soldats de la Bundeswehr et l’obligation de réserve des soldats français : Deux mécanismes d’encadrement des comportements antidémocratiques au sein des forces armées ORR Leonie Belk",
-    "link": "https://www.irsem.fr/publications/lobligation-de-loyaute-envers-la-constitution-des-soldats-de-la-bundeswehr-et-lobligation-de-reserve-des-soldats-francais-deux-mecanismes-dencadrement-des-comportements-antidemocratiques-au-sein-des-forces-armees",
-    "date": "2026-10-05",
-    "summary": "Note de recherche 143 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.992095+00:00"
+    "fetched_at": "2026-10-05T17:21:13.697628+00:00",
+    "trusted_themes": []
   },
   {
     "id": "232b88eb23dbe651",
@@ -618,7 +671,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-05T17:44:30.251970+00:00"
+    "fetched_at": "2026-10-05T17:44:30.251970+00:00",
+    "trusted_themes": []
   },
   {
     "id": "a484a144e3ef16d0",
@@ -632,7 +686,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T18:39:30.063390+00:00"
+    "fetched_at": "2026-10-05T18:39:30.063390+00:00",
+    "trusted_themes": []
   },
   {
     "id": "fb7e81319e2b3815",
@@ -646,7 +701,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T18:39:31.461513+00:00"
+    "fetched_at": "2026-10-05T18:39:31.461513+00:00",
+    "trusted_themes": []
   },
   {
     "id": "a4feb889fc75798a",
@@ -660,7 +716,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T12:43:09.873392+00:00"
+    "fetched_at": "2026-10-06T12:43:09.873392+00:00",
+    "trusted_themes": []
   },
   {
     "id": "29d444beb53fa502",
@@ -674,7 +731,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T12:43:11.102719+00:00"
+    "fetched_at": "2026-10-06T12:43:11.102719+00:00",
+    "trusted_themes": []
   },
   {
     "id": "6e4def81fb172f3a",
@@ -688,7 +746,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T12:43:16.133318+00:00"
+    "fetched_at": "2026-10-06T12:43:16.133318+00:00",
+    "trusted_themes": []
   },
   {
     "id": "05fdb672293662bc",
@@ -702,7 +761,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T12:43:16.137882+00:00"
+    "fetched_at": "2026-10-06T12:43:16.137882+00:00",
+    "trusted_themes": []
   },
   {
     "id": "44235dc36c0789d7",
@@ -716,7 +776,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T12:43:16.141620+00:00"
+    "fetched_at": "2026-10-06T12:43:16.141620+00:00",
+    "trusted_themes": []
   },
   {
     "id": "56425d94ebdc3519",
@@ -730,7 +791,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T12:43:18.543813+00:00"
+    "fetched_at": "2026-10-06T12:43:18.543813+00:00",
+    "trusted_themes": []
   },
   {
     "id": "4ddc8db13719529a",
@@ -744,7 +806,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T12:43:19.714069+00:00"
+    "fetched_at": "2026-10-06T12:43:19.714069+00:00",
+    "trusted_themes": []
   },
   {
     "id": "4c8bc33999d88ca5",
@@ -758,7 +821,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T12:43:19.715841+00:00"
+    "fetched_at": "2026-10-06T12:43:19.715841+00:00",
+    "trusted_themes": []
   },
   {
     "id": "5cf6c2272d31ea1a",
@@ -772,7 +836,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T12:43:19.718321+00:00"
+    "fetched_at": "2026-10-06T12:43:19.718321+00:00",
+    "trusted_themes": []
   },
   {
     "id": "f19c0e25dc94e1ab",
@@ -786,7 +851,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T12:43:21.038904+00:00"
+    "fetched_at": "2026-10-06T12:43:21.038904+00:00",
+    "trusted_themes": []
   },
   {
     "id": "65930c1c50ab2d41",
@@ -800,7 +866,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T12:43:21.049544+00:00"
+    "fetched_at": "2026-10-06T12:43:21.049544+00:00",
+    "trusted_themes": []
   },
   {
     "id": "6280f408d9b1d917",
@@ -814,7 +881,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T12:43:32.460778+00:00"
+    "fetched_at": "2026-10-06T12:43:32.460778+00:00",
+    "trusted_themes": []
   },
   {
     "id": "0634e89bbe4b0c69",
@@ -829,7 +897,8 @@
       "military",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T12:43:35.685225+00:00"
+    "fetched_at": "2026-10-06T12:43:35.685225+00:00",
+    "trusted_themes": []
   },
   {
     "id": "96c833d3c006905b",
@@ -843,7 +912,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:04:50.427063+00:00"
+    "fetched_at": "2026-10-06T14:04:50.427063+00:00",
+    "trusted_themes": []
   },
   {
     "id": "9153788c9fe7783c",
@@ -857,7 +927,10 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:04:53.128271+00:00"
+    "fetched_at": "2026-10-06T14:04:53.128271+00:00",
+    "trusted_themes": [
+      "military"
+    ]
   },
   {
     "id": "cbd48c47bf4772de",
@@ -872,7 +945,10 @@
       "intelligence",
       "military"
     ],
-    "fetched_at": "2026-10-06T14:04:53.130635+00:00"
+    "fetched_at": "2026-10-06T14:04:53.130635+00:00",
+    "trusted_themes": [
+      "military"
+    ]
   },
   {
     "id": "0199df09b9cb5d63",
@@ -887,7 +963,10 @@
       "military",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:04:53.132330+00:00"
+    "fetched_at": "2026-10-06T14:04:53.132330+00:00",
+    "trusted_themes": [
+      "military"
+    ]
   },
   {
     "id": "c1e41243dd06336d",
@@ -901,7 +980,10 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:04:53.134565+00:00"
+    "fetched_at": "2026-10-06T14:04:53.134565+00:00",
+    "trusted_themes": [
+      "military"
+    ]
   },
   {
     "id": "6457eaf317fba2c4",
@@ -915,7 +997,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:11.870510+00:00"
+    "fetched_at": "2026-10-06T14:05:11.870510+00:00",
+    "trusted_themes": []
   },
   {
     "id": "2bd288f932447b75",
@@ -929,7 +1012,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:11.871979+00:00"
+    "fetched_at": "2026-10-06T14:05:11.871979+00:00",
+    "trusted_themes": []
   },
   {
     "id": "3f8391cc1a3af0e2",
@@ -943,7 +1027,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:11.874927+00:00"
+    "fetched_at": "2026-10-06T14:05:11.874927+00:00",
+    "trusted_themes": []
   },
   {
     "id": "4d092ca0e87b56b3",
@@ -957,7 +1042,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:11.882609+00:00"
+    "fetched_at": "2026-10-06T14:05:11.882609+00:00",
+    "trusted_themes": []
   },
   {
     "id": "eacf2cef15c3284e",
@@ -971,7 +1057,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:11.887755+00:00"
+    "fetched_at": "2026-10-06T14:05:11.887755+00:00",
+    "trusted_themes": []
   },
   {
     "id": "1632bf064df9193f",
@@ -985,7 +1072,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:11.894216+00:00"
+    "fetched_at": "2026-10-06T14:05:11.894216+00:00",
+    "trusted_themes": []
   },
   {
     "id": "a7b905ebc8197498",
@@ -999,7 +1087,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:11.906210+00:00"
+    "fetched_at": "2026-10-06T14:05:11.906210+00:00",
+    "trusted_themes": []
   },
   {
     "id": "274d5fb724a79270",
@@ -1013,7 +1102,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:11.920590+00:00"
+    "fetched_at": "2026-10-06T14:05:11.920590+00:00",
+    "trusted_themes": []
   },
   {
     "id": "eca0c87b79f377ee",
@@ -1027,7 +1117,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:11.924375+00:00"
+    "fetched_at": "2026-10-06T14:05:11.924375+00:00",
+    "trusted_themes": []
   },
   {
     "id": "6d670679e8cb9ba7",
@@ -1041,7 +1132,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:11.931701+00:00"
+    "fetched_at": "2026-10-06T14:05:11.931701+00:00",
+    "trusted_themes": []
   },
   {
     "id": "b3aae1ec6cd0e71d",
@@ -1055,7 +1147,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:11.965751+00:00"
+    "fetched_at": "2026-10-06T14:05:11.965751+00:00",
+    "trusted_themes": []
   },
   {
     "id": "58d3f8a311b077f4",
@@ -1069,7 +1162,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:11.971316+00:00"
+    "fetched_at": "2026-10-06T14:05:11.971316+00:00",
+    "trusted_themes": []
   },
   {
     "id": "4fb9ab166799fe7b",
@@ -1083,7 +1177,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:11.975493+00:00"
+    "fetched_at": "2026-10-06T14:05:11.975493+00:00",
+    "trusted_themes": []
   },
   {
     "id": "cc0f7cd26392c272",
@@ -1097,7 +1192,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:11.979604+00:00"
+    "fetched_at": "2026-10-06T14:05:11.979604+00:00",
+    "trusted_themes": []
   },
   {
     "id": "8b00597ef1ed7ec6",
@@ -1111,7 +1207,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.003332+00:00"
+    "fetched_at": "2026-10-06T14:05:12.003332+00:00",
+    "trusted_themes": []
   },
   {
     "id": "45e4e602e47f7770",
@@ -1125,7 +1222,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.016181+00:00"
+    "fetched_at": "2026-10-06T14:05:12.016181+00:00",
+    "trusted_themes": []
   },
   {
     "id": "1f982c25bcd7cf7b",
@@ -1139,7 +1237,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.022083+00:00"
+    "fetched_at": "2026-10-06T14:05:12.022083+00:00",
+    "trusted_themes": []
   },
   {
     "id": "4447baf1e46b93ec",
@@ -1153,7 +1252,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:12.023741+00:00"
+    "fetched_at": "2026-10-06T14:05:12.023741+00:00",
+    "trusted_themes": []
   },
   {
     "id": "04dbf5f69cffce67",
@@ -1168,7 +1268,8 @@
       "military",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.025578+00:00"
+    "fetched_at": "2026-10-06T14:05:12.025578+00:00",
+    "trusted_themes": []
   },
   {
     "id": "db7f1f83f00e5cd0",
@@ -1182,7 +1283,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.029983+00:00"
+    "fetched_at": "2026-10-06T14:05:12.029983+00:00",
+    "trusted_themes": []
   },
   {
     "id": "b0fb8bcc72fc9560",
@@ -1197,21 +1299,8 @@
       "military",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.038923+00:00"
-  },
-  {
-    "id": "4c5cf87df021c901",
-    "title": "As Iran war smolders, shunned Eritrea looks to come in from the cold",
-    "link": "https://reut.rs/4yCWKyU",
-    "date": "2026-10-05",
-    "summary": "When Halima Mohammed was six, her parents dropped her off in the desert at Revolution School, where the children of Eritrean guerrilla fighters were raised while their parents fought for independence.",
-    "source": "Reuters",
-    "source_region": "us",
-    "subject_region": "middle_east_africa",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-06T14:05:12.047216+00:00"
+    "fetched_at": "2026-10-06T14:05:12.038923+00:00",
+    "trusted_themes": []
   },
   {
     "id": "ecb48161670d87bb",
@@ -1225,7 +1314,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:12.052873+00:00"
+    "fetched_at": "2026-10-06T14:05:12.052873+00:00",
+    "trusted_themes": []
   },
   {
     "id": "5316d3ee48774bb5",
@@ -1239,7 +1329,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:12.060737+00:00"
+    "fetched_at": "2026-10-06T14:05:12.060737+00:00",
+    "trusted_themes": []
   },
   {
     "id": "5bb27e0abd67992b",
@@ -1253,7 +1344,8 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-06T14:05:12.066441+00:00"
+    "fetched_at": "2026-10-06T14:05:12.066441+00:00",
+    "trusted_themes": []
   },
   {
     "id": "e5ebd99764611e82",
@@ -1267,7 +1359,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.068470+00:00"
+    "fetched_at": "2026-10-06T14:05:12.068470+00:00",
+    "trusted_themes": []
   },
   {
     "id": "44a92b7f3008b47c",
@@ -1281,7 +1374,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.073211+00:00"
+    "fetched_at": "2026-10-06T14:05:12.073211+00:00",
+    "trusted_themes": []
   },
   {
     "id": "92a15160b03b6961",
@@ -1295,7 +1389,24 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.079766+00:00"
+    "fetched_at": "2026-10-06T14:05:12.079766+00:00",
+    "trusted_themes": []
+  },
+  {
+    "id": "4c5cf87df021c901",
+    "title": "As Iran war smolders, shunned Eritrea looks to come in from the cold",
+    "link": "https://reut.rs/4yCWKyU",
+    "date": "2026-10-05",
+    "summary": "When Halima Mohammed was six, her parents dropped her off in the desert at Revolution School, where the children of Eritrean guerrilla fighters were raised while their parents fought for independence.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-06T15:09:58.363127+00:00"
   },
   {
     "id": "55e02b5c9284e501",
@@ -1309,7 +1420,8 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-05T17:21:12.515040+00:00"
+    "fetched_at": "2026-10-05T17:21:12.515040+00:00",
+    "trusted_themes": []
   },
   {
     "id": "59e8e10bae14868d",
@@ -1323,7 +1435,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:21:12.517417+00:00"
+    "fetched_at": "2026-10-05T17:21:12.517417+00:00",
+    "trusted_themes": []
   },
   {
     "id": "128b04bf94dc1664",
@@ -1337,7 +1450,10 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:04:53.136647+00:00"
+    "fetched_at": "2026-10-06T14:04:53.136647+00:00",
+    "trusted_themes": [
+      "military"
+    ]
   },
   {
     "id": "ea6f5cf278e712e0",
@@ -1351,7 +1467,10 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:04:53.138692+00:00"
+    "fetched_at": "2026-10-06T14:04:53.138692+00:00",
+    "trusted_themes": [
+      "military"
+    ]
   },
   {
     "id": "b2720b1b13443331",
@@ -1365,7 +1484,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.082211+00:00"
+    "fetched_at": "2026-10-06T14:05:12.082211+00:00",
+    "trusted_themes": []
   },
   {
     "id": "8a26ab6febd6d6f5",
@@ -1379,7 +1499,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:12.086898+00:00"
+    "fetched_at": "2026-10-06T14:05:12.086898+00:00",
+    "trusted_themes": []
   },
   {
     "id": "dfa716b3b9980ade",
@@ -1393,7 +1514,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.092426+00:00"
+    "fetched_at": "2026-10-06T14:05:12.092426+00:00",
+    "trusted_themes": []
   },
   {
     "id": "25904fc758d0f5bb",
@@ -1407,7 +1529,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:12.099982+00:00"
+    "fetched_at": "2026-10-06T14:05:12.099982+00:00",
+    "trusted_themes": []
   },
   {
     "id": "7549492cc3b087cb",
@@ -1421,7 +1544,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.101450+00:00"
+    "fetched_at": "2026-10-06T14:05:12.101450+00:00",
+    "trusted_themes": []
   },
   {
     "id": "7f3025d3937c0366",
@@ -1435,7 +1559,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:12.106281+00:00"
+    "fetched_at": "2026-10-06T14:05:12.106281+00:00",
+    "trusted_themes": []
   },
   {
     "id": "6ad63dcd82c56b80",
@@ -1449,7 +1574,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:12.109106+00:00"
+    "fetched_at": "2026-10-06T14:05:12.109106+00:00",
+    "trusted_themes": []
   },
   {
     "id": "424706c704458bb6",
@@ -1463,7 +1589,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.112741+00:00"
+    "fetched_at": "2026-10-06T14:05:12.112741+00:00",
+    "trusted_themes": []
   },
   {
     "id": "9225594703b7da99",
@@ -1477,7 +1604,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.124722+00:00"
+    "fetched_at": "2026-10-06T14:05:12.124722+00:00",
+    "trusted_themes": []
   },
   {
     "id": "42a1c2a2d9f74a31",
@@ -1491,7 +1619,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:12.128681+00:00"
+    "fetched_at": "2026-10-06T14:05:12.128681+00:00",
+    "trusted_themes": []
   },
   {
     "id": "c893468af67deca7",
@@ -1505,7 +1634,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:12.132544+00:00"
+    "fetched_at": "2026-10-06T14:05:12.132544+00:00",
+    "trusted_themes": []
   },
   {
     "id": "ae5679c580836902",
@@ -1519,7 +1649,10 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:25:31.590797+00:00"
+    "fetched_at": "2026-10-06T14:25:31.590797+00:00",
+    "trusted_themes": [
+      "military"
+    ]
   },
   {
     "id": "687d0ddee3f2d1ca",
@@ -1533,7 +1666,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:25:59.635938+00:00"
+    "fetched_at": "2026-10-05T15:25:59.635938+00:00",
+    "trusted_themes": []
   },
   {
     "id": "9401f2ec5c069403",
@@ -1547,7 +1681,10 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:04:53.140645+00:00"
+    "fetched_at": "2026-10-06T14:04:53.140645+00:00",
+    "trusted_themes": [
+      "military"
+    ]
   },
   {
     "id": "e11e77eab88a291d",
@@ -1561,7 +1698,10 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:04:53.142616+00:00"
+    "fetched_at": "2026-10-06T14:04:53.142616+00:00",
+    "trusted_themes": [
+      "military"
+    ]
   },
   {
     "id": "d38d1a0ae9a99362",
@@ -1575,7 +1715,10 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:04:53.145269+00:00"
+    "fetched_at": "2026-10-06T14:04:53.145269+00:00",
+    "trusted_themes": [
+      "military"
+    ]
   },
   {
     "id": "586b0b164ee0e89d",
@@ -1589,7 +1732,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:12.135136+00:00"
+    "fetched_at": "2026-10-06T14:05:12.135136+00:00",
+    "trusted_themes": []
   },
   {
     "id": "e8dc92a1ad433b32",
@@ -1603,7 +1747,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.140209+00:00"
+    "fetched_at": "2026-10-06T14:05:12.140209+00:00",
+    "trusted_themes": []
   },
   {
     "id": "1c01de4eef35fdbd",
@@ -1617,7 +1762,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.152990+00:00"
+    "fetched_at": "2026-10-06T14:05:12.152990+00:00",
+    "trusted_themes": []
   },
   {
     "id": "4538fbc85463c3bb",
@@ -1631,7 +1777,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:12.155909+00:00"
+    "fetched_at": "2026-10-06T14:05:12.155909+00:00",
+    "trusted_themes": []
   },
   {
     "id": "e7e0da35c2525abd",
@@ -1645,7 +1792,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.160879+00:00"
+    "fetched_at": "2026-10-06T14:05:12.160879+00:00",
+    "trusted_themes": []
   },
   {
     "id": "53c7f3369583a3f3",
@@ -1659,7 +1807,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:12.165064+00:00"
+    "fetched_at": "2026-10-06T14:05:12.165064+00:00",
+    "trusted_themes": []
   },
   {
     "id": "97b0fe218ebd7cd0",
@@ -1673,7 +1822,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:12.166719+00:00"
+    "fetched_at": "2026-10-06T14:05:12.166719+00:00",
+    "trusted_themes": []
   },
   {
     "id": "2a010552ce09aef7",
@@ -1687,7 +1837,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:12.170353+00:00"
+    "fetched_at": "2026-10-06T14:05:12.170353+00:00",
+    "trusted_themes": []
   },
   {
     "id": "cfa667dcad3ec805",
@@ -1701,7 +1852,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.175869+00:00"
+    "fetched_at": "2026-10-06T14:05:12.175869+00:00",
+    "trusted_themes": []
   },
   {
     "id": "2725d616f518ad2d",
@@ -1715,7 +1867,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:12.178411+00:00"
+    "fetched_at": "2026-10-06T14:05:12.178411+00:00",
+    "trusted_themes": []
   },
   {
     "id": "af1b17b866c85340",
@@ -1729,7 +1882,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:12.191119+00:00"
+    "fetched_at": "2026-10-06T14:05:12.191119+00:00",
+    "trusted_themes": []
   },
   {
     "id": "c145b4c88adaee67",
@@ -1743,7 +1897,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:25:47.167265+00:00"
+    "fetched_at": "2026-10-05T15:25:47.167265+00:00",
+    "trusted_themes": []
   },
   {
     "id": "8f844f4116f177e3",
@@ -1757,7 +1912,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:25:48.627048+00:00"
+    "fetched_at": "2026-10-05T15:25:48.627048+00:00",
+    "trusted_themes": []
   },
   {
     "id": "4a9b22c22acd8f68",
@@ -1771,7 +1927,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:25:48.628808+00:00"
+    "fetched_at": "2026-10-05T15:25:48.628808+00:00",
+    "trusted_themes": []
   },
   {
     "id": "060a7d839879b31b",
@@ -1785,7 +1942,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:25:53.275873+00:00"
+    "fetched_at": "2026-10-05T15:25:53.275873+00:00",
+    "trusted_themes": []
   },
   {
     "id": "df4ec9eeb82b9c91",
@@ -1799,7 +1957,8 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-05T15:25:53.278137+00:00"
+    "fetched_at": "2026-10-05T15:25:53.278137+00:00",
+    "trusted_themes": []
   },
   {
     "id": "58098380237e2eed",
@@ -1813,7 +1972,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:25:58.197404+00:00"
+    "fetched_at": "2026-10-05T15:25:58.197404+00:00",
+    "trusted_themes": []
   },
   {
     "id": "d40c3ede7d17ae08",
@@ -1827,7 +1987,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:25:58.201115+00:00"
+    "fetched_at": "2026-10-05T15:25:58.201115+00:00",
+    "trusted_themes": []
   },
   {
     "id": "8d7a2e44da64cf76",
@@ -1842,7 +2003,8 @@
       "intelligence",
       "military"
     ],
-    "fetched_at": "2026-10-05T15:25:58.204549+00:00"
+    "fetched_at": "2026-10-05T15:25:58.204549+00:00",
+    "trusted_themes": []
   },
   {
     "id": "fdd58e4bcba220fc",
@@ -1856,7 +2018,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:25:58.207793+00:00"
+    "fetched_at": "2026-10-05T15:25:58.207793+00:00",
+    "trusted_themes": []
   },
   {
     "id": "2b562e76b44283f4",
@@ -1870,7 +2033,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:25:58.210154+00:00"
+    "fetched_at": "2026-10-05T15:25:58.210154+00:00",
+    "trusted_themes": []
   },
   {
     "id": "f4a438ec2c65a0d4",
@@ -1884,7 +2048,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:25:59.637624+00:00"
+    "fetched_at": "2026-10-05T15:25:59.637624+00:00",
+    "trusted_themes": []
   },
   {
     "id": "0fa54bb8d3f0b49e",
@@ -1898,7 +2063,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:25:59.639222+00:00"
+    "fetched_at": "2026-10-05T15:25:59.639222+00:00",
+    "trusted_themes": []
   },
   {
     "id": "6368163ae727e673",
@@ -1912,7 +2078,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:25:59.641381+00:00"
+    "fetched_at": "2026-10-05T15:25:59.641381+00:00",
+    "trusted_themes": []
   },
   {
     "id": "cc8e28f1c81ab74e",
@@ -1926,7 +2093,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:46.691754+00:00"
+    "fetched_at": "2026-10-05T17:20:46.691754+00:00",
+    "trusted_themes": []
   },
   {
     "id": "e63d104cdf81a459",
@@ -1941,7 +2109,8 @@
       "military",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-05T17:20:57.280696+00:00"
+    "fetched_at": "2026-10-05T17:20:57.280696+00:00",
+    "trusted_themes": []
   },
   {
     "id": "53bd7c7228103d2a",
@@ -1955,7 +2124,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:21:07.724977+00:00"
+    "fetched_at": "2026-10-05T17:21:07.724977+00:00",
+    "trusted_themes": []
   },
   {
     "id": "676194eef369ee4a",
@@ -1969,7 +2139,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-05T17:21:07.726172+00:00"
+    "fetched_at": "2026-10-05T17:21:07.726172+00:00",
+    "trusted_themes": []
   },
   {
     "id": "6af02180fb261891",
@@ -1983,7 +2154,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T18:39:41.747985+00:00"
+    "fetched_at": "2026-10-05T18:39:41.747985+00:00",
+    "trusted_themes": []
   },
   {
     "id": "011b34f1edb91ce3",
@@ -1998,7 +2170,8 @@
       "military",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T12:43:30.910595+00:00"
+    "fetched_at": "2026-10-06T12:43:30.910595+00:00",
+    "trusted_themes": []
   },
   {
     "id": "f143a536a4ed69ea",
@@ -2012,7 +2185,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:04:50.432449+00:00"
+    "fetched_at": "2026-10-06T14:04:50.432449+00:00",
+    "trusted_themes": []
   },
   {
     "id": "a5087da150ff0b7c",
@@ -2026,7 +2200,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.211148+00:00"
+    "fetched_at": "2026-10-06T14:05:12.211148+00:00",
+    "trusted_themes": []
   },
   {
     "id": "d0c646595bfd555c",
@@ -2040,7 +2215,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.236351+00:00"
+    "fetched_at": "2026-10-06T14:05:12.236351+00:00",
+    "trusted_themes": []
   },
   {
     "id": "507de34c704bedc8",
@@ -2054,7 +2230,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.239095+00:00"
+    "fetched_at": "2026-10-06T14:05:12.239095+00:00",
+    "trusted_themes": []
   },
   {
     "id": "339ff65c56572d0d",
@@ -2068,7 +2245,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.254323+00:00"
+    "fetched_at": "2026-10-06T14:05:12.254323+00:00",
+    "trusted_themes": []
   },
   {
     "id": "5770bc34f5493df9",
@@ -2082,7 +2260,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.257092+00:00"
+    "fetched_at": "2026-10-06T14:05:12.257092+00:00",
+    "trusted_themes": []
   },
   {
     "id": "88007ffaa83a4111",
@@ -2096,7 +2275,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.266691+00:00"
+    "fetched_at": "2026-10-06T14:05:12.266691+00:00",
+    "trusted_themes": []
   },
   {
     "id": "1f2d389c93b9913e",
@@ -2110,7 +2290,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.272382+00:00"
+    "fetched_at": "2026-10-06T14:05:12.272382+00:00",
+    "trusted_themes": []
   },
   {
     "id": "04cfa674c6c33550",
@@ -2124,7 +2305,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:12.276818+00:00"
+    "fetched_at": "2026-10-06T14:05:12.276818+00:00",
+    "trusted_themes": []
   },
   {
     "id": "3ddd6943ace2edb6",
@@ -2138,7 +2320,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:12.282522+00:00"
+    "fetched_at": "2026-10-06T14:05:12.282522+00:00",
+    "trusted_themes": []
   },
   {
     "id": "f14a4ca48c3df8ba",
@@ -2152,7 +2335,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:12.285879+00:00"
+    "fetched_at": "2026-10-06T14:05:12.285879+00:00",
+    "trusted_themes": []
   },
   {
     "id": "a914ee272791bb22",
@@ -2167,7 +2351,8 @@
       "military",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.301564+00:00"
+    "fetched_at": "2026-10-06T14:05:12.301564+00:00",
+    "trusted_themes": []
   },
   {
     "id": "762e6f2d3996ccc1",
@@ -2181,7 +2366,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.308392+00:00"
+    "fetched_at": "2026-10-06T14:05:12.308392+00:00",
+    "trusted_themes": []
   },
   {
     "id": "51818e1a3ae5914e",
@@ -2195,7 +2381,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.312793+00:00"
+    "fetched_at": "2026-10-06T14:05:12.312793+00:00",
+    "trusted_themes": []
   },
   {
     "id": "f06a1908143db10d",
@@ -2210,7 +2397,8 @@
       "military",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.323699+00:00"
+    "fetched_at": "2026-10-06T14:05:12.323699+00:00",
+    "trusted_themes": []
   },
   {
     "id": "4c56952d82151594",
@@ -2224,7 +2412,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.329728+00:00"
+    "fetched_at": "2026-10-06T14:05:12.329728+00:00",
+    "trusted_themes": []
   },
   {
     "id": "ff2faa562452e63c",
@@ -2238,7 +2427,8 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-06T14:05:12.335283+00:00"
+    "fetched_at": "2026-10-06T14:05:12.335283+00:00",
+    "trusted_themes": []
   },
   {
     "id": "bf43b0da59d066e0",
@@ -2252,7 +2442,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:12.338308+00:00"
+    "fetched_at": "2026-10-06T14:05:12.338308+00:00",
+    "trusted_themes": []
   },
   {
     "id": "6c23b1b5f075ca98",
@@ -2266,7 +2457,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.346138+00:00"
+    "fetched_at": "2026-10-06T14:05:12.346138+00:00",
+    "trusted_themes": []
   },
   {
     "id": "0a9e65b81a515ad7",
@@ -2281,7 +2473,8 @@
       "military",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.347729+00:00"
+    "fetched_at": "2026-10-06T14:05:12.347729+00:00",
+    "trusted_themes": []
   },
   {
     "id": "e0903111ac802d36",
@@ -2295,7 +2488,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.354157+00:00"
+    "fetched_at": "2026-10-06T14:05:12.354157+00:00",
+    "trusted_themes": []
   },
   {
     "id": "67ab70a4897c03dd",
@@ -2309,7 +2503,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:12.360343+00:00"
+    "fetched_at": "2026-10-06T14:05:12.360343+00:00",
+    "trusted_themes": []
   },
   {
     "id": "e39002458ddd863a",
@@ -2323,7 +2518,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:12.368708+00:00"
+    "fetched_at": "2026-10-06T14:05:12.368708+00:00",
+    "trusted_themes": []
   },
   {
     "id": "a45e7892d16bb87f",
@@ -2338,7 +2534,8 @@
       "military",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.371484+00:00"
+    "fetched_at": "2026-10-06T14:05:12.371484+00:00",
+    "trusted_themes": []
   },
   {
     "id": "bb69bcc058ac527d",
@@ -2352,7 +2549,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:12.380167+00:00"
+    "fetched_at": "2026-10-06T14:05:12.380167+00:00",
+    "trusted_themes": []
   },
   {
     "id": "40816610dfe62bc9",
@@ -2366,7 +2564,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:12.385657+00:00"
+    "fetched_at": "2026-10-06T14:05:12.385657+00:00",
+    "trusted_themes": []
   },
   {
     "id": "3763fde613ca8b4a",
@@ -2380,7 +2579,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.391640+00:00"
+    "fetched_at": "2026-10-06T14:05:12.391640+00:00",
+    "trusted_themes": []
   },
   {
     "id": "0f5a5946b6a5b82f",
@@ -2394,7 +2594,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:12.398538+00:00"
+    "fetched_at": "2026-10-06T14:05:12.398538+00:00",
+    "trusted_themes": []
   },
   {
     "id": "63bcfd786c02a239",
@@ -2409,7 +2610,8 @@
       "military",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.399661+00:00"
+    "fetched_at": "2026-10-06T14:05:12.399661+00:00",
+    "trusted_themes": []
   },
   {
     "id": "fe2bb906ee9e4b30",
@@ -2423,7 +2625,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:12.409478+00:00"
+    "fetched_at": "2026-10-06T14:05:12.409478+00:00",
+    "trusted_themes": []
   },
   {
     "id": "b5603bd846c353b4",
@@ -2437,7 +2640,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-01T08:57:57.394475+00:00"
+    "fetched_at": "2026-10-01T08:57:57.394475+00:00",
+    "trusted_themes": []
   },
   {
     "id": "ba0b6dc606e5ba7e",
@@ -2451,7 +2655,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-01T08:58:14.113689+00:00"
+    "fetched_at": "2026-10-01T08:58:14.113689+00:00",
+    "trusted_themes": []
   },
   {
     "id": "129b8327980d2a6c",
@@ -2465,7 +2670,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-01T08:58:23.919103+00:00"
+    "fetched_at": "2026-10-01T08:58:23.919103+00:00",
+    "trusted_themes": []
   },
   {
     "id": "ea0f26fa18a41dfc",
@@ -2479,7 +2685,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:25:53.286263+00:00"
+    "fetched_at": "2026-10-05T15:25:53.286263+00:00",
+    "trusted_themes": []
   },
   {
     "id": "88e256aa4362e7ec",
@@ -2493,7 +2700,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:25:57.057387+00:00"
+    "fetched_at": "2026-10-05T15:25:57.057387+00:00",
+    "trusted_themes": []
   },
   {
     "id": "4b590fbf74957c30",
@@ -2507,7 +2715,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:25:57.058369+00:00"
+    "fetched_at": "2026-10-05T15:25:57.058369+00:00",
+    "trusted_themes": []
   },
   {
     "id": "870712f01329aac4",
@@ -2521,7 +2730,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:25:57.059103+00:00"
+    "fetched_at": "2026-10-05T15:25:57.059103+00:00",
+    "trusted_themes": []
   },
   {
     "id": "269b092fc12bdd67",
@@ -2535,7 +2745,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:25:57.060008+00:00"
+    "fetched_at": "2026-10-05T15:25:57.060008+00:00",
+    "trusted_themes": []
   },
   {
     "id": "78b3712ee92d8cc3",
@@ -2549,7 +2760,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:25:58.216047+00:00"
+    "fetched_at": "2026-10-05T15:25:58.216047+00:00",
+    "trusted_themes": []
   },
   {
     "id": "276eebc8e70a94d6",
@@ -2563,7 +2775,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:25:58.217486+00:00"
+    "fetched_at": "2026-10-05T15:25:58.217486+00:00",
+    "trusted_themes": []
   },
   {
     "id": "969b258802853753",
@@ -2577,7 +2790,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:25:58.221687+00:00"
+    "fetched_at": "2026-10-05T15:25:58.221687+00:00",
+    "trusted_themes": []
   },
   {
     "id": "9936a006ba78d44d",
@@ -2591,7 +2805,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:25:59.644024+00:00"
+    "fetched_at": "2026-10-05T15:25:59.644024+00:00",
+    "trusted_themes": []
   },
   {
     "id": "5ed419d2ee9f1296",
@@ -2605,7 +2820,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:25:59.646153+00:00"
+    "fetched_at": "2026-10-05T15:25:59.646153+00:00",
+    "trusted_themes": []
   },
   {
     "id": "f5ef8b0104cf03f8",
@@ -2619,7 +2835,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:25:59.647775+00:00"
+    "fetched_at": "2026-10-05T15:25:59.647775+00:00",
+    "trusted_themes": []
   },
   {
     "id": "6f5c908d2ffac111",
@@ -2633,7 +2850,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:26:02.938165+00:00"
+    "fetched_at": "2026-10-05T15:26:02.938165+00:00",
+    "trusted_themes": []
   },
   {
     "id": "219119cc7f984eef",
@@ -2647,7 +2865,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:26:02.940283+00:00"
+    "fetched_at": "2026-10-05T15:26:02.940283+00:00",
+    "trusted_themes": []
   },
   {
     "id": "3305bb718adaeb8b",
@@ -2661,7 +2880,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T15:26:02.942129+00:00"
+    "fetched_at": "2026-10-05T15:26:02.942129+00:00",
+    "trusted_themes": []
   },
   {
     "id": "9e733fc7f483f8a6",
@@ -2675,7 +2895,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:42.982033+00:00"
+    "fetched_at": "2026-10-05T17:20:42.982033+00:00",
+    "trusted_themes": []
   },
   {
     "id": "00061539e6d2f32c",
@@ -2689,7 +2910,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:47.984501+00:00"
+    "fetched_at": "2026-10-05T17:20:47.984501+00:00",
+    "trusted_themes": []
   },
   {
     "id": "4bb2893322b24458",
@@ -2703,7 +2925,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:47.988084+00:00"
+    "fetched_at": "2026-10-05T17:20:47.988084+00:00",
+    "trusted_themes": []
   },
   {
     "id": "40bd87691eedf880",
@@ -2717,7 +2940,8 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-05T17:20:53.413508+00:00"
+    "fetched_at": "2026-10-05T17:20:53.413508+00:00",
+    "trusted_themes": []
   },
   {
     "id": "e83d7c1cd7d9ce6d",
@@ -2731,7 +2955,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:57.281984+00:00"
+    "fetched_at": "2026-10-05T17:20:57.281984+00:00",
+    "trusted_themes": []
   },
   {
     "id": "5e9b0afda1901984",
@@ -2746,7 +2971,10 @@
       "intelligence",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-05T17:20:59.990718+00:00"
+    "fetched_at": "2026-10-05T17:20:59.990718+00:00",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "2582dc0e6e9710ae",
@@ -2760,7 +2988,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:21:01.327928+00:00"
+    "fetched_at": "2026-10-05T17:21:01.327928+00:00",
+    "trusted_themes": []
   },
   {
     "id": "1c1ba16d0e4f88ad",
@@ -2774,7 +3003,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:21:01.328452+00:00"
+    "fetched_at": "2026-10-05T17:21:01.328452+00:00",
+    "trusted_themes": []
   },
   {
     "id": "67d666cfd9106f40",
@@ -2788,7 +3018,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:21:07.730486+00:00"
+    "fetched_at": "2026-10-05T17:21:07.730486+00:00",
+    "trusted_themes": []
   },
   {
     "id": "0cdc30fb3422f075",
@@ -2802,7 +3033,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:21:07.732899+00:00"
+    "fetched_at": "2026-10-05T17:21:07.732899+00:00",
+    "trusted_themes": []
   },
   {
     "id": "16353d05a36b277b",
@@ -2816,7 +3048,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:21:07.734532+00:00"
+    "fetched_at": "2026-10-05T17:21:07.734532+00:00",
+    "trusted_themes": []
   },
   {
     "id": "85ebd532ffa27fef",
@@ -2830,7 +3063,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:21:15.264698+00:00"
+    "fetched_at": "2026-10-05T17:21:15.264698+00:00",
+    "trusted_themes": []
   },
   {
     "id": "c22f6f4b6da0ce1b",
@@ -2844,22 +3078,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T12:43:30.916901+00:00"
-  },
-  {
-    "id": "823abbf98d21036d",
-    "title": "Stratégie Énergie 43 min de lecture Note stratégique 153 - 10/2026 Penser les dynamiques hydropolitiques - Le cas du barrage Medog sur le Brahmapoutre Eugénie Stoclet",
-    "link": "https://www.irsem.fr/publications/penser-les-dynamiques-hydropolitiques-le-cas-du-barrage-medog-sur-le-brahmapoutre",
-    "date": "2026-10-01",
-    "summary": "Note stratégique 153 · Stratégie, Énergie (IRSEM)",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military",
-      "energy_industry"
-    ],
-    "fetched_at": "2026-10-06T13:27:44.802277+00:00"
+    "fetched_at": "2026-10-06T12:43:30.916901+00:00",
+    "trusted_themes": []
   },
   {
     "id": "5d3aefaa2716d112",
@@ -2873,7 +3093,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:04:59.131545+00:00"
+    "fetched_at": "2026-10-06T14:04:59.131545+00:00",
+    "trusted_themes": []
   },
   {
     "id": "80a1e09a0a8b2f6b",
@@ -2887,7 +3108,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.419816+00:00"
+    "fetched_at": "2026-10-06T14:05:12.419816+00:00",
+    "trusted_themes": []
   },
   {
     "id": "70ac45d74d6d0fe3",
@@ -2901,7 +3123,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.423122+00:00"
+    "fetched_at": "2026-10-06T14:05:12.423122+00:00",
+    "trusted_themes": []
   },
   {
     "id": "5269dc61b4de52f2",
@@ -2915,7 +3138,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:12.436888+00:00"
+    "fetched_at": "2026-10-06T14:05:12.436888+00:00",
+    "trusted_themes": []
   },
   {
     "id": "cca05addcda3094e",
@@ -2929,7 +3153,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:12.440122+00:00"
+    "fetched_at": "2026-10-06T14:05:12.440122+00:00",
+    "trusted_themes": []
   },
   {
     "id": "7e8dc963a14f1c4b",
@@ -2943,7 +3168,10 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:33.483799+00:00"
+    "fetched_at": "2026-10-06T14:05:33.483799+00:00",
+    "trusted_themes": [
+      "energy_industry"
+    ]
   },
   {
     "id": "116b4e92e32a4394",
@@ -2964,6 +3192,29 @@
     "fetched_at": "2026-10-06T14:58:31.752863+00:00"
   },
   {
+    "id": "823abbf98d21036d",
+    "title": "Penser les dynamiques hydropolitiques - Le cas du barrage Medog sur le",
+    "link": "https://www.irsem.fr/publications/penser-les-dynamiques-hydropolitiques-le-cas-du-barrage-medog-sur-le-brahmapoutre",
+    "date": "2026-10-01",
+    "summary": "",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "trusted_themes": [
+      "military",
+      "energy_industry"
+    ],
+    "meta": [
+      "Note stratégique 153",
+      "43 min de lecture"
+    ],
+    "fetched_at": "2026-10-06T15:09:37.179946+00:00"
+  },
+  {
     "id": "f8e1d46c9222ef5a",
     "title": "Poutine augmente la taille de l’armée russe pour la quatrième fois en six mois",
     "link": "https://legrandcontinent.eu/fr/2026/09/30/poutine-augmente-la-taille-de-larmee-russe-pour-la-quatrieme-fois-en-six-mois/",
@@ -2975,7 +3226,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-30T08:18:27.164254+00:00"
+    "fetched_at": "2026-09-30T08:18:27.164254+00:00",
+    "trusted_themes": []
   },
   {
     "id": "bc769fbeda3172be",
@@ -2989,7 +3241,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-01T08:58:22.846326+00:00"
+    "fetched_at": "2026-10-01T08:58:22.846326+00:00",
+    "trusted_themes": []
   },
   {
     "id": "ec1422e5acef8632",
@@ -3003,7 +3256,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-01T08:58:22.848506+00:00"
+    "fetched_at": "2026-10-01T08:58:22.848506+00:00",
+    "trusted_themes": []
   },
   {
     "id": "c28a1a73b71e7282",
@@ -3017,7 +3271,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-01T08:58:23.922417+00:00"
+    "fetched_at": "2026-10-01T08:58:23.922417+00:00",
+    "trusted_themes": []
   },
   {
     "id": "e30f0d05ec461ff2",
@@ -3031,7 +3286,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-01T08:58:23.927279+00:00"
+    "fetched_at": "2026-10-01T08:58:23.927279+00:00",
+    "trusted_themes": []
   },
   {
     "id": "06f23dfffaa1c185",
@@ -3046,7 +3302,8 @@
       "intelligence",
       "military"
     ],
-    "fetched_at": "2026-10-01T08:58:23.930400+00:00"
+    "fetched_at": "2026-10-01T08:58:23.930400+00:00",
+    "trusted_themes": []
   },
   {
     "id": "391c425833ce8832",
@@ -3060,7 +3317,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-01T08:58:23.932732+00:00"
+    "fetched_at": "2026-10-01T08:58:23.932732+00:00",
+    "trusted_themes": []
   },
   {
     "id": "0a99b2c3f8a94059",
@@ -3075,7 +3333,8 @@
       "military",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-01T08:58:23.935016+00:00"
+    "fetched_at": "2026-10-01T08:58:23.935016+00:00",
+    "trusted_themes": []
   },
   {
     "id": "3643e2e81e92b6fa",
@@ -3089,7 +3348,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-01T08:58:23.937864+00:00"
+    "fetched_at": "2026-10-01T08:58:23.937864+00:00",
+    "trusted_themes": []
   },
   {
     "id": "ed87ed67bb9e0973",
@@ -3103,7 +3363,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-01T08:58:23.942473+00:00"
+    "fetched_at": "2026-10-01T08:58:23.942473+00:00",
+    "trusted_themes": []
   },
   {
     "id": "cf261c94637ae321",
@@ -3117,7 +3378,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-01T08:58:23.945757+00:00"
+    "fetched_at": "2026-10-01T08:58:23.945757+00:00",
+    "trusted_themes": []
   },
   {
     "id": "bf3a0efc23227acd",
@@ -3131,7 +3393,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-01T08:58:25.251880+00:00"
+    "fetched_at": "2026-10-01T08:58:25.251880+00:00",
+    "trusted_themes": []
   },
   {
     "id": "a62d8088cf69191a",
@@ -3145,7 +3408,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-01T08:58:25.253839+00:00"
+    "fetched_at": "2026-10-01T08:58:25.253839+00:00",
+    "trusted_themes": []
   },
   {
     "id": "2e5a89aa6fcf54d4",
@@ -3159,7 +3423,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:47.995894+00:00"
+    "fetched_at": "2026-10-05T17:20:47.995894+00:00",
+    "trusted_themes": []
   },
   {
     "id": "9e2afa5c10b7f02c",
@@ -3173,7 +3438,8 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-05T17:20:48.000623+00:00"
+    "fetched_at": "2026-10-05T17:20:48.000623+00:00",
+    "trusted_themes": []
   },
   {
     "id": "25186975c744d653",
@@ -3187,7 +3453,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:56.034534+00:00"
+    "fetched_at": "2026-10-05T17:20:56.034534+00:00",
+    "trusted_themes": []
   },
   {
     "id": "89825627d648551e",
@@ -3202,7 +3469,8 @@
       "military",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-05T17:20:56.035466+00:00"
+    "fetched_at": "2026-10-05T17:20:56.035466+00:00",
+    "trusted_themes": []
   },
   {
     "id": "5acbf37bf1fd975b",
@@ -3216,7 +3484,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:58.641383+00:00"
+    "fetched_at": "2026-10-05T17:20:58.641383+00:00",
+    "trusted_themes": []
   },
   {
     "id": "efa339526b69f4df",
@@ -3230,7 +3499,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:21:11.190817+00:00"
+    "fetched_at": "2026-10-05T17:21:11.190817+00:00",
+    "trusted_themes": []
   },
   {
     "id": "db467fe3fe0c5c76",
@@ -3244,7 +3514,8 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-05T18:39:41.751856+00:00"
+    "fetched_at": "2026-10-05T18:39:41.751856+00:00",
+    "trusted_themes": []
   },
   {
     "id": "bdd5251dfb09dfbe",
@@ -3258,7 +3529,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T18:39:41.752604+00:00"
+    "fetched_at": "2026-10-05T18:39:41.752604+00:00",
+    "trusted_themes": []
   },
   {
     "id": "d74019e23a3c2131",
@@ -3272,7 +3544,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:04:54.659254+00:00"
+    "fetched_at": "2026-10-06T14:04:54.659254+00:00",
+    "trusted_themes": []
   },
   {
     "id": "9eb78dafe89ea442",
@@ -3286,7 +3559,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-30T08:18:27.170486+00:00"
+    "fetched_at": "2026-09-30T08:18:27.170486+00:00",
+    "trusted_themes": []
   },
   {
     "id": "435ef2f32734f61f",
@@ -3300,7 +3574,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-30T08:18:39.733913+00:00"
+    "fetched_at": "2026-09-30T08:18:39.733913+00:00",
+    "trusted_themes": []
   },
   {
     "id": "80047f8efaff1f53",
@@ -3314,7 +3589,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-30T08:18:39.736042+00:00"
+    "fetched_at": "2026-09-30T08:18:39.736042+00:00",
+    "trusted_themes": []
   },
   {
     "id": "ec3bc6a934efc352",
@@ -3328,7 +3604,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-30T08:18:39.738050+00:00"
+    "fetched_at": "2026-09-30T08:18:39.738050+00:00",
+    "trusted_themes": []
   },
   {
     "id": "9e2f7593db61a66e",
@@ -3342,7 +3619,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-30T08:18:44.436619+00:00"
+    "fetched_at": "2026-09-30T08:18:44.436619+00:00",
+    "trusted_themes": []
   },
   {
     "id": "142f6e998f7f5ae0",
@@ -3356,7 +3634,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-30T08:18:47.242789+00:00"
+    "fetched_at": "2026-09-30T08:18:47.242789+00:00",
+    "trusted_themes": []
   },
   {
     "id": "b94c81c242dc673e",
@@ -3370,7 +3649,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-30T08:18:48.332386+00:00"
+    "fetched_at": "2026-09-30T08:18:48.332386+00:00",
+    "trusted_themes": []
   },
   {
     "id": "50d3205da7a65889",
@@ -3384,7 +3664,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-30T08:18:48.334548+00:00"
+    "fetched_at": "2026-09-30T08:18:48.334548+00:00",
+    "trusted_themes": []
   },
   {
     "id": "58bae872065da530",
@@ -3398,7 +3679,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-30T08:18:48.337212+00:00"
+    "fetched_at": "2026-09-30T08:18:48.337212+00:00",
+    "trusted_themes": []
   },
   {
     "id": "eb61e0b00c92bea7",
@@ -3412,7 +3694,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-30T08:18:48.339760+00:00"
+    "fetched_at": "2026-09-30T08:18:48.339760+00:00",
+    "trusted_themes": []
   },
   {
     "id": "c0c32a0ac196c3e6",
@@ -3426,7 +3709,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-30T08:18:48.343624+00:00"
+    "fetched_at": "2026-09-30T08:18:48.343624+00:00",
+    "trusted_themes": []
   },
   {
     "id": "f3a37fa7dc778b9f",
@@ -3440,7 +3724,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-30T08:18:48.345956+00:00"
+    "fetched_at": "2026-09-30T08:18:48.345956+00:00",
+    "trusted_themes": []
   },
   {
     "id": "53629b55b62662a0",
@@ -3454,7 +3739,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-30T08:18:48.348106+00:00"
+    "fetched_at": "2026-09-30T08:18:48.348106+00:00",
+    "trusted_themes": []
   },
   {
     "id": "b7077f2966e7b43e",
@@ -3468,7 +3754,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-30T08:18:49.534802+00:00"
+    "fetched_at": "2026-09-30T08:18:49.534802+00:00",
+    "trusted_themes": []
   },
   {
     "id": "505145633e044642",
@@ -3482,7 +3769,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-30T08:18:49.536864+00:00"
+    "fetched_at": "2026-09-30T08:18:49.536864+00:00",
+    "trusted_themes": []
   },
   {
     "id": "021a786aec562097",
@@ -3496,7 +3784,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-30T08:18:49.540186+00:00"
+    "fetched_at": "2026-09-30T08:18:49.540186+00:00",
+    "trusted_themes": []
   },
   {
     "id": "a215fccd9bfa09d9",
@@ -3510,7 +3799,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-30T08:18:49.542917+00:00"
+    "fetched_at": "2026-09-30T08:18:49.542917+00:00",
+    "trusted_themes": []
   },
   {
     "id": "585cad5a63a11b74",
@@ -3524,7 +3814,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-30T08:18:49.546179+00:00"
+    "fetched_at": "2026-09-30T08:18:49.546179+00:00",
+    "trusted_themes": []
   },
   {
     "id": "d02d65f9d200dc24",
@@ -3538,7 +3829,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-30T08:18:55.163053+00:00"
+    "fetched_at": "2026-09-30T08:18:55.163053+00:00",
+    "trusted_themes": []
   },
   {
     "id": "8653f6ec4a647721",
@@ -3552,7 +3844,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-01T08:58:30.657413+00:00"
+    "fetched_at": "2026-10-01T08:58:30.657413+00:00",
+    "trusted_themes": []
   },
   {
     "id": "abe345149f846a50",
@@ -3566,7 +3859,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:48.004931+00:00"
+    "fetched_at": "2026-10-05T17:20:48.004931+00:00",
+    "trusted_themes": []
   },
   {
     "id": "a2cec5aecb774a16",
@@ -3580,7 +3874,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:21:07.742435+00:00"
+    "fetched_at": "2026-10-05T17:21:07.742435+00:00",
+    "trusted_themes": []
   },
   {
     "id": "085f861d33c26745",
@@ -3594,7 +3889,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:21:07.745189+00:00"
+    "fetched_at": "2026-10-05T17:21:07.745189+00:00",
+    "trusted_themes": []
   },
   {
     "id": "52e1f6e367432adf",
@@ -3608,7 +3904,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:21:07.748449+00:00"
+    "fetched_at": "2026-10-05T17:21:07.748449+00:00",
+    "trusted_themes": []
   },
   {
     "id": "00f3fc137e7b4b9a",
@@ -3622,7 +3919,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:21:07.749041+00:00"
+    "fetched_at": "2026-10-05T17:21:07.749041+00:00",
+    "trusted_themes": []
   },
   {
     "id": "0adcb905591a1ad5",
@@ -3637,7 +3935,8 @@
       "military",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-05T17:21:07.750381+00:00"
+    "fetched_at": "2026-10-05T17:21:07.750381+00:00",
+    "trusted_themes": []
   },
   {
     "id": "217b126b93729301",
@@ -3651,7 +3950,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:21:11.192496+00:00"
+    "fetched_at": "2026-10-05T17:21:11.192496+00:00",
+    "trusted_themes": []
   },
   {
     "id": "615937d1acd47bfd",
@@ -3665,7 +3965,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:21:11.195077+00:00"
+    "fetched_at": "2026-10-05T17:21:11.195077+00:00",
+    "trusted_themes": []
   },
   {
     "id": "b1dc1d8c8df0476c",
@@ -3679,7 +3980,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:21:12.522856+00:00"
+    "fetched_at": "2026-10-05T17:21:12.522856+00:00",
+    "trusted_themes": []
   },
   {
     "id": "f39a86837e348349",
@@ -3693,7 +3995,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:04:50.446155+00:00"
+    "fetched_at": "2026-10-06T14:04:50.446155+00:00",
+    "trusted_themes": []
   },
   {
     "id": "b632b7f0d05c97db",
@@ -3707,7 +4010,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:04:50.449642+00:00"
+    "fetched_at": "2026-10-06T14:04:50.449642+00:00",
+    "trusted_themes": []
   },
   {
     "id": "bca98645d71cbc39",
@@ -3721,7 +4025,10 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-06T14:25:25.470194+00:00"
+    "fetched_at": "2026-10-06T14:25:25.470194+00:00",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "966ba60251e1670e",
@@ -3735,7 +4042,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-28T15:15:55.159810+00:00"
+    "fetched_at": "2026-09-28T15:15:55.159810+00:00",
+    "trusted_themes": []
   },
   {
     "id": "22ab9d9c0629127e",
@@ -3749,7 +4057,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-09-28T15:16:02.723759+00:00"
+    "fetched_at": "2026-09-28T15:16:02.723759+00:00",
+    "trusted_themes": []
   },
   {
     "id": "82ce021d95727ee9",
@@ -3763,7 +4072,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-28T15:16:09.044834+00:00"
+    "fetched_at": "2026-09-28T15:16:09.044834+00:00",
+    "trusted_themes": []
   },
   {
     "id": "ff52ab853b6efe00",
@@ -3777,7 +4087,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-28T15:16:09.046289+00:00"
+    "fetched_at": "2026-09-28T15:16:09.046289+00:00",
+    "trusted_themes": []
   },
   {
     "id": "d71f6641dc732308",
@@ -3791,7 +4102,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-28T15:16:17.638060+00:00"
+    "fetched_at": "2026-09-28T15:16:17.638060+00:00",
+    "trusted_themes": []
   },
   {
     "id": "c547b90d4b49b8d3",
@@ -3805,7 +4117,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-28T15:16:17.639750+00:00"
+    "fetched_at": "2026-09-28T15:16:17.639750+00:00",
+    "trusted_themes": []
   },
   {
     "id": "e9809886d1670f7e",
@@ -3819,7 +4132,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-28T15:16:19.091202+00:00"
+    "fetched_at": "2026-09-28T15:16:19.091202+00:00",
+    "trusted_themes": []
   },
   {
     "id": "027cd7ee3e80b559",
@@ -3833,7 +4147,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-30T08:18:48.356062+00:00"
+    "fetched_at": "2026-09-30T08:18:48.356062+00:00",
+    "trusted_themes": []
   },
   {
     "id": "72582eee52788bd7",
@@ -3847,7 +4162,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-30T08:18:48.359248+00:00"
+    "fetched_at": "2026-09-30T08:18:48.359248+00:00",
+    "trusted_themes": []
   },
   {
     "id": "eaf64d2a180513f9",
@@ -3862,7 +4178,8 @@
       "military",
       "energy_industry"
     ],
-    "fetched_at": "2026-09-30T08:18:49.547797+00:00"
+    "fetched_at": "2026-09-30T08:18:49.547797+00:00",
+    "trusted_themes": []
   },
   {
     "id": "d56d1720db00db71",
@@ -3876,7 +4193,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-30T08:18:49.549830+00:00"
+    "fetched_at": "2026-09-30T08:18:49.549830+00:00",
+    "trusted_themes": []
   },
   {
     "id": "1c51dad1ce1fc362",
@@ -3890,7 +4208,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-30T08:18:49.552046+00:00"
+    "fetched_at": "2026-09-30T08:18:49.552046+00:00",
+    "trusted_themes": []
   },
   {
     "id": "5124e1e45d5103b2",
@@ -3904,7 +4223,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:48.009266+00:00"
+    "fetched_at": "2026-10-05T17:20:48.009266+00:00",
+    "trusted_themes": []
   },
   {
     "id": "74f36811379e301b",
@@ -3918,7 +4238,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:21:11.198314+00:00"
+    "fetched_at": "2026-10-05T17:21:11.198314+00:00",
+    "trusted_themes": []
   },
   {
     "id": "37c767479720f213",
@@ -3932,7 +4253,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:21:12.527277+00:00"
+    "fetched_at": "2026-10-05T17:21:12.527277+00:00",
+    "trusted_themes": []
   },
   {
     "id": "1a30e6fb19bb9bca",
@@ -3946,7 +4268,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-05T17:21:15.267019+00:00"
+    "fetched_at": "2026-10-05T17:21:15.267019+00:00",
+    "trusted_themes": []
   },
   {
     "id": "dd7489f2c14f773a",
@@ -3960,7 +4283,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:44:30.283813+00:00"
+    "fetched_at": "2026-10-05T17:44:30.283813+00:00",
+    "trusted_themes": []
   },
   {
     "id": "70e6137f3bd9b1c2",
@@ -3974,7 +4298,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-27T20:41:24.059771+00:00"
+    "fetched_at": "2026-09-27T20:41:24.059771+00:00",
+    "trusted_themes": []
   },
   {
     "id": "b55e9f318224b1e4",
@@ -3988,7 +4313,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:21:12.529549+00:00"
+    "fetched_at": "2026-10-05T17:21:12.529549+00:00",
+    "trusted_themes": []
   },
   {
     "id": "f734f238544c8a67",
@@ -4002,7 +4328,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.606580+00:00",
     "source_region": "us",
-    "subject_region": "russia_eurasia"
+    "subject_region": "russia_eurasia",
+    "trusted_themes": []
   },
   {
     "id": "468ed9385719c07a",
@@ -4017,7 +4344,8 @@
     ],
     "fetched_at": "2026-09-25T16:44:04.712675+00:00",
     "source_region": "eu",
-    "subject_region": "middle_east_africa"
+    "subject_region": "middle_east_africa",
+    "trusted_themes": []
   },
   {
     "id": "65da64da680a6e6e",
@@ -4031,7 +4359,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:11.603809+00:00",
     "source_region": "us",
-    "subject_region": "china"
+    "subject_region": "china",
+    "trusted_themes": []
   },
   {
     "id": "dd00b964f8354070",
@@ -4045,7 +4374,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:11.604432+00:00",
     "source_region": "us",
-    "subject_region": "russia_eurasia"
+    "subject_region": "russia_eurasia",
+    "trusted_themes": []
   },
   {
     "id": "75bae4244de424a9",
@@ -4059,7 +4389,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:11.604548+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "e1c67868aec74773",
@@ -4073,7 +4404,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:11.604637+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "cc60671322d11b03",
@@ -4087,7 +4419,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:11.605007+00:00",
     "source_region": "us",
-    "subject_region": "asia_pacific"
+    "subject_region": "asia_pacific",
+    "trusted_themes": []
   },
   {
     "id": "3c41a682d0787d48",
@@ -4101,7 +4434,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:13.151760+00:00",
     "source_region": "us",
-    "subject_region": "france"
+    "subject_region": "france",
+    "trusted_themes": []
   },
   {
     "id": "404c1222dcecb1de",
@@ -4115,7 +4449,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:14.392792+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "06f3fd590de7bb54",
@@ -4129,7 +4464,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:14.392846+00:00",
     "source_region": "us",
-    "subject_region": "china"
+    "subject_region": "china",
+    "trusted_themes": []
   },
   {
     "id": "9f85f4e2b1d2c009",
@@ -4144,7 +4480,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:18.456778+00:00",
     "source_region": "us",
-    "subject_region": "asia_pacific"
+    "subject_region": "asia_pacific",
+    "trusted_themes": []
   },
   {
     "id": "06128ab96e7a5144",
@@ -4158,7 +4495,8 @@
     ],
     "fetched_at": "2026-09-25T17:43:39.680427+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "818dcc7cb877ec69",
@@ -4172,7 +4510,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-09-25T18:12:22.079229+00:00"
+    "fetched_at": "2026-09-25T18:12:22.079229+00:00",
+    "trusted_themes": []
   },
   {
     "id": "c987f1e67624834a",
@@ -4186,7 +4525,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-25T18:12:32.208707+00:00"
+    "fetched_at": "2026-09-25T18:12:32.208707+00:00",
+    "trusted_themes": []
   },
   {
     "id": "b2ea7751066d90cf",
@@ -4200,7 +4540,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-25T19:14:49.001745+00:00"
+    "fetched_at": "2026-09-25T19:14:49.001745+00:00",
+    "trusted_themes": []
   },
   {
     "id": "b122fd5bf902f926",
@@ -4214,7 +4555,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-25T19:14:50.154468+00:00"
+    "fetched_at": "2026-09-25T19:14:50.154468+00:00",
+    "trusted_themes": []
   },
   {
     "id": "3a69b0f932b85057",
@@ -4228,7 +4570,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-25T19:14:51.477331+00:00"
+    "fetched_at": "2026-09-25T19:14:51.477331+00:00",
+    "trusted_themes": []
   },
   {
     "id": "27c81efc8337e9da",
@@ -4242,7 +4585,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-27T20:41:21.470097+00:00"
+    "fetched_at": "2026-09-27T20:41:21.470097+00:00",
+    "trusted_themes": []
   },
   {
     "id": "35c8870c17d4de35",
@@ -4256,7 +4600,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-27T20:41:22.651087+00:00"
+    "fetched_at": "2026-09-27T20:41:22.651087+00:00",
+    "trusted_themes": []
   },
   {
     "id": "99877839f8b65640",
@@ -4270,7 +4615,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-09-27T20:41:24.062352+00:00"
+    "fetched_at": "2026-09-27T20:41:24.062352+00:00",
+    "trusted_themes": []
   },
   {
     "id": "0055e01f26b61c48",
@@ -4284,7 +4630,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:58.646121+00:00"
+    "fetched_at": "2026-10-05T17:20:58.646121+00:00",
+    "trusted_themes": []
   },
   {
     "id": "75f8b0ea88c7f996",
@@ -4298,7 +4645,10 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-06T14:25:25.472730+00:00"
+    "fetched_at": "2026-10-06T14:25:25.472730+00:00",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "6802bbd43e1e8203",
@@ -4312,7 +4662,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:23.178081+00:00",
     "source_region": "eu",
-    "subject_region": "asia_pacific"
+    "subject_region": "asia_pacific",
+    "trusted_themes": []
   },
   {
     "id": "51158f3e5c869854",
@@ -4326,7 +4677,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.606718+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "8d18018d13ab48b0",
@@ -4340,7 +4692,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:43.429627+00:00",
     "source_region": "us",
-    "subject_region": "eu"
+    "subject_region": "eu",
+    "trusted_themes": []
   },
   {
     "id": "b02c59e4231d5f4f",
@@ -4354,7 +4707,8 @@
     ],
     "fetched_at": "2026-09-25T16:44:12.388389+00:00",
     "source_region": "us",
-    "subject_region": "russia_eurasia"
+    "subject_region": "russia_eurasia",
+    "trusted_themes": []
   },
   {
     "id": "9d021047668ced74",
@@ -4368,7 +4722,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:13.151804+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "0b45f1298389cffb",
@@ -4382,7 +4737,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:14.392899+00:00",
     "source_region": "us",
-    "subject_region": "russia_eurasia"
+    "subject_region": "russia_eurasia",
+    "trusted_themes": []
   },
   {
     "id": "22d5665eca917d7d",
@@ -4396,7 +4752,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:14.392951+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "050d29cb467cde8b",
@@ -4410,7 +4767,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:14.393001+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "318ce292dfb9777d",
@@ -4424,7 +4782,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:14.393059+00:00",
     "source_region": "us",
-    "subject_region": "china"
+    "subject_region": "china",
+    "trusted_themes": []
   },
   {
     "id": "ad0f8a748bcf7ae5",
@@ -4438,7 +4797,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:14.393108+00:00",
     "source_region": "us",
-    "subject_region": "eu"
+    "subject_region": "eu",
+    "trusted_themes": []
   },
   {
     "id": "30fde4435fee956b",
@@ -4452,7 +4812,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:14.393162+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "4ee882a14ce92add",
@@ -4466,7 +4827,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:15.691765+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "26fdb060cf3bd356",
@@ -4480,7 +4842,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:15.691844+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "9e1db10f2cc2101c",
@@ -4494,7 +4857,8 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-05T17:20:36.841690+00:00"
+    "fetched_at": "2026-10-05T17:20:36.841690+00:00",
+    "trusted_themes": []
   },
   {
     "id": "7adbe4acf475d7e6",
@@ -4509,7 +4873,8 @@
       "intelligence",
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:58.650319+00:00"
+    "fetched_at": "2026-10-05T17:20:58.650319+00:00",
+    "trusted_themes": []
   },
   {
     "id": "fe106cbccda9c1f2",
@@ -4524,7 +4889,8 @@
       "military",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-05T17:44:30.297248+00:00"
+    "fetched_at": "2026-10-05T17:44:30.297248+00:00",
+    "trusted_themes": []
   },
   {
     "id": "eb3f68689638bbce",
@@ -4538,7 +4904,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:44:30.299683+00:00"
+    "fetched_at": "2026-10-05T17:44:30.299683+00:00",
+    "trusted_themes": []
   },
   {
     "id": "a102e63f495832d2",
@@ -4552,7 +4919,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-05T17:44:30.308163+00:00"
+    "fetched_at": "2026-10-05T17:44:30.308163+00:00",
+    "trusted_themes": []
   },
   {
     "id": "649b43bea2f73621",
@@ -4566,7 +4934,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.606791+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "3b038c39c5a10234",
@@ -4581,7 +4950,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.606911+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "5d26ad17b72dce6f",
@@ -4595,7 +4965,8 @@
     ],
     "fetched_at": "2026-09-25T16:44:08.507427+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "1233b8010e58b5e1",
@@ -4609,7 +4980,8 @@
     ],
     "fetched_at": "2026-09-25T16:44:08.507654+00:00",
     "source_region": "us",
-    "subject_region": "china"
+    "subject_region": "china",
+    "trusted_themes": []
   },
   {
     "id": "9495a04156094170",
@@ -4623,7 +4995,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:13.151843+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "1f5b371ce1b55272",
@@ -4638,7 +5011,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:13.151881+00:00",
     "source_region": "us",
-    "subject_region": "eu"
+    "subject_region": "eu",
+    "trusted_themes": []
   },
   {
     "id": "9dd1c8db93851703",
@@ -4652,7 +5026,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:13.151909+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "356e7716ac651f75",
@@ -4666,7 +5041,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:14.393218+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "245a8165a4216d7f",
@@ -4680,7 +5056,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:14.393320+00:00",
     "source_region": "us",
-    "subject_region": "middle_east_africa"
+    "subject_region": "middle_east_africa",
+    "trusted_themes": []
   },
   {
     "id": "09ea536c4460056b",
@@ -4694,7 +5071,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:14.393416+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "d5602493670814e2",
@@ -4708,7 +5086,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:14.393471+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "5992db308881212a",
@@ -4722,7 +5101,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:14.393534+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "5e0ec520877f81ce",
@@ -4736,7 +5116,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:15.691967+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "a5b586d3b9e9dcfa",
@@ -4750,7 +5131,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:15.692030+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "acd79a64209e937b",
@@ -4764,7 +5146,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:15.692169+00:00",
     "source_region": "us",
-    "subject_region": "asia_pacific"
+    "subject_region": "asia_pacific",
+    "trusted_themes": []
   },
   {
     "id": "a6e469d4123c2449",
@@ -4778,7 +5161,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:32.854915+00:00"
+    "fetched_at": "2026-10-05T17:20:32.854915+00:00",
+    "trusted_themes": []
   },
   {
     "id": "02e61bd859549959",
@@ -4792,7 +5176,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:48.020320+00:00"
+    "fetched_at": "2026-10-05T17:20:48.020320+00:00",
+    "trusted_themes": []
   },
   {
     "id": "cf99e8f62bc6ecb0",
@@ -4806,7 +5191,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:58.653969+00:00"
+    "fetched_at": "2026-10-05T17:20:58.653969+00:00",
+    "trusted_themes": []
   },
   {
     "id": "b52b3c74b6ebc111",
@@ -4820,7 +5206,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:44:30.311963+00:00"
+    "fetched_at": "2026-10-05T17:44:30.311963+00:00",
+    "trusted_themes": []
   },
   {
     "id": "e41c7b6a1a7558cb",
@@ -4835,7 +5222,8 @@
       "military",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-05T17:44:30.314303+00:00"
+    "fetched_at": "2026-10-05T17:44:30.314303+00:00",
+    "trusted_themes": []
   },
   {
     "id": "a0b1c905d447eed8",
@@ -4849,7 +5237,10 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:33.481268+00:00"
+    "fetched_at": "2026-10-06T14:05:33.481268+00:00",
+    "trusted_themes": [
+      "energy_industry"
+    ]
   },
   {
     "id": "6267f7b701237f97",
@@ -4863,7 +5254,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:24.359286+00:00",
     "source_region": "us",
-    "subject_region": "china"
+    "subject_region": "china",
+    "trusted_themes": []
   },
   {
     "id": "8ee1549ec884cf65",
@@ -4877,7 +5269,8 @@
     ],
     "fetched_at": "2026-09-25T15:53:04.544520+00:00",
     "source_region": "eu",
-    "subject_region": "eu"
+    "subject_region": "eu",
+    "trusted_themes": []
   },
   {
     "id": "36edeecebdf51c79",
@@ -4891,7 +5284,8 @@
     ],
     "fetched_at": "2026-09-25T16:44:04.713213+00:00",
     "source_region": "eu",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "af1a68733300b779",
@@ -4905,7 +5299,8 @@
     ],
     "fetched_at": "2026-09-25T16:44:08.507725+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "2edde034ad1c870e",
@@ -4919,7 +5314,8 @@
     ],
     "fetched_at": "2026-09-25T16:44:12.388529+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "e490418d683ba0d2",
@@ -4933,7 +5329,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:13.151940+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "01e89fb00ab84c3d",
@@ -4947,7 +5344,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:13.151994+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "ecae69fabd14a7c5",
@@ -4961,7 +5359,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:15.692232+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "b4b6986c5e010cf7",
@@ -4975,7 +5374,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:15.692283+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "81ca8537a873da7e",
@@ -4989,7 +5389,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:15.692334+00:00",
     "source_region": "us",
-    "subject_region": "eu"
+    "subject_region": "eu",
+    "trusted_themes": []
   },
   {
     "id": "4e2b71b74c595bd0",
@@ -5003,7 +5404,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:15.692390+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "afc7062b024268c1",
@@ -5017,7 +5419,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:44:30.319728+00:00"
+    "fetched_at": "2026-10-05T17:44:30.319728+00:00",
+    "trusted_themes": []
   },
   {
     "id": "c3f12acdb1f862f6",
@@ -5032,7 +5435,8 @@
       "military",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-05T17:44:30.321761+00:00"
+    "fetched_at": "2026-10-05T17:44:30.321761+00:00",
+    "trusted_themes": []
   },
   {
     "id": "459ec9ad64f2bf88",
@@ -5046,7 +5450,10 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-06T14:25:25.474210+00:00"
+    "fetched_at": "2026-10-06T14:25:25.474210+00:00",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "2f03e15789728365",
@@ -5078,7 +5485,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:24.359365+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "91fb5c82745c1164",
@@ -5092,7 +5500,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:13.152024+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "78d89bdffc25a711",
@@ -5106,7 +5515,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:13.152049+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "c80b646cc2b5ea24",
@@ -5120,7 +5530,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:15.692531+00:00",
     "source_region": "us",
-    "subject_region": "eu"
+    "subject_region": "eu",
+    "trusted_themes": []
   },
   {
     "id": "a67435a51792c672",
@@ -5134,7 +5545,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:15.692593+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "9ad88a313afaf0fe",
@@ -5148,7 +5560,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:15.692644+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "3321c376217b7b19",
@@ -5162,7 +5575,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:48.031041+00:00"
+    "fetched_at": "2026-10-05T17:20:48.031041+00:00",
+    "trusted_themes": []
   },
   {
     "id": "cacd1aad7d5f05e5",
@@ -5177,7 +5591,8 @@
       "intelligence",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-05T17:20:48.035061+00:00"
+    "fetched_at": "2026-10-05T17:20:48.035061+00:00",
+    "trusted_themes": []
   },
   {
     "id": "0ccdc123dbd87da9",
@@ -5191,7 +5606,8 @@
     ],
     "fetched_at": "2026-09-25T12:40:19.438974+00:00",
     "source_region": "fr",
-    "subject_region": "france"
+    "subject_region": "france",
+    "trusted_themes": []
   },
   {
     "id": "a91ae72fe4c2eb8f",
@@ -5205,7 +5621,10 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:25:31.592259+00:00"
+    "fetched_at": "2026-10-06T14:25:31.592259+00:00",
+    "trusted_themes": [
+      "military"
+    ]
   },
   {
     "id": "0c2d84cfe794c4bc",
@@ -5219,7 +5638,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:15.692711+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "9a76236a8ec0731c",
@@ -5233,7 +5653,10 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-05T17:20:59.992510+00:00"
+    "fetched_at": "2026-10-05T17:20:59.992510+00:00",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "0a263c15dc1f91a5",
@@ -5248,7 +5671,8 @@
     ],
     "fetched_at": "2026-09-25T12:40:19.438974+00:00",
     "source_region": "eu",
-    "subject_region": "china"
+    "subject_region": "china",
+    "trusted_themes": []
   },
   {
     "id": "2aeff04c8199088a",
@@ -5262,7 +5686,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.607317+00:00",
     "source_region": "us",
-    "subject_region": "middle_east_africa"
+    "subject_region": "middle_east_africa",
+    "trusted_themes": []
   },
   {
     "id": "a6d29a289e181de6",
@@ -5276,7 +5701,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.607375+00:00",
     "source_region": "us",
-    "subject_region": "china"
+    "subject_region": "china",
+    "trusted_themes": []
   },
   {
     "id": "67229fa38e952221",
@@ -5290,7 +5716,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:13.152090+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "8861b4411a76a750",
@@ -5304,7 +5731,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:13.152120+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "3c6cdce0948b575e",
@@ -5336,7 +5764,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.607439+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "a4b75d51d2aacf07",
@@ -5350,7 +5779,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.607476+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "040c6d9d6a1589e8",
@@ -5364,7 +5794,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.607534+00:00",
     "source_region": "us",
-    "subject_region": "eu"
+    "subject_region": "eu",
+    "trusted_themes": []
   },
   {
     "id": "40ecb4bad5e5376a",
@@ -5378,7 +5809,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:13.152148+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "a15c8227ee261fab",
@@ -5392,7 +5824,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:13.152173+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "7135a7ea93d1d448",
@@ -5406,7 +5839,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:13.152265+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "da64be272b2aa6f5",
@@ -5420,7 +5854,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:15.692986+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "574142ce7a95b830",
@@ -5434,7 +5869,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:15.693047+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "e8c4e670cd2219ef",
@@ -5448,7 +5884,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:15.693114+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "ce5fa7ba2da0cce4",
@@ -5462,7 +5899,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:15.693165+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "3731e23cc6668228",
@@ -5476,7 +5914,8 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-05T17:44:30.344188+00:00"
+    "fetched_at": "2026-10-05T17:44:30.344188+00:00",
+    "trusted_themes": []
   },
   {
     "id": "bc09c351ae9f3319",
@@ -5490,7 +5929,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:44:30.349848+00:00"
+    "fetched_at": "2026-10-05T17:44:30.349848+00:00",
+    "trusted_themes": []
   },
   {
     "id": "f6314117e45b676c",
@@ -5504,7 +5944,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:44:30.351389+00:00"
+    "fetched_at": "2026-10-05T17:44:30.351389+00:00",
+    "trusted_themes": []
   },
   {
     "id": "5ebd1ca1fecf0df5",
@@ -5518,7 +5959,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-05T17:44:30.354492+00:00"
+    "fetched_at": "2026-10-05T17:44:30.354492+00:00",
+    "trusted_themes": []
   },
   {
     "id": "91c370e3fbf5181f",
@@ -5532,7 +5974,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:44:30.356878+00:00"
+    "fetched_at": "2026-10-05T17:44:30.356878+00:00",
+    "trusted_themes": []
   },
   {
     "id": "c5696ff257ddd5bf",
@@ -5546,7 +5989,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:04:44.084367+00:00"
+    "fetched_at": "2026-10-06T14:04:44.084367+00:00",
+    "trusted_themes": []
   },
   {
     "id": "d24a06cfc3cd480d",
@@ -5560,7 +6004,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:04:44.086240+00:00"
+    "fetched_at": "2026-10-06T14:04:44.086240+00:00",
+    "trusted_themes": []
   },
   {
     "id": "8ec0a13f5e63d9e0",
@@ -5592,7 +6037,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.607650+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "97838a5eed8a254c",
@@ -5606,7 +6052,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.607710+00:00",
     "source_region": "us",
-    "subject_region": "china"
+    "subject_region": "china",
+    "trusted_themes": []
   },
   {
     "id": "8be930fb88f776ac",
@@ -5620,7 +6067,8 @@
     ],
     "fetched_at": "2026-09-25T16:44:11.007020+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "e227adb254876c89",
@@ -5634,7 +6082,8 @@
     ],
     "fetched_at": "2026-09-25T16:44:12.388826+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "9fe0d615241f2295",
@@ -5648,7 +6097,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:13.152292+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "13561c62a4a866e9",
@@ -5662,7 +6112,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:13.152325+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "fa544bc0c96b46dd",
@@ -5676,7 +6127,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:13.152351+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "fee015d08bfbd7c2",
@@ -5690,7 +6142,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:13.152376+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "9dafd18ff74e6ced",
@@ -5704,7 +6157,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:13.152416+00:00",
     "source_region": "us",
-    "subject_region": "eu"
+    "subject_region": "eu",
+    "trusted_themes": []
   },
   {
     "id": "b44ea2e0f2f92940",
@@ -5718,7 +6172,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:13.152453+00:00",
     "source_region": "us",
-    "subject_region": "russia_eurasia"
+    "subject_region": "russia_eurasia",
+    "trusted_themes": []
   },
   {
     "id": "454e2c48d56d7e13",
@@ -5732,7 +6187,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:15.693221+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "e440eabce974fd0f",
@@ -5746,7 +6202,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:15.693269+00:00",
     "source_region": "us",
-    "subject_region": "asia_pacific"
+    "subject_region": "asia_pacific",
+    "trusted_themes": []
   },
   {
     "id": "a09edc63fe7960ad",
@@ -5760,7 +6217,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:15.693318+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "7d490d49de35a3fd",
@@ -5774,14 +6232,15 @@
     ],
     "fetched_at": "2026-09-25T17:17:15.693441+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "c67dbdb399a9bd4b",
     "title": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign",
     "link": "https://www.bellingcat.com/news/2026/09/16/drone-strike-civilians-killed-aes-sahel-mali-russia-africa-corps-guilt-by-location-jeune-afrique/",
     "date": "2026-09-16",
-    "summary": "Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. WARNING: This report contains links to graphic images and footage. A joint Bellingcat and Jeune Afrique investigation into drone strikes carried out by the Malian military adds new details about the attacks which frequently are carried out in civilian areas and have […] The post",
+    "summary": "WARNING: This report contains links to graphic images and footage. A joint Bellingcat and Jeune Afrique investigation into drone strikes carried out by the Malian military adds new details about the attacks which frequently are carried out in civilian areas and have […] The post",
     "source": "Bellingcat",
     "themes": [
       "intelligence",
@@ -5789,7 +6248,10 @@
     ],
     "fetched_at": "2026-09-25T17:17:17.092790+00:00",
     "source_region": "eu",
-    "subject_region": "middle_east_africa"
+    "subject_region": "middle_east_africa",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "f9171dbfbb476c28",
@@ -5803,7 +6265,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-05T17:44:30.364426+00:00"
+    "fetched_at": "2026-10-05T17:44:30.364426+00:00",
+    "trusted_themes": []
   },
   {
     "id": "6b68d39d9cf59ea0",
@@ -5818,7 +6281,10 @@
       "military",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:52.595055+00:00"
+    "fetched_at": "2026-10-06T14:05:52.595055+00:00",
+    "trusted_themes": [
+      "military"
+    ]
   },
   {
     "id": "4f39dbae075e7078",
@@ -5832,7 +6298,8 @@
     ],
     "fetched_at": "2026-09-25T12:40:19.438974+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "fa7f278e4576c416",
@@ -5846,7 +6313,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.607817+00:00",
     "source_region": "us",
-    "subject_region": "middle_east_africa"
+    "subject_region": "middle_east_africa",
+    "trusted_themes": []
   },
   {
     "id": "6c3732fd2451e0ce",
@@ -5860,7 +6328,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:13.152495+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "7ba619b9fcc2d5f0",
@@ -5874,7 +6343,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:13.152529+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "cc5e00c27de23f24",
@@ -5888,7 +6358,8 @@
     ],
     "fetched_at": "2026-09-25T17:17:15.693511+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "c58911eb802653bb",
@@ -5902,7 +6373,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:41.707302+00:00"
+    "fetched_at": "2026-10-05T17:20:41.707302+00:00",
+    "trusted_themes": []
   },
   {
     "id": "2f98176f76b34f19",
@@ -5916,7 +6388,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:44:30.375086+00:00"
+    "fetched_at": "2026-10-05T17:44:30.375086+00:00",
+    "trusted_themes": []
   },
   {
     "id": "db723a6cd1d56842",
@@ -5930,7 +6403,10 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-06T14:25:25.475697+00:00"
+    "fetched_at": "2026-10-06T14:25:25.475697+00:00",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "4d206a4d6516585e",
@@ -5944,7 +6420,10 @@
     ],
     "fetched_at": "2026-09-25T17:17:17.092868+00:00",
     "source_region": "eu",
-    "subject_region": "eu"
+    "subject_region": "eu",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "c209dd84cbbec17c",
@@ -5958,7 +6437,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:48.047552+00:00"
+    "fetched_at": "2026-10-05T17:20:48.047552+00:00",
+    "trusted_themes": []
   },
   {
     "id": "f078a7905d49de23",
@@ -5972,7 +6452,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:48.051717+00:00"
+    "fetched_at": "2026-10-05T17:20:48.051717+00:00",
+    "trusted_themes": []
   },
   {
     "id": "ab679a5484fc5011",
@@ -5986,7 +6467,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-05T17:20:48.055655+00:00"
+    "fetched_at": "2026-10-05T17:20:48.055655+00:00",
+    "trusted_themes": []
   },
   {
     "id": "b6a3d1a9b7e42982",
@@ -6000,7 +6482,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-05T17:20:48.059737+00:00"
+    "fetched_at": "2026-10-05T17:20:48.059737+00:00",
+    "trusted_themes": []
   },
   {
     "id": "3cb894be0ffc07ed",
@@ -6014,21 +6497,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:49.477728+00:00"
-  },
-  {
-    "id": "64cec2415b0688cb",
-    "title": "Société Défense 56 min de lecture ETUDE 137 - 14/09/2026 Santé mentale et guerre de haute intensité - Un déterminant stratégique à ne plus négliger Marion Trousselard",
-    "link": "https://www.irsem.fr/publications/sante-mentale-et-guerre-de-haute-intensite-un-determinant-strategique-a-ne-plus-negliger",
-    "date": "2026-09-14",
-    "summary": "Etude 137 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.875159+00:00"
+    "fetched_at": "2026-10-05T17:20:49.477728+00:00",
+    "trusted_themes": []
   },
   {
     "id": "eee9bb6bc4a32349",
@@ -6042,7 +6512,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:44:30.381524+00:00"
+    "fetched_at": "2026-10-05T17:44:30.381524+00:00",
+    "trusted_themes": []
   },
   {
     "id": "e2e143bd5a7a736b",
@@ -6057,7 +6528,8 @@
       "military",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:04:54.666910+00:00"
+    "fetched_at": "2026-10-06T14:04:54.666910+00:00",
+    "trusted_themes": []
   },
   {
     "id": "1de1035546e7c92b",
@@ -6071,7 +6543,10 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:25:31.593707+00:00"
+    "fetched_at": "2026-10-06T14:25:31.593707+00:00",
+    "trusted_themes": [
+      "military"
+    ]
   },
   {
     "id": "c8b7bf91ac581079",
@@ -6085,7 +6560,8 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:04:54.670142+00:00"
+    "fetched_at": "2026-10-06T14:04:54.670142+00:00",
+    "trusted_themes": []
   },
   {
     "id": "af286210c6719978",
@@ -6099,7 +6575,10 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-06T14:25:25.478181+00:00"
+    "fetched_at": "2026-10-06T14:25:25.478181+00:00",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "592752ec83c56950",
@@ -6113,7 +6592,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:48.068707+00:00"
+    "fetched_at": "2026-10-05T17:20:48.068707+00:00",
+    "trusted_themes": []
   },
   {
     "id": "aa6b7c9f8a075a9b",
@@ -6127,7 +6607,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:48.072065+00:00"
+    "fetched_at": "2026-10-05T17:20:48.072065+00:00",
+    "trusted_themes": []
   },
   {
     "id": "b7753617d2b75cb4",
@@ -6141,7 +6622,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.608405+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "5aa2148ef8ded29d",
@@ -6155,7 +6637,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.608462+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "2af3799bd161019e",
@@ -6169,7 +6652,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.608510+00:00",
     "source_region": "us",
-    "subject_region": "russia_eurasia"
+    "subject_region": "russia_eurasia",
+    "trusted_themes": []
   },
   {
     "id": "c014303e522a8f50",
@@ -6183,7 +6667,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.608569+00:00",
     "source_region": "us",
-    "subject_region": "middle_east_africa"
+    "subject_region": "middle_east_africa",
+    "trusted_themes": []
   },
   {
     "id": "dc562598332a7280",
@@ -6198,7 +6683,10 @@
       "military",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:52.596788+00:00"
+    "fetched_at": "2026-10-06T14:05:52.596788+00:00",
+    "trusted_themes": [
+      "military"
+    ]
   },
   {
     "id": "1f629c12ccc440e2",
@@ -6212,7 +6700,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.608759+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "f1995c98bea492c2",
@@ -6226,7 +6715,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:48.075843+00:00"
+    "fetched_at": "2026-10-05T17:20:48.075843+00:00",
+    "trusted_themes": []
   },
   {
     "id": "cc45676b8ed776cf",
@@ -6240,7 +6730,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:48.079093+00:00"
+    "fetched_at": "2026-10-05T17:20:48.079093+00:00",
+    "trusted_themes": []
   },
   {
     "id": "d0493af0f68f060e",
@@ -6254,7 +6745,10 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-06T14:25:25.479619+00:00"
+    "fetched_at": "2026-10-06T14:25:25.479619+00:00",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "0f4d689f6fcc7353",
@@ -6286,7 +6780,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.608817+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "ab5c7acff6e7fbf9",
@@ -6300,7 +6795,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.608870+00:00",
     "source_region": "us",
-    "subject_region": "middle_east_africa"
+    "subject_region": "middle_east_africa",
+    "trusted_themes": []
   },
   {
     "id": "8a43618994bdbe05",
@@ -6314,7 +6810,10 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:25:31.595269+00:00"
+    "fetched_at": "2026-10-06T14:25:31.595269+00:00",
+    "trusted_themes": [
+      "military"
+    ]
   },
   {
     "id": "31d963ff2f565eef",
@@ -6328,7 +6827,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.608988+00:00",
     "source_region": "us",
-    "subject_region": "middle_east_africa"
+    "subject_region": "middle_east_africa",
+    "trusted_themes": []
   },
   {
     "id": "ace0c7be2b8b3244",
@@ -6343,7 +6843,8 @@
     ],
     "fetched_at": "2026-09-25T16:44:13.771329+00:00",
     "source_region": "us",
-    "subject_region": "eu"
+    "subject_region": "eu",
+    "trusted_themes": []
   },
   {
     "id": "c29a2aeca8f21841",
@@ -6357,7 +6858,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:04:54.675782+00:00"
+    "fetched_at": "2026-10-06T14:04:54.675782+00:00",
+    "trusted_themes": []
   },
   {
     "id": "37c9a69b2ab1944c",
@@ -6372,7 +6874,10 @@
       "intelligence",
       "military"
     ],
-    "fetched_at": "2026-10-06T14:25:25.480996+00:00"
+    "fetched_at": "2026-10-06T14:25:25.480996+00:00",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "4febd8ee034ec253",
@@ -6386,7 +6891,8 @@
     ],
     "fetched_at": "2026-09-25T16:44:11.007263+00:00",
     "source_region": "us",
-    "subject_region": "russia_eurasia"
+    "subject_region": "russia_eurasia",
+    "trusted_themes": []
   },
   {
     "id": "e49c81a0b313ed38",
@@ -6400,7 +6906,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:48.084826+00:00"
+    "fetched_at": "2026-10-05T17:20:48.084826+00:00",
+    "trusted_themes": []
   },
   {
     "id": "492ad8a6929fa9ae",
@@ -6414,7 +6921,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:48.089063+00:00"
+    "fetched_at": "2026-10-05T17:20:48.089063+00:00",
+    "trusted_themes": []
   },
   {
     "id": "3419f67ea2365896",
@@ -6428,7 +6936,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.609245+00:00",
     "source_region": "us",
-    "subject_region": "china"
+    "subject_region": "china",
+    "trusted_themes": []
   },
   {
     "id": "1635f9ef6fc48eda",
@@ -6443,7 +6952,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.609289+00:00",
     "source_region": "us",
-    "subject_region": "russia_eurasia"
+    "subject_region": "russia_eurasia",
+    "trusted_themes": []
   },
   {
     "id": "08919b3c23035e23",
@@ -6457,7 +6967,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.609344+00:00",
     "source_region": "us",
-    "subject_region": "russia_eurasia"
+    "subject_region": "russia_eurasia",
+    "trusted_themes": []
   },
   {
     "id": "177060f0a8801afe",
@@ -6471,7 +6982,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.609395+00:00",
     "source_region": "us",
-    "subject_region": "russia_eurasia"
+    "subject_region": "russia_eurasia",
+    "trusted_themes": []
   },
   {
     "id": "900ce1a95dec13ab",
@@ -6485,7 +6997,10 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:33.487650+00:00"
+    "fetched_at": "2026-10-06T14:05:33.487650+00:00",
+    "trusted_themes": [
+      "energy_industry"
+    ]
   },
   {
     "id": "24d4e13f2bc6877b",
@@ -6499,7 +7014,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.609506+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "3dc7482726ae239c",
@@ -6514,7 +7030,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.609567+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "fc3914ac1fea9212",
@@ -6528,92 +7045,94 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-05T17:21:03.799670+00:00"
+    "fetched_at": "2026-10-05T17:21:03.799670+00:00",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "2317e8111ac8f2d8",
-    "title": "Défense Sécurité 1 min de lecture Etude 138 - 09/2026 Sahel au centre du djihadisme mondial Alexandre Lauret, Mathieu Mérino",
+    "title": "Sahel au centre du djihadisme mondial Alexandre Lauret, Mathieu Mérino",
     "link": "https://www.irsem.fr/publications/sahel-au-centre-du-djihadisme-mondial",
     "date": "2026-09-01",
-    "summary": "Etude 138 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "summary": "",
     "source": "IRSEM",
     "source_region": "fr",
     "subject_region": "middle_east_africa",
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:44:03.866407+00:00"
-  },
-  {
-    "id": "7b9c1dea7fbc08b1",
-    "title": "8 min de lecture Brève stratégique 95 - 09/2026 Le Sahel au centre du monde - Les leçons d'une marge politique Alexandre Lauret",
-    "link": "https://www.irsem.fr/publications/le-sahel-au-centre-du-monde-les-lecons-dune-marge-politique",
-    "date": "2026-09-01",
-    "summary": "Brève stratégique 95 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "middle_east_africa",
-    "themes": [
+    "trusted_themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:44:03.868466+00:00"
+    "meta": [
+      "Étude 138",
+      "1 min de lecture"
+    ],
+    "fetched_at": "2026-10-06T15:09:37.180790+00:00"
   },
   {
     "id": "0c60c2e8e8bcf0ff",
-    "title": "Influence Stratégie 9 min de lecture Brève stratégique 94 - 09/2026 Bab el-Mandeb - La fin des mers libres Alexandre Lauret",
+    "title": "Bab el-Mandeb - La fin des mers libres",
     "link": "https://www.irsem.fr/publications/bab-el-mandeb-la-fin-des-mers-libres",
     "date": "2026-09-01",
-    "summary": "Brève stratégique 94 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "summary": "",
     "source": "IRSEM",
     "source_region": "fr",
     "subject_region": "france",
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:44:03.870006+00:00"
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [
+      "Brève stratégique 94",
+      "9 min de lecture"
+    ],
+    "fetched_at": "2026-10-06T15:09:37.181407+00:00"
   },
   {
     "id": "83f61e7663d54d83",
-    "title": "Politique Sécurité 39 min de lecture Note stratégique - 09/2026 Le Groenland, nouvelle frontière des ambitions stratégiques américaines Maud Quessard, Estelle Pascal",
+    "title": "Le Groenland, nouvelle frontière des ambitions stratégiques américaines Maud Quessard, Estelle Pascal",
     "link": "https://www.irsem.fr/publications/le-groenland-nouvelle-frontiere-des-ambitions-strategiques-americaines",
     "date": "2026-09-01",
-    "summary": "Note stratégique de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "summary": "",
     "source": "IRSEM",
     "source_region": "fr",
     "subject_region": "us",
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:44:03.871770+00:00"
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [
+      "Note stratégique",
+      "39 min de lecture"
+    ],
+    "fetched_at": "2026-10-06T15:09:37.182156+00:00"
   },
   {
     "id": "8fcbdbdb1b4537b3",
-    "title": "Énergie 8 min de lecture Brève stratégique 93 - 09/2026 Réseaux électriques et conflits - Mise en place et évolution des stratégies de résilience Angélique Palle",
+    "title": "Réseaux électriques et conflits - Mise en place et évolution des stratégies de résilience",
     "link": "https://www.irsem.fr/publications/reseaux-electriques-et-conflits-mise-en-place-et-evolution-des-strategies-de-resilience",
     "date": "2026-09-01",
-    "summary": "Brève stratégique 93 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
+    "summary": "",
     "source": "IRSEM",
     "source_region": "fr",
     "subject_region": "france",
     "themes": [
-      "military",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-05T17:44:03.873414+00:00"
-  },
-  {
-    "id": "eed70b4ad1d6e6f5",
-    "title": "Politique 2 min de lecture Livre - 09/2026 La puissance sans principe - Le nouvel empire américain Maud Quessard",
-    "link": "https://www.irsem.fr/publications/la-puissance-sans-principe-le-nouvel-empire-americain",
-    "date": "2026-09-01",
-    "summary": "Livre de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "us",
-    "themes": [
-      "military"
+    "trusted_themes": [
+      "energy_industry"
     ],
-    "fetched_at": "2026-10-05T17:44:03.876522+00:00"
+    "meta": [
+      "Brève stratégique 93",
+      "8 min de lecture"
+    ],
+    "fetched_at": "2026-10-06T15:09:37.182789+00:00"
   },
   {
     "id": "1454bdb5934a1507",
@@ -6627,7 +7146,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:24.360072+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "dfecef74f41646f5",
@@ -6641,21 +7161,25 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.609744+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "751c8e9d696ff2dd",
     "title": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case",
     "link": "https://www.bellingcat.com/news/us-canada/2026/08/31/investigating-a-murder-public-records-uncover-new-clues-in-chinatown-cold-case/",
     "date": "2026-08-31",
-    "summary": "Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. On a June night in 1996, in a basement apartment in Boston’s Chinatown, a killer put a pistol to the back of a young man’s head and pulled the trigger. The victim’s body was wrapped in quilts, lowered into the trunk of […] The post",
+    "summary": "On a June night in 1996, in a basement apartment in Boston’s Chinatown, a killer put a pistol to the back of a young man’s head and pulled the trigger. The victim’s body was wrapped in quilts, lowered into the trunk of […] The post",
     "source": "Bellingcat",
     "themes": [
       "intelligence"
     ],
     "fetched_at": "2026-09-25T17:17:17.092929+00:00",
     "source_region": "eu",
-    "subject_region": "eu"
+    "subject_region": "eu",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "adbf6c7b1d0fda1e",
@@ -6669,22 +7193,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:48.098149+00:00"
-  },
-  {
-    "id": "852ff4588fe698eb",
-    "title": "Défense 28 min de lecture Veille stratégique 5 - 31/08/2026 Empreinte de la Chine à l'étranger Hugo Tierny",
-    "link": "https://www.irsem.fr/publications/empreinte-de-la-chine-a-letranger-3",
-    "date": "2026-08-31",
-    "summary": "Veille stratégique 5 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "china",
-    "themes": [
-      "intelligence",
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.877902+00:00"
+    "fetched_at": "2026-10-05T17:20:48.098149+00:00",
+    "trusted_themes": []
   },
   {
     "id": "6a14a68bba514756",
@@ -6698,7 +7208,31 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-06T14:25:25.482450+00:00"
+    "fetched_at": "2026-10-06T14:25:25.482450+00:00",
+    "trusted_themes": [
+      "intelligence"
+    ]
+  },
+  {
+    "id": "852ff4588fe698eb",
+    "title": "Empreinte de la Chine à l'étranger",
+    "link": "https://www.irsem.fr/publications/empreinte-de-la-chine-a-letranger-3",
+    "date": "2026-08-31",
+    "summary": "",
+    "source": "IRSEM",
+    "source_region": "fr",
+    "subject_region": "china",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [
+      "Veille stratégique 5",
+      "28 min de lecture"
+    ],
+    "fetched_at": "2026-10-06T15:09:37.183337+00:00"
   },
   {
     "id": "2d2e3cb18fc48fcd",
@@ -6712,7 +7246,10 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:25:31.596863+00:00"
+    "fetched_at": "2026-10-06T14:25:31.596863+00:00",
+    "trusted_themes": [
+      "military"
+    ]
   },
   {
     "id": "cd763209faf79f13",
@@ -6726,7 +7263,10 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-06T14:25:25.484784+00:00"
+    "fetched_at": "2026-10-06T14:25:25.484784+00:00",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "f7774c64f70e5a28",
@@ -6740,7 +7280,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.609920+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "d976f97caf47551c",
@@ -6754,7 +7295,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:48.105955+00:00"
+    "fetched_at": "2026-10-05T17:20:48.105955+00:00",
+    "trusted_themes": []
   },
   {
     "id": "fa5a740e5898345f",
@@ -6786,7 +7328,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.610067+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "d76dd6a38d832feb",
@@ -6801,7 +7344,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.610185+00:00",
     "source_region": "us",
-    "subject_region": "middle_east_africa"
+    "subject_region": "middle_east_africa",
+    "trusted_themes": []
   },
   {
     "id": "3fa7edd01bf0dac6",
@@ -6815,7 +7359,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:48.112637+00:00"
+    "fetched_at": "2026-10-05T17:20:48.112637+00:00",
+    "trusted_themes": []
   },
   {
     "id": "c7d346240d577cb1",
@@ -6829,21 +7374,25 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.610249+00:00",
     "source_region": "us",
-    "subject_region": "russia_eurasia"
+    "subject_region": "russia_eurasia",
+    "trusted_themes": []
   },
   {
     "id": "117731d6956e0450",
     "title": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
     "link": "https://www.bellingcat.com/news/africa/2026/08/25/patria-sanctioned-russian-vessel-russia-us-africa-cameroon-gabon-lagos-nigeria",
     "date": "2026-08-25",
-    "summary": "Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. A sanctioned vessel that was previously reported to have transported weapons destined for Russian mercenaries has been traversing ports on the west coast of Africa since March, exhibiting what experts told Bellingcat was an unusual set of movements and behaviours. Patria (IMO: […]",
+    "summary": "A sanctioned vessel that was previously reported to have transported weapons destined for Russian mercenaries has been traversing ports on the west coast of Africa since March, exhibiting what experts told Bellingcat was an unusual set of movements and behaviours. Patria (IMO: […]",
     "source": "Bellingcat",
     "source_region": "eu",
     "subject_region": "russia_eurasia",
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-05T17:20:59.995194+00:00"
+    "fetched_at": "2026-10-05T17:20:59.995194+00:00",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "8e04590440415bb2",
@@ -6857,7 +7406,10 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-06T14:25:25.486196+00:00"
+    "fetched_at": "2026-10-06T14:25:25.486196+00:00",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "32173d2e0679c6b5",
@@ -6871,7 +7423,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.610293+00:00",
     "source_region": "us",
-    "subject_region": "russia_eurasia"
+    "subject_region": "russia_eurasia",
+    "trusted_themes": []
   },
   {
     "id": "f63ffee5c9bbbcb3",
@@ -6885,7 +7438,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.610348+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "996b8c344f9b9dc2",
@@ -6899,7 +7453,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.610395+00:00",
     "source_region": "us",
-    "subject_region": "china"
+    "subject_region": "china",
+    "trusted_themes": []
   },
   {
     "id": "4132a2127d53ce9d",
@@ -6913,7 +7468,10 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:25:31.598218+00:00"
+    "fetched_at": "2026-10-06T14:25:31.598218+00:00",
+    "trusted_themes": [
+      "military"
+    ]
   },
   {
     "id": "e136d1384c7c5664",
@@ -6927,7 +7485,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.610449+00:00",
     "source_region": "us",
-    "subject_region": "russia_eurasia"
+    "subject_region": "russia_eurasia",
+    "trusted_themes": []
   },
   {
     "id": "f2b5ee6ecdff9b8b",
@@ -6942,7 +7501,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.610565+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "ac0c7f7d5bfba1c9",
@@ -6956,7 +7516,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.610611+00:00",
     "source_region": "us",
-    "subject_region": "russia_eurasia"
+    "subject_region": "russia_eurasia",
+    "trusted_themes": []
   },
   {
     "id": "8bf2971ae7285377",
@@ -6970,7 +7531,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.610668+00:00",
     "source_region": "us",
-    "subject_region": "china"
+    "subject_region": "china",
+    "trusted_themes": []
   },
   {
     "id": "b6bf041baed45377",
@@ -6985,7 +7547,10 @@
       "intelligence",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-05T17:20:59.997462+00:00"
+    "fetched_at": "2026-10-05T17:20:59.997462+00:00",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "b262601569d876c2",
@@ -7017,7 +7582,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.610781+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "a1596264c5b189aa",
@@ -7031,7 +7597,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.610843+00:00",
     "source_region": "us",
-    "subject_region": "russia_eurasia"
+    "subject_region": "russia_eurasia",
+    "trusted_themes": []
   },
   {
     "id": "e77fbe5979bb5a65",
@@ -7045,7 +7612,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.610911+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "f41afa8ec00256f5",
@@ -7059,7 +7627,8 @@
     ],
     "fetched_at": "2026-09-25T16:44:13.771771+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "0f717e4aae0b6dec",
@@ -7073,7 +7642,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:48.121071+00:00"
+    "fetched_at": "2026-10-05T17:20:48.121071+00:00",
+    "trusted_themes": []
   },
   {
     "id": "0604e83e58427988",
@@ -7087,7 +7657,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:48.124468+00:00"
+    "fetched_at": "2026-10-05T17:20:48.124468+00:00",
+    "trusted_themes": []
   },
   {
     "id": "e74004816fce44f1",
@@ -7101,7 +7672,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.611227+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "5891fc5e12be5365",
@@ -7115,7 +7687,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.611286+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "9fc2df6fab673e52",
@@ -7129,7 +7702,8 @@
     ],
     "fetched_at": "2026-09-25T16:44:11.007429+00:00",
     "source_region": "us",
-    "subject_region": "middle_east_africa"
+    "subject_region": "middle_east_africa",
+    "trusted_themes": []
   },
   {
     "id": "be99057166b5727a",
@@ -7143,7 +7717,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-05T17:20:48.130594+00:00"
+    "fetched_at": "2026-10-05T17:20:48.130594+00:00",
+    "trusted_themes": []
   },
   {
     "id": "e8716d4c78f71b3d",
@@ -7157,7 +7732,10 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:25:31.599603+00:00"
+    "fetched_at": "2026-10-06T14:25:31.599603+00:00",
+    "trusted_themes": [
+      "military"
+    ]
   },
   {
     "id": "9fad834ffb45bc41",
@@ -7172,7 +7750,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.611391+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "aa699b1a7d0f4c6d",
@@ -7186,7 +7765,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.611436+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "49bcc16f83b458ba",
@@ -7200,7 +7780,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.611484+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "69009eedc1e3320e",
@@ -7214,7 +7795,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.611542+00:00",
     "source_region": "us",
-    "subject_region": "eu"
+    "subject_region": "eu",
+    "trusted_themes": []
   },
   {
     "id": "9627cd5245aec608",
@@ -7228,7 +7810,8 @@
     ],
     "fetched_at": "2026-09-25T16:44:13.771974+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "330df1268189ff8d",
@@ -7243,7 +7826,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.611607+00:00",
     "source_region": "us",
-    "subject_region": "russia_eurasia"
+    "subject_region": "russia_eurasia",
+    "trusted_themes": []
   },
   {
     "id": "745a9e95424357f5",
@@ -7258,7 +7842,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.611658+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "75dbce8ddc2fd717",
@@ -7272,7 +7857,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.611722+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "5510b50b9bc185c4",
@@ -7286,7 +7872,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.611780+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "b1fcef5d3a6769e9",
@@ -7300,7 +7887,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.611844+00:00",
     "source_region": "us",
-    "subject_region": "russia_eurasia"
+    "subject_region": "russia_eurasia",
+    "trusted_themes": []
   },
   {
     "id": "a9b7889d05ef04ed",
@@ -7314,7 +7902,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.611897+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "bb4ffe628105abfd",
@@ -7346,7 +7935,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.612008+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "e5356a5991facbe8",
@@ -7360,7 +7950,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.612077+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "b59f752d4ffc3993",
@@ -7374,7 +7965,10 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:25:31.600814+00:00"
+    "fetched_at": "2026-10-06T14:25:31.600814+00:00",
+    "trusted_themes": [
+      "military"
+    ]
   },
   {
     "id": "22161e3c3455dfe5",
@@ -7388,7 +7982,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.612202+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "bc76487535c95e56",
@@ -7402,7 +7997,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.612250+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "48480e71ea908acf",
@@ -7416,7 +8012,8 @@
     ],
     "fetched_at": "2026-09-25T16:44:11.007457+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "ad19e2b6f75882a3",
@@ -7430,7 +8027,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.612362+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "b9202a20d2b0a45a",
@@ -7444,7 +8042,8 @@
     ],
     "fetched_at": "2026-09-25T14:38:37.612406+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "7f86a876f0536217",
@@ -7458,7 +8057,10 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:52.598731+00:00"
+    "fetched_at": "2026-10-06T14:05:52.598731+00:00",
+    "trusted_themes": [
+      "military"
+    ]
   },
   {
     "id": "0e6eac5e5075c556",
@@ -7490,7 +8092,10 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:25:31.602620+00:00"
+    "fetched_at": "2026-10-06T14:25:31.602620+00:00",
+    "trusted_themes": [
+      "military"
+    ]
   },
   {
     "id": "cf6354feb6a1592b",
@@ -7504,7 +8109,10 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-05T17:20:59.999687+00:00"
+    "fetched_at": "2026-10-05T17:20:59.999687+00:00",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "6fe8036a70696084",
@@ -7536,7 +8144,10 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-05T17:21:00.002641+00:00"
+    "fetched_at": "2026-10-05T17:21:00.002641+00:00",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "e24ea347989546f7",
@@ -7550,7 +8161,10 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:25:31.604201+00:00"
+    "fetched_at": "2026-10-06T14:25:31.604201+00:00",
+    "trusted_themes": [
+      "military"
+    ]
   },
   {
     "id": "238433a3978b0df7",
@@ -7566,7 +8180,10 @@
     ],
     "fetched_at": "2026-09-25T17:17:17.093254+00:00",
     "source_region": "eu",
-    "subject_region": "france"
+    "subject_region": "france",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "c81a92cd370eff32",
@@ -7580,7 +8197,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:04:44.091219+00:00"
+    "fetched_at": "2026-10-06T14:04:44.091219+00:00",
+    "trusted_themes": []
   },
   {
     "id": "b15ec1e0864c6caf",
@@ -7594,7 +8212,10 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:33.482131+00:00"
+    "fetched_at": "2026-10-06T14:05:33.482131+00:00",
+    "trusted_themes": [
+      "energy_industry"
+    ]
   },
   {
     "id": "2b3150b9178ea02f",
@@ -7608,7 +8229,10 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:52.600326+00:00"
+    "fetched_at": "2026-10-06T14:05:52.600326+00:00",
+    "trusted_themes": [
+      "military"
+    ]
   },
   {
     "id": "bfdec3fbee0350e4",
@@ -7622,7 +8246,8 @@
     ],
     "fetched_at": "2026-09-25T16:44:11.007636+00:00",
     "source_region": "us",
-    "subject_region": "eu"
+    "subject_region": "eu",
+    "trusted_themes": []
   },
   {
     "id": "9fda54e7012b36c4",
@@ -7636,7 +8261,8 @@
     ],
     "fetched_at": "2026-09-25T16:44:11.007675+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "bc0304162994e1a7",
@@ -7650,7 +8276,8 @@
     ],
     "fetched_at": "2026-09-25T16:44:11.007790+00:00",
     "source_region": "us",
-    "subject_region": "russia_eurasia"
+    "subject_region": "russia_eurasia",
+    "trusted_themes": []
   },
   {
     "id": "55b1e3f7ece01bbc",
@@ -7664,7 +8291,8 @@
     ],
     "fetched_at": "2026-09-25T16:44:11.007837+00:00",
     "source_region": "us",
-    "subject_region": "us"
+    "subject_region": "us",
+    "trusted_themes": []
   },
   {
     "id": "c9d09324549c3340",
@@ -7678,7 +8306,8 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-01T08:58:02.364732+00:00"
+    "fetched_at": "2026-10-01T08:58:02.364732+00:00",
+    "trusted_themes": []
   },
   {
     "id": "a2d91a97d0ef3a5f",
@@ -7692,7 +8321,10 @@
     "themes": [
       "energy_industry"
     ],
-    "fetched_at": "2026-10-06T14:05:33.484584+00:00"
+    "fetched_at": "2026-10-06T14:05:33.484584+00:00",
+    "trusted_themes": [
+      "energy_industry"
+    ]
   },
   {
     "id": "710286d1f4bbd07e",
@@ -7706,7 +8338,8 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-01T08:58:02.372144+00:00"
+    "fetched_at": "2026-10-01T08:58:02.372144+00:00",
+    "trusted_themes": []
   },
   {
     "id": "7413740d269aaa26",
@@ -7720,7 +8353,8 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-05T17:20:45.472721+00:00"
+    "fetched_at": "2026-10-05T17:20:45.472721+00:00",
+    "trusted_themes": []
   },
   {
     "id": "7a7172b2b1c8efde",
@@ -7734,7 +8368,8 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-01T08:58:02.374031+00:00"
+    "fetched_at": "2026-10-01T08:58:02.374031+00:00",
+    "trusted_themes": []
   },
   {
     "id": "0abd6b73f050dbbf",
@@ -7748,7 +8383,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-01T08:58:02.375705+00:00"
+    "fetched_at": "2026-10-01T08:58:02.375705+00:00",
+    "trusted_themes": []
   },
   {
     "id": "9cd70bba729cc4f1",
@@ -7762,7 +8398,8 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-01T08:58:02.378306+00:00"
+    "fetched_at": "2026-10-01T08:58:02.378306+00:00",
+    "trusted_themes": []
   },
   {
     "id": "81e7ad28cc7912f9",
@@ -7776,78 +8413,10 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-05T17:21:03.800659+00:00"
-  },
-  {
-    "id": "9c86d2497a2f0dfd",
-    "title": "Environnement 2h44min de lecture ETUDE 136 - 06/2026 Les interventions HADR face aux aléas environnementaux Marine de Guglielmo Weber, Florian Opillard, Carine Pina",
-    "link": "https://www.irsem.fr/publications/les-interventions-hadr-face-aux-aleas-environnementaux",
-    "date": "2026-06-01",
-    "summary": "Etude 136 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.879625+00:00"
-  },
-  {
-    "id": "9e5baa3aeec5c5b3",
-    "title": "Stratégie 1 min de lecture Enquête - 06/2026 2030: What to Expect? Philippe Perchoc, Marie Hiliquin",
-    "link": "https://www.irsem.fr/publications/2030-what-to-expect",
-    "date": "2026-06-01",
-    "summary": "Enquête de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.880950+00:00"
-  },
-  {
-    "id": "b3be79e9f29a5ff3",
-    "title": "1 min de lecture Publication - 06/2026 Le consentement des Français au financement des dépenses de défense : analyse de l’enquête du Conseil des prélèvements obligatoires (2025) Pierre C. Boyer, Martial Foucault, Jonathan Garson",
-    "link": "https://www.irsem.fr/publications/le-consentement-des-francais-au-financement-des-depenses-de-defense-analyse-de-lenquete-du-conseil-des-prelevements-obligatoires-2025",
-    "date": "2026-06-01",
-    "summary": "Publication de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.883132+00:00"
-  },
-  {
-    "id": "6eda7044f82894d0",
-    "title": "1 min de lecture Livre - 06/2026 La guerre d’Europe a commencé Céline Marangé",
-    "link": "https://www.irsem.fr/publications/la-guerre-deurope-a-commence",
-    "date": "2026-06-01",
-    "summary": "Livre de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "eu",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.884296+00:00"
-  },
-  {
-    "id": "d93dd485b44f1586",
-    "title": "Influence 18 min de lecture Veille Stratégique 4 - 06/2026 Empreinte de la Chine à l’étranger Hugo Tierny",
-    "link": "https://www.irsem.fr/publications/empreinte-de-la-chine-a-letranger-2",
-    "date": "2026-06-01",
-    "summary": "Veille stratégique 4 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "china",
-    "themes": [
-      "intelligence",
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.885699+00:00"
+    "fetched_at": "2026-10-05T17:21:03.800659+00:00",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "adc7a87cd72f4ca5",
@@ -7861,7 +8430,8 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-01T08:58:02.386178+00:00"
+    "fetched_at": "2026-10-01T08:58:02.386178+00:00",
+    "trusted_themes": []
   },
   {
     "id": "cb7682cfc70714ad",
@@ -7876,7 +8446,8 @@
       "intelligence",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-01T08:58:03.734576+00:00"
+    "fetched_at": "2026-10-01T08:58:03.734576+00:00",
+    "trusted_themes": []
   },
   {
     "id": "479525ea153a732e",
@@ -7891,134 +8462,8 @@
       "intelligence",
       "energy_industry"
     ],
-    "fetched_at": "2026-10-05T17:20:38.702070+00:00"
-  },
-  {
-    "id": "e0669e331bbb8d1b",
-    "title": "Espace Stratégie 8 min de lecture Brève stratégique 92 - 05/2026 La coopération russo-iranienne dans le domaine spatial Nicolas Pillet",
-    "link": "https://www.irsem.fr/publications/la-cooperation-russo-iranienne-dans-le-domaine-spatial",
-    "date": "2026-05-01",
-    "summary": "Brève stratégique 92 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.887295+00:00"
-  },
-  {
-    "id": "a1f8d7f077901113",
-    "title": "Espace Stratégie 8 min de lecture Brève stratégique 91 - 05/2026 Quand la « transparence » devient une menace Béatrice Hainaut",
-    "link": "https://www.irsem.fr/publications/quand-la-transparence-devient-une-menace",
-    "date": "2026-05-01",
-    "summary": "Brève stratégique 91 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.888886+00:00"
-  },
-  {
-    "id": "b628780e1e8fd18a",
-    "title": "1 min de lecture Livre - 05/2026 Le Viêt Nam en 100 questions Benoît de Tréglodé",
-    "link": "https://www.irsem.fr/publications/le-viet-nam-en-100-questions",
-    "date": "2026-05-01",
-    "summary": "Livre de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.890034+00:00"
-  },
-  {
-    "id": "0bd7ce597bae3c4a",
-    "title": "Stratégie 1h31min de lecture Etude 135 - 05/2026 How do wars end ? \"Securitisation\" and the problem of victory and defeat Sir Hew Strachan",
-    "link": "https://www.irsem.fr/publications/how-do-wars-end-securitisation-and-the-problem-of-victory-and-defeat",
-    "date": "2026-05-01",
-    "summary": "Etude 135 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.891600+00:00"
-  },
-  {
-    "id": "3480690de31b750f",
-    "title": "Influence Stratégie 17 min de lecture VEILLE STRATÉGIQUE 3 - 04/2026 Récits et discours stratégiques de la République populaire de Chine Paul Charon",
-    "link": "https://www.irsem.fr/publications/recits-et-discours-strategiques-de-la-republique-populaire-de-chine",
-    "date": "2026-04-01",
-    "summary": "Veille stratégique 3 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "china",
-    "themes": [
-      "intelligence",
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.893316+00:00"
-  },
-  {
-    "id": "c4fdbd5eb06e6321",
-    "title": "Défense 8 min de lecture BRÈVE STRATÉGIQUE 90 - 04/2026 Repenser la posture de défense des États du Golfe après la guerre Olivier Passot",
-    "link": "https://www.irsem.fr/publications/repenser-la-posture-de-defense-des-etats-du-golfe-apres-la-guerre",
-    "date": "2026-04-01",
-    "summary": "Brève stratégique 90 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.894950+00:00"
-  },
-  {
-    "id": "8938145286e16c6f",
-    "title": "Environnement 2h25min de lecture ÉTUDE 134 - 04/2026 Penser la durabilité à l'ère de la préparation de la guerre Marine de Guglielmo Weber, Sophia Maller",
-    "link": "https://www.irsem.fr/publications/penser-la-durabilite-a-lair-de-la-preparation-de-la-guerre",
-    "date": "2026-04-01",
-    "summary": "Étude 134 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.896620+00:00"
-  },
-  {
-    "id": "88e3c842fd077dd2",
-    "title": "Influence Stratégie 2h18min de lecture ÉTUDE 133 - 04/2026 Stratégies chinoises et équilibres de puissance en Océanie insulaire Carine Pina",
-    "link": "https://www.irsem.fr/publications/strategies-chinoises-et-equilibres-de-puissance-en-oceanie-insulaire",
-    "date": "2026-04-01",
-    "summary": "Étude 133 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "china",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.898328+00:00"
-  },
-  {
-    "id": "306aa2e0ac6a0611",
-    "title": "Stratégie Politique 8 min de lecture BRÈVE STRATÉGIQUE 89 - 04/2026 Fragmentation ou complémentarité ? Le rôle de l'Union européenne dans la gouvernance des vulnérabilités informatiques Jeanne-Louise Roellinger",
-    "link": "https://www.irsem.fr/publications/fragmentation-ou-complementarite-le-role-de-lunion-europeenne-dans-la-gouvernance-des-vulnerabilites-informatiques",
-    "date": "2026-04-01",
-    "summary": "Brève stratégique 89 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "eu",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.900902+00:00"
+    "fetched_at": "2026-10-05T17:20:38.702070+00:00",
+    "trusted_themes": []
   },
   {
     "id": "b582250a298d1c43",
@@ -8032,136 +8477,10 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-05T17:21:03.801621+00:00"
-  },
-  {
-    "id": "d0f8098c9c03b701",
-    "title": "Stratégie Politique 56 min de lecture NOTE DE RECHERCHE 151 - 03/2026 La part du lion : Trump et les enjeux indivisibles Elie Baranets",
-    "link": "https://www.irsem.fr/publications/la-part-du-lion-trump-et-les-enjeux-indivisibles",
-    "date": "2026-03-01",
-    "summary": "Note de recherche 151 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "us",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.902804+00:00"
-  },
-  {
-    "id": "dfac04cef93ad94e",
-    "title": "Influence 15 min de lecture Veille Stratégique 02 - 03/2026 Empreinte de la Chine à l’étranger Hugo Tierny",
-    "link": "https://www.irsem.fr/publications/empreinte-de-la-chine-a-letranger-1",
-    "date": "2026-03-01",
-    "summary": "Veille stratégique 02 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "china",
-    "themes": [
-      "intelligence",
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.904849+00:00"
-  },
-  {
-    "id": "680e9e3eaff2253a",
-    "title": "Droit 2h32min de lecture Etude 132 - 03/2026 L’écriture des constitutions en période de conflit armé : étude interdisciplinaire Yaodia Sénou-Dumartin, Anne-Hélène Bertana, Julien Monnet, Manon Bonnet, Théo Fournier",
-    "link": "https://www.irsem.fr/publications/lecriture-des-constitutions-en-periode-de-conflit-arme-etude-interdisciplinaire",
-    "date": "2026-03-01",
-    "summary": "Etude 132 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.906970+00:00"
-  },
-  {
-    "id": "edaf7e74eeb2e646",
-    "title": "Renseignement 8 min de lecture Brève stratégique 88 - 02/2026 Négocier l'Ukraine. Les services de renseignement russes et la recomposition sécuritaire de la politique étrangère Clément Renault",
-    "link": "https://www.irsem.fr/publications/negocier-lukraine-les-services-de-renseignement-russes-et-la-recomposition-securitaire-de-la-politique-etrangere",
-    "date": "2026-02-01",
-    "summary": "Brève stratégique 88 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "russia_eurasia",
-    "themes": [
-      "intelligence",
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.908638+00:00"
-  },
-  {
-    "id": "902d13f7ed2e03f2",
-    "title": "Droit 8 min de lecture Brève stratégique 87 - 01/2026 L'opération « Absolute Resolve » : une attaque contre le droit Yaodia Senou-Dumartin, Julien Ancelin",
-    "link": "https://www.irsem.fr/publications/loperation-absolute-resolve-une-attaque-contre-le-droit",
-    "date": "2026-01-01",
-    "summary": "Brève stratégique 87 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.910407+00:00"
-  },
-  {
-    "id": "6bc67239ae0cd852",
-    "title": "Stratégie 8 min de lecture Brève stratégique 86 - 01/2026 La confrontation saoudo-émiratie au Yémen du Sud - Deux visions opposées de l'ordre régional Fatiha Dazi-Héni",
-    "link": "https://www.irsem.fr/publications/la-confrontation-saoudo-emiratie-au-yemen-du-sud-deux-visions-opposees-de-lordre-regional",
-    "date": "2026-01-01",
-    "summary": "Brève stratégique 86 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "middle_east_africa",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.912254+00:00"
-  },
-  {
-    "id": "e47f42a248780d33",
-    "title": "Politique Défense 3h38min de lecture Étude 131 - 01/2026 Dissuader la Chine ? Taïwan et les États-Unis face à leurs dilemmes défensifs Hugo Tierny",
-    "link": "https://www.irsem.fr/publications/dissuader-la-chine-taiwan-et-les-etats-unis-face-a-leurs-dilemmes-defensifs",
-    "date": "2026-01-01",
-    "summary": "Étude 131 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "china",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.913861+00:00"
-  },
-  {
-    "id": "62005562b7d49093",
-    "title": "14 min de lecture Veille stratégique 1 - 01/2026 Empreinte de la Chine à l'étranger Hugo Tierny",
-    "link": "https://www.irsem.fr/publications/empreinte-de-la-chine-a-letranger",
-    "date": "2026-01-01",
-    "summary": "Veille stratégique 1 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "china",
-    "themes": [
-      "intelligence",
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.915181+00:00"
-  },
-  {
-    "id": "d615cc9cf862e00b",
-    "title": "Société Sécurité 1h25min de lecture Étude 130 - 01/2026 Des institutions en (r)évolution : Armée et police en Tunisie après 2011 Audrey Pluta",
-    "link": "https://www.irsem.fr/publications/des-institutions-en-revolution-armee-et-police-en-tunisie-apres-2011",
-    "date": "2026-01-01",
-    "summary": "Étude 130 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.916775+00:00"
+    "fetched_at": "2026-10-05T17:21:03.801621+00:00",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "ec217b9fed766aea",
@@ -8175,134 +8494,10 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-05T17:21:03.802607+00:00"
-  },
-  {
-    "id": "49a355c1f0fb3372",
-    "title": "Influence Sécurité 1h56min de lecture Étude 129 - 12/2025 La Chine en Afrique des « diplomaties » alternatives pour de nouveaux enjeux sécuritaires Alexandre Lauret, Mathieu Mérino, Carine Pina",
-    "link": "https://www.irsem.fr/publications/la-chine-en-afrique-des-diplomaties-alternatives-pour-de-nouveaux-enjeux-securitaires",
-    "date": "2025-12-01",
-    "summary": "Étude 129 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "china",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.918729+00:00"
-  },
-  {
-    "id": "12994e36f9da4f46",
-    "title": "Société Histoire 1h56min de lecture Étude 128 - 11/2025 Le retour du service militaire en Europe : de la suppression des conscriptions après la fin de la guerre froide à leur rétablissement relatif depuis 2022 Maxime Launay",
-    "link": "https://www.irsem.fr/publications/le-retour-du-service-militaire-en-europe-de-la-suppression-des-conscriptions-apres-la-fin-de-la-guerre-froide-a-leur-retablissement-relatif-depuis-2022",
-    "date": "2025-11-01",
-    "summary": "Étude 128 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "eu",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.920866+00:00"
-  },
-  {
-    "id": "8943cb141052b9a4",
-    "title": "Défense 27 min de lecture Note de recherche 150 - 11/2025 Bénin - derrière le mirage de stabilité : conflits armés transnationaux et fractures internes Tanguy Quidelleur",
-    "link": "https://www.irsem.fr/publications/benin-derriere-le-mirage-de-stabilite-conflits-armes-transnationaux-et-fractures-internes",
-    "date": "2025-11-01",
-    "summary": "Note de recherche 150 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.922659+00:00"
-  },
-  {
-    "id": "0b35e4490be34973",
-    "title": "Stratégie Politique 17 min de lecture Note de recherche 149 - 11/2025 Irak : un long chemin vers la réhabilitation Isabelle Lafargue",
-    "link": "https://www.irsem.fr/publications/irak-un-long-chemin-vers-la-rehabilitation",
-    "date": "2025-11-01",
-    "summary": "Note de recherche 149 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "middle_east_africa",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.924234+00:00"
-  },
-  {
-    "id": "993c5198989845b4",
-    "title": "Renseignement 1h53min de lecture Étude 127 - 10/2025 Surveiller sans voir : Les services de renseignement israéliens et l’échec du 7 octobre Clément Renault",
-    "link": "https://www.irsem.fr/publications/surveiller-sans-voir-les-services-de-renseignement-israeliens-et-lechec-du-7-octobre",
-    "date": "2025-10-01",
-    "summary": "Étude 127 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "intelligence",
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.925639+00:00"
-  },
-  {
-    "id": "e907add058f6d18d",
-    "title": "Stratégie 41 min de lecture Note de recherche 148 - 10/2025 Arabie Saoudite - Quels leviers de puissance au Proche-Moyen-Orient ? Fatiha Dazi-Héni",
-    "link": "https://www.irsem.fr/publications/arabie-saoudite-quels-leviers-de-puissance-au-proche-moyen-orient",
-    "date": "2025-10-01",
-    "summary": "Note de recherche 148 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "middle_east_africa",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.927314+00:00"
-  },
-  {
-    "id": "a4172d6f4d22235d",
-    "title": "Influence Défense Defense Influence 1h22min de lecture Focus 3 - 10/2025 Baybridge. Anatomy of a chinese information influence ecosystem Paul Charon, Tadaweb",
-    "link": "https://www.irsem.fr/publications/baybridge-anatomy-of-a-chinese-information-influence-ecosystem",
-    "date": "2025-10-01",
-    "summary": "Publication de l'IRSEM.",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "china",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.928581+00:00"
-  },
-  {
-    "id": "ce4d1df44de133a4",
-    "title": "Politique 2h1min de lecture Étude 126 - 09/2025 La puissance sans principe, géopolitique du trumpisme Maud Quessard",
-    "link": "https://www.irsem.fr/publications/la-puissance-sans-principe-geopolitique-du-trumpisme",
-    "date": "2025-09-01",
-    "summary": "Étude 126 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.929979+00:00"
-  },
-  {
-    "id": "0970060ffb19409e",
-    "title": "Stratégie Politique 8 min de lecture Brève stratégique 85 - 09/2025 Sommet de La Haye. De la (fausse) prudence stratégique à l’érosion politique Côme Lécossais",
-    "link": "https://www.irsem.fr/publications/sommet-de-la-haye-de-la-fausse-prudence-strategique-a-lerosion-politique",
-    "date": "2025-09-01",
-    "summary": "Brève stratégique 85 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.931753+00:00"
+    "fetched_at": "2026-10-05T17:21:03.802607+00:00",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "e0a877af56a8d73d",
@@ -8316,77 +8511,10 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-05T17:44:26.620282+00:00"
-  },
-  {
-    "id": "91d455f3844f788d",
-    "title": "Droit 8 min de lecture Brève stratégique 84 - 08/2025 Inclure pour exclure ? La face cachée du texte constitutionnel en Guinée Yaodia Sénou-Dumartin",
-    "link": "https://www.irsem.fr/publications/inclure-pour-exclure-la-face-cachee-du-texte-constitutionnel-en-guinee",
-    "date": "2025-08-01",
-    "summary": "Brève stratégique 84 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.933431+00:00"
-  },
-  {
-    "id": "58e4e8deb2936804",
-    "title": "Politique 1h4min de lecture Focus 2 - 08/2025 Vers une sécession douce ? La fragmentation invisible : Géopolitique interne du Trumpisme et désunion post-libérale aux États-Unis Maud Quessard",
-    "link": "https://www.irsem.fr/publications/vers-une-secession-douce-la-fragmentation-invisible-geopolitique-interne-du-trumpisme-et-desunion-post-liberale-aux-etats-unis",
-    "date": "2025-08-01",
-    "summary": "Publication de l'IRSEM.",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "us",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.935570+00:00"
-  },
-  {
-    "id": "071c600ab2c43d94",
-    "title": "Influence Histoire 2h10min de lecture Focus 1 - 07/2025 L'influence chinoise dans les Kiribati. À l'épreuve de la longue durée Eric Frécon",
-    "link": "https://www.irsem.fr/publications/linfluence-chinoise-dans-les-kiribati-a-lepreuve-de-la-longue-duree",
-    "date": "2025-07-01",
-    "summary": "Publication de l'IRSEM.",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "china",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.937170+00:00"
-  },
-  {
-    "id": "fb40fcaabc462120",
-    "title": "Stratégie 1h20min de lecture Étude 125 - 06/2025 Estonie, Lettonie, Lituanie. De la périphérie au centre du débat stratégique européen Philippe Perchoc",
-    "link": "https://www.irsem.fr/publications/estonie-lettonie-lituanie-de-la-peripherie-au-centre-du-debat-strategique-europeen",
-    "date": "2025-06-01",
-    "summary": "Étude 125 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "eu",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.938802+00:00"
-  },
-  {
-    "id": "d70e6ca596657e2c",
-    "title": "Droit Histoire 1h48min de lecture Étude 124 - 06/2025 L'état de siège sur le territoire métropolitain français. Approches historique, juridique et socio-géographique Maxime Launay, Florian Opillard",
-    "link": "https://www.irsem.fr/publications/letat-de-siege-sur-le-territoire-metropolitain-francais-approches-historique-juridique-et-socio-geographique",
-    "date": "2025-06-01",
-    "summary": "Étude 124 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.940734+00:00"
+    "fetched_at": "2026-10-05T17:44:26.620282+00:00",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "7d0a2c9a62718eb0",
@@ -8400,35 +8528,10 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-05T17:44:26.621749+00:00"
-  },
-  {
-    "id": "269722c01414c1a4",
-    "title": "Business Strategy in a Fragmenting World: Firms, States, and Civil Society - IRSEM",
-    "link": "https://www.irsem.fr/agenda/business-strategy-in-a-fragmenting-world-firms-states-and-civil-society-1.html",
-    "date": "2025-05-13",
-    "summary": "Announcing \"Business Strategy in A Fragmenting World\", June 2nd in Paris as École Militaire. @irsem.bsky.social #HECParis #IRSEM. Keynote speaker Olivier Blum of Schneider Electric. Check our line up below: www.irsem.fr/agenda/busin...",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-09-27T20:41:04.991715+00:00"
-  },
-  {
-    "id": "c537a7356bb17650",
-    "title": "Espace 1h45min de lecture Étude 123 - 05/2025 La guerre des fréquences – Vers une marchandisation de la ressource spectre/orbite ? CNE Béatrice Hainaut",
-    "link": "https://www.irsem.fr/publications/la-guerre-des-frequences-vers-une-marchandisation-de-la-ressource-spectreorbite",
-    "date": "2025-05-01",
-    "summary": "Étude 123 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.942554+00:00"
+    "fetched_at": "2026-10-05T17:44:26.621749+00:00",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "27ab5633aeb4e80d",
@@ -8442,134 +8545,10 @@
     "themes": [
       "military"
     ],
-    "fetched_at": "2026-10-06T14:05:52.593387+00:00"
-  },
-  {
-    "id": "d626bbea1264776b",
-    "title": "Droit 8 min de lecture Brève stratégique 83 - 04/2025 Annonces des retraits des Conventions d’Ottawa et d’Oslo : un signal inquiétant Julia Grignon, Inès Bouffartigue-Sebastia",
-    "link": "https://www.irsem.fr/publications/annonces-des-retraits-des-conventions-dottawa-et-doslo-un-signal-inquietant",
-    "date": "2025-04-01",
-    "summary": "Brève stratégique 83 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
+    "fetched_at": "2026-10-06T14:05:52.593387+00:00",
+    "trusted_themes": [
       "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.944418+00:00"
-  },
-  {
-    "id": "015cf3a6fb70f988",
-    "title": "Stratégie Défense 1h51min de lecture Étude 122 - 04/2025 Quand la Chine frappe à la porte de la Nouvelle-Calédonie Anne-Marie Brady",
-    "link": "https://www.irsem.fr/publications/quand-la-chine-frappe-a-la-porte-de-la-nouvelle-caledonie",
-    "date": "2025-04-01",
-    "summary": "Étude 122 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "china",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.945907+00:00"
-  },
-  {
-    "id": "aa1bc1b96ff00f02",
-    "title": "Influence Stratégie 42 min de lecture Note de recherche 147 - 04/2025 L’aide américaine à l’Ukraine. Modalités, acteurs du soutien et perspectives face à Trump II Gabriel Porc",
-    "link": "https://www.irsem.fr/publications/laide-americaine-a-lukraine-modalites-acteurs-du-soutien-et-perspectives-face-a-trump-ii",
-    "date": "2025-04-01",
-    "summary": "Note de recherche 147 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "us",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.947785+00:00"
-  },
-  {
-    "id": "97326602d395b0bb",
-    "title": "Influence Environment 7 min de lecture Strategic Brief 82 - 03/2025 The Belt and Road Initiative in Central Asia: Trade, Influence and Rivalries Marie Hiliquin",
-    "link": "https://www.irsem.fr/publications/the-belt-and-road-initiative-in-central-asia-trade-influence-and-rivalries-1",
-    "date": "2025-03-01",
-    "summary": "Publication de l'IRSEM.",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "russia_eurasia",
-    "themes": [
-      "military",
-      "energy_industry"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.949524+00:00"
-  },
-  {
-    "id": "122b82c861992905",
-    "title": "Influence Histoire 7 min de lecture Brève stratégique 81 - 03/2025 Trump, Poutine et l’arsenalisation du révisionnisme historique. Réécrire la fin de la guerre froide et redéfinir l’ordre mondial Maud Quessard",
-    "link": "https://www.irsem.fr/publications/trump-poutine-et-larsenalisation-du-revisionnisme-historique-reecrire-la-fin-de-la-guerre-froide-et-redefinir-lordre-mondial",
-    "date": "2025-03-01",
-    "summary": "Brève stratégique 81 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "us",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.951616+00:00"
-  },
-  {
-    "id": "bc4636b4c3d89064",
-    "title": "Environnement 8 min de lecture Brève stratégique 80 - 03/2025 Les mesures de l’administration Trump 2 à l’égard des sciences : quelles conséquences pour la sécurité climatique ? Marine De Guglielmo Weber",
-    "link": "https://www.irsem.fr/publications/les-mesures-de-ladministration-trump-2-a-legard-des-sciences-quelles-consequences-pour-la-securite-climatique",
-    "date": "2025-03-01",
-    "summary": "Brève stratégique 80 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "us",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.953677+00:00"
-  },
-  {
-    "id": "0d2788b9a01c7a81",
-    "title": "Politique 8 min de lecture Brève stratégique 79 - 03/2025 Riyad et l'administration Trump 2 Fatiha Dazi-Héni",
-    "link": "https://www.irsem.fr/publications/riyad-et-ladministration-trump-2",
-    "date": "2025-03-01",
-    "summary": "Brève stratégique 79 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "us",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.955099+00:00"
-  },
-  {
-    "id": "c37e52b9df87d874",
-    "title": "Société 51 min de lecture Note de recherche 146 - 03/2025 Les pratiques chinoises d'ensemencement des nuages sur le plateau tibétain Marine de Guglielmo Weber, Amrita Jash",
-    "link": "https://www.irsem.fr/publications/les-pratiques-chinoises-densemencement-des-nuages-sur-le-plateau-tibetain",
-    "date": "2025-03-01",
-    "summary": "Note de recherche 146 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "china",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.956941+00:00"
-  },
-  {
-    "id": "9b7ff96171cf772b",
-    "title": "Société Stratégie 2h41min de lecture Étude 121 - 03/2025 Les wargames dans la formation de l'officier CNE Yves Auffret",
-    "link": "https://www.irsem.fr/publications/les-wargames-dans-la-formation-de-lofficier",
-    "date": "2025-03-01",
-    "summary": "Étude 121 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.958344+00:00"
+    ]
   },
   {
     "id": "ded6176049831145",
@@ -8583,49 +8562,10 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-05T17:44:26.623230+00:00"
-  },
-  {
-    "id": "696d606548d284a5",
-    "title": "Stratégie 7 min de lecture Brève stratégique 78 - 02/2025 The European Union and Trump 2.0: Principled Pragmatism and Strategic Patience Brice Didier",
-    "link": "https://www.irsem.fr/publications/The%20European%20Union%20and%20Trump%202.0:%20Principled%20Pragmatism%20and%20Strategic%20Patience",
-    "date": "2025-02-01",
-    "summary": "Brève stratégique 78 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "eu",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.960030+00:00"
-  },
-  {
-    "id": "f236ff2c360b8f99",
-    "title": "Stratégie 7 min de lecture Brève stratégique 77 - 01/2025 The European Union and Trump 2.0: Transatlantic Rupture and Strategic Autonomy Brice Didier",
-    "link": "https://www.irsem.fr/publications/the-european-union-and-trump-20-transatlantic-rupture-and-strategic-autonomy-1-1",
-    "date": "2025-01-01",
-    "summary": "Brève stratégique 77 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "eu",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.961698+00:00"
-  },
-  {
-    "id": "953e817dd99b1682",
-    "title": "Influence Stratégie 7 min de lecture Brève stratégique 76 - 01/2025 Smart Power: Foreign Policy Signalling of Taiwan under the Tsai Administration",
-    "link": "https://www.irsem.fr/publications/smart-power-foreign-policy-signalling-of-taiwan-under-the-tsai-administration-1",
-    "date": "2025-01-01",
-    "summary": "Brève stratégique 76 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "china",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.963377+00:00"
+    "fetched_at": "2026-10-05T17:44:26.623230+00:00",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "14707db7c3207d80",
@@ -8639,7 +8579,10 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-05T17:44:26.625031+00:00"
+    "fetched_at": "2026-10-05T17:44:26.625031+00:00",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "cc18194b8f3bcb59",
@@ -8653,106 +8596,10 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-05T17:44:26.626698+00:00"
-  },
-  {
-    "id": "dec576b79dc8ee8b",
-    "title": "Société Politique 7 min de lecture Brève stratégique 75 - 11/2024 L’arsenalisation de la masculinité dans la campagne électorale de Donald Trump Projet de genre masculiniste et risque sécuritaire Florent Opillard",
-    "link": "https://www.irsem.fr/publications/larsenalisation-de-la-masculinite-dans-la-campagne-electorale-de-donald-trump-projet-de-genre-masculiniste-et-risque-securitaire",
-    "date": "2024-11-01",
-    "summary": "Brève stratégique 75 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "us",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.965476+00:00"
-  },
-  {
-    "id": "e544384d5ff371fb",
-    "title": "Stratégie Sécurité 8 min de lecture Brève stratégique 74 - 10/2024 Quelles options pour l’opération terrestre au Liban ? GBR (2) Olivier Passot",
-    "link": "https://www.irsem.fr/publications/quelles-options-pour-loperation-terrestre-au-liban",
-    "date": "2024-10-01",
-    "summary": "Brève stratégique 74 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "middle_east_africa",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.967139+00:00"
-  },
-  {
-    "id": "544ce4d76aca6d47",
-    "title": "Influence Stratégie 1h40min de lecture Étude 120 - 10/2024 Les ambitions de la Russie et de la Chine en Méditerranée Céline Marangé, Carine Pina",
-    "link": "https://www.irsem.fr/publications/les-ambitions-de-la-russie-et-de-la-chine-en-mediterranee",
-    "date": "2024-10-01",
-    "summary": "Étude 120 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "russia_eurasia",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.968739+00:00"
-  },
-  {
-    "id": "a3fda3b46bf173b5",
-    "title": "Sécurité 1h38min de lecture Étude 119 - 10/2024 À bas le néocolonialisme ! » - Résurgence d’un récit stratégique dans la Russie en guerre Maxime Audinet",
-    "link": "https://www.irsem.fr/publications/a-bas-le-neocolonialisme-resurgence-dun-recit-strategique-dans-la-russie-en-guerre",
-    "date": "2024-10-01",
-    "summary": "Étude 119 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "russia_eurasia",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.970392+00:00"
-  },
-  {
-    "id": "90161e219d1e09c1",
-    "title": "Politique 48 min de lecture Note de recherche 145 - 10/2024 L'administration Biden et le retour empêché des États-Unis à la primauté Maud Quessard",
-    "link": "https://www.irsem.fr/publications/ladministration-biden-et-le-retour-empeche-des-etats-unis-a-la-primaute-1",
-    "date": "2024-10-01",
-    "summary": "Note de recherche 145 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "us",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.972075+00:00"
-  },
-  {
-    "id": "aa95210d9d8fd56f",
-    "title": "Stratégie Histoire 3h49min de lecture Étude 118 - 09/2024 Les Houthistes et la mer Rouge Alexandre Lauret",
-    "link": "https://www.irsem.fr/publications/les-houthistes-et-la-mer-rouge",
-    "date": "2024-09-01",
-    "summary": "Étude 118 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "middle_east_africa",
-    "themes": [
-      "military",
-      "energy_industry"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.973337+00:00"
-  },
-  {
-    "id": "ab2d732f2047e3b9",
-    "title": "Politique 7 min de lecture Brève stratégique 73 - 09/2024 La crise géorgienne de 2024 : Un défi pour la coopération européenne Ariane Bachelet",
-    "link": "https://www.irsem.fr/publications/la-crise-georgienne-de-2024-un-defi-pour-la-cooperation-europeenne",
-    "date": "2024-09-01",
-    "summary": "Brève stratégique 73 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.974979+00:00"
+    "fetched_at": "2026-10-05T17:44:26.626698+00:00",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "38a920a83506edbc",
@@ -8766,78 +8613,10 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-05T17:44:26.628250+00:00"
-  },
-  {
-    "id": "f4de68bd36c8bfe0",
-    "title": "Défense Sécurité 31 min de lecture Note de recherche 144 - 07/2024 La stratégie nationale de sécurité allemande : rupture ou continuité stratégique ? Jéronimo L. S. Barbin",
-    "link": "https://www.irsem.fr/publications/la-strategie-nationale-de-securite-allemande-rupture-ou-continuite-strategique",
-    "date": "2024-07-01",
-    "summary": "Note de recherche 144 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.976781+00:00"
-  },
-  {
-    "id": "35e05b37559b4396",
-    "title": "Stratégie Défense 1h10min de lecture Étude 117 - 06/2024 La Marine Turque : un atout militaire pour l'OTAN ? CC Mayeul Pappens",
-    "link": "https://www.irsem.fr/publications/la-marine-turque-un-atout-militaire-pour-lotan",
-    "date": "2024-06-01",
-    "summary": "Étude 117 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.978237+00:00"
-  },
-  {
-    "id": "f8df5a7f9ab522eb",
-    "title": "Économie Environnement 7 min de lecture Brève stratégique 72 - 06/2024 L’exploitation des ressources minières des grands fonds marins internationaux dans le Pacifique : Le rêve de Nauru, de la Chine… et des États-Unis Carine Pina, Nolwenn Gueguen",
-    "link": "https://www.irsem.fr/publications/lexploitation-des-ressources-minieres-des-grands-fonds-marins-internationaux-dans-le-pacifique-le-reve-de-nauru-de-la-chine-et-des-etats-unis",
-    "date": "2024-06-01",
-    "summary": "Brève stratégique 72 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "us",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.980589+00:00"
-  },
-  {
-    "id": "51e9e2ec268cbb54",
-    "title": "Cyber Politique Droit 7 min de lecture Brève stratégique 71 - 06/2024 Plateformes alternatives et désinformation : Odyssee, un angle mort du Digital Service Act Dusan Bozalka",
-    "link": "https://www.irsem.fr/publications/plateformes-alternatives-et-desinformation-odyssee-un-angle-mort-du-digital-service-act",
-    "date": "2024-06-01",
-    "summary": "Brève stratégique 71 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "intelligence",
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.982388+00:00"
-  },
-  {
-    "id": "801a880a2f973367",
-    "title": "Cyber Droit 8 min de lecture Brève stratégique 70 - 06/2024 Extension de la loi FISA : La « souveraineté numérique » européenne loin des préoccupations américaines Clotilde Bômont",
-    "link": "https://www.irsem.fr/publications/extension-de-la-loi-fisa-la-souverainete-numerique-europeenne-loin-des-preoccupations-americaines",
-    "date": "2024-06-01",
-    "summary": "Brève stratégique 70 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "us",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.984284+00:00"
+    "fetched_at": "2026-10-05T17:44:26.628250+00:00",
+    "trusted_themes": [
+      "intelligence"
+    ]
   },
   {
     "id": "230789fdabf298b1",
@@ -8851,189 +8630,9 @@
     "themes": [
       "intelligence"
     ],
-    "fetched_at": "2026-10-05T17:44:26.629659+00:00"
-  },
-  {
-    "id": "e35252abdb72bb67",
-    "title": "Espace 7 min de lecture Brève stratégique 69 - 05/2024 Les ambitions spatiales de la Corée du Sud : de l’émergence du pays à « l’Alliance spatiale » avec les États-Unis Julien Cochet",
-    "link": "https://www.irsem.fr/publications/les-ambitions-spatiales-de-la-coree-du-sud-de-lemergence-du-pays-a-lalliance-spatiale-avec-les-etats-unis",
-    "date": "2024-05-01",
-    "summary": "Brève stratégique 69 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "us",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.986223+00:00"
-  },
-  {
-    "id": "dee7626938eefd1f",
-    "title": "Droit Environnement 8 min de lecture Brève stratégique 68 - 05/2024 La Russie dénoncera-t-elle la Convention des Nations unies sur le droit de la mer (CNUDM) ? Lukas B. Wahden",
-    "link": "https://www.irsem.fr/publications/la-russie-denoncera-t-elle-la-convention-des-nations-unies-sur-le-droit-de-la-mer-cnudm",
-    "date": "2024-05-01",
-    "summary": "Brève stratégique 68 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "russia_eurasia",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.988095+00:00"
-  },
-  {
-    "id": "a0bc333b008d09ed",
-    "title": "Société 1h34min de lecture Étude 116 - 04/2024 Les jeunes et la guerre : représentations et dispositions à l'engagement Anne Muxel",
-    "link": "https://www.irsem.fr/publications/les-jeunes-et-la-guerre-representations-et-dispositions-a-lengagement",
-    "date": "2024-04-01",
-    "summary": "Étude 116 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.989579+00:00"
-  },
-  {
-    "id": "4f8fa96bcbc24864",
-    "title": "Défense 32 min de lecture Note de recherche 142 - 03/2024 La guerre à Gaza et le retour de la question palestinienne : quels impacts sur le rôle de l'Arabie saoudite et sur les accords Abraham ? Fatiha Dazi-Héni",
-    "link": "https://www.irsem.fr/publications/la-guerre-a-gaza-et-le-retour-de-la-question-palestinienne-quels-impacts-sur-le-role-de-larabie-saoudite-et-sur-les-accords-abraham",
-    "date": "2024-03-01",
-    "summary": "Note de recherche 142 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "middle_east_africa",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.994205+00:00"
-  },
-  {
-    "id": "a186bcde0285587f",
-    "title": "Défense Sécurité 1h13min de lecture Étude 115 - 03/2024 La Chine et les opérations militaires autres que la guerre (军队非战争军事行动) à l’étranger : quelles conséquences sur le dilemme de sécurité ? Carine Pina",
-    "link": "https://www.irsem.fr/publications/la-chine-et-les-operations-militaires-autres-que-la-guerre-a-letranger-quelles-consequences-sur-le-dilemme-de-securite",
-    "date": "2024-03-01",
-    "summary": "Étude 115 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "china",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.996443+00:00"
-  },
-  {
-    "id": "69e99b2a76e15607",
-    "title": "Stratégie 51 min de lecture Note de recherhe 141 - 02/2024 Big words, small deeds Russia and China in the Arctic Lukas B. Wahden",
-    "link": "https://www.irsem.fr/publications/big-words-small-deeds-russia-and-china-in-the-arctic",
-    "date": "2024-02-01",
-    "summary": "Publication de l'IRSEM.",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "russia_eurasia",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.997942+00:00"
-  },
-  {
-    "id": "cf7e13bc021d94c5",
-    "title": "Défense 41 min de lecture Note de recherche 140 - 02/2024 The Korean defense industry enters the European security theater an analysis of Korea-Poland arms deals Wooyeal Paik",
-    "link": "https://www.irsem.fr/publications/the-korean-defense-industry-enters-the-european-security-theater-an-analysis-of-korea-poland-arms-deals",
-    "date": "2024-02-01",
-    "summary": "Note de recherche 140 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "eu",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:03.999768+00:00"
-  },
-  {
-    "id": "86dbbf8f84800226",
-    "title": "Influence Politique 1h39min de lecture Étude 114 - 02/2024 Ce que veulent les grandes puissances : La quête de statut de la Chine et l’avenir de l’ordre international Elie Baranets",
-    "link": "https://www.irsem.fr/publications/ce-que-veulent-les-grandes-puissances-la-quete-de-statut-de-la-chine-et-lavenir-de-lordre-international",
-    "date": "2024-02-01",
-    "summary": "Étude 114 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "china",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:04.001620+00:00"
-  },
-  {
-    "id": "f27dd458906147f9",
-    "title": "Société Sécurité 47 min de lecture Étude 113 - 01/2024 Gendarmerie nationale et Guardia civil ; la coopération tous azimuts CNE Louis Vailhen",
-    "link": "https://www.irsem.fr/publications/gendarmerie-nationale-et-guardia-civil-la-cooperation-tous-azimuts",
-    "date": "2024-01-01",
-    "summary": "Étude 113 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:04.003216+00:00"
-  },
-  {
-    "id": "118a5f70d37f376b",
-    "title": "Influence Stratégie 2h16min de lecture Étude 112 - 12/2023 La guerre en Ukraine, un nouveau contexte stratégique pour la Turquie ? Sümbül Kaya",
-    "link": "https://www.irsem.fr/publications/la-guerre-en-ukraine-un-nouveau-contexte-strategique-pour-la-turquie",
-    "date": "2023-12-01",
-    "summary": "Étude 112 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "russia_eurasia",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:04.004857+00:00"
-  },
-  {
-    "id": "2f724c484cb715d8",
-    "title": "Espace Droit 3h1min de lecture Étude 111 - 11/2023 Le droit des conflits armés internationaux appliqué à l'espace extra-atmosphérique. Les défis posés par les satellites artificiels. Jennifer Lachance",
-    "link": "https://www.irsem.fr/publications/le-droit-des-conflits-armes-internationaux-applique-a-lespace-extra-atmospherique-les-defis-poses-par-les-satellites-artificiels",
-    "date": "2023-11-01",
-    "summary": "Étude 111 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military",
-      "energy_industry"
-    ],
-    "fetched_at": "2026-10-05T17:44:04.006756+00:00"
-  },
-  {
-    "id": "99c9bbe1aa05cd76",
-    "title": "Espace Droit 2h51min de lecture Étude 110 - 11/2023 L'établissement de normes de comportement dans l'espace extra-atmosphérique. De la Terre à la Lune, et au-delà. CNE Béatrice Hainaut",
-    "link": "https://www.irsem.fr/publications/letablissement-de-normes-de-comportement-dans-lespace-extra-atmospherique-de-la-terre-a-la-lune-et-au-dela",
-    "date": "2023-11-01",
-    "summary": "Étude 110 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:04.008694+00:00"
-  },
-  {
-    "id": "42018e6ef796b386",
-    "title": "Stratégie Sécurité 8 min de lecture Brève stratégique 67 - 11/2023 Une barrière trop intelligente ? Comment le Hamas s’est joué d’un système de protection très élaboré. GBR (2S) Olivier Passot",
-    "link": "https://www.irsem.fr/publications/une-barriere-trop-intelligente-comment-le-hamas-sest-joue-dun-systeme-de-protection-tres-elabore",
-    "date": "2023-11-01",
-    "summary": "Brève stratégique 67 de l'IRSEM (Institut de recherche stratégique de l'École militaire).",
-    "source": "IRSEM",
-    "source_region": "fr",
-    "subject_region": "france",
-    "themes": [
-      "military"
-    ],
-    "fetched_at": "2026-10-05T17:44:04.010780+00:00"
+    "fetched_at": "2026-10-05T17:44:26.629659+00:00",
+    "trusted_themes": [
+      "intelligence"
+    ]
   }
 ]
