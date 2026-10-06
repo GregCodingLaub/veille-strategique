@@ -147,7 +147,8 @@ def render_item(it):
         + (f"<p>{e(summary)}</p>" if summary else "")
         + f'<div class="meta"><span class="persp" style="background:{tint};color:{colour}">{e(code)}</span>'
         f'<span>{e(it["source"])}</span><span>{e(when_h)}</span>'
-        f'<span class="zone" style="color:{REGION_COLORS[zone]}">{e(REGION_LABELS[zone])}</span>{tags}</div>'
+        + "".join(f"<span>{e(m)}</span>" for m in (it.get("meta") or []))
+        + f'<span class="zone" style="color:{REGION_COLORS[zone]}">{e(REGION_LABELS[zone])}</span>{tags}</div>'
         "</article>"
     )
 
