@@ -56,6 +56,12 @@
   region: eu 
   default_themes: [military]
 
+- name: "The OSINT Newsletter"
+  type: rss
+  url: "https://osintnewsletter.substack.com/feed"
+  region: other
+  default_themes: [intelligence]
+
 # --- France ----------------------------------------------------------------
 - name: "IFRI"
   type: scrape
