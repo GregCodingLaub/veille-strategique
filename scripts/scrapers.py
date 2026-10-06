@@ -237,28 +237,73 @@ def _irsem_date(text):
     return f"{year:04d}-{month:02d}-{int(day or 1):02d}"
 
 
+_IRSEM_TYPE_ANY = re.compile(
+    r"\b(étude|etude|brève stratégique|breve strategique|note de recherche|note stratégique|"
+    r"note strategique|veille stratégique|veille strategique|livre|enquête|enquete|"
+    r"rapport|publication)\b(?:\s*(?:n°\s*)?(\d+))?(?:\s*-?\s*(?:\d{1,2}/)?\d{1,2}/20\d{2})?", re.I)
+_IRSEM_AUTHOR_TAIL = re.compile(
+    r"(?<=[a-zàâçéèêëîïôûùüÿœ\)\?\!\.»”’'])\s+"
+    r"((?:[A-Z]{2,4}\s+)?(?:(?:[A-ZÉÈ]\.\s*|[A-ZÉÈ][\wéèëïôöüçâî\-']+)\s+){1,3}[A-ZÉÈ][\wéèëïôöüçâî\-']+)$")
+
+
+def _irsem_clean_title(title):
+    title = re.sub(r"\s+", " ", title).strip(" -–·|")
+    # the card often repeats the title (link text + heading): keep one copy
+    probe = title[:25]
+    if len(probe) >= 15:
+        k = title.find(probe, len(probe))
+        if k > 0:
+            title = title[:k].strip(" -–·|")
+    return title
+
+
 def _irsem_parse_card(text, fallback_title=""):
-    """Split a card's text into (categories, title, type label, date)."""
+    """Split a card's text into (categories, title, type label, date, reading time).
+    Order-independent: reading time, type label (+ number), dates and category
+    words are located wherever they appear and removed; what is left is the
+    title (plus, in the worst case, a trailing author block, which is stripped)."""
+    text = re.sub(r"\s+", " ", text).strip()
     reading = _IRSEM_READING.search(text)
-    head = text[:reading.start()] if reading else ""
-    cats = [c for c in _IRSEM_CATEGORIES if re.search(rf"\b{c}\b", head, re.I)]
-    rest = text[reading.end():].strip() if reading else text
-    kind = _IRSEM_TYPE.search(rest)
-    dmatch = _IRSEM_DATE.search(rest)
-    cut = kind.start() if kind else (dmatch.start() if dmatch else len(rest))
-    title = rest[:cut].strip(" -–·")
-    if len(title) < 8:
-        title = fallback_title
-    label = ""
-    if kind:
-        name = _IRSEM_LABELS.get(fold(kind.group(1)), kind.group(1).capitalize())
-        label = " ".join(g for g in (name, kind.group(2)) if g)
     reading_time = ""
     if reading:
         reading_time = re.sub(r"\s*de\s+lecture\s*$", "", reading.group(0), flags=re.I)
         reading_time = re.sub(r"(\d)\s*h\s*(\d)", r"\1 h \2", reading_time)
         reading_time = re.sub(r"(\d)(min)", r"\1 \2", reading_time) + " de lecture"
-    return cats, title, label, _irsem_date(rest), reading_time
+        text = (text[:reading.start()] + " | " + text[reading.end():]).strip()
+
+    # type label: only trusted when a number or a date follows it (a title can start with "Rapport sur ...")
+    label, kind_span = "", None
+    for m in _IRSEM_TYPE_ANY.finditer(text):
+        if m.group(2) or _IRSEM_DATE.search(m.group(0)):
+            name = _IRSEM_LABELS.get(fold(m.group(1)), m.group(1).capitalize())
+            label = " ".join(g for g in (name, m.group(2)) if g)
+            kind_span = m.span()
+            break
+    date = _irsem_date(text[kind_span[0]:kind_span[1]]) if kind_span else None
+    if kind_span:
+        text = text[:kind_span[0]] + " | " + text[kind_span[1]:]
+    if not date:
+        date = _irsem_date(text)
+    # category words sitting before the first separator / at the very start
+    head = text.split("|")[0] if "|" in text else ""
+    cats = [c for c in _IRSEM_CATEGORIES if re.search(rf"\b{c}\b", head, re.I)]
+    text = _IRSEM_DATE.sub(" ", text)
+    segs = [x.strip() for x in text.split("|") if x.strip()]
+    # drop segments made only of category words
+    cat_re = re.compile(r"^(?:\s*(?:" + "|".join(_IRSEM_CATEGORIES) + r")\b)+\s*$", re.I)
+    segs = [x for x in segs if not cat_re.match(x)]
+    body = max(segs, key=len) if segs else ""
+    # a leading category run glued to the title ("Défense Sécurité Titre ...")
+    body = re.sub(r"^(?:(?:" + "|".join(_IRSEM_CATEGORIES) + r")\s+)+(?=\S)", "", body, flags=re.I) if reading is None else body
+    fb = _irsem_clean_title(fallback_title)
+    if fb and 8 <= len(fb) <= 300 and fb.lower() in body.lower() and not _IRSEM_READING.search(fb):
+        title = fb                      # the heading element's own text is the best title
+    else:
+        title = _irsem_clean_title(body)
+        title = _IRSEM_AUTHOR_TAIL.sub("", title).strip(" -–·|")
+    if len(title) < 8:
+        title = fb
+    return cats, title, label, date, reading_time
 
 
 def irsem(session, url, options=None):
