@@ -50,6 +50,8 @@ jobs:
         run: python scripts/backfill_items.py --apply --drop-source "$RESET_SOURCE"
 
       - name: Fetch & filter sources
+        env:
+          RSS2JSON_API_KEY: ${{ secrets.RSS2JSON_API_KEY }}
         run: python scripts/fetch.py
 
       - name: Decide what to send
