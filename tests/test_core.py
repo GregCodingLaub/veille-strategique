@@ -209,3 +209,67 @@ def test_smtp_transport(monkeypatch):
     assert sent[1].is_multipart() and "veille@gmail.com" in sent[1]["From"]
     n, errs = sn.send_smtp(dict(cfg, password="bad"), msgs)
     assert n == 0 and "login refused" in errs[0]
+
+
+def test_http_get_retries_other_identities(monkeypatch):
+    monkeypatch.setattr(common.time, "sleep", lambda s: None)
+    seen = []
+
+    class R:
+        def __init__(self, code): self.status_code = code
+        def raise_for_status(self):
+            if self.status_code >= 400:
+                raise RuntimeError(self.status_code)
+
+    class S:
+        def get(self, url, **kw):
+            seen.append(kw["headers"]["User-Agent"])
+            return R(403 if len(seen) < 3 else 200)
+
+    assert common.http_get(S(), "https://x.org").status_code == 200
+    assert len(seen) == 3 and len(set(seen)) == 3
+
+    class Always403:
+        def get(self, url, **kw): return R(403)
+    with pytest.raises(RuntimeError):
+        common.http_get(Always403(), "https://x.org")
+
+
+def test_bluesky_pagination_and_short_domain():
+    import bluesky
+
+    def post(uri, day):
+        return {"post": {"record": {"createdAt": f"2026-10-{day}T10:00:00Z",
+                "embed": {"$type": "app.bsky.embed.external", "external": {"uri": uri, "title": "T " + uri}}}}}
+
+    pages = [{"feed": [post("https://reut.rs/a", "06"), post("https://other.com/x", "06")], "cursor": "c1"},
+             {"feed": [post("https://reut.rs/b", "05")]}]
+
+    class S:
+        def __init__(self): self.calls = []
+        def get(self, url, params=None, **kw):
+            self.calls.append(params)
+            class R:
+                def raise_for_status(s): pass
+                def json(s, d=pages[len(self.calls) - 1]): return d
+            return R()
+
+    s = S()
+    out = bluesky.fetch_bluesky(s, "reuters.com", limit=100, allowed_domains=["reuters.com", "reut.rs"], max_pages=3)
+    assert [o["link"] for o in out] == ["https://reut.rs/a", "https://reut.rs/b"]
+    assert s.calls[1]["cursor"] == "c1" and s.calls[0]["limit"] == 100
+
+
+def test_source_require_and_exclude_filters():
+    src = {"name": "Mont", "region": "fr", "require_any": ["énergie", "défense", "Chine"],
+           "exclude_any": ["cohésion sociale", "démocratie"]}
+    raw = [
+        {"title": "Défense européenne : le réarmement", "link": "https://m.org/1", "date": "2026-10-01", "summary": ""},
+        {"title": "Cohésion sociale et défense du modèle français", "link": "https://m.org/2", "date": "2026-10-01", "summary": ""},
+        {"title": "Quelle vie démocratique pour les jeunes ?", "link": "https://m.org/3", "date": "2026-10-01", "summary": ""},
+        {"title": "Réformer l'école", "link": "https://m.org/4", "date": "2026-10-01", "summary": ""},
+        {"title": "Énergie : la Chine et les minerais critiques", "link": "https://m.org/5", "date": "2026-10-01", "summary": ""},
+    ]
+    kept, stats, _ = process_items(src, raw, KW, RG, set(), TODAY)
+    assert [k["link"] for k in kept] == ["https://m.org/1", "https://m.org/5"]
+    assert stats["filtered"] == 3
