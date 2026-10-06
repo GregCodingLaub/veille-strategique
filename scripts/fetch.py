@@ -207,6 +207,8 @@ def process_items(src, raw_items, keywords, regions, known_ids, today):
             "source_region": src.get("region", "other"),  # institution's home base
             "subject_region": subject_region,              # what the article is ABOUT
             "themes": themes,
+            "trusted_themes": [t for t in default_themes if t in themes],
+            "meta": [m for m in (raw.get("meta") or []) if m],
             "fetched_at": now_utc_iso(),
         })
     return kept, stats, latest_date
