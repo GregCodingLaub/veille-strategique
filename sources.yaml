@@ -50,6 +50,12 @@
   # "OSINT made simple": weekly. Feed checked. On-topic by nature, so it
   # bypasses the keyword filter (its titles contain no classic keywords).
 
+- name: "Missile Matters" 
+  type: rss 
+  url: "https://missilematters.substack.com/feed"
+  region: eu 
+  default_themes: [military]
+
 # --- France ----------------------------------------------------------------
 - name: "IFRI"
   type: scrape
