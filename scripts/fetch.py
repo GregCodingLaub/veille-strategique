@@ -57,13 +57,9 @@ DEFAULT_INITIAL_LIMIT = 10
 SUMMARY_MAX = 600
 
 
-def fetch_rss(session, url, verify_ssl=True):
-    """Return list of {title, link, date, summary} from an RSS/Atom feed."""
-    resp = http_get(session, url, verify=verify_ssl,
-                    accept="application/rss+xml,application/atom+xml,application/xml,text/xml,*/*")
-    parsed = feedparser.parse(resp.content)
+def _entries_to_items(entries):
     items = []
-    for entry in parsed.entries:
+    for entry in entries:
         date = None
         for attr in ("published_parsed", "updated_parsed"):
             if getattr(entry, attr, None):
@@ -78,6 +74,41 @@ def fetch_rss(session, url, verify_ssl=True):
     return items
 
 
+def fetch_via_rss2json(session, url):
+    """Relay for feeds that refuse GitHub's servers (e.g. Substack): the public
+    rss2json.com service reads the feed from its own servers and returns JSON.
+    Optional free API key in RSS2JSON_API_KEY (higher limits). Only the public
+    feed URL is sent to that service."""
+    params = {"rss_url": url}
+    if os.environ.get("RSS2JSON_API_KEY"):
+        params.update({"api_key": os.environ["RSS2JSON_API_KEY"], "count": 20})
+    resp = session.get("https://api.rss2json.com/v1/api.json", params=params, timeout=30)
+    resp.raise_for_status()
+    data = resp.json()
+    if data.get("status") != "ok":
+        raise ValueError(f"rss2json: {data.get('message', 'error')}")
+    return [{
+        "title": it.get("title", ""),
+        "link": it.get("link", ""),
+        "date": (it.get("pubDate") or "")[:10] or None,
+        "summary": it.get("description") or it.get("content") or "",
+    } for it in data.get("items", [])]
+
+
+def fetch_rss(session, url, verify_ssl=True, fallback=None):
+    """Return list of {title, link, date, summary} from an RSS/Atom feed.
+    fallback="rss2json": if the site refuses us (403 etc.), read it through the relay."""
+    try:
+        resp = http_get(session, url, verify=verify_ssl,
+                        accept="application/rss+xml,application/atom+xml,application/xml,text/xml,*/*")
+    except requests.HTTPError:
+        if fallback == "rss2json":
+            print(f"       {url} refused us; trying the rss2json relay")
+            return fetch_via_rss2json(session, url)
+        raise
+    return _entries_to_items(feedparser.parse(resp.content).entries)
+
+
 def fetch_scrape(session, src):
     parser_fn = PARSERS.get(src.get("parser"))
     if not parser_fn:
@@ -88,7 +119,8 @@ def fetch_scrape(session, src):
 def fetch_source(session, src):
     kind = src["type"]
     if kind == "rss":
-        return fetch_rss(session, src["url"], verify_ssl=src.get("verify_ssl", True))
+        return fetch_rss(session, src["url"], verify_ssl=src.get("verify_ssl", True),
+                         fallback=src.get("fallback"))
     if kind == "scrape":
         return fetch_scrape(session, src)
     if kind == "bluesky":
