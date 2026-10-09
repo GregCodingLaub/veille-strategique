@@ -1,5 +1,392 @@
 [
   {
+    "id": "59b874605cf9cb03",
+    "title": "Le projet franco-allemand de Système principal de combat terrestre se poursuit, assure le ministère des Armées",
+    "link": "https://www.opex360.com/2026/10/09/le-projet-franco-allemand-de-systeme-principal-de-combat-terrestre-se-poursuit-assure-le-ministere-des-armees",
+    "date": "2026-10-09",
+    "summary": "Annoncé en 2017, le projet franco-allemand de Système principal de combat terrestre [MGCS pour Main Ground Combat System] visait initialement à concevoir un nouveau char, associé à d’autres plateformes, robotisées ou non, au sein d’un «cloud de combat», d’ici 2040. Seulement, comme le Système de combat aérien du futur [SCAF], et avec l’arrivée de Rheinmetall,...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:32:43.047612+00:00"
+  },
+  {
+    "id": "2afd74c77d882904",
+    "title": "The Last Mile of Pentagon Reform Runs Through the Brigade",
+    "link": "https://warontherocks.com/cogs-of-war/the-last-mile-of-pentagon-reform-runs-through-the-brigade",
+    "date": "2026-10-09",
+    "summary": "A kill chain measured in seconds cannot depend on processes measured in weeks or months. The Pentagon recognizes that drone proliferation and AI-enabled lethal targeting are reducing decision cycles and increasing the premium on speed. The 2025 drone and acquisition reforms and the 2026 Artificial Intelligence Strategy call for faster procurement, fewer integration barriers, open architectures, continuous experimentation, and greater access to emerging technology.Yet the experience of myself and fellow soldiers in the 1st Brigade Combat Team, 82nd Airborne Division (1/82), before and during…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:32:56.664919+00:00"
+  },
+  {
+    "id": "5d8f181e5f3832d9",
+    "title": "Fornication in America: Trump’s Arch, Rome’s Emperors, and the Meaning of Victory",
+    "link": "https://warontherocks.com/fornication-in-america-trumps-arch-romes-emperors-and-the-meaning-of-victory",
+    "date": "2026-10-09",
+    "summary": "In 79 A.D., Gaius Plinius Secundus, known today as Pliny the Elder, was the supreme commander of the Roman imperial fleet, permanently stationed at Misenum near Naples. He died during the eruption of Vesuvius, after sailing across the bay on a valiant but unsuccessful rescue mission. Amid such heavy responsibilities, Pliny also wrote one of antiquity’s great encyclopedic works. He read and excerpted books of all kinds, and he knew something about Roman monuments. On the form and meaning of the triumphal arch, his explanation was characteristically blunt: “The point of columns with statues on…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:32:56.672822+00:00"
+  },
+  {
+    "id": "173a44ef60453508",
+    "title": "US agency to do more equity investing in Africa, official says",
+    "link": "https://reut.rs/4doO5HK",
+    "date": "2026-10-09",
+    "summary": "The US International Development Finance ‌Corp plans to increase direct equity investments, including in Africa and the critical minerals sector, the agency's Africa head said, as the US steps up efforts to counter China's dominance of key ​supply chains.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:02.903909+00:00"
+  },
+  {
+    "id": "a081455f41f1cd72",
+    "title": "Taiwan president to say boosting its defences is not 'provocation'",
+    "link": "https://reut.rs/4jdAsPc",
+    "date": "2026-10-09",
+    "summary": "Taiwan President Lai Ching-te will ​say in his national day speech that boosting defences and spending more on the ‌military is not a \"provocation\" but a reflection of the Taiwanese people's hope to maintain peace and freedom, an official said.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "china",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:02.916235+00:00"
+  },
+  {
+    "id": "1dded264307d3ab5",
+    "title": "Trump envoy kept financial ties to firm behind $15 billion Hormuz-bypass oil pipeline plan",
+    "link": "https://reut.rs/3VZj9aV",
+    "date": "2026-10-09",
+    "summary": "Thomas Barrack, a top US diplomat in the Middle East, advocated for a firm run by his business partner to take part in the development of an oil pipeline from Iraq to Syria, three people said, activities which appear to violate federal ethics rules.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:02.919612+00:00"
+  },
+  {
+    "id": "e42420b24f797fa0",
+    "title": "Houthi strikes on Riyadh airport killed three Saudis as war escalates",
+    "link": "https://reut.rs/4jMSA2v",
+    "date": "2026-10-09",
+    "summary": "Thursday's attacks on Riyadh airport killed three people, Saudi authorities said, as Yemen's Houthi group ​stepped up missile strikes on the kingdom and tried to shut down its airspace in an escalating war ‌triggered by the US-Iran conflict.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:02.933553+00:00"
+  },
+  {
+    "id": "6c2aec6ee7d86394",
+    "title": "Breakingviews - COMMENTARY: Failed AI IPO puts fear before FOMO",
+    "link": "https://reut.rs/4zfX6LE",
+    "date": "2026-10-09",
+    "summary": "Neocloud Firmus has just ‌nixed its $5 bln listing. Market volatility was a factor. But investors baulked at the price for ​a strategy-shifting data centre operator with ​little track record that just lost ⁠a key partner. Fear of getting screwed ​has beaten fear of missing out.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:02.941586+00:00"
+  },
+  {
+    "id": "77f23c1a1a1e236a",
+    "title": "Carlyle drops out of race for Lukoil international assets",
+    "link": "https://reut.rs/4rZTQ4K",
+    "date": "2026-10-09",
+    "summary": "US private equity firm Carlyle Group said on Friday it was no longer actively pursuing ​a deal to acquire international assets of ‌Russia's second-largest oil producer Lukoil , a spokesman for the firm said.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:02.949362+00:00"
+  },
+  {
+    "id": "a64c1afdc51d57e1",
+    "title": "South African rand set to snap four-week losing streak",
+    "link": "https://reut.rs/47L9lE4",
+    "date": "2026-10-09",
+    "summary": "The South African rand was on track to end the week stronger on Friday, snapping ​a four-week losing streak, supported by firmer ‌gold prices and a subdued dollar, while lower oil prices also offered relief to the net energy importer.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:02.953942+00:00"
+  },
+  {
+    "id": "c477109895c189b6",
+    "title": "Former German spy chief had contacts with Chinese official, Spiegel reports",
+    "link": "https://reut.rs/4ietlEf",
+    "date": "2026-10-09",
+    "summary": "Germany's former spy chief August Hanning, who has been placed under arrest ​for suspected espionage, had longstanding contacts to ‌a former senior Chinese general, Spiegel magazine reported.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "intelligence"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:02.956695+00:00"
+  },
+  {
+    "id": "925a83ab2b348b42",
+    "title": "Malaysia plans $112.5 billion budget for 2027 ahead of possible election",
+    "link": "https://reut.rs/4AU45vi",
+    "date": "2026-10-09",
+    "summary": "Malaysia's government on Friday proposed a moderately expansionary budget of 459.8 billion ringgit ($112.48 billion) for 2027, ramping up spending ahead of ‌a possible election despite growing fiscal pressure from a jump in global oil prices.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:02.969504+00:00"
+  },
+  {
+    "id": "7da140ef94bd1519",
+    "title": "Russia's Yandex says second data centre hit by drone attack",
+    "link": "https://reut.rs/4hL1ESZ",
+    "date": "2026-10-09",
+    "summary": "Russian technology and AI company Yandex said on Friday that several modules at ​its data centre in Russia's Kaluga region ‌had been completely disabled by a drone attack, the second in two days.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:02.972197+00:00"
+  },
+  {
+    "id": "fbb77e7a6bacb218",
+    "title": "US 10-year Treasury yield risks hitting 6% for first time since 2000, Pimco's Ivascyn tells FT",
+    "link": "https://reut.rs/4jdqkGa",
+    "date": "2026-10-09",
+    "summary": "The benchmark 10-year US Treasury yield could rise to 6% for the first time ​since 2000 as high oil prices fuel inflation concerns and ‌worries over the country's growing public debt, Dan Ivascyn, Chief Investment Officer at bond fund manager Pimco, told the Financial Times.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:02.975903+00:00"
+  },
+  {
+    "id": "d197b225db4581c5",
+    "title": "Firmus $5 bln float failure deals blow to Australia's shrinking share market",
+    "link": "https://reut.rs/3WftvDE",
+    "date": "2026-10-09",
+    "summary": "The collapse of Nvidia-backed data centre operator Firmus' $5 billion IPO is a blow to Australia's capital markets which are already facing a shrinking pool of listed entities, investors said.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:02.993043+00:00"
+  },
+  {
+    "id": "14a720956ce2060f",
+    "title": "Modi wants India to power the AI age. Residents are pushing back",
+    "link": "https://reut.rs/3VDL4gz",
+    "date": "2026-10-09",
+    "summary": "The view from Indian engineer Tushar Shetty's Mumbai apartment captures a tension playing out around the world as the artificial intelligence boom fuels an unprecedented data-centre building spree.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:02.999683+00:00"
+  },
+  {
+    "id": "a2fe2549f19688c7",
+    "title": "New Zealand censor says it would be powerless to block livestreamed US execution",
+    "link": "https://reut.rs/4yHbkFv",
+    "date": "2026-10-09",
+    "summary": "New ​Zealand's national censor said on Friday it would be unable to block the planned livestreamed execution ‌of a former Army major in the United States, as rights groups pressed governments to protest the decision with Washington.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:03.010740+00:00"
+  },
+  {
+    "id": "6dbb0104cdf81213",
+    "title": "China's tax crackdown piles pressure on luxury brands as US spending falters",
+    "link": "https://reut.rs/4yJ4grU",
+    "date": "2026-10-09",
+    "summary": "China's tax crackdown on wealthy individuals has become ​the latest headache for luxury brands, already grappling with the fallout from the Iran war and signs of slowing consumer spending ‌in the United States.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:03.015562+00:00"
+  },
+  {
+    "id": "58c5d7915b590658",
+    "title": "South Korea, Japan buffeted by hacks as AI lowers bar for cybercriminals",
+    "link": "https://reut.rs/4du7W8k",
+    "date": "2026-10-09",
+    "summary": "South Korean and Japanese companies are racing to ​strengthen cyber defences after a wave of attacks that cybersecurity experts say are highlighting how AI may be lowering the bar for criminals ‌with limited technical skills.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:03.024469+00:00"
+  },
+  {
+    "id": "b68dc6270a6e4f8d",
+    "title": "Modi wants India to power the AI age. Residents are pushing back",
+    "link": "https://reut.rs/3TxJ5tD",
+    "date": "2026-10-09",
+    "summary": "The view from Indian engineer Tushar Shetty's Mumbai apartment captures a tension playing out around the world as the artificial intelligence boom fuels an unprecedented data-centre building spree.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:03.040691+00:00"
+  },
+  {
+    "id": "4702835d684c25ed",
+    "title": "Oil falls as Trump comments on Iran talks ease supply concerns",
+    "link": "https://reut.rs/4yysIvY",
+    "date": "2026-10-09",
+    "summary": "Oil prices fell on Friday as Middle East supply concerns eased somewhat after US President Donald Trump said the country will not attack Iran ​before US elections next month amid productive talks to end their ‌war that has disrupted the market.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:03.043797+00:00"
+  },
+  {
+    "id": "dcc8b289055eef66",
+    "title": "Chinese developer makes ARTEX AI agent closed-source after Korean bank hack",
+    "link": "https://reut.rs/4zts82N",
+    "date": "2026-10-09",
+    "summary": "The Chinese developer of ARTEX said they have converted the AI agent to a closed-source project after cybersecurity firms identified ​it as a tool used in a recent cyberattack campaign against South ‌Korean banks.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "china",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:03.056355+00:00"
+  },
+  {
+    "id": "6c7120acc23ba1df",
+    "title": "Bringing real autonomy to battlefield drone swarms",
+    "link": "https://breakingdefense.com/2026/10/bringing-real-autonomy-to-battlefield-drone-swarms",
+    "date": "2026-10-09",
+    "summary": "[Sponsored] Decentralized Embodied Collaborative intelligence enables better reconnaissance, logistics and combat capabilities.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:06.147526+00:00"
+  },
+  {
+    "id": "34069e604c27d776",
+    "title": "Pentagon, Lockheed weigh multi-year F-35 production, sustainment deal",
+    "link": "https://breakingdefense.com/2026/10/pentagon-lockheed-weigh-multi-year-f-35-production-sustainment-deal",
+    "date": "2026-10-09",
+    "summary": "One source familiar with the negotiations expressed doubt that Lockheed “can successfully propose something that demonstrates long term cost savings.”",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:06.149712+00:00"
+  },
+  {
     "id": "5262c688d30eca45",
     "title": "La défense européenne face au complexe bureaucratique-industriel national",
     "link": "https://legrandcontinent.eu/fr/2026/10/08/la-defense-europeenne-face-au-complexe-bureaucratique-industriel-national",
@@ -450,6 +837,721 @@
     "trusted_themes": [],
     "meta": [],
     "fetched_at": "2026-10-08T12:47:40.161457+00:00"
+  },
+  {
+    "id": "337a15deaf8147cb",
+    "title": "Les centres de données vont-ils impacter les midterms ?",
+    "link": "https://legrandcontinent.eu/fr/2026/10/08/les-centres-de-donnees-vont-ils-impacter-les-midterms",
+    "date": "2026-10-08",
+    "summary": "Les trois quarts des Américains craignent que l’IA ne mette en péril la survie de l’humanité L’article Les centres de données vont-ils impacter les midterms ? est apparu en premier sur Le Grand Continent .",
+    "source": "Le Grand Continent",
+    "source_region": "eu",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:32:08.917112+00:00"
+  },
+  {
+    "id": "7942e04774f81e70",
+    "title": "EU-China talks; PBoC on RMB; Measures for protecting the rights and interests of gig workers; Holiday spending; AI safety",
+    "link": "https://sinocism.com/p/eu-china-talks-pboc-on-rmb-measures",
+    "date": "2026-10-08",
+    "summary": "The People’s Bank of China on Thursday published a statement of its policy position on the Renminbi. It is a defense of the existing policy and a rebuttal to pressure for RMB appreciation, and nicely timed for the trade discussions with the EU. It directly criticizes the use of IMF assessments to justify demands for RMB appreciation. So much for Merz et al’s fantasy of something like a new Plaza Accord… Securities Times says the trigger was growing talk in international opinion that links the currency to global trade imbalances. Xinhua’s summary says China “has no need and no intention” of…",
+    "source": "Sinocism",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:32:10.123843+00:00"
+  },
+  {
+    "id": "c073c1383818353b",
+    "title": "The OSINT Newsletter - Issue #125",
+    "link": "https://osintnewsletter.com/p/125",
+    "date": "2026-10-08",
+    "summary": "Persistent OSINT Apps with Claude Artifacts",
+    "source": "The OSINT Newsletter",
+    "source_region": "other",
+    "subject_region": "other",
+    "themes": [
+      "intelligence"
+    ],
+    "trusted_themes": [
+      "intelligence"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:32:29.564990+00:00"
+  },
+  {
+    "id": "80522f17024e1e22",
+    "title": "Climate change in US military doctrine",
+    "link": "https://www.iris-france.org/climate-change-in-us-military-doctrine",
+    "date": "2026-10-08",
+    "summary": "For the past two decades, the United States has framed climate change as a national security issues. In 2007, the first recommendation was to integrate the security implications of climate change into the country’s national security, defence, and military strategies. This integration aimed at making defence operations more resilient, efficient, and climate-conscious, while improving operational capabilities for better early warnings against daily climate perils. In this video, Sherri Goodman, Vice Chair of the United States’ International Security Advisory Board, discusses the measures taken…",
+    "source": "IRIS",
+    "source_region": "fr",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:32:39.677560+00:00"
+  },
+  {
+    "id": "78fec840e90c09cd",
+    "title": "Athènes veut acquérir des missiles à longue portée AIM-260 JATM et AGM-158B JASSM auprès des États-Unis",
+    "link": "https://www.opex360.com/2026/10/08/athenes-veut-acquerir-des-missiles-a-longue-portee-aim-260-jatm-et-agm-158b-jassm-aupres-des-etats-unis",
+    "date": "2026-10-08",
+    "summary": "Maintenant qu’elle aligne vingt-quatre Rafale pouvant être armés de missiles air-air METEOR à longue portée de type BVRAAM [Beyond Visual-Range Air-to-Air Missile], la force aérienne grecque a pris un avantage certain sur son homologue turque dans la mesure où elle a la capacité de «verrouiller» la FIR [Flight Information Region] d’Athènes, objet d’un différend avec...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:32:43.052671+00:00"
+  },
+  {
+    "id": "20f1828461ff4d38",
+    "title": "Aucun Rafale destiné à l’Ukraine ne sera prélevé dans la dotation des escadrons français, assure le général Mandon",
+    "link": "https://www.opex360.com/2026/10/08/aucun-rafale-destine-a-lukraine-ne-sera-preleve-dans-la-dotation-des-escadrons-francais-assure-le-general-mandon",
+    "date": "2026-10-08",
+    "summary": "Dans une déclaration conjointe publiée le 14 juillet dernier, la France et l’Ukraine ont évoqué une éventuelle commande de seize chasseurs-bombardiers Rafale au profit de la force aérienne ukrainienne, grâce aux «tranches 2026 et 2027 de l’Ukraine Support Loan», c’est-à-dire le prêt de 90 milliards d’euros que l’Union européenne a accordé à Kiev. Et d’ajouter...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:32:43.057983+00:00"
+  },
+  {
+    "id": "e4b3a530961c9d18",
+    "title": "Le ministère des Armées veut lancer en 2029 le développement d’un avion de combat de nouvelle génération opérationnel",
+    "link": "https://www.opex360.com/2026/10/08/le-ministere-des-armees-veut-lancer-le-developpement-dun-avion-de-combat-de-nouvelle-generation-operationnel-en-2029",
+    "date": "2026-10-08",
+    "summary": "En juin, après des mois, si ce n’est des années, de relations tendues entre les principaux industriels français, allemands et espagnols concernés, Berlin a fini par annoncer son retrait du projet d’avion de combat de nouvelle génération [NGF – New Generation Fighter] sur lequel devait reposer le Système de combat aérien du futur [SCAF]. Et...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:32:43.062094+00:00"
+  },
+  {
+    "id": "5cd07f0748dbb6af",
+    "title": "Ukraine Struggling to Counter Russian Jet-Powered Drone Campaign",
+    "link": "https://jamestown.org/ukraine-struggling-to-counter-russian-jet-powered-drone-campaign",
+    "date": "2026-10-08",
+    "summary": "Executive Summary: On September 6, Ukrainian authorities in Kyiv implemented a new air raid alert system. The new system divides potential threats into yellow and red levels. “Yellow” designates general drone danger, while “red” indicates an imminent ballistic missile, mass drone, or combined missile-drone attack. During a yellow alert, ground transportation remains active, and commerce […]",
+    "source": "Jamestown Foundation (China Brief)",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:01.245790+00:00"
+  },
+  {
+    "id": "7d5f6dbe7d8c55fe",
+    "title": "EXCLUSIVE: Southwest Airlines weighs Boeing 787 for long-haul international push, sources say",
+    "link": "https://reut.rs/4AXmpUm",
+    "date": "2026-10-08",
+    "summary": "Southwest Airlines is leaning toward Boeing's 787 ​Dreamliner as its first widebody jet as it weighs launching long-haul international flights, according to three people familiar with the carrier's fleet ‌planning.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:03.083139+00:00"
+  },
+  {
+    "id": "e434b7e868a9b357",
+    "title": "US to livestream Army execution of Fort Hood shooter, Pentagon official says",
+    "link": "https://reut.rs/3Vr0yoa",
+    "date": "2026-10-08",
+    "summary": "The US will livestream the Army's upcoming firing squad execution ​on December 3 of Nidal Hasan, who ‌killed 13 people at Fort Hood, Texas, in a 2009 shooting spree, a Pentagon official said, in ​what would be an unprecedented move.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:03.090555+00:00"
+  },
+  {
+    "id": "dbae7b43a43c84b0",
+    "title": "Two dead in drone strikes in Russia's Belgorod region, officials say",
+    "link": "https://reut.rs/4hNSiWx",
+    "date": "2026-10-08",
+    "summary": "Two people ‌were killed in Ukrainian drone strikes on Thursday in Russia's border ​region of ​Belgorod, regional officials said.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:03.101265+00:00"
+  },
+  {
+    "id": "006d1dba8e16f7c5",
+    "title": "RTX's Raytheon wins up to $6.3 billion US missile contract",
+    "link": "https://reut.rs/4Bf0EQf",
+    "date": "2026-10-08",
+    "summary": "RTX's Raytheon said on Thursday it won a multi-year US military contract worth up to $6.3 ​billion to produce and sustain Standard Missile-3 ‌Block IB interceptors, as the Pentagon seeks to rebuild missile-defence inventories and boost munitions production.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:03.107598+00:00"
+  },
+  {
+    "id": "bcbf7ac133d5002c",
+    "title": "SpaceX takes aim at US wireless carriers with spectrum acquisition",
+    "link": "https://reut.rs/4ibvwcB",
+    "date": "2026-10-08",
+    "summary": "SpaceX struck a deal on Thursday to acquire a nationwide low-band spectrum ​portfolio, positioning Elon Musk's satellite venture to mount ‌a direct, orbital challenge to legacy wireless giants across the United States.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:03.110784+00:00"
+  },
+  {
+    "id": "f38d30436f6eb8aa",
+    "title": "US bonds fall, lifting yields for 2nd day, as oil weighs, 30-year auction looms",
+    "link": "https://reut.rs/3VAS3a4",
+    "date": "2026-10-08",
+    "summary": "US Treasuries ​weakened on Thursday, pushing yields higher for a second consecutive session, as rising oil prices fueled inflation ‌concerns and investors eyed a 30-year bond auction for fresh clues on appetite for long-term debt.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:03.119093+00:00"
+  },
+  {
+    "id": "8ebe0537a10ec301",
+    "title": "Nigeria proposes petrol price cap to curb fuel cost volatility",
+    "link": "https://reut.rs/4dwpYXv",
+    "date": "2026-10-08",
+    "summary": "Nigeria is proposing a measure to cap petrol prices ​at about 1,350 naira ($1.02) per litre, asking ‌refiners and fuel importers to absorb temporary increases and recoup losses once costs ease, its ​finance minister said on Thursday.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:03.162147+00:00"
+  },
+  {
+    "id": "ceaad9f4f9426cd6",
+    "title": "Portugal seriously considers US F-35 jets along with other options",
+    "link": "https://reut.rs/4idvnED",
+    "date": "2026-10-08",
+    "summary": "Portugal will decide on a replacement of its ageing fleet of ​F-16 jet fighters based on national ‌interests and is seriously considering the US offer of F-35s along with other options, Foreign ​Minister Paulo Rangel said on Thursday ​after meeting US Secretary of State Marco ⁠Rubio in Lisbon.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:03.176268+00:00"
+  },
+  {
+    "id": "7ef02d604880ee42",
+    "title": "Drones target Eritrean troops inside Ethiopia, conflict monitor says",
+    "link": "https://reut.rs/4yzZQU9",
+    "date": "2026-10-08",
+    "summary": "Drone strikes targeted Eritrean forces deployed inside northern Ethiopia overnight, a conflict monitor said on Thursday, following an incursion that ​has brought the Horn of Africa neighbours closer to the brink of outright war.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:03.184743+00:00"
+  },
+  {
+    "id": "2a4f44d31f4c66c2",
+    "title": "Asia races to stockpile oil, speed up renewables in response to Iran war",
+    "link": "https://reut.rs/4emcCgN",
+    "date": "2026-10-08",
+    "summary": "Asian countries are racing to raise their oil stockpiling ‌capacity, complete a regional power grid and speed up renewables in response to supply risks laid bare by the Iran war.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:03.187012+00:00"
+  },
+  {
+    "id": "1bace00699ac02a6",
+    "title": "Russia's Yandex says unclear whether data centre can be restored after drone strike",
+    "link": "https://reut.rs/479abug",
+    "date": "2026-10-08",
+    "summary": "Russian technology and AI ​company Yandex said on Thursday it ‌could not yet determine whether equipment at a data centre hit by a Ukrainian drone ​attack could be restored.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:03.193042+00:00"
+  },
+  {
+    "id": "0c7a30804a48caa9",
+    "title": "American Airlines extends Starlink Wi-Fi roll-out to entire mainline fleet",
+    "link": "https://reut.rs/4AWqmIW",
+    "date": "2026-10-08",
+    "summary": "American Airlines said on Thursday it now intends to install ​SpaceX's Starlink satellite internet service ‌on its entire primary fleet of over 1,000 aircraft from next ​year, extending a plan ​already in place for roughly half ⁠of the fleet.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:03.227712+00:00"
+  },
+  {
+    "id": "72a710f4d514537d",
+    "title": "US Army report cites 'systematic failures' in fatal 2025 helicopter jet collision that killed 67",
+    "link": "https://reut.rs/47Hwo2F",
+    "date": "2026-10-08",
+    "summary": "A US Army investigative report into ​the collision of an ‌American Airlines regional jet and an Army Black Hawk ​helicopter near Ronald ​Reagan Washington National Airport seen ⁠by Reuters found ​that the crash was the ​result of several systemic failures.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:03.233216+00:00"
+  },
+  {
+    "id": "8261fe2fa39ac1ae",
+    "title": "Greece agrees up to $4 billion US arms deal, sources say",
+    "link": "https://reut.rs/4AWJ3vU",
+    "date": "2026-10-08",
+    "summary": "Greece has agreed to spend up to $4 billion upgrading more of its F-16 fighter jets and buying advanced ​missiles from the US, two senior sources told Reuters on ‌Thursday, a day after a visit by US Secretary of State Marco Rubio.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:03.255849+00:00"
+  },
+  {
+    "id": "8f0e129e4083db35",
+    "title": "Naval Group steps up Europe push as defence spending rises",
+    "link": "https://reut.rs/4rRx2DU",
+    "date": "2026-10-08",
+    "summary": "French warship builder Naval Group is stepping up ​efforts to capitalise on Europe's higher defence spending, betting its ability to deliver frigates quickly will give ‌it an edge over European rivals, executives said.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:03.265947+00:00"
+  },
+  {
+    "id": "5695f6ee85bb2c30",
+    "title": "Attack risks rise for tankers as Iran vows to block more Hormuz routes",
+    "link": "https://reut.rs/3VyDpQM",
+    "date": "2026-10-08",
+    "summary": "Tankers are facing a higher risk of attacks and intimidation as they try to get critical shipments through the Strait of Hormuz after ​Iran issued new warnings it would block routes that it has not authorized, sources said.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:03.271310+00:00"
+  },
+  {
+    "id": "f4c79e34155fb6f9",
+    "title": "European intelligence services weigh possible fallout after German ex-spy chief's arrest",
+    "link": "https://reut.rs/4yfUZ9H",
+    "date": "2026-10-08",
+    "summary": "European intelligence services are trying to find out whether secret information was compromised by former German spy chief August Hanning and what risks ​this raised, intelligence officials said following his arrest this week.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "intelligence"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:03.274520+00:00"
+  },
+  {
+    "id": "05d334298fc5fbf6",
+    "title": "Explainer: Data centers' 'flexible' power usage could save the grid billions. Can they scale?",
+    "link": "https://reut.rs/4elsj7X",
+    "date": "2026-10-08",
+    "summary": "Technology companies and utilities are increasingly exploring ways to make power-hungry data centers more flexible in when and how they consume electricity, helping ease the strain on US power grids as ​AI-driven demand surges.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:03.278017+00:00"
+  },
+  {
+    "id": "3e4f42a111247c1d",
+    "title": "UK announces new round of Russia sanctions targeting financial services, 'shadow fleet'",
+    "link": "https://reut.rs/4hM5dbL",
+    "date": "2026-10-08",
+    "summary": "Britain's foreign office on Thursday announced new ​sanctions targeting individuals and entities it ‌said were involved in the production or transport of Russian oil, facilitating military manufacturing ​and circumventing financial services sanctions.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:03.280907+00:00"
+  },
+  {
+    "id": "5743f0c168613c8f",
+    "title": "Turkey's foreign minister says Ankara weighing Saudi defence support, rules out offensive role",
+    "link": "https://reut.rs/4hMVsKl",
+    "date": "2026-10-08",
+    "summary": "Turkey is assessing how it can help Saudi Arabia defend against attacks by Yemen's Iran-aligned Houthi militants under a joint defence pact ​with Pakistan, Foreign Minister Hakan Fidan said on Thursday, ruling out Turkish ‌participation in offensive operations.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:03.283955+00:00"
+  },
+  {
+    "id": "6fb646d17328ad6e",
+    "title": "Sig Sauer develops 25-round mag for Army’s next-gen rifle",
+    "link": "https://www.defensenews.com/news/your-army/2026/10/08/sig-sauer-develops-25-round-mag-for-armys-next-gen-rifle",
+    "date": "2026-10-08",
+    "summary": "Soldier feedback, from the constructive to the blistering, has been instrumental in guiding Sig Sauer in its development of the M8 carbine.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:05.009956+00:00"
+  },
+  {
+    "id": "5d2fbc8a321db01b",
+    "title": "US Air Force, Army eye industry access on test ranges",
+    "link": "https://www.defensenews.com/industry/techwatch/2026/10/08/us-air-force-army-eye-industry-access-on-test-ranges",
+    "date": "2026-10-08",
+    "summary": "The U.S. Air Force is partnering with the U.S. Army to open its test ranges to approved defense firms.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:05.011454+00:00"
+  },
+  {
+    "id": "9e6633e87aa6852e",
+    "title": "Dutch firm uses AI to help drone systems ‘talk’ on Ukraine’s battlefield",
+    "link": "https://www.defensenews.com/industry/techwatch/2026/10/08/dutch-firm-uses-ai-to-help-drone-systems-talk-on-ukraines-battlefield",
+    "date": "2026-10-08",
+    "summary": "Amsterdam-based Intelic now has an office in Kyiv and is helping Ukrainian forces as they face intensified Russian drone and missile barrages.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:05.013513+00:00"
+  },
+  {
+    "id": "f4a795fece64a35e",
+    "title": "Pentagon, Raytheon ink up to $6.3 billion multi-year contract for SM-3 IB missiles",
+    "link": "https://breakingdefense.com/2026/10/pentagon-raytheon-ink-up-to-6-3-billion-multi-year-contract-for-sm-3-ib-missiles",
+    "date": "2026-10-08",
+    "summary": "The contact comes months after DoD and Raytheon inked a framework agreement to boost production of the air defense munition.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:06.151474+00:00"
+  },
+  {
+    "id": "3fe86438e7f8ee7f",
+    "title": "In first, Israeli firms, delegation display at Morocco’s Marrakech Airshow",
+    "link": "https://breakingdefense.com/2026/10/in-first-israeli-firms-delegation-display-at-moroccos-marrakech-airshow",
+    "date": "2026-10-08",
+    "summary": "“This marks Israel’s first official participation in the defense exhibition held in Morocco since the signing of the Abraham Accords,” Israel’s Ministry of Defense said.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:06.153626+00:00"
+  },
+  {
+    "id": "5cc660a76c41214d",
+    "title": "Power at the sprocket: It’s the transmission that gives tracked vehicles their control",
+    "link": "https://breakingdefense.com/2026/10/power-at-the-sprocket-its-the-transmission-that-gives-tracked-vehicles-their-control",
+    "date": "2026-10-08",
+    "summary": "[Sponsored] Army vehicles like Bradley need greater power at the sprocket for speed, braking, and maneuverability.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:06.155412+00:00"
+  },
+  {
+    "id": "1fcaf78b431f9910",
+    "title": "Lessons for CENTCOM from counter-drone experiments in the Arizona desert",
+    "link": "https://breakingdefense.com/2026/10/lessons-for-centcom-from-counter-drone-experiments-in-the-arizona-desert",
+    "date": "2026-10-08",
+    "summary": "Officials said the “realities of the desert” like intense heat, wind, dust and glare closely replicate the physical challenges faced by forces in CENTCOM.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:06.157985+00:00"
+  },
+  {
+    "id": "bd5cba52719583d2",
+    "title": "Navy, Shield AI pour big bucks into X-BAT drone development",
+    "link": "https://breakingdefense.com/2026/10/navy-shield-ai-pour-big-bucks-into-x-bat-drone-development",
+    "date": "2026-10-08",
+    "summary": "Altogether, Shield AI and the US Navy are investing a combined $400 million into the X-BAT drone.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:06.160635+00:00"
+  },
+  {
+    "id": "a280a4fbd80097bf",
+    "title": "Gecko Robotics, Anduril team up for new Baltimore County shipyard",
+    "link": "https://breakingdefense.com/2026/10/gecko-robotics-anduril-team-up-for-new-baltimore-county-shipyard",
+    "date": "2026-10-08",
+    "summary": "Gecko Robotics will utilize its inspection technology and its AI-powered software to conduct non-destructive testing (NDT) on these submarine components.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:06.164205+00:00"
+  },
+  {
+    "id": "02735f4ec628aded",
+    "title": "4 Marines Receiving Medical Care After Osprey Mishap",
+    "link": "https://news.usni.org/2026/10/08/4-marines-receiving-medical-care-after-osprey-mishap",
+    "date": "2026-10-08",
+    "summary": "Four Marines are receiving medical care following a MV-22B Osprey mishap on Thursday in North Carolina, USNI News has learned. The incident, which the Marine Corps described as an “aviation mishap,” occurred around 10:20 a.m. near Bladen County, North Carolina, according to a statement from the service. Four Marines who were aboard the aircraft at the time are receiving medical care.. Local media reports described the incident as a hard landing, in which the Osprey caught fire. The White Lake Fire Department Chief said the Osprey was carrying approximately 6,000 pounds of jet fuel at the time…",
+    "source": "USNI News",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:07.375959+00:00"
+  },
+  {
+    "id": "084e766eac578b7d",
+    "title": "U.S. Destroyer Goes into Spanish Dry Dock for Maintenance Overhaul",
+    "link": "https://news.usni.org/2026/10/08/u-s-destroyer-goes-into-spanish-dry-dock-for-maintenance-overhaul",
+    "date": "2026-10-08",
+    "summary": "One of the U.S. Navy’s forward-deployed destroyers went into a Spanish dry dock this week for a maintenance overhaul, the service announced Thursday. USS Arleigh Burke (DDG-51), which is based in Rota, Spain, is undergoing a maintenance period at Navantia in Cadiz, according to a U.S. Navy news release. It’s the first maintenance overhaul of its kind for forward-deployed destroyers based in Europe. “By integrating dry docking into planned maintenance periods overseas, the Navy is increasing material readiness for our forward-deployed warships,” U.S. 6th Fleet commander Vice Adm. J.T. Anderson…",
+    "source": "USNI News",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:07.382372+00:00"
+  },
+  {
+    "id": "a03cadfe49491370",
+    "title": "Abraham Lincoln Carrier Strike Group Returns to San Diego After Nearly 11 Months",
+    "link": "https://news.usni.org/2026/10/08/abraham-lincoln-carrier-strike-group-returns-to-san-diego-after-nearly-11-months",
+    "date": "2026-10-08",
+    "summary": "After 321 days, the Abraham Lincoln Carrier Strike Group is home. Flagship USS Abraham Lincoln (CVN-72) pulled into its berth at Naval Air Station North Island around 3:15 p.m. EST on Thursday. The record-breaking deployment, which saw the ship go 265 consecutive days at sea, is finally over. As the ship made its way through the busy San Diego Bay, sailors manned the rails in their dress whites – some were spotted on a live feed from the ship skipping and holding hands as they rushed to their positions. Around the bend, thousands of loved ones gathered to welcome them",
+    "source": "USNI News",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:07.390354+00:00"
+  },
+  {
+    "id": "17550603c109742c",
+    "title": "France Fires New Submarine-launched Ballistic Missile in First At-sea Test",
+    "link": "https://news.usni.org/2026/10/08/france-fires-new-submarine-launched-ballistic-missile-in-first-at-sea-test",
+    "date": "2026-10-08",
+    "summary": "France conducted the first at-sea firing of its latest submarine-launched ballistic missile on Tuesday. The French Navy’s nuclear powered ballistic missile submarine SNLE Le Vigilant (S618) launched an M51.3 SLBM – minus its nuclear warhead – off the coast of Finistère, France. The missile landed in the North Atlantic, several hundred kilometers from any coastline, reads a French Ministry of the Armed Forces and Veterans Affairs news release. The launch was the first time the M51.3, which entered operational service on Oct. 24, 2025 had been launched from a submerged SSBN, and only the second…",
+    "source": "USNI News",
+    "source_region": "us",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:07.396615+00:00"
+  },
+  {
+    "id": "0ad7f947ac10e2c8",
+    "title": "Report to Congress on Environmental Remediation of PFAS",
+    "link": "https://news.usni.org/2026/10/08/report-to-congress-on-environmental-remediation-of-pfas",
+    "date": "2026-10-08",
+    "summary": "The following is the Oct. 7, 2026, Congressional Research Service report, Environmental Remediation of Per- and Polyfluoroalkyl Substances (PFAS). From the Report Per- and polyfluoroalkyl substances (PFAS) are a large, diverse group of fluorinated compounds that have been used in numerous commercial, industrial, and military applications. Among other uses, PFAS have been used in fire-fighting foams and in the processing and manufacture of many commercial products. Multiple PFAS—primarily perfluorooctanoic acid (PFOA) and perfluorooctane sulfonate (PFOS)—have been detected in soil, surface…",
+    "source": "USNI News",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:07.402701+00:00"
+  },
+  {
+    "id": "0ae3f023cd5d2235",
+    "title": "Russia’s jet drones pose a security threat far beyond Ukraine",
+    "link": "https://www.atlanticcouncil.org/blogs/ukrainealert/russias-jet-drones-pose-a-security-threat-far-beyond-ukraine",
+    "date": "2026-10-08",
+    "summary": "Russian jet drones are currently terrorizing Ukraine’s civilian population and disrupting daily life for millions of people. It is only a matter of time before other countries are also confronted by this threat, writes Leonid Baratz.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:19.415303+00:00"
+  },
+  {
+    "id": "6195ad702023ac19",
+    "title": "A French-German non-paper could be a turning point in EU trade defense",
+    "link": "https://www.atlanticcouncil.org/dispatches/a-french-german-non-paper-could-be-a-turning-point-in-eu-trade-defense",
+    "date": "2026-10-08",
+    "summary": "What to know about the proposal for a quicker European trade-retaliation tool.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-09T12:33:19.419763+00:00"
   },
   {
     "id": "00f050b452ff0d2b",
