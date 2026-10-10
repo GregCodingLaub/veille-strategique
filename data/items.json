@@ -1,5 +1,105 @@
 [
   {
+    "id": "5e5c7aed100b5f7d",
+    "title": "L’armée de l’Air & de l’Espace confirme l’arrive du Rafale à Djibouti en 2027",
+    "link": "https://www.opex360.com/2026/10/10/larmee-de-lair-de-lespace-confirme-larrive-du-rafale-a-djibouti-en-2027",
+    "date": "2026-10-10",
+    "summary": "Jusqu’en août 2025, l’Escadron de chasse 3/11 Jura, établi sur la base aérienne 188 «Colonel Massart» de Djibouti, disposait de quatre Mirage 2000-5F pour assurer la défense de l’espace aérien djiboutien et sécuriser les voies stratégiques d’approvisionnement passant par le détroit de Bab el-Mandeb lors de missions dites SuCAP [Surface Close Air Protection]. Ces appareils...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:01.623799+00:00"
+  },
+  {
+    "id": "894ac8930d0f6cbc",
+    "title": "SCAF : La France, l’Allemagne et l’Espagne ont validé la revue de conception initiale d’un effecteur déporté développé par MBDA",
+    "link": "https://www.opex360.com/2026/10/10/scaf-la-france-lallemagne-et-lespagne-ont-valide-la-revue-de-conception-initiale-dun-effecteur-deporte-developpe-par-mbda",
+    "date": "2026-10-10",
+    "summary": "Mené par la France, l’Allemagne et l’Espagne, le projet de Système de combat aérien du futur [SCAF] ne se résume pas au développement d’un avion de combat de nouvelle génération [ou NFG, pour New Generation Fighter] et à celui de son moteur. Cet appareil doit [ou devait] être accompagné par des drones et des effecteurs...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:01.627079+00:00"
+  },
+  {
+    "id": "835055261fdba655",
+    "title": "Major Saudi conferences to proceed, organisers say, despite deadly airport attack",
+    "link": "https://reut.rs/4rYfWEF",
+    "date": "2026-10-10",
+    "summary": "The organisers of two major Saudi energy and investment conferences said their events will go ahead this month and reassured visitors on security, after missile attacks ​on Riyadh's airport left four people dead and an airliner heavily damaged this week.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.449945+00:00"
+  },
+  {
+    "id": "c930800e2454188f",
+    "title": "Rosatom says it wins tribunal ruling in Finnish nuclear plant dispute",
+    "link": "https://reut.rs/4hWRgrD",
+    "date": "2026-10-10",
+    "summary": "Russia's state nuclear corporation Rosatom said on Saturday that an International Chamber of Commerce (ICC) tribunal had ​ruled in its favour in a long-running ‌dispute with Finnish utility Fennovoima over the cancelled Hanhikivi-1 nuclear power project.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.454025+00:00"
+  },
+  {
+    "id": "f786e20a49164082",
+    "title": "Venezuela president authorizes SpaceX's Starlink to operate in the country",
+    "link": "https://reut.rs/3VtRzmb",
+    "date": "2026-10-10",
+    "summary": "Venezuela's interim President Delcy Rodriguez ​has authorized Starlink, ‌the satellite internet service operated by Elon ​Musk's SpaceX , to ​operate in the Latin ⁠American country.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.466622+00:00"
+  },
+  {
+    "id": "abbf9c0fcfe9f245",
+    "title": "Libya's military seizes narcotics after firefight with smugglers",
+    "link": "https://reut.rs/4zsOmlu",
+    "date": "2026-10-10",
+    "summary": "Libya's military brigade seized more than 1.3 million narcotic pills after a firefight with ​smugglers in a southeastern town that injured three soldiers, ‌the military said on Friday.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.469284+00:00"
+  },
+  {
     "id": "59b874605cf9cb03",
     "title": "Le projet franco-allemand de Système principal de combat terrestre se poursuit, assure le ministère des Armées",
     "link": "https://www.opex360.com/2026/10/09/le-projet-franco-allemand-de-systeme-principal-de-combat-terrestre-se-poursuit-assure-le-ministere-des-armees",
@@ -385,6 +485,830 @@
     "trusted_themes": [],
     "meta": [],
     "fetched_at": "2026-10-09T12:33:06.149712+00:00"
+  },
+  {
+    "id": "f451fc1da86ee386",
+    "title": "À l’approche de l’hiver, Poutine accélère sa guerre contre les infrastructures énergétiques ukrainiennes",
+    "link": "https://legrandcontinent.eu/fr/2026/10/09/a-lapproche-de-lhiver-poutine-accelere-sa-guerre-contre-les-infrastructures-energetiques-ukrainiennes",
+    "date": "2026-10-09",
+    "summary": "Pour faire plier l’Ukraine, Moscou veut plonger le pays dans le noir et le froid L’article À l’approche de l’hiver, Poutine accélère sa guerre contre les infrastructures énergétiques ukrainiennes est apparu en premier sur Le Grand Continent .",
+    "source": "Le Grand Continent",
+    "source_region": "eu",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:52:30.361908+00:00"
+  },
+  {
+    "id": "5fef819eeeb424c4",
+    "title": "Le français Exail dévoile un nouveau système de surveillance maritime basé sur les drones navals de la gamme Oryx",
+    "link": "https://www.opex360.com/2026/10/09/le-francais-exail-devoile-un-nouveau-systeme-de-surveillance-maritime-base-sur-les-drones-navals-de-la-gamme-oryx",
+    "date": "2026-10-09",
+    "summary": "En septembre, la Direction générale de l’armement [DGA] a émis un appel d’offres pour acquérir des drones de surface [USV] «d’endurance» destinés à escorter les porte-hélicoptères amphibies [PHA] et les Bâtiments de soutien et d’assistance métropolitains [BSAM] de la Marine nationale. Le système Neptis, que vient de dévoiler Exail, pourrait-il satisfaire en partie à ce...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:01.630025+00:00"
+  },
+  {
+    "id": "8201827ab22f564a",
+    "title": "La Direction générale de l’armement sélectionne trois drones de surface pour la protection des bases et des navires de la Marine",
+    "link": "https://www.opex360.com/2026/10/09/la-direction-generale-de-larmement-selectionne-trois-drones-de-surface-pour-la-protection-des-bases-et-des-navires-de-la-marine",
+    "date": "2026-10-09",
+    "summary": "La semaine passée, l’amiral Christophe Cluzel, le chef d’état-major de la Marine nationale [CEMM], a fait de l’accélération de l’hybridation de la flotte l’une de ses priorités pour l’année 2026-27. Pour cela, il veut un «choc de dronisation». Son prédécesseur, l’amiral Nicolas Vaujour, avait la même ambition. «Droniser partout où c’est possible et maintenir ‘habité’...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:01.633050+00:00"
+  },
+  {
+    "id": "11a9025e94acc957",
+    "title": "Pour le général Mandon, la suppression de la majoration de pension pour enfants sera «désastreuse» pour les armées",
+    "link": "https://www.opex360.com/2026/10/09/pour-le-general-mandon-la-suppression-de-la-majoration-de-pension-pour-enfants-sera-desastreuse-pour-les-armees",
+    "date": "2026-10-09",
+    "summary": "Présenté en Conseil des ministres, le 1er octobre, le projet de loi de financement de la Sécurité sociale pour 2027 [PLFSS 27] comporte une mesure qui a de quoi surprendre après que le Haut commissariat à la stratégie et au plan [HCSP] a récemment souligné les conséquences économiques de la baisse continue du nombre des...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:01.635670+00:00"
+  },
+  {
+    "id": "bb1ba9a2230d915e",
+    "title": "Marching into the Duma: The cost of Putin’s push for war veterans in parliament – European Council on Foreign Relations",
+    "link": "https://ecfr.eu/article/marching-into-the-duma-the-cost-of-putins-push-for-war-veterans-in-parliament",
+    "date": "2026-10-09",
+    "summary": "Putin wants to make politicians out of Ukraine war veterans. After the recent election, 60 now sit in the Duma. But voters seem less keen than the official vote",
+    "source": "ECFR",
+    "source_region": "eu",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:10.431707+00:00"
+  },
+  {
+    "id": "70a57c9064e2f710",
+    "title": "Shows of Strength and Signs of Strain",
+    "link": "https://warontherocks.com/shows-of-strength-and-signs-of-strain",
+    "date": "2026-10-09",
+    "summary": "Welcome to The Adversarial. Every other week, we’ll provide you with expert analysis on America’s greatest challengers: China, Russia, Iran, North Korea, and jihadists. Read more below.***IranIn late September, U.S. and Iranian negotiators engaged in indirect talks for the first time since the memorandum of understanding they struck in June fell apart. On Oct. 8, U.S. President Donald Trump said “productive discussions” were underway. But it will take some doing to break the deadlock. Tehran’s offer to reopen the Strait of Hormuz within a week carries diminishing allure for Washington, as…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:15.170026+00:00"
+  },
+  {
+    "id": "42dc08a8a61a0301",
+    "title": "Yemen Becomes the Islamic State’s Media Sanctuary",
+    "link": "https://jamestown.org/yemen-becomes-the-islamic-states-media-sanctuary",
+    "date": "2026-10-09",
+    "summary": "Executive Summary On September 1, Yemen’s Central State Security Agency announced that a raid in Say’un, Hadramawt, had killed Abu Hudhayfah al-Ansari, the official spokesman of the Islamic State (IS) (Al-Jazeera; Long War Journal, September 1). Yemeni counterterrorism forces and coalition special forces had located him in a residential house and attempted to arrest him […]",
+    "source": "Jamestown Foundation (China Brief)",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:20.012487+00:00"
+  },
+  {
+    "id": "51c9a69a895511bf",
+    "title": "Iran to Deepen PRC Ties Despite Lack of Military Support",
+    "link": "https://jamestown.org/iran-to-deepen-prc-ties-despite-lack-of-military-support",
+    "date": "2026-10-09",
+    "summary": "Executive Summary: Iran’s Look East policy is rooted in the ideological ideals of the 1979 Revolution, which, with the slogan “Neither East Nor West,” sought to establish an order independent of the two power blocs. Over time—and under sanctions and international isolation—this slogan gave way to practical convergence with Eastern powers, especially Russia and the […]",
+    "source": "Jamestown Foundation (China Brief)",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:20.015165+00:00"
+  },
+  {
+    "id": "48a07f8770f67a44",
+    "title": "Türkiye Expands its Security Strategy in Libya",
+    "link": "https://jamestown.org/turkiye-expands-its-security-strategy-in-libya",
+    "date": "2026-10-09",
+    "summary": "Executive Summary: In late May, Türkiye hosted military training exercises that brought together personnel from Libya’s rival armed factions for the first time since the country’s post-2011 civil war began. The exercises saw the unprecedented participation of soldiers aligned with both the internationally recognized Government of National Unity (GNU) and the eastern-based Libyan National Army […]",
+    "source": "Jamestown Foundation (China Brief)",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:20.017538+00:00"
+  },
+  {
+    "id": "ee0b745b8ca42e35",
+    "title": "Iraq’s Kurdistan Region Rattled by Iranian Drones as Militant Dispute Resumes",
+    "link": "https://jamestown.org/iraqs-kurdistan-region-rattled-by-iranian-drones-as-militant-dispute-resumes",
+    "date": "2026-10-09",
+    "summary": "Executive Summary: Since the U.S.–Iran conflict began on February 28, the Kurdistan Region of Iraq has been targeted by at least 1,000 drone and missile attacks by Iran and Iranian-backed factions, resulting in at least 32 deaths (Al Jazeera, August 11). In mid-July, Iran stepped up such drone attacks after the U.S.–Iran ceasefire broke down […]",
+    "source": "Jamestown Foundation (China Brief)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:20.020259+00:00"
+  },
+  {
+    "id": "47649c21b8199a56",
+    "title": "EXCLUSIVE: Sequoia-backed chip startup Nuvacore raising funds at about a $2.5 billion valuation, sources say",
+    "link": "https://reut.rs/4AZNING",
+    "date": "2026-10-09",
+    "summary": "Six-month-old microchip ​startup Nuvacore, which does not yet have a product, is raising hundreds of millions of dollars at a ‌roughly $2.5 billion valuation to develop a new central processor designed for data centers, according to two people familiar with the fundraising.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.481089+00:00"
+  },
+  {
+    "id": "0280f418db921e9e",
+    "title": "Two Sidus Space directors resign, citing governance disagreements",
+    "link": "https://reut.rs/4hNGiWB",
+    "date": "2026-10-09",
+    "summary": "Satellite technology firm Sidus Space said on Friday two directors had resigned from its ​board, citing disagreements over governance and ‌management practices.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.482841+00:00"
+  },
+  {
+    "id": "0e797b4a3f46612a",
+    "title": "US lifts sanctions on daughter of Myanmar military-linked businessman",
+    "link": "https://reut.rs/4ATE8fz",
+    "date": "2026-10-09",
+    "summary": "The United States lifted ​on Friday sanctions on the daughter of a Myanmar businessman accused of supporting the country's military, according ‌to the US Treasury Department's website, after she filed a suit seeking removal from the blacklist.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.493724+00:00"
+  },
+  {
+    "id": "707e516dfa89d425",
+    "title": "Lockheed Martin unveils PAC-3 Edge interceptor designed to counter hypersonic threats",
+    "link": "https://reut.rs/4idtyIJ",
+    "date": "2026-10-09",
+    "summary": "Lockheed Martin on Friday unveiled PAC-3 Edge, a missile interceptor designed to defend against hypersonic ​and advanced missile threats, as the US ‌military looks to strengthen its capabilities to counter emerging aerial threats.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.496406+00:00"
+  },
+  {
+    "id": "76aabaf6a41b0f39",
+    "title": "EXCLUSIVE: Erik Prince's forces suffer battlefield loss in Congo, former UFC fighter among wounded, sources say",
+    "link": "https://reut.rs/4yc5ris",
+    "date": "2026-10-09",
+    "summary": "Blackwater founder Erik Prince's forces suffered a major battlefield loss in eastern Democratic Republic of Congo in mid-September when enemy forces ambushed them, killing and wounding at ​least 20 people, including a popular former UFC fighter, sources close to the government and his company said.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.505018+00:00"
+  },
+  {
+    "id": "57390224b95f51ee",
+    "title": "Lawmaker calls for US research funding curbs on more Chinese schools",
+    "link": "https://reut.rs/47KFwU7",
+    "date": "2026-10-09",
+    "summary": "A Republican lawmaker has called on the Defense Department to put US research funding restrictions on ​dozens more Chinese universities, including one with ties ‌to top American business leaders.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.524503+00:00"
+  },
+  {
+    "id": "bf55c53e51fda82e",
+    "title": "US Gulf producers shut in more oil and gas as Isaias nears landfall",
+    "link": "https://reut.rs/4dvtOAc",
+    "date": "2026-10-09",
+    "summary": "US producers ‌in the Gulf of Mexico shut in about 1.5 million barrels per day of oil production and 1.3 billion cubic feet per day of natural gas, an increase from Thursday, as Hurricane Isaias churned toward the coast ahead of ​an expected landfall along the Florida Panhandle late on Friday.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.528542+00:00"
+  },
+  {
+    "id": "29d693523f7c790e",
+    "title": "Vance says he does not know if Pentagon will proceed with livestream of Fort Hood gunman's execution",
+    "link": "https://reut.rs/3TRWpZL",
+    "date": "2026-10-09",
+    "summary": "Vice President JD Vance said on Friday he does not know whether the Pentagon will carry out its plan to livestream the execution by firing squad of the former US Army psychiatrist convicted in the deadly 2009 Fort Hood ​shooting, a plan that has drawn broad condemnation.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.530860+00:00"
+  },
+  {
+    "id": "30e98bae6b001817",
+    "title": "Trump to push US officials to use Defense Production Act to raise oil, fuel output, three sources say",
+    "link": "https://reut.rs/4hHrOWE",
+    "date": "2026-10-09",
+    "summary": "President Donald Trump will soon issue ​a directive to some ‌of his department heads to find ways to control ​prices of diesel ​fuel which are near record highs in ⁠the weeks before ​the November 3 congressional ​elections that will determine control of Congress, three industry sources ​said on Friday.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.534659+00:00"
+  },
+  {
+    "id": "b4fd7bc736132d7b",
+    "title": "Two men arrested at UK airbase used by US released on bail",
+    "link": "https://reut.rs/4jerIs6",
+    "date": "2026-10-09",
+    "summary": "British counter-terrorism police said on Friday that two Latvian men who ​were arrested on Thursday inside a Royal ‌Air Force base in eastern England that is used by US forces had been released on ​bail.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.547529+00:00"
+  },
+  {
+    "id": "4f308f75113846d2",
+    "title": "Brazil extends fuel-price relief, cuts gasoline taxes ahead of runoff vote",
+    "link": "https://reut.rs/3VAl0D3",
+    "date": "2026-10-09",
+    "summary": "Brazil's government on Friday extended fuel-price relief measures for another month ​and unveiled additional support aimed at shielding consumers ‌from higher global oil prices, as President Luiz Inacio Lula da Silva seeks to ease cost-of-living pressures ahead of this ​month's presidential runoff vote.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.554191+00:00"
+  },
+  {
+    "id": "0f649ae8d0ca4e4c",
+    "title": "FCC chief defers to Pentagon on airing US execution on TV networks",
+    "link": "https://reut.rs/4hBGNTr",
+    "date": "2026-10-09",
+    "summary": "The chair of the Federal Communications Commission said on Friday that he would defer to the ​Pentagon on whether US networks could air a planned December 3 ‌military execution, which would be an unprecedented broadcast.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.555933+00:00"
+  },
+  {
+    "id": "b0a6e97a01ad1c4d",
+    "title": "UN calls US plans to livestream execution 'abhorrent'",
+    "link": "https://reut.rs/4rSMHmt",
+    "date": "2026-10-09",
+    "summary": "The United Nations on Friday called US plans to livestream ​the execution of Nidal Hasan, the ‌gunman who killed 13 people at the Fort Hood military base in 2009, \"abhorrent\" and said it ​could be a violation of prohibitions ​against torture.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.557734+00:00"
+  },
+  {
+    "id": "172f9bce5d45fb1a",
+    "title": "Milbank expands defense work for law firms fighting RICO claims",
+    "link": "https://reut.rs/4yLT3aa",
+    "date": "2026-10-09",
+    "summary": "Prominent Wall Street law firm Milbank has taken on at least its third case defending personal injury lawyers against racketeering claims, expanding a niche practice for the firm amid ​a wave of cases accusing plaintiffs' attorneys of fraudulent litigation.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.563966+00:00"
+  },
+  {
+    "id": "588cd4c0f2402fde",
+    "title": "Trump silent on Pentagon plan to livestream execution",
+    "link": "https://reut.rs/4AX14KB",
+    "date": "2026-10-09",
+    "summary": "US President Donald Trumphas not publicly commented on the Pentagon's unprecedented ​plan to livestream the military execution of the ‌gunman who killed 13 people at the Fort Hood military base in 2009.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.570140+00:00"
+  },
+  {
+    "id": "e4692df14d83f9c1",
+    "title": "Explainer: Is it legal for the US to livestream the Fort Hood shooter's execution?",
+    "link": "https://reut.rs/3TKqomz",
+    "date": "2026-10-09",
+    "summary": "The Pentagon said on Thursday that it would livestream the firing squad execution of the man who killed 13 people at the Fort Hood military base in 2009, raising questions about the legality of the unprecedented ​announcement.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.572098+00:00"
+  },
+  {
+    "id": "8b02e3513ca69721",
+    "title": "EU says it agrees with China to halve hybrid vehicle exports to EU",
+    "link": "https://reut.rs/3TMGVX8",
+    "date": "2026-10-09",
+    "summary": "The European Union ​and China have agreed to ‌halve Chinese exports of hybrid and plug-in hybrid vehicles to ​the EU, improve EU ​access to China's market and ⁠ease Chinese licencing of ​rare earth exports, European Trade ​Commissioner Maros Sefcovic said on Friday.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.574582+00:00"
+  },
+  {
+    "id": "7c2942b5d6d92a04",
+    "title": "Four Ukrainians arrested in Vienna on suspicion of spying",
+    "link": "https://reut.rs/3TMDK1E",
+    "date": "2026-10-09",
+    "summary": "Four Ukrainians were arrested in Vienna this week on suspicion of spying, Austrian Interior Minister ​Gerhard Karner said on Friday, with Ukrainska ‌Pravda newspaper saying two of its team were among those detained.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "intelligence"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.579961+00:00"
+  },
+  {
+    "id": "caec34345f9dae47",
+    "title": "Explainer: What is the low-band spectrum that SpaceX acquired for Starlink Mobile",
+    "link": "https://reut.rs/4rVEoGB",
+    "date": "2026-10-09",
+    "summary": "SpaceX has agreed to acquire a nationwide portfolio of licenses in the low-band spectrum in a deal reportedly valued at $8 billion, as it looks ​to expand beyond satellite internet and become a serious competitor in the ‌US mobile market.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.589166+00:00"
+  },
+  {
+    "id": "e7e432769b4da795",
+    "title": "Vessel struck by unknown projectile off UAE coast amid surge in attacks, UKMTO says",
+    "link": "https://reut.rs/4AYcqy0",
+    "date": "2026-10-09",
+    "summary": "A vessel was struck by an unknown projectile 13 nautical miles west of Al Jazeera in the United Arab ​Emirates on Friday, causing a fire that has since been extinguished, ‌British navy affiliated agency UKMTO said, citing multiple sources.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.594313+00:00"
+  },
+  {
+    "id": "2cef40377301f593",
+    "title": "Explainer: How the US plan to livestream an execution compares with global practice",
+    "link": "https://reut.rs/4dOo9Wf",
+    "date": "2026-10-09",
+    "summary": "The U.S. military plans to livestream the Dec. 3 execution by firing squad of Nidal Hasan, the former Army psychiatrist convicted of killing 13 people in the 2009 Fort Hood shooting.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.601709+00:00"
+  },
+  {
+    "id": "9189649bfd32cb69",
+    "title": "India rejects monopoly claim after Musk accuses Ambani of blocking Starlink launch",
+    "link": "https://reut.rs/4iciSdp",
+    "date": "2026-10-09",
+    "summary": "India's telecom minister said on Friday the country does not allow monopolies in any sector, pushing ​back after Elon Musk suggested billionaire Mukesh Ambani was ‌using political influence to block Starlink's launch in the country.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.608256+00:00"
+  },
+  {
+    "id": "d35788a5f3342a68",
+    "title": "COMMENTARY: Morning Bid: Bonds, bombs and barricades",
+    "link": "https://reut.rs/3VWeNBq",
+    "date": "2026-10-09",
+    "summary": "Could bond market pain be contagious? Volatile oil prices, rising political risk in Europe, more Middle East fighting, and news of another round of mammoth AI corporate borrowing kept tensions in the sovereign debt market as taut as ever this week.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.619287+00:00"
+  },
+  {
+    "id": "78b5dd39d38a5f4f",
+    "title": "US, European telecom stocks slide as SpaceX spectrum deal rattles sector",
+    "link": "https://reut.rs/4jOL9I9",
+    "date": "2026-10-09",
+    "summary": "US ​and European telecom stocks tumbled on Friday after SpaceX's acquisition of ‌low-band spectrum heightened concerns over growing competition from satellite-based mobile services.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.626493+00:00"
+  },
+  {
+    "id": "26037dc40b0ed8d5",
+    "title": "SpaceX spectrum deal sends Deutsche Telekom shares falling 7%",
+    "link": "https://reut.rs/4yaNfpg",
+    "date": "2026-10-09",
+    "summary": "Shares of Deutsche Telekom were on track for their worst trading day in more than three ​years on Friday, after SpaceX on Thursday announced ‌an agreement to buy a nationwide low-band spectrum license portfolio, enabling Starlink Mobile to become a major telecom operator in ​the US.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:21.629221+00:00"
+  },
+  {
+    "id": "5fa12ccb7754663f",
+    "title": "Coast Guard places $248 million order for first MQ-9B drones",
+    "link": "https://breakingdefense.com/2026/10/coast-guard-places-248-million-order-for-first-mq-9b-drones",
+    "date": "2026-10-09",
+    "summary": "The unarmed drones are meant to “give the Coast Guard crews a longer-range view of our maritime domain,” a senior official said.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:24.483170+00:00"
+  },
+  {
+    "id": "124547d69d049707",
+    "title": "One year in, Army’s FUZE leader eyes ‘bigger’ acquisition challenges",
+    "link": "https://breakingdefense.com/2026/10/one-year-in-armys-fuze-leader-eyes-bigger-acquisition-challenges",
+    "date": "2026-10-09",
+    "summary": "The Army innovation hub’s first year also revealed the challenge of making sure promising technologies don’t stop at the prototype stage, FUZE Director Matt Willis told Breaking Defense.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:24.484710+00:00"
+  },
+  {
+    "id": "1d008c7261e6031f",
+    "title": "Lockheed unveils PAC-3 Edge, its next-gen Patriot interceptor",
+    "link": "https://breakingdefense.com/2026/10/lockheed-unveils-pac-3-edge-its-next-gen-patriot-interceptor",
+    "date": "2026-10-09",
+    "summary": "The aerospace giant intends to invest hundreds of millions of dollars of its own cash in the missile alone, alongside additional investments in its seeker and solid rocket motor, said Tim Cahill, president of Lockheed’s missiles and fire control division.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:24.487147+00:00"
+  },
+  {
+    "id": "688c3277d16372bd",
+    "title": "Drones and autonomous warfare: ‘One-way attack’ and reshaping ISR",
+    "link": "https://breakingdefense.com/2026/10/drones-and-autonomous-warfare-one-way-attack-and-reshaping-isr",
+    "date": "2026-10-09",
+    "summary": "[Sponsored] Systems that can work independently while still being part of a unit are critical to carrying out multi-domain operations.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:24.488395+00:00"
+  },
+  {
+    "id": "e9500c3af5a5bb89",
+    "title": "Ideal Aerosmith debuts ‘Troublemaker’ for one-way attack",
+    "link": "https://breakingdefense.com/2026/10/ideal-aerosmith-debuts-troublemaker-for-one-way-attack",
+    "date": "2026-10-09",
+    "summary": "The company is aiming to tackle a “sweet spot” in the strike market with the Group 3 Troublemaker, and has a “sponsor” in the US Navy, according to executive David Markert.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:24.489810+00:00"
+  },
+  {
+    "id": "820db142ac0e9433",
+    "title": "Thales looks to export new C2 platform to Gulf nations, says executive",
+    "link": "https://breakingdefense.com/2026/10/thales-looks-to-export-new-c2-platform-to-gulf-nations-says-executive",
+    "date": "2026-10-09",
+    "summary": "“We do believe that there is an operational need and a solution based on our open standard, being able to address the sovereignty for the countries. We do believe that this solution is already fit for purpose regarding the Gulf,” Thales Vice President for Multi-Domain Operations Patrick Moreau told Breaking Defense.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:24.492088+00:00"
+  },
+  {
+    "id": "667163e20ece75a3",
+    "title": "GDLS exec: New loitering munitions platform to be delivered to Army by end of month",
+    "link": "https://breakingdefense.com/2026/10/gdls-exec-new-loitering-munitions-platform-to-be-delivered-to-army-by-end-of-month",
+    "date": "2026-10-09",
+    "summary": "The company is on contract to provide four PERCH 2.0 prototypes to the Army’s 1st Brigade, 1st Cavalry Division by the end of October.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:24.493522+00:00"
+  },
+  {
+    "id": "6aca740a2bddfa4b",
+    "title": "New leaders, new drone command: What we expect from AUSA 2026",
+    "link": "https://breakingdefense.com/2026/10/new-leaders-new-drone-command-what-we-expect-from-ausa-2026",
+    "date": "2026-10-09",
+    "summary": "The Army’s autonomy push and the future of its modernization programs are set to loom large at this year’s conference.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:24.494718+00:00"
+  },
+  {
+    "id": "b8083cb1ed0b4714",
+    "title": "A leap in drone range and payloads come from a battery with different chemistry",
+    "link": "https://breakingdefense.com/2026/10/a-leap-in-drone-range-and-payloads-come-from-a-battery-with-different-chemistry",
+    "date": "2026-10-09",
+    "summary": "[Sponsored] Lithium-metal batteries are one way to break the weight and endurance limits of today’s unmanned systems.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:24.496154+00:00"
+  },
+  {
+    "id": "50915444f4e91f04",
+    "title": "Swedish government launches first Patriot mission to Poland",
+    "link": "https://breakingdefense.com/2026/10/swedish-government-launches-first-patriot-mission-to-poland",
+    "date": "2026-10-09",
+    "summary": "The move, part of a NATO mission, comes as a new government is coming to power in Stockholm, with security policy at the heart of political row.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:24.497446+00:00"
+  },
+  {
+    "id": "73368468d7718e4b",
+    "title": "Hanwha sets sights on Army’s tracked howitzer program after victory in wheeled competition",
+    "link": "https://breakingdefense.com/2026/10/hanwha-sets-sights-on-armys-tracked-howitzer-program-after-victory-in-wheeled-competition",
+    "date": "2026-10-09",
+    "summary": "A Hanwha executive told reporters the company plans to offer its K9A1 or K9A2 tracked howitzers for the competition.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:24.498791+00:00"
+  },
+  {
+    "id": "5399f06a33f681f7",
+    "title": "October Sees Near Daily Strikes on Ships in Hormuz",
+    "link": "https://news.usni.org/2026/10/09/october-sees-near-daily-strikes-on-ships-in-hormuz",
+    "date": "2026-10-09",
+    "summary": "A ship has been struck in the Strait of Hormuz nearly every day this month, according to the International Maritime Organization. Between Oct. 1 and Tuesday, nine ships – mostly crude oil tankers – were struck in the Strait of Hormuz or off the coast of Oman, according to the IMO. Two additional ships were hit since, with one struck on Wednesday and another struck on Friday, according to the United Kingdom Maritime Trade Operations. Wednesday’s attack was on an unnamed tanker off the coast of Madinat ash Shamal, Qatar, in the Persian Gulf. Friday’s attack was on an unnamed",
+    "source": "USNI News",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:25.815340+00:00"
+  },
+  {
+    "id": "69028efa4d144f54",
+    "title": "USNI News Western Pacific Pulse: Oct. 9, 2026",
+    "link": "https://news.usni.org/2026/10/09/usni-news-western-pacific-pulse-oct-9-2026",
+    "date": "2026-10-09",
+    "summary": "The following is a summary of major ship movements and exercises in the Western Pacific over the last week. In Phuket, Thailand Aircraft carrier USS George H.W. Bush (CVN-77) and destroyer USS Delbert D. Black (DDG-119) departed Thursday from Phuket, Thailand, following a port visit that began on Sunday. Phuket was the carrier’s first port visit since it deployed in March from Norfolk, Va. For the last six months, the carrier and its strike group have supported Operation Epic Fury and the U.S. naval blockade in the U.S. Central Command area of responsibility. In the Pacific Ocean The Theodore…",
+    "source": "USNI News",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:25.823535+00:00"
+  },
+  {
+    "id": "3c6b4f4d216c4cf5",
+    "title": "Enabling NATO’s technological transformation",
+    "link": "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/enabling-natos-technological-transformation",
+    "date": "2026-10-09",
+    "summary": "NATO faces persistent challenges in translating technological potential into operational capability. Recent analysis of NATO innovation efforts suggests that the limiting factor is often the ability of organizations and operators to adopt, experiment with, and implement new capabilities effectively.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:37.455266+00:00"
+  },
+  {
+    "id": "aa4df2910d25ea00",
+    "title": "Russia has rejected another Black Sea ceasefire. What next?",
+    "link": "https://www.atlanticcouncil.org/blogs/turkeysource/russia-rejects-another-black-sea-ceasefire-with-ukraine",
+    "date": "2026-10-09",
+    "summary": "Russia’s latest ceasefire rejection leaves Black Sea security dependent on credible deterrence and increased allied support for Ukraine.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:37.457054+00:00"
+  },
+  {
+    "id": "d11a67598a25e245",
+    "title": "Trust Is as Important to NATO as Guns",
+    "link": "https://cepa.org/article/trust-is-as-important-to-nato-as-guns",
+    "date": "2026-10-09",
+    "summary": "Europe’s security debate focuses on defense capabilities, technological resilience, critical infrastructure, and the ability to act independently, but public trust in NATO is just as vital.",
+    "source": "CEPA (Center for European Policy Analysis)",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-10T11:53:38.923971+00:00"
   },
   {
     "id": "5262c688d30eca45",
