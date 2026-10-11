@@ -1,5 +1,140 @@
 [
   {
+    "id": "9c5e8682cdc0b523",
+    "title": "Powering Scalable Mass: Western Turbojet Production in 2026",
+    "link": "https://missilematters.substack.com/p/powering-scalable-mass-western-turbojet",
+    "date": "2026-10-11",
+    "summary": "A review of suppliers, designs, and production figures in the Western turbojet engine market",
+    "source": "Missile Matters",
+    "source_region": "eu",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-11T12:04:18.155412+00:00"
+  },
+  {
+    "id": "4155201ffe28e3ff",
+    "title": "Guerre électronique : L’armée de Terre évalue un nouveau système de navigation pour les chuteurs opérationnels",
+    "link": "https://www.opex360.com/2026/10/11/guerre-electronique-larmee-de-terre-evalue-un-nouveau-systeme-de-navigation-pour-les-chuteurs-operationnels",
+    "date": "2026-10-11",
+    "summary": "Au moins à deux reprises, en juin 2022 et en mai 2023, l’armée de Terre lança, sous très faible préavis, une opération aéroportée [OAP] en Estonie, afin de démontrer sa capacité à «intervenir en urgence et à soutenir un allié». Et l’État-major des armées [EMA] les avait décrites comme un «acte de solidarité stratégique» envers...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-11T12:04:35.834950+00:00"
+  },
+  {
+    "id": "df9c636d1a5a4bf9",
+    "title": "L’armée de Terre veut lancer des études pour se doter de microréacteurs nucléaires",
+    "link": "https://www.opex360.com/2026/10/11/larmee-de-terre-veut-lancer-des-etudes-pour-se-doter-de-microreacteurs-nucleaires",
+    "date": "2026-10-11",
+    "summary": "En août, dans le cadre de son programme JANUS, l’US Army fit savoir qu’elle venait d’attribuer des contrats d’une valeur totale de 2,2 milliards de dollars à plusieurs industriels pour «la construction, l’acquisition et l’exploitation» de microréacteurs nucléaires modulaires [SMR – Small Modular Reactors], destinés à cinq de ses emprises, à savoir Fort Bragg [Caroline...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-11T12:04:35.838966+00:00"
+  },
+  {
+    "id": "add2993841b5fde0",
+    "title": "Musk vows affordable Starlink in India days before Ambani's record Jio IPO",
+    "link": "https://reut.rs/4hFOFDp",
+    "date": "2026-10-11",
+    "summary": "Elon Musk said he would price Starlink's satellite internet service affordably in India to take on Mukesh Ambani's low-cost Reliance Jio, ​escalating his attacks on the rival billionaire days before Jio's parent ‌launches India's largest-ever IPO.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-11T12:04:55.767705+00:00"
+  },
+  {
+    "id": "fabfd5688f17241a",
+    "title": "Russia's Yandex says data centre in Vladimir area shut down after drone attack",
+    "link": "https://reut.rs/4jQFC3O",
+    "date": "2026-10-11",
+    "summary": "Russian technology and AI company Yandex said on Sunday ​that its infrastructure had been ‌damaged in a drone attack, resulting in the complete shutdown of its data ​centre in the Vladimir region.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-11T12:04:55.786375+00:00"
+  },
+  {
+    "id": "6aeb650ebdf88179",
+    "title": "Poland says police got information about possible attack on PM and defence minister",
+    "link": "https://reut.rs/4zslWrK",
+    "date": "2026-10-11",
+    "summary": "Polish police received information about a ​possible attack on Prime Minister ‌Donald Tusk and Defence Minister Wladyslaw Kosiniak-Kamysz, an Interior Ministry spokesperson ​said on X on ​Sunday.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-11T12:04:55.792615+00:00"
+  },
+  {
+    "id": "1de960bfd0a3f36b",
+    "title": "Middle East war, high debt levels to dominate IMF-World Bank meetings in Bangkok",
+    "link": "https://reut.rs/3VEAfuI",
+    "date": "2026-10-11",
+    "summary": "Finance officials from around the world will gather in Thailand this week under the shadow of a widening war in the Middle East, the biggest energy supply shock ever and rising interest rates that together pose daunting risks to already-sluggish global economic growth.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-11T12:04:55.805866+00:00"
+  },
+  {
+    "id": "ec31e86d1a2e420b",
+    "title": "US military says it disabled cargo vessel trying to run Iran blockade",
+    "link": "https://reut.rs/4yjrMLd",
+    "date": "2026-10-11",
+    "summary": "The US military ​said on Saturday it had disabled a commercial ‌cargo vessel in the Gulf of Oman after the ship's crew ignored warnings and attempted to run a ​naval blockade against Iran.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-11T12:04:55.818371+00:00"
+  },
+  {
     "id": "5e5c7aed100b5f7d",
     "title": "L’armée de l’Air & de l’Espace confirme l’arrive du Rafale à Djibouti en 2027",
     "link": "https://www.opex360.com/2026/10/10/larmee-de-lair-de-lespace-confirme-larrive-du-rafale-a-djibouti-en-2027",
@@ -98,6 +233,88 @@
     "trusted_themes": [],
     "meta": [],
     "fetched_at": "2026-10-10T11:53:21.469284+00:00"
+  },
+  {
+    "id": "9ebeda02325ca9b8",
+    "title": "Les anciens hélicoptères NH90 TTH belges ne seront finalement pas récupérés par l’Aviation légère de l’armée de Terre",
+    "link": "https://www.opex360.com/2026/10/10/les-anciens-helicopteres-nh90-tth-belges-ne-seront-finalement-pas-recuperes-par-laviation-legere-de-larmee-de-terre",
+    "date": "2026-10-10",
+    "summary": "Au cours de l’été 2025, conformément au plan STAR [sécurité/service, technologie, ambition, résilience], la Défense belge a retiré du service ses quatre hélicoptères NH90 TTH [Tactical Transport Helicopter] en justifiant cette mesure par leur faible disponibilité, leur complexité et leur coût d’exploitation jugé trop élevé. En revanche, elle a conservé les quatre NH90 NFH [Nato...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-11T12:04:35.842819+00:00"
+  },
+  {
+    "id": "886d64cbb40acbc6",
+    "title": "Rubio pledges US cooperation in Okinawa murder case",
+    "link": "https://reut.rs/3TR4jTm",
+    "date": "2026-10-10",
+    "summary": "US Secretary of State Marco Rubio on Saturday vowed to cooperate with Japanese authorities investigating allegations that a ​US Marine murdered a woman in Okinawa, a ‌case that sparked protests and prompted a US military curfew and mandatory training in standards and discipline.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-11T12:04:55.830570+00:00"
+  },
+  {
+    "id": "ba573c1d6739b3f0",
+    "title": "Pope Leo condemns death penalty as Trump mulls livestreamed execution",
+    "link": "https://reut.rs/4ybvFSg",
+    "date": "2026-10-10",
+    "summary": "Pope Leo renewed his condemnation of the death penalty on Saturday, saying it violates the sanctity of human life ​and deprives people of the chance of redemption, days after ‌the Pentagon said it planned to livestream an execution.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-11T12:04:55.846877+00:00"
+  },
+  {
+    "id": "a544c31af9389845",
+    "title": "US Army, Kaizen Laboratories to establish common software platform for classified material",
+    "link": "https://www.defensenews.com/industry/techwatch/2026/10/10/us-army-kaizen-laboratories-to-establish-common-software-platform-for-classified-material",
+    "date": "2026-10-10",
+    "summary": "The U.S. Army recently awarded $43 million to Kaizen Laboratories to create application software for highly sensitive military material.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-11T12:04:57.938177+00:00"
+  },
+  {
+    "id": "911454ba9dc3a231",
+    "title": "Lockheed Martin unveils PAC-3 Edge interceptor designed to counter hypersonic threats",
+    "link": "https://www.defensenews.com/industry/techwatch/2026/10/10/lockheed-martin-unveils-pac-3-edge-interceptor-designed-to-counter-hypersonic-threats",
+    "date": "2026-10-10",
+    "summary": "Lockheed Martin said PAC-3 Edge incorporates a new seeker, upgraded flight controls and a multi-pulse rocket motor supplied by Northrop Grumman.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-11T12:04:57.941439+00:00"
   },
   {
     "id": "59b874605cf9cb03",
@@ -1309,6 +1526,24 @@
     "trusted_themes": [],
     "meta": [],
     "fetched_at": "2026-10-10T11:53:38.923971+00:00"
+  },
+  {
+    "id": "acc3137d6fd53ef4",
+    "title": "Episode 24: Looking Behind the Marketing, Searching Telegram Through Google, and Building Persistent OSINT Apps",
+    "link": "https://osintnewsletter.com/p/episode-24-looking-behind-the-marketing",
+    "date": "2026-10-09",
+    "summary": "Listen now (41 mins) | Tools, tactics, and fresh investigations expanding the open-source intelligence toolkit.",
+    "source": "The OSINT Newsletter",
+    "source_region": "other",
+    "subject_region": "other",
+    "themes": [
+      "intelligence"
+    ],
+    "trusted_themes": [
+      "intelligence"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-11T12:04:24.380838+00:00"
   },
   {
     "id": "5262c688d30eca45",
