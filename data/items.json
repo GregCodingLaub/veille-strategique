@@ -1,5 +1,133 @@
 [
   {
+    "id": "9d239e1eaae7a0df",
+    "title": "Gold gains on weaker oil, dollar; US inflation data in focus",
+    "link": "https://reut.rs/4dApPm5",
+    "date": "2026-10-12",
+    "summary": "Gold rose on Monday, supported by a softer dollar and ‌lower oil prices, as investors awaited key US inflation data this week for clues on the Federal Reserve's next policy move.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-12T06:34:47.041155+00:00"
+  },
+  {
+    "id": "b3efd8f615de2ca6",
+    "title": "Indian shares give up early gains as investors weigh RBI moves, inflation outlook",
+    "link": "https://reut.rs/4ymqgI5",
+    "date": "2026-10-12",
+    "summary": "Indian benchmark shares were muted on Monday, giving up early gains, as investors assessed the impact of central bank measures to ​help a beleaguered rupee, with a dip in oil prices helping soothe sentiment.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-12T06:34:47.046506+00:00"
+  },
+  {
+    "id": "616618db61a40ebb",
+    "title": "It takes two to make a ceasefire",
+    "link": "https://reut.rs/4ybKgNp",
+    "date": "2026-10-12",
+    "summary": "A look at the day ahead in European and global markets from Wayne Cole.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-12T06:34:47.054155+00:00"
+  },
+  {
+    "id": "5437a90e7bb44c01",
+    "title": "Anduril unveils interceptor missile family Steelfin to counter varied threats",
+    "link": "https://reut.rs/4rYHSbx",
+    "date": "2026-10-12",
+    "summary": "Defense tech firm Anduril unveiled on Monday its Steelfin family of configurable and scalable ​surface-to-air interceptor missiles designed to tackle diverse ‌aerial threats, as the US looks to beef up military stockpiles amid the Middle East conflict.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-12T06:34:47.059906+00:00"
+  },
+  {
+    "id": "20cd140b8832b0ef",
+    "title": "Taiwan says it is closely monitoring series of Chinese live-fire drills",
+    "link": "https://reut.rs/3VuunnT",
+    "date": "2026-10-12",
+    "summary": "Taiwan Defence Minister Wellington Koo said on Monday that the military is monitoring a series of Chinese live-fire drills taking place up and down ​the country's coast this week.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "china",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-12T06:34:47.077353+00:00"
+  },
+  {
+    "id": "4c2813a9c26054b1",
+    "title": "North Korea launches multiple ballistic missiles, South Korea says",
+    "link": "https://reut.rs/3TQfXOm",
+    "date": "2026-10-12",
+    "summary": "North ​Korea fired multiple ballistic missiles toward the sea ‌off its east coast on Monday, South Korea's military said, in its latest weapons test amid rising tensions on the Korean ​Peninsula.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-12T06:34:47.080252+00:00"
+  },
+  {
+    "id": "73c52eccd8b0188e",
+    "title": "Chile's Codelco reports mudslide at El Teniente mine; three workers affected",
+    "link": "https://reut.rs/4s7XKZm",
+    "date": "2026-10-12",
+    "summary": "Chile's state-owned copper miner Codelco said on Sunday a mudslide ​had occurred at its El Teniente ‌mine, adding that one of the three workers affected by the incident had ​been rescued and efforts were ​underway to reach the two others.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-12T06:34:47.090858+00:00"
+  },
+  {
+    "id": "e3c6b0f41e18b453",
+    "title": "Anduril unveils Steelfin interceptor as cheaper option to PAC-3 missiles",
+    "link": "https://breakingdefense.com/2026/10/anduril-unveils-steelfin-interceptor-as-cheaper-option-to-pac-3-missiles",
+    "date": "2026-10-12",
+    "summary": "Anduril executives said the system can be “reconfigured” to be tailored toward defeating both low cost and exquisite systems.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-12T06:34:50.033922+00:00"
+  },
+  {
     "id": "9c5e8682cdc0b523",
     "title": "Powering Scalable Mass: Western Turbojet Production in 2026",
     "link": "https://missilematters.substack.com/p/powering-scalable-mass-western-turbojet",
@@ -133,6 +261,70 @@
     "trusted_themes": [],
     "meta": [],
     "fetched_at": "2026-10-11T12:04:55.818371+00:00"
+  },
+  {
+    "id": "010f45eea16d7c2f",
+    "title": "Oil climbs as Mideast conflict, tanker attacks persist",
+    "link": "https://reut.rs/4e1g8gw",
+    "date": "2026-10-11",
+    "summary": "Oil prices extended gains on Monday as the Middle East conflict escalated ‌after Yemen's Iran-backed Houthis stepped up strikes on Saudi Arabia while two tankers were attacked over the weekend, raising concerns about oil supply from the region.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-12T06:34:47.097789+00:00"
+  },
+  {
+    "id": "8d4cecae04985628",
+    "title": "UK's Healey can't risk a 'steady as you go' budget, think tank warns",
+    "link": "https://reut.rs/4eu8VWr",
+    "date": "2026-10-11",
+    "summary": "British finance minister John Healey will need ​to find £36 billion ($47.6 billion) in tax hikes or welfare cuts in his first budget just to offset ‌the inflation hit to public services and meet a defence spending pledge, a think tank said.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-12T06:34:47.101630+00:00"
+  },
+  {
+    "id": "74cda2b7fc2f8859",
+    "title": "FAA tells US airlines to exercise caution in Saudi Arabia flights, citing safety risks",
+    "link": "https://reut.rs/4ybtduT",
+    "date": "2026-10-11",
+    "summary": "The Federal ​Aviation Administration told US airlines on Sunday to exercise caution ‌when flying to or over Saudi Arabia, citing safety threats tied to ongoing military activities and navigation system interference.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-12T06:34:47.105429+00:00"
+  },
+  {
+    "id": "4c74c67d4fa30168",
+    "title": "BP withdraws from Riyadh energy conference after airport attack",
+    "link": "https://reut.rs/4rYtDmZ",
+    "date": "2026-10-11",
+    "summary": "BP canceled its attendance at the World Petroleum Council Energy Congress in Riyadh, a ​company spokesperson said on Sunday, after a ‌missile attack on Riyadh's international airport killed 13 people and wounded more than 300.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-12T06:34:47.109405+00:00"
   },
   {
     "id": "5e5c7aed100b5f7d",
