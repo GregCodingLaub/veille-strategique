@@ -1,5 +1,265 @@
 [
   {
+    "id": "c512cf3bc66b9534",
+    "title": "Mer rouge : Une frégate française a abattu un drone jugé menaçant pour le porte-conteneurs Champs-Élysées",
+    "link": "https://www.opex360.com/2026/10/16/mer-rouge-une-fregate-francaise-a-abattu-un-drone-juge-menacant-pour-le-porte-conteneurs-champs-elysees",
+    "date": "2026-10-16",
+    "summary": "Le 18 avril 2025, l’État-major des armées [EMA] diffusa une vidéo montrant une frégate multimissions [FREMM] faire usage de son canon de 76 mm pour abattre un drone aérien lancé depuis le Yémen par les rebelles houthistes contre le trafic maritime en mer Rouge. Depuis, plus aucun incident de cette nature n’a été signalé. Officiellement,...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:31.747528+00:00"
+  },
+  {
+    "id": "9f4de40ce47ccd1f",
+    "title": "Hegseth's TV instincts backfire as Trump rejects execution livestream",
+    "link": "https://reut.rs/4zuLOmK",
+    "date": "2026-10-16",
+    "summary": "As he took to the stage this week at an Army event, US Defense Secretary Pete Hegseth remarked how much it looked like a ​TV set. The former Fox News host said that put him at ease, even as the first in a series of anti-war protesters shouted at him.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.243625+00:00"
+  },
+  {
+    "id": "893dd41383673544",
+    "title": "Romania resumes search for seven missing sailors from drone-hit ship",
+    "link": "https://reut.rs/3Uzbccd",
+    "date": "2026-10-16",
+    "summary": "Romania resumed a search on Friday for seven sailors missing from a chemical tanker hit by a drone near its Black Sea ​coast, the latest in a series of attacks highlighting risks ‌to commercial shipping near NATO's eastern flank.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.250425+00:00"
+  },
+  {
+    "id": "00dfb3c037231a7c",
+    "title": "Bulgaria seeks NATO anti-drone systems, says defence minister",
+    "link": "https://reut.rs/4ioOZ9S",
+    "date": "2026-10-16",
+    "summary": "Bulgaria has formally asked NATO to deploy combat aircraft and anti-drone systems to bolster its ​defences after a series of drone attacks on ‌commercial shipping in the Black Sea, Defence Minister Dimitar Stoyanov said on Friday.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.255888+00:00"
+  },
+  {
+    "id": "92c5d8cf5cbe6e68",
+    "title": "South Africa dismisses appeals against exploration in TotalEnergies Block 3B/4B",
+    "link": "https://reut.rs/4BfmtPy",
+    "date": "2026-10-16",
+    "summary": "South Africa's environment minister has dismissed a challenge ​lodged by conservationists against an environmental authorisation to allow ‌exploration in TotalEnergies-operated Block 3B/4B off the country's West Coast.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.258626+00:00"
+  },
+  {
+    "id": "3004c76bec9363a1",
+    "title": "EXCLUSIVE: PetroChina set for record trading profit as war upends market, sources say",
+    "link": "https://reut.rs/4eC8cT8",
+    "date": "2026-10-16",
+    "summary": "PetroChina is poised for a record year in trading ​profits, five trading executives said, with its refineries outside China reaping bumper margins amid tight global fuel markets as the ‌Iran war transforms the way Middle East oil is bought and sold.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.262311+00:00"
+  },
+  {
+    "id": "0928bee2b9ceb4b5",
+    "title": "How Healey's first UK budget could ripple through markets",
+    "link": "https://reut.rs/3TUvHQp",
+    "date": "2026-10-16",
+    "summary": "Britain's new finance minister, John Healey, delivers his first budget on October 28 against a ​backdrop of rising global borrowing costs and high energy prices due to the Iran war.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.263527+00:00"
+  },
+  {
+    "id": "d5e68afbf9dc808c",
+    "title": "EXCLUSIVE: US holds more secret talks with Myanmar's military-backed rulers in Tokyo, sources say",
+    "link": "https://reut.rs/4s4hixv",
+    "date": "2026-10-16",
+    "summary": "The US and Myanmar's military-backed government held talks in Tokyo last week, people familiar with the matter said, their second meeting in a month as Washington steps up re-engagement with the generals it shunned after their ​2021 coup.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.274276+00:00"
+  },
+  {
+    "id": "e96b83fffd1a1523",
+    "title": "South Korea reviews expanding military mission in Middle East, report says",
+    "link": "https://reut.rs/4i3BQSm",
+    "date": "2026-10-16",
+    "summary": "South Korea is reviewing an expansion of its military operations in the Middle East, the Kyunghyang Shinmun newspaper reported on Thursday, as the ​US ally faces pressure from President Donald Trump to provide support ‌for the war in Iran.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.275725+00:00"
+  },
+  {
+    "id": "4f788f044df49db4",
+    "title": "Ambani's Reliance welcomes Starlink competition in first response to Musk",
+    "link": "https://reut.rs/4yzrnV6",
+    "date": "2026-10-16",
+    "summary": "Mukesh Ambani's Reliance Industries said it ​welcomed competition from Elon Musk's ‌Starlink in India's satellite internet market, its first public response to ​a week of attacks ​by Musk, days before its ⁠Jio Platforms unit opens a ​record $108 billion IPO.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.278854+00:00"
+  },
+  {
+    "id": "b6f1bf2e5c3396b3",
+    "title": "World Bank's Banga sets goal of quintupling critical minerals financing in five years",
+    "link": "https://reut.rs/4ezUTT8",
+    "date": "2026-10-16",
+    "summary": "World Bank President Ajay Banga on Friday said the development lender has set a goal of quintupling its critical minerals business ​in five years, and has identified 20 countries that it ‌can partner with on critical minerals development projects.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.282786+00:00"
+  },
+  {
+    "id": "13402df65c76ddf0",
+    "title": "Oil edges down as investors weigh possible US sanctions on 'shadow fleet'",
+    "link": "https://reut.rs/4egi9Wd",
+    "date": "2026-10-16",
+    "summary": "Oil prices edged down on Friday morning as investors weighed Middle East risks and possible US steps to ease restrictions ​on the world’s \"shadow fleet\" of tankers.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.294363+00:00"
+  },
+  {
+    "id": "d6a299f89b8ae66c",
+    "title": "North Korea missile chief questions South Korea hypersonic glide vehicle test",
+    "link": "https://reut.rs/4jjtb0l",
+    "date": "2026-10-16",
+    "summary": "North Korea's missile chief said South Korea's newly tested ‌hypersonic glide vehicle may not have achieved hypersonic flight as claimed, state media KCNA reported on Thursday.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.302975+00:00"
+  },
+  {
+    "id": "fab91a8128d9574d",
+    "title": "New human-machine interface will help Boxer punch above its weight",
+    "link": "https://www.defensenews.com/land/2026/10/14/new-human-machine-interface-will-help-boxer-punch-above-its-weight",
+    "date": "2026-10-16",
+    "summary": "An Australian startup has teamed with Rheinmetall to enable soldiers to direct nearby drones with voice commands from aboard Boxer vehicles.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:54.096915+00:00"
+  },
+  {
+    "id": "0b393864b2ae5535",
+    "title": "Lockheed invests $300M in Texas plant to feed missile surge",
+    "link": "https://www.defensenews.com/industry/techwatch/2026/10/15/lockheed-invests-300m-in-texas-plant-to-feed-missile-surge",
+    "date": "2026-10-16",
+    "summary": "Lockheed is investing $300 million to expand its Grand Prairie, Texas, plant, which supports all programs within its Missiles and Fire Control business.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:54.098112+00:00"
+  },
+  {
+    "id": "a6af9758bcb48828",
+    "title": "Latvian official warns Russia ‘tempted to test’ European readiness, sounds alarm over border issues",
+    "link": "https://breakingdefense.com/2026/10/latvian-official-warns-russia-tempted-to-test-european-readiness-sounds-alarm-over-border-issues",
+    "date": "2026-10-16",
+    "summary": "Airis Rikveilis, the state secretary at Latvia’s Ministry of Defense, told Breaking Defense the military and border guards are working jointly to stem the tide of illegal entries, including via tunnels.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:55.223959+00:00"
+  },
+  {
     "id": "80485f54ddfda84e",
     "title": "Cyberattaque sur la chaîne d’approvisionnement : quels enjeux pour la sécurité alimentaire ?",
     "link": "https://www.iris-france.org/cyberattaque-sur-la-chaine-dapprovisionnement-quels-enjeux-pour-la-securite-alimentaire",
@@ -369,6 +629,933 @@
     ],
     "meta": [],
     "fetched_at": "2026-10-15T10:50:31.869263+00:00"
+  },
+  {
+    "id": "19fc7dfcd261dd0d",
+    "title": "L’Iran multiplie les attaques dans le détroit d’Ormuz",
+    "link": "https://legrandcontinent.eu/fr/2026/10/15/liran-multiplie-les-attaques-dans-le-detroit-dormuz",
+    "date": "2026-10-15",
+    "summary": "Près de deux navires par jour ont été visés en octobre L’article L’Iran multiplie les attaques dans le détroit d’Ormuz est apparu en premier sur Le Grand Continent .",
+    "source": "Le Grand Continent",
+    "source_region": "eu",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:01.673414+00:00"
+  },
+  {
+    "id": "294d164842cefa6f",
+    "title": "D’un outil climatique à un instrument de puissance : implications géostratégiques et de défense de la géo-ingénierie solaire",
+    "link": "https://www.iris-france.org/dun-outil-climatique-a-un-instrument-de-puissance-implications-geostrategiques-et-de-defense-de-la-geo-ingenierie-solaire",
+    "date": "2026-10-15",
+    "summary": "Dans le contexte de l’accélération des changements climatiques, les discours portés par des acteurs scientifiques et politiques en faveur de l’étude des méthodes de géo-ingénierie solaire se multiplient. Ces méthodes, également désignées sous le terme de « modification du rayonnement solaire » (Solar Radiation Modification, MRS), sont plus ou moins complexes et visent à abaisser la température moyenne globale en réfléchissant une partie du rayonnement solaire. Cette note s’inscrit dans la continuité du rapport de l’Observatoire Défense et Climat de 2023 sur les enjeux géostratégiques et de…",
+    "source": "IRIS",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:29.229064+00:00"
+  },
+  {
+    "id": "559fcac6df3fd68e",
+    "title": "Les crises humanitaires du 21e siècle : la situation en Palestine",
+    "link": "https://www.iris-france.org/les-crises-humanitaires-du-21e-siecle-la-situation-en-palestine",
+    "date": "2026-10-15",
+    "summary": "Les Palestiniens, forcés d’abandonner leurs terres, vivent sous occupation israélienne depuis plus de 55 ans. Au cours du 21e siècle, la situation s’est aggravée à la suite d’une succession d’évènement dramatique : le blocus de la bande de Gaza depuis 2007, la guerre à Gaza depuis octobre 2023 et une recrudescence des violences en Cisjordanie et à Jérusalem-Est. Depuis octobre 2023, Médecins du Monde (MDM) a alors œuvré pour une action humanitaire dans la région en ouvrant notamment des cliniques pour assurer des consultations de soins primaires. Aujourd’hui, l’enclavement de la bande de Gaza…",
+    "source": "IRIS",
+    "source_region": "fr",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:29.232711+00:00"
+  },
+  {
+    "id": "ab6ee42e3ce983af",
+    "title": "La France n’a pas l’intention de nouer des coopérations «structurelles» pour développer son «Avion de combat du futur»",
+    "link": "https://www.opex360.com/2026/10/15/la-france-na-pas-lintention-de-nouer-des-cooperations-structurelles-pour-developper-son-avion-de-combat-du-futur",
+    "date": "2026-10-15",
+    "summary": "Après le retrait de l’Allemagne du projet du chasseur-bombardier de 6e génération, alors appelé NGF [pour New Generation Fighter], sur lequel devait reposer le Système de combat aérien du futur [SCAF], il a été avancé que la France pourrait chercher d’autres partenaires, comme la Suède ou l’Inde, pour mener à bien le développement de ce...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:31.750156+00:00"
+  },
+  {
+    "id": "c41755c9dbed3a4c",
+    "title": "Le général Bellanger s’inquiète de l’évolution des capacités aériennes russes, notamment dans le domaine des drones d’attaque",
+    "link": "https://www.opex360.com/2026/10/15/le-general-bellanger-sinquiete-de-levolution-des-capacites-aeriennes-russes-notamment-dans-le-domaine-des-drones-dattaque",
+    "date": "2026-10-15",
+    "summary": "Lancée au début du mois de septembre, l’opération Vivaldi aurait permis aux forces ukrainiennes de reprendre 172 km² de territoire aux Russes dans le secteur stratégique de Lyman, situé à l’extrême nord de l’oblast de Donetsk [Donbass], selon des données publiées par l’Institut d’étude de la guerre [ISW] le 1er octobre. Dans le même temps,...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:31.752661+00:00"
+  },
+  {
+    "id": "0c182b28f30733a8",
+    "title": "L’armée de l’Air & de l’Espace va doter de munitions téléopérées «DÉLUGE» son escadron de drones de bombardement",
+    "link": "https://www.opex360.com/2026/10/15/larmee-de-lair-de-lespace-va-doter-son-escadron-de-drones-de-bombardement-de-munitions-teleoperees-deluge",
+    "date": "2026-10-15",
+    "summary": "En marge des débats sur l’actualisation de la Loi de programmation militaire [LPM] 2024-30, le chef d’état-major de l’armée de l’Air & de l’Espace [CEMAAE], le général Jérôme Bellanger, avait dit souhaiter la création d’escadrons de drones à vocation de bombardement et/ou de chasse. Et cela afin d’effectuer des frappes dans la profondeur, de saturer...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:31.754585+00:00"
+  },
+  {
+    "id": "9bb67a9da917ca9b",
+    "title": "Avec l’A2SM XLR, l’armée de l’Air va récupérer une capacité de suppression des défenses aériennes adverses",
+    "link": "https://www.opex360.com/2026/10/15/avec-la2sm-xlr-larmee-de-lair-va-recuperer-une-capacite-de-suppression-des-defenses-aeriennes-adverses",
+    "date": "2026-10-15",
+    "summary": "Lors d’une audition à l’Assemblée nationale, le 14 octobre, le chef d’état-major de l’armée de l’Air & de l’Espace [CEMAAE], le général Jérôme Bellanger, a estimé que la capacité SEAD [Suppression of Enemy Air Defense / Suppression des défenses aériennes ennemies], qui reposait sur le bombardier tactique Jaguar associé au missile antiradar AS-37 MARTEL, avait...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:31.756497+00:00"
+  },
+  {
+    "id": "5767e779d73dd51d",
+    "title": "“Bunker Busters”: Deep Targets, Shallow Stocks",
+    "link": "https://www.csis.org/analysis/bunker-busters-deep-targets-shallow-stocks",
+    "date": "2026-10-15",
+    "summary": "Bunker buster munitions were once a niche capability required for a small set of special targets. They have now moved into the mainstream as U.S. adversaries have responded to U.S. precision attack mu...",
+    "source": "CSIS",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:44.019231+00:00"
+  },
+  {
+    "id": "ab8e86d1282fd0be",
+    "title": "Do the Benefits Outweigh the Risks of Hosting U.S. Military Bases?",
+    "link": "https://warontherocks.com/do-the-benefits-outweigh-the-risks-of-hosting-u-s-military-bases",
+    "date": "2026-10-15",
+    "summary": "Since the end of World War II, the United States has maintained hundreds of military installations abroad. While U.S. forces have faced some objections to their presence, many allies and partners have seen U.S. bases and other facilities on their territory as a sign of their close relations with a superpower, a form of protection, and an economic boon. However, the war with Iran has raised questions about whether hosting U.S. military installations subjects Arab Gulf states to Iranian retaliation while failing to provide sufficient protection. The sudden withdrawal of U.S. B-1 bombers from…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:45.333648+00:00"
+  },
+  {
+    "id": "abad07419af0d32e",
+    "title": "Russia Deepens Role in Brazil’s Nuclear Fuel Cycle",
+    "link": "https://jamestown.org/russia-deepens-role-in-brazils-nuclear-fuel-cycle",
+    "date": "2026-10-15",
+    "summary": "Executive Summary: Russia and Brazil signed an agreement on July 31, increasing the volume of an existing contract from 2025 for Rosatom to process Brazilian uranium from the Caetité deposit in the state of Bahia (Atomnaia Energiia 2.0, July 31). In July, Brazil’s uranium imports from Russia totaled $84.5 million, 172 times more than in […]",
+    "source": "Jamestown Foundation (China Brief)",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:50.049535+00:00"
+  },
+  {
+    "id": "41e82006024196c6",
+    "title": "Azerbaijan Expands Defense Industry with Turkish and Other Partners",
+    "link": "https://jamestown.org/azerbaijan-expands-defense-industry-with-turkish-and-other-partners",
+    "date": "2026-10-15",
+    "summary": "Executive Summary: On September 30, Azerbaijani Defense Minister Colonel General Zakir Hasanov and Turkish Defense Industry Agency President Haluk Görgün oversaw the signing of a package of contracts between Baku and Turkish defense companies worth more than $500 million (Daily Sabah, September 30). The documents were signed on the sidelines of the sixth Azerbaijan International […]",
+    "source": "Jamestown Foundation (China Brief)",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:50.051567+00:00"
+  },
+  {
+    "id": "b90b03d2f947d861",
+    "title": "BHP sues union at Spence copper mine over 'illegal' stoppages",
+    "link": "https://reut.rs/4B125kW",
+    "date": "2026-10-15",
+    "summary": "Global miner ​BHP has sued the workers' union ‌at its Spence copper mine in Chile over two work stoppages it deemed \"illegal\" because they occurred outside ​a scheduled negotiating period, a court ​filing seen by Reuters on Thursday ⁠showed.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.338443+00:00"
+  },
+  {
+    "id": "692a04acbeafef03",
+    "title": "Why CoreWeave's troubles are rattling the AI boom",
+    "link": "https://reut.rs/4jYVott",
+    "date": "2026-10-15",
+    "summary": "CoreWeave's mounting debt is raising fresh concerns about the AI boom, as investors question whether demand can justify the billions being borrowed to build data centres.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.339665+00:00"
+  },
+  {
+    "id": "e3e7295f7b827a43",
+    "title": "US plan to ease shadow fleet sanctions unlikely to free up many tankers, analysts say",
+    "link": "https://reut.rs/4hZfsJT",
+    "date": "2026-10-15",
+    "summary": "A potential Trump administration plan to ease sanctions on vessels that have transported sanctioned oil ​and fuel would likely have limited impact on boosting tanker availability, traders and analysts said on Thursday.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.358446+00:00"
+  },
+  {
+    "id": "420b17c8473d7be8",
+    "title": "China's central bank chief urges 'comprehensive' view on global imbalances",
+    "link": "https://reut.rs/3VNaxEo",
+    "date": "2026-10-15",
+    "summary": "China's central bank governor called for looking beyond current account and exchange ​rate adjustments when it comes to global ‌imbalances, in a further defence of China's policies against trade partners' criticisms.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "china",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.366585+00:00"
+  },
+  {
+    "id": "a59d1ed6a527cffe",
+    "title": "No breakthrough in talks at Antofagasta's striking Centinela copper mine, unions say",
+    "link": "https://reut.rs/47Uoy5P",
+    "date": "2026-10-15",
+    "summary": "Negotiations between Antofagasta Minerals and two striking unions at Chile's Centinela copper mine showed no progress on Thursday, ​while three workers marked their seventh day on a hunger ‌strike.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.368086+00:00"
+  },
+  {
+    "id": "2295edee2c7a5b7c",
+    "title": "Houthis attack presidential palace complex in Yemen's Aden, PM unharmed, officials say",
+    "link": "https://reut.rs/3UtVQ8P",
+    "date": "2026-10-15",
+    "summary": "Yemen's Houthis fired missiles at the ‌presidential palace complex in the southern city of Aden on Thursday, killing two security guards, ​two government officials told Reuters.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.370608+00:00"
+  },
+  {
+    "id": "8d7b7e95ceb4f298",
+    "title": "How Aramco learned to keep pumping oil under fire",
+    "link": "https://reut.rs/4ikXJxI",
+    "date": "2026-10-15",
+    "summary": "When attack drones struck Saudi Aramco's biggest oil pipeline last month, satellite images showed one of its pumping stations burnt ​to ashes. By the next day, scores of bulldozers were already building a new pipeline.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.376915+00:00"
+  },
+  {
+    "id": "d6d2692e8a9fa2a1",
+    "title": "How are Yemen’s Houthis attacking Saudi Arabia so effectively?",
+    "link": "https://reut.rs/47TsYtJ",
+    "date": "2026-10-15",
+    "summary": "Houthi militants who control northwestern Yemen have in the past week attacked Riyadh international airport and hit the headquarters of Saudi Aramco, the world's largest oil company, in air ​assaults that have laid bare Saudi Arabia's vulnerability to threats from its enemy next door.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.384467+00:00"
+  },
+  {
+    "id": "df62aff5ac2f647d",
+    "title": "Gulf cost edge keeps chemical buyers hooked despite Hormuz risks",
+    "link": "https://reut.rs/4zD7duf",
+    "date": "2026-10-15",
+    "summary": "Chemical buyers are unlikely to permanently shift away from Middle Eastern suppliers despite disruptions to shipments through ​the Strait of Hormuz, as the region's competitive pricing and production scale remain difficult to rival, analysts said.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.389429+00:00"
+  },
+  {
+    "id": "8a9f02c115ae0b2f",
+    "title": "German court sentences two for plotting to kill leader of German Jewish community for Iran",
+    "link": "https://reut.rs/47kUDnm",
+    "date": "2026-10-15",
+    "summary": "A German court on Thursday handed two men prison sentences of up to 8-1/2 years for planning ​to kill the leader of a Jewish organisation ‌in Germany, saying one man had been steered by Iran's intelligence service.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "intelligence"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.393572+00:00"
+  },
+  {
+    "id": "7436a35f97be0587",
+    "title": "Market selloff, rising rates test AI data centre deal boom",
+    "link": "https://reut.rs/4eaQWUQ",
+    "date": "2026-10-15",
+    "summary": "A market selloff is forcing companies driving the global AI boom to delay fundraising plans or pay more for capital as investors demand proof they can absorb rising interest rates and computing-power costs.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.395910+00:00"
+  },
+  {
+    "id": "3ea7a3e3d68953f5",
+    "title": "Saudi-led coalition says Houthis attempted to attack dozens of Saudi facilities",
+    "link": "https://reut.rs/4dCpEqj",
+    "date": "2026-10-15",
+    "summary": "The Saudi-led military coalition in Yemen said on Thursday that the country's Houthis had attempted to attack dozens of Saudi airports, ports ​and oil facilities, as fighting between the Iran-aligned group and Saudi Arabia ‌intensified.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.398089+00:00"
+  },
+  {
+    "id": "e0dfe32077b3ef56",
+    "title": "Trump says military execution will not be livestreamed",
+    "link": "https://reut.rs/4jp1umW",
+    "date": "2026-10-15",
+    "summary": "US President Donald Trump said on Thursday the ​execution of the Fort Hood gunman would not ‌be livestreamed but that immediate families of the victims would be able to view it in person.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.404121+00:00"
+  },
+  {
+    "id": "45b3d985f9e65bc8",
+    "title": "French supermarkets' cyber insurance unlikely to cover food losses, insurers say",
+    "link": "https://reut.rs/4hIOk2Q",
+    "date": "2026-10-15",
+    "summary": "French supermarkets are facing millions of euros in losses after a cyberattack forced them to throw away food, ​in a crisis that is not typically covered by cyber insurance policies but could still lead to higher premiums in future, insurers ‌told Reuters.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.410129+00:00"
+  },
+  {
+    "id": "43343cd0180b522f",
+    "title": "Equinor halts Troll gas field modification, boosting output",
+    "link": "https://reut.rs/4dIcUOZ",
+    "date": "2026-10-15",
+    "summary": "Equinor is abandoning plans to install a second electric export compressor ​on its Troll C platform in ‌the North Sea, preventing a drop in output from Europe's largest natural gas field ​in 2027 and 2028, the Norwegian ​company said.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.420586+00:00"
+  },
+  {
+    "id": "1c81b6f08586b4e8",
+    "title": "Hormuz shipping disruption is starting to hit harvests, UN agency says",
+    "link": "https://reut.rs/4hXaRI2",
+    "date": "2026-10-15",
+    "summary": "The impact of the disruption to shipping through the Strait of Hormuz is already becoming visible in agricultural harvests, threatening to ​lower farm yields and push up food prices, the head of ‌a United Nations rural development agency said on Thursday.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.431117+00:00"
+  },
+  {
+    "id": "3251b201c3e7a888",
+    "title": "Ukraine says it damaged six Russian military jets in missile strike on airfield",
+    "link": "https://reut.rs/4ykelu8",
+    "date": "2026-10-15",
+    "summary": "Ukraine's military said on Thursday ​it had damaged six Russian Su-34M military ‌aircraft in an overnight strike on the Borisoglebsk airfield in ​Russia's Voronezh region.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.432243+00:00"
+  },
+  {
+    "id": "3c4251b3c62889be",
+    "title": "COMMENTARY: Oil's long view darkens as Iran war refuses to end",
+    "link": "https://reut.rs/4jGToX1",
+    "date": "2026-10-15",
+    "summary": "Oil markets initially treated the Iran war as a brief bullish disruption in a long-term bearish trend. But traders are now betting that oil prices will remain elevated through 2028, forcing a rethink of the global inflation outlook.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.433490+00:00"
+  },
+  {
+    "id": "1b35e4f794fa07cd",
+    "title": "Drone attack causes fire at Russia's Ryazan refinery, regional governor says",
+    "link": "https://reut.rs/4eyDfzb",
+    "date": "2026-10-15",
+    "summary": "A big Ukrainian drone attack on Russia's Ryazan region caused a fire to break out at an oil refinery, the regional ​governor said on Thursday.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.434763+00:00"
+  },
+  {
+    "id": "563780c6ea525ef5",
+    "title": "US toy prices surge ahead of holiday shopping season as tariffs, Iran war bite",
+    "link": "https://reut.rs/4i5xXML",
+    "date": "2026-10-15",
+    "summary": "Cash-strapped US consumers are ​facing a squeeze in their shopping budgets this holiday season, hit by the double whammy of tariffs and high ‌energy costs.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:52.435982+00:00"
+  },
+  {
+    "id": "8d2dfd979288279a",
+    "title": "Killer balloons an option as US Army seeks to ‘exploit the stratosphere’",
+    "link": "https://www.defensenews.com/industry/techwatch/2026/10/15/killer-balloons-an-option-as-us-army-seeks-to-exploit-the-stratosphere",
+    "date": "2026-10-15",
+    "summary": "While using balloons as shooters likely presents more challenges than using them for sensing, nothing is off the table, an Army official said.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:54.099098+00:00"
+  },
+  {
+    "id": "2053d255fc760fc5",
+    "title": "US Army eyes developing soldier-worn drone detection gear",
+    "link": "https://www.defensenews.com/industry/techwatch/2026/10/15/us-army-eyes-developing-soldier-worn-drone-detection-gear",
+    "date": "2026-10-15",
+    "summary": "The Army is in the early stages of developing and testing a wearable or lightweight device that could alert soldiers to the presence of hostile drones.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:54.100061+00:00"
+  },
+  {
+    "id": "19b9e60775e2ed1a",
+    "title": "‘Revolutionary’: Bell touts MV-75 Cheyenne II as combat game changer",
+    "link": "https://www.defensenews.com/industry/techwatch/2026/10/15/revolutionary-bell-touts-mv-75-cheyenne-ii-as-combat-game-changer",
+    "date": "2026-10-15",
+    "summary": "The Army's MV-75 Cheyenne II is expected to bring increased capability through its speed, range and modular open systems approach.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:54.100976+00:00"
+  },
+  {
+    "id": "e461885197a0f030",
+    "title": "Kratos combat drone completes first Euro flight, advances turbojet engine production",
+    "link": "https://www.defensenews.com/industry/techwatch/2026/10/15/kratos-combat-drone-completes-first-euro-flight-advances-turbojet-engine-production",
+    "date": "2026-10-15",
+    "summary": "The company said it is positioning itself to support a range of unmanned missions with new aircraft and engine capabilities.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:54.102121+00:00"
+  },
+  {
+    "id": "ecb32b2bb607c888",
+    "title": "US Army to stand up second expeditionary cyber battalion in coming months",
+    "link": "https://www.defensenews.com/industry/techwatch/2026/10/14/us-army-to-stand-up-second-expeditionary-cyber-battalion-in-coming-months",
+    "date": "2026-10-15",
+    "summary": "The head of U.S. Army Cyber Command said this week that the service would be building an exact replica of the 11th Cyber Battalion in the next few months.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:54.103166+00:00"
+  },
+  {
+    "id": "6466a6c07f726c6b",
+    "title": "Thales Australia tackles heavy battlefield logistics with new big-rig robot",
+    "link": "https://www.defensenews.com/land/2026/10/15/thales-australia-tackles-heavy-battlefield-logistics-with-new-big-rig-robot",
+    "date": "2026-10-15",
+    "summary": "Thales Australia is working on autonomy features for its new big-rig cargo robot that can carry a 20-foot container or act as a large battery in the field.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:54.104250+00:00"
+  },
+  {
+    "id": "b44b224a32ca2f0f",
+    "title": "Army looks to add third CAML system, Lozano says",
+    "link": "https://breakingdefense.com/2026/10/army-looks-to-add-third-caml-system-lozano-says",
+    "date": "2026-10-15",
+    "summary": "A request for information will be coming out in the near future, and the service is looking to make some “early selections” in the March to April timeframe for the CAML-light, Lt. Gen. Frank Lozano, PAE for Fires, said.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:55.225231+00:00"
+  },
+  {
+    "id": "d7054523dc17a9de",
+    "title": "Reprogramming robots in the mud: How Army Special Ops trains its new robot technicians",
+    "link": "https://breakingdefense.com/2026/10/reprogramming-robots-in-the-mud-how-army-special-ops-trains-its-new-robot-technicians",
+    "date": "2026-10-15",
+    "summary": "“What we’re building is a soldier that can adapt a piece of robotic kit to the mission, to the enemy, to the terrain,” said Maj. Gen. Jason Slider, commander of the John F. Kennedy Special Warfare Center and School.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:55.226599+00:00"
+  },
+  {
+    "id": "b2271bc66a999811",
+    "title": "Finding the adversary’s hidden signals is the Army’s next electromagnetic warfare challenge",
+    "link": "https://breakingdefense.com/2026/10/finding-the-adversarys-hidden-signals-is-the-armys-next-electromagnetic-warfare-challenge",
+    "date": "2026-10-15",
+    "summary": "[Sponsored] RF sensing at greater distance gives operators more decision space to act.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:55.227436+00:00"
+  },
+  {
+    "id": "37aafad388297326",
+    "title": "As critical mineral deadline looms, Army expects to feel ‘some impact’",
+    "link": "https://breakingdefense.com/2026/10/as-critical-mineral-deadline-looms-army-expects-to-feel-some-impact",
+    "date": "2026-10-15",
+    "summary": "Liz Miranda, Army Materiel Command’s executive deputy to the commanding general, said a White House order’s requirements for companies to map their supply chain down to the raw material level “is no easy task.”",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:55.228512+00:00"
+  },
+  {
+    "id": "d71cdbaa82f88e86",
+    "title": "Why the midterms could matter for Ukraine aid",
+    "link": "https://breakingdefense.com/2026/10/why-the-midterms-could-matter-for-ukraine-aid",
+    "date": "2026-10-15",
+    "summary": "Democrats say a victory in November would put military assistance to Kyiv back on the congressional agenda.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:55.229218+00:00"
+  },
+  {
+    "id": "6a66e2020e51d200",
+    "title": "Navy Civilianizes Six Former Flag Billets, Reduces Six to Captains",
+    "link": "https://news.usni.org/2026/10/15/navy-civilianizes-six-former-flag-billets-reduces-six-to-captains",
+    "date": "2026-10-15",
+    "summary": "The Navy quietly changed six billets held by flag officers to civilian posts as the service looks to follow Defense Secretary Pete Hegseth’s call for “less generals, more GIs.” Overall, the Navy identified 14 billets held by flag officers that it would either merge with another position, convert to a civilian position or downgrade to a Navy captain. Nearly all of the now civilian positions are filled by appointees or people acting in that capacity. Director, Navy staff, N09B, Office of the Chief of Naval Operations, is currently held by Matthew Swartz, a civilian. Chief of Naval Operations…",
+    "source": "USNI News",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:56.603708+00:00"
+  },
+  {
+    "id": "ab2b6a76e4945a62",
+    "title": "Japan Wants to Sell Air Defense, Maritime Surveillance Systems to Philippine Forces",
+    "link": "https://news.usni.org/2026/10/15/japan-wants-to-sell-air-defense-maritime-surveillance-systems-to-philippine-forces",
+    "date": "2026-10-15",
+    "summary": "MANILA, Philippines — Japan wants to sell air defense, maritime surveillance and counter-drone systems to the Philippines amid its push to bolster forces in the South China Sea and Luzon Strait. The proposed sale of medium and short-range air defense systems was highlighted Wednesday on the sidelines of the 72nd founding anniversary of the Japan Self-Defense Force. The proposal represents a new phase in Tokyo’s longstanding security assistance to Manila and follows enhanced defense ties between the two countries through recent joint training and logistics agreements. During the founding…",
+    "source": "USNI News",
+    "source_region": "us",
+    "subject_region": "china",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:56.606844+00:00"
+  },
+  {
+    "id": "370a4d82fbee5f01",
+    "title": "North Korea Tests First Submarine-launched Cruise Missile in Nearly 3 Years",
+    "link": "https://news.usni.org/2026/10/15/north-korea-tests-first-submarine-launched-cruise-missile-in-nearly-3-years",
+    "date": "2026-10-15",
+    "summary": "North Korea fired two submarine-launched cruise missiles on Wednesday in the Sea of Japan, the first public disclosure of a SLCM test firing in nearly three years. North Korea’s Missile Administration fired two types of submarine-launched strategic cruise missiles, state media Korean Central News Agency reported on Thursday. North Korea uses the term “strategic” to describe nuclear weapons capability. “The test-fire aimed to examine the current mobilized posture of the underwater combat systems and contributed to getting the Navy skilled in performing its strategic missions and showcasing…",
+    "source": "USNI News",
+    "source_region": "us",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:56.610118+00:00"
+  },
+  {
+    "id": "c6b8d8dc43c021e9",
+    "title": "Report to Congress on North Korea’s Nuclear Weapons and Missile Programs",
+    "link": "https://news.usni.org/2026/10/15/report-to-congress-on-north-koreas-nuclear-weapons-and-missile-programs-5",
+    "date": "2026-10-15",
+    "summary": "The following is the Oct. 13, 2026, Congressional Research Service report, North Korea’s Nuclear Weapons and Missile Programs. From the Report Over the past decade, the Democratic People’s Republic of Korea (DPRK, or North Korea) has advanced its nuclear weapons and ballistic missile programs, which has raised the threat Pyongyang poses to the United States, U.S. allies in East Asia, and U.S. interests. In April 2026, a U.S. defense official testified that “North Korea’s nuclear forces are increasingly capable of targeting the U.S. Homeland, and its missile forces can strike South Korea and…",
+    "source": "USNI News",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:56.613261+00:00"
+  },
+  {
+    "id": "d02f662670312400",
+    "title": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course",
+    "link": "https://www.bellingcat.com/news/us-canada/2026/10/15/satellite-images-show-extent-of-trump-admins-tree-felling-at-dc-golf-course",
+    "date": "2026-10-15",
+    "summary": "Satellite imagery obtained by Bellingcat lays bare the extent of tree-felling at a Washington DC golf course that President Trump is reportedly seeking to transform into a championship-level course, despite moves to protect the site by conservationists. The extent […]",
+    "source": "Bellingcat",
+    "source_region": "eu",
+    "subject_region": "us",
+    "themes": [
+      "intelligence",
+      "energy_industry"
+    ],
+    "trusted_themes": [
+      "intelligence"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:39:57.897212+00:00"
+  },
+  {
+    "id": "ba6a9fec6313f2be",
+    "title": "Measuring Europe’s rearmament: A year of the Defence Readiness Roadmap 2030",
+    "link": "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/measuring-europes-rearmament-a-year-of-the-defence-readiness-roadmap-2030",
+    "date": "2026-10-15",
+    "summary": "One year since the EU debuted its \"Defence Readiness Roadmap,\" with forty-five milestones Europe must meet to take responsibility for its own defense by 2030, is the EU on track?",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:40:08.988259+00:00"
+  },
+  {
+    "id": "fdb5301d78663a02",
+    "title": "Russia’s Starlink substitute poses a security threat far beyond Ukraine",
+    "link": "https://www.atlanticcouncil.org/blogs/ukrainealert/russias-starlink-substitute-poses-a-security-threat-far-beyond-ukraine",
+    "date": "2026-10-15",
+    "summary": "The Kremlin is currently in the process of deploying a satellite communications network known as Rassvet, creating concerns for the Russian invasion of Ukraine and for the wider international security environment, writes Joshua Stein.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:40:08.991149+00:00"
+  },
+  {
+    "id": "d337b7d2cddd4ab5",
+    "title": "Ukraine reports more battlefield gains as Putin’s invasion loses momentum",
+    "link": "https://www.atlanticcouncil.org/blogs/ukrainealert/ukraine-reports-more-battlefield-gains-as-putins-invasion-loses-momentum",
+    "date": "2026-10-15",
+    "summary": "Kyiv has reported further battlefield gains this week as the country’s Operation Vivaldi counteroffensive in eastern Ukraine’s Donetsk region continues to advance, writes David Kirichenko.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:40:08.993654+00:00"
+  },
+  {
+    "id": "658fe6b7aad5ace0",
+    "title": "Dodging Russian Drones on Europe’s Highway to Hell",
+    "link": "https://cepa.org/article/dodging-russian-drones-on-europes-highway-to-hell",
+    "date": "2026-10-15",
+    "summary": "The old talk of a peaceful European future comes to a shuddering halt in the lands of eastern Ukraine.",
+    "source": "CEPA (Center for European Policy Analysis)",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:40:10.369423+00:00"
+  },
+  {
+    "id": "e51aa4881159acd1",
+    "title": "Europeanising NATO: European Way of War",
+    "link": "https://icds.ee/en/europeanising-nato-european-way-of-war",
+    "date": "2026-10-15",
+    "summary": "The threat from Russia is increasing while the US is demanding that Europeans take on the bulk of the continent's conventional defence. NATO's European Allies (and Canada) must be able to defend Europe with minimal US reinforcement. In this context, developing a European way of war is essential.",
+    "source": "ICDS (Estonia)",
+    "source_region": "eu",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:40:12.348868+00:00"
+  },
+  {
+    "id": "6231d69e0f380ae6",
+    "title": "The Houthi threat that Saudi Arabia couldn’t end",
+    "link": "https://www.lowyinstitute.org/the-interpreter/the-houthi-threat-that-saudi-arabia-couldn-t-end",
+    "date": "2026-10-15",
+    "summary": "A battlefield defeat has not weakened the Houthis’ grip on the Red Sea chokepoints that matter to Australian fuel security.",
+    "source": "Lowy Institute - The Interpreter",
+    "source_region": "other",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:40:13.746419+00:00"
+  },
+  {
+    "id": "227c5a080ac14154",
+    "title": "Federal bankruptcy courts dealing with outages after contractor cyberattack",
+    "link": "https://therecord.media/federal-bankruptcy-courts-dealing-with-cyberattack-outage",
+    "date": "2026-10-15",
+    "summary": "The incident, which involved a government contractor, has halted all production of bankruptcy notices.",
+    "source": "The Record (Recorded Future News)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:40:14.913866+00:00"
+  },
+  {
+    "id": "e038ea7724751765",
+    "title": "Zero-click spyware infecting devices through online ads, researchers say",
+    "link": "https://therecord.media/spyware-citizen-lab-advertising",
+    "date": "2026-10-15",
+    "summary": "Powerful zero-click spyware is infected devices worldwide through targeted ads, new research shows — an alarming development in the spread of surveillance technology.",
+    "source": "The Record (Recorded Future News)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "intelligence"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:40:14.915170+00:00"
+  },
+  {
+    "id": "d30d4a2455060b73",
+    "title": "UK Legal Aid Agency hack worse than thought, with stolen records dating back to 1978",
+    "link": "https://therecord.media/uk-legal-aid-cyberattack-data",
+    "date": "2026-10-15",
+    "summary": "A cyberattack on Britain’s Legal Aid Agency (LAA) stole far older and broader records than the government previously disclosed.",
+    "source": "The Record (Recorded Future News)",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:40:14.916318+00:00"
+  },
+  {
+    "id": "1b773b19f1416669",
+    "title": "Suspected Kazakhstan-linked hackers target governments across former Soviet states",
+    "link": "https://therecord.media/suspected-kazakhstan-phishing-central-asia-espionage",
+    "date": "2026-10-15",
+    "summary": "A roughly 2-year-old cyber-espionage campaign against Central Asian states appears to originate in Kazakhstan, researchers said.",
+    "source": "The Record (Recorded Future News)",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "intelligence"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-16T10:40:14.917391+00:00"
   },
   {
     "id": "4241ab3cdf05536b",
