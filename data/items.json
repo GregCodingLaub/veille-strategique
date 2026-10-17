@@ -1,5 +1,37 @@
 [
   {
+    "id": "55f17fe9de7ffe87",
+    "title": "Russian defence ministry says it hit Ukrainian steel plants, power infrastructure overnight",
+    "link": "https://reut.rs/4ebYh6E",
+    "date": "2026-10-17",
+    "summary": "Russia's defence ministry said on Saturday it had carried ​out a large-scale overnight attack ‌on Ukrainian infrastructure targets, including the country's largest steelworks in the ​city of Kryvyi Rih.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:08.430215+00:00"
+  },
+  {
+    "id": "36d5e043649723f3",
+    "title": "Striking unions at Antofagasta's Centinela copper mine reach preliminary deal, ending strike",
+    "link": "https://reut.rs/4BcHWIE",
+    "date": "2026-10-17",
+    "summary": "Workers from two striking ​unions at Antofagasta's Centinela ‌copper mine in Chile reached a ​preliminary agreement for ​a new collective contract ⁠agreement, agreeing to ​end a strike ​that has lasted more than a week at ​the mine, the ​union said late on Friday ‌in ⁠a statement sent to its members.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:08.448604+00:00"
+  },
+  {
     "id": "c512cf3bc66b9534",
     "title": "Mer rouge : Une frégate française a abattu un drone jugé menaçant pour le porte-conteneurs Champs-Élysées",
     "link": "https://www.opex360.com/2026/10/16/mer-rouge-une-fregate-francaise-a-abattu-un-drone-juge-menacant-pour-le-porte-conteneurs-champs-elysees",
@@ -258,6 +290,579 @@
     "trusted_themes": [],
     "meta": [],
     "fetched_at": "2026-10-16T10:39:55.223959+00:00"
+  },
+  {
+    "id": "05fc08afe2beb564",
+    "title": "En mer Noire, la Russie escalade aux abords de l’OTAN",
+    "link": "https://legrandcontinent.eu/fr/2026/10/16/en-mer-noire-la-russie-escalade-aux-abords-de-lotan",
+    "date": "2026-10-16",
+    "summary": "Sept navires ont été attaqués au large de la Roumanie et de la Bulgarie au mois d’octobre L’article En mer Noire, la Russie escalade aux abords de l’OTAN est apparu en premier sur Le Grand Continent .",
+    "source": "Le Grand Continent",
+    "source_region": "eu",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:07:18.968217+00:00"
+  },
+  {
+    "id": "0f080fd1da87a4bd",
+    "title": "The Right to Fail: When an AI Agent Crosses the OSINT Boundary",
+    "link": "https://projectosint.substack.com/p/the-right-to-fail-when-an-ai-agent",
+    "date": "2026-10-16",
+    "summary": "An AI agent is asked to find publicly available information about Australian medical spending.",
+    "source": "Project OSINT",
+    "source_region": "other",
+    "subject_region": "other",
+    "themes": [
+      "intelligence"
+    ],
+    "trusted_themes": [
+      "intelligence"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:07:26.380586+00:00"
+  },
+  {
+    "id": "d3353ec3e762acde",
+    "title": "De la guerre hybride et du sexe des anges",
+    "link": "https://www.iris-france.org/de-la-guerre-hybride-et-du-sexe-des-anges",
+    "date": "2026-10-16",
+    "summary": "La légende raconte que, pendant que les troupes du sultan Mehmed II assiégeaient la ville de Constantinople, les théologiens byzantins se seraient absorbés dans un débat théologique sur le sexe des anges, négligeant la défense de la ville qui est finalement tombée le 29 mai 1453. D’où le sens donné à l’expression « discuter du sexe des anges » : se perdre en discussions futiles pendant qu’une situation urgente s’aggrave. La question de savoir si nous, Européens, sommes vraiment en guerre avec la Russie relève du même ordre d’idées. Le nier et continuer de parler de « guerre hybride » comme…",
+    "source": "IRIS",
+    "source_region": "fr",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:07:45.778699+00:00"
+  },
+  {
+    "id": "c2e2cb4ab867b3b5",
+    "title": "Le nouveau sous-marin nucléaire d’attaque Rubis rejoint le dispositif de mise à l’eau en vue de son lancement",
+    "link": "https://www.opex360.com/2026/10/16/le-nouveau-sous-marin-nucleaire-dattaque-rubis-rejoint-le-dispositif-de-mise-a-leau-en-vue-de-son-lancement",
+    "date": "2026-10-16",
+    "summary": "Le 14 juin dernier, quatre mois à peine après avoir effectué ses premiers essais à la mer sous la supervision de la Direction générale de l’armement [DGA] et de la Division des applications militaires du Commissariat à l’énergie atomique et aux énergies alternatives [DAM/CEA], le sous-marin nucléaire d’attaque De Grasse, quatrième unité de classe Barracuda...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:07:48.870290+00:00"
+  },
+  {
+    "id": "6b00a98e951b781d",
+    "title": "En attendant le Thundart, le 1er Régiment d’Artillerie va créer une batterie dotée de munitions téléopérées à longue portée",
+    "link": "https://www.opex360.com/2026/10/16/en-attendant-le-thundart-le-1er-regiment-dartillerie-va-creer-une-batterie-dotee-de-munitions-teleoperees-a-longue-portee",
+    "date": "2026-10-16",
+    "summary": "Quand il était chef d’état-major de l’armée de Terre [CEMAT], le général Pierre Schill n’a cessé de réclamer le remplacement des Lance-roquettes unitaires [LRU] afin de faire en sorte qu’une «division bonne de guerre» puisse toujours disposer, à l’horizon 2027, d’une capacité de frappe dans la profondeur. D’où le programme FLP-T [Frappe Longue Portée /...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:07:48.873985+00:00"
+  },
+  {
+    "id": "c250e82a6a6019b5",
+    "title": "Faute de Patroller, le 61e Régiment d’Artillerie sera doté de drones Tekever AR3",
+    "link": "https://www.opex360.com/2026/10/16/faute-de-patroller-le-61e-regiment-dartillerie-sera-dote-de-drones-tekever-ar3",
+    "date": "2026-10-16",
+    "summary": "L’actualisation de la Loi de programmation militaire [LPM] 2024-30 a confirmé l’abandon du drone tactique Patroller, qui avait été commandé à Safran en 2016, dans le cadre du programme SDT, afin de remplacer les appareils de type Sperwer alors mis en œuvre au sein du 61e Régiment d’Artillerie [RA]. Reposant sur le motoplaneur Stemme S15,...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:07:48.877620+00:00"
+  },
+  {
+    "id": "45866abcf21293a4",
+    "title": "Capturing National Security Benefits from Offshore Wind",
+    "link": "https://www.csis.org/analysis/capturing-national-security-benefits-offshore-wind",
+    "date": "2026-10-16",
+    "summary": "Turbines, platforms, and subsea cables built for energy can also extend the reach of U.S. maritime surveillance. This report examines the evolving maritime threat environment and assesses the potentia...",
+    "source": "CSIS",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:00.652479+00:00"
+  },
+  {
+    "id": "80ac2097c3a8591f",
+    "title": "Could Russia Be Poised to Use an On-Orbit Weapon Against a Commercial Satellite?",
+    "link": "https://www.csis.org/analysis/could-russia-be-poised-use-orbit-weapon-against-commercial-satellite",
+    "date": "2026-10-16",
+    "summary": "Cosmos 2612 is moving into position for close-proximity operations with a U.S.-registered commercial satellite supporting Ukraine. With a history of on orbit weapons tests and gray zone aggression, Ru...",
+    "source": "CSIS",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:00.656730+00:00"
+  },
+  {
+    "id": "5ebbdf76ba28808e",
+    "title": "Anthropic signs lease for first Canadian data center",
+    "link": "https://reut.rs/4i0lMCd",
+    "date": "2026-10-16",
+    "summary": "Anthropic has signed a lease with EverWind for data center capacity at ​Point Tupper, Nova Scotia, marking the ‌Claude maker’s first data center agreement in Canada, a company executive said on Friday.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:08.457264+00:00"
+  },
+  {
+    "id": "a331543972f66286",
+    "title": "Missiles hit Aden airport as Saudi-led coalition intercepts missile headed for Yanbu",
+    "link": "https://reut.rs/4BadqiP",
+    "date": "2026-10-16",
+    "summary": "Missiles struck Aden International Airport in southern Yemen on Friday, while a ​Saudi-led military coalition said it had intercepted a ballistic missile headed for the Red Sea city ‌of Yanbu, a key Saudi oil hub that allows exports to avoid the Strait of Hormuz.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:08.463886+00:00"
+  },
+  {
+    "id": "983d050f6148f57a",
+    "title": "PODCAST: Zacharia out, Zelenskiy slams diesel deal, Oregon shooting (Updated)",
+    "link": "https://reut.rs/4i6UU21",
+    "date": "2026-10-16",
+    "summary": "Ukraine's Zelenskiy criticizes US-Russia diesel deal while calling on the EU for military and negotiating support.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:08.469312+00:00"
+  },
+  {
+    "id": "bb226910b554ee21",
+    "title": "FAA bars unauthorized drones along US-Mexico border, citing security concerns",
+    "link": "https://reut.rs/4e1D3bN",
+    "date": "2026-10-16",
+    "summary": "The Federal Aviation Administration said on Friday it is barring unauthorized drones along the ​US border with Mexico as the government steps up efforts to address concerns ‌about illegal cross-border drug shipments.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:08.502832+00:00"
+  },
+  {
+    "id": "22d710025bde7d06",
+    "title": "Canadian steelmakers offset some US tariff pain with domestic demand",
+    "link": "https://reut.rs/4hTiiQk",
+    "date": "2026-10-16",
+    "summary": "Canada's steel industry, among the sectors hit first and hardest by US President Donald Trump's tariffs, is starting to turn a corner thanks to an uptick in mining, energy and AI data center projects as ​well as government support, although the impact has not been even across the country.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:08.560177+00:00"
+  },
+  {
+    "id": "6c828ce3f240b0ab",
+    "title": "US solicits exchange of up to 17 million barrels of oil from strategic reserve",
+    "link": "https://reut.rs/4evVLrV",
+    "date": "2026-10-16",
+    "summary": "The United States has issued a request for proposal ​for an exchange of up to ‌17 million barrels of crude oil from the nation's Strategic Petroleum Reserve, the Department ​of Energy said on Friday.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:08.564628+00:00"
+  },
+  {
+    "id": "6326c8f4592f059e",
+    "title": "Families wait for answers after Nigerian military plane crash",
+    "link": "https://reut.rs/4dHHYOM",
+    "date": "2026-10-16",
+    "summary": "More than a week after a Nigerian Air Force plane crash killed all 25 people on board, families say they are still ​waiting for answers as military teams search for wreckage and human remains in swampy terrain.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:08.573443+00:00"
+  },
+  {
+    "id": "bd74dff4c4f374e8",
+    "title": "Supertanker rates fall from record highs",
+    "link": "https://reut.rs/4dISl4Y",
+    "date": "2026-10-16",
+    "summary": "The cost of shipping oil on the largest tankers fell this week from record highs as demand eased ​following a wave of attacks on vessels in the Middle East and ​as the US considered easing sanctions on the so-called shadow fleet.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:08.583353+00:00"
+  },
+  {
+    "id": "e163a1c9d5231ac0",
+    "title": "Russia says strategic bombers made planned flight over Baltic Sea, Interfax reports",
+    "link": "https://reut.rs/3WcRgfD",
+    "date": "2026-10-16",
+    "summary": "Russian Tu-22M3 strategic bomber planes, escorted by fighter ​jets, carried out a planned ‌flight over neutral waters of the Baltic Sea, Russian news agencies ​quoted the Defence Ministry ​as saying on Friday.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:08.606712+00:00"
+  },
+  {
+    "id": "5bb9c6230b27078c",
+    "title": "Trump says US may need to strike Iran's Pickaxe Mountain",
+    "link": "https://reut.rs/4jYQgWm",
+    "date": "2026-10-16",
+    "summary": "President Donald Trump said the US may have to target Pickaxe Mountain, a site linked to ​Iran's nuclear program, as he aims to ensure ‌Tehran does not get a nuclear weapon. In an interview with Newsmax on Thursday night, Trump also said he would not use ​a nuclear weapon in the war on ​Iran, which began in February with US-Israeli strikes. * ⁠Trump said the US wanted to make sure Iran ​will never have a nuclear weapon \"because if they had ​it, they would use it.\" * \"Their nuclear is buried unde",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:08.619818+00:00"
+  },
+  {
+    "id": "fb130c2323bd70ab",
+    "title": "PODCAST: White House’s Ukraine order, Oregon shooting and California's ballot battle",
+    "link": "https://reut.rs/4dFFuAt",
+    "date": "2026-10-16",
+    "summary": "Sources say the order to throttle Ukraine's battlefield communications came from inside the White House.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:08.621490+00:00"
+  },
+  {
+    "id": "a026c628a76388a1",
+    "title": "Russian strikes and winter hardship may drive more Ukrainians from homes, UN agency warns",
+    "link": "https://reut.rs/4hPU6Qn",
+    "date": "2026-10-16",
+    "summary": "Millions of Ukrainians face another winter of hardship as attacks on critical infrastructure, damaged housing and rising living costs threaten to force more ​people from their homes, the United Nations migration agency said on Friday.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:08.626911+00:00"
+  },
+  {
+    "id": "a05459c7c8f539b0",
+    "title": "What is Starshield, SpaceX’s military version of Starlink?",
+    "link": "https://www.defensenews.com/industry/techwatch/2026/10/16/what-is-starshield-spacexs-military-version-of-starlink",
+    "date": "2026-10-16",
+    "summary": "Ukraine said on Wednesday that SpaceX had restricted “military-grade” Starlink services, hampering Ukrainian drone strike missions and air defenses.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:10.548985+00:00"
+  },
+  {
+    "id": "ee14a51535efe62d",
+    "title": "Arizona Guard first to field Gray Eagle 25M drone",
+    "link": "https://www.defensenews.com/industry/techwatch/2026/10/15/arizona-guard-first-to-field-gray-eagle-25m-drone",
+    "date": "2026-10-16",
+    "summary": "The state will receive 12 of the unmanned aircraft systems by the end of 2029.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:10.550400+00:00"
+  },
+  {
+    "id": "4d15006d97d1b6f7",
+    "title": "South Korean lasers down three drones in Army demo, Hanwha says",
+    "link": "https://www.defensenews.com/industry/techwatch/2026/10/16/south-korean-lasers-down-three-drones-in-army-demo-hanwha-says",
+    "date": "2026-10-16",
+    "summary": "Hanwha Systems laser weapons shot down target drones during a South Korean Army demonstration, the company said.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:10.551894+00:00"
+  },
+  {
+    "id": "b3dfb96cc9ebd3c8",
+    "title": "‘Weaponized light’: KBR’s new base defense technology pits lasers against drones",
+    "link": "https://www.defensenews.com/news/your-military/2026/10/15/weaponized-light-kbrs-new-base-defense-technology-pits-lasers-against-drones",
+    "date": "2026-10-16",
+    "summary": "The Pentagon recently selected KBR's Firefly system for a pilot program to test defending U.S. military installations against adversarial drones.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:10.553813+00:00"
+  },
+  {
+    "id": "8603dcb181ee0b3c",
+    "title": "Zone 5 ‘found a spot’ in drone interceptor market with new Eclipse: CEO",
+    "link": "https://breakingdefense.com/2026/10/zone-5-found-a-spot-in-drone-interceptor-market-with-new-eclipse-ceo",
+    "date": "2026-10-16",
+    "summary": "CEO Thomas Akers told Breaking Defense that the company’s recent acquisition by Norwegian defense firm Kongsberg offers “an immediate step change” for the startup firm, whose portfolio now spans from a reusable drone interceptor to a low-cost cruise missile.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:11.636521+00:00"
+  },
+  {
+    "id": "cebd076d6a6e67da",
+    "title": "Germany changes course on plans to buy MQ-28 drone wingman: Boeing official",
+    "link": "https://breakingdefense.com/2026/10/germany-changes-course-on-plans-to-buy-mq-28-drone-wingman-boeing-official",
+    "date": "2026-10-16",
+    "summary": "Germany has set a target of 2029 to field a CCA, which would make it the first European country to reach such a milestone, but that timeline now looks to be in doubt.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:11.639245+00:00"
+  },
+  {
+    "id": "4f8981a0f94a9b12",
+    "title": "Open system architecture will be ‘hyper important’ in downselect of Army’s XM30: Senior official",
+    "link": "https://breakingdefense.com/2026/10/open-system-architecture-will-be-hyper-important-in-downselect-of-armys-xm30-senior-official",
+    "date": "2026-10-16",
+    "summary": "An open systems architecture allows the Army and its industry partners to plug new and different software and hardware capabilities into the platform.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:11.641432+00:00"
+  },
+  {
+    "id": "4dde1ca8c8cbf462",
+    "title": "Turkish Aerospace expands Anka 3 production with new line for upgraded drone",
+    "link": "https://breakingdefense.com/2026/10/turkish-aerospace-expands-anka-3-production-with-new-line-for-upgraded-drone",
+    "date": "2026-10-16",
+    "summary": "A company official said the first aircraft to be built on the new line is expected to roll out “soon” and undergo flight testing afterward.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:11.643813+00:00"
+  },
+  {
+    "id": "5724ccf9e8ad2502",
+    "title": "USNI News Western Pacific Pulse: Oct. 16, 2026",
+    "link": "https://news.usni.org/2026/10/16/usni-news-western-pacific-pulse-oct-16-2026",
+    "date": "2026-10-16",
+    "summary": "The following is a summary of major ship movements and exercises in the Western Pacific over the last week. In Yokosuka, Japan The Theodore Roosevelt Carrier Strike Group docked Friday at Commander Fleet Activities Yokosuka. This marks the first time in four years that a non-forward deployed carrier has pulled into CFAY. The strike group includes aircraft carrier USS Theodore Roosevelt (CVN-71), cruiser USS Chosin (CG 65) and destroyer USS Decatur (DDG 73). The Theodore Roosevelt CSG also deployed with Medium Unmanned Surface Vessel (MUSV) Seahawk. The strike group will participate in the…",
+    "source": "USNI News",
+    "source_region": "us",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:13.057643+00:00"
+  },
+  {
+    "id": "b5c15b0f978b762c",
+    "title": "Army Lays Out New Plan for Prolonged Fight in First Island Chain",
+    "link": "https://news.usni.org/2026/10/16/army-lays-out-new-plan-for-prolonged-fight-in-first-island-chain",
+    "date": "2026-10-16",
+    "summary": "The U.S. Army laid out its plans to prepare for a prolonged fight in the Pacific along the First Island Chain in the service’s new warfighting guidance released this month. For decades, the ground branch has oriented troops against insurgent threats and high-intensity combat operations from the Middle East, Europe and the Korean Peninsula. In recent years, tensions in the Western Pacific with China have pushed the Army to formulate plans for a new type of operations area – one that encompasses vast swathes of archipelagos and maritime environments. A key fact listed in the “How the Army…",
+    "source": "USNI News",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:13.063656+00:00"
+  },
+  {
+    "id": "30a5ad04f702766a",
+    "title": "Carrier USS Theodore Roosevelt Arrives in Japan Ahead of Keen Sword Exercise",
+    "link": "https://news.usni.org/2026/10/16/carrier-uss-theodore-roosevelt-arrives-in-japan-ahead-of-keen-sword-exercise",
+    "date": "2026-10-16",
+    "summary": "USS Theodore Roosevelt (CVN-71), cruiser USS Chosin (CG 65) and destroyer USS Decatur (DDG 73) docked at Commander Fleet Activities Yokosuka (CFAY) at 9.20 a.m. local time on Friday ahead of its participation in exercise Keen Sword 27. Theodore Roosevelt is the first non-Forward Deployed Naval Forces-Japan (FDNF-J) carrier in four years to dock in CFAY since USS Abraham Lincoln (CVN-72) in 2022. The Yokosuka City Council also noted that this is the first time Roosevelt has visited the port. The CSG is pulling in to conduct routine maintenance and resupply and confirmed that the strike group…",
+    "source": "USNI News",
+    "source_region": "us",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:13.071030+00:00"
+  },
+  {
+    "id": "6721e1c291803eaa",
+    "title": "What Ukraine’s Starlink disruptions reveal about the tradeoffs involved in military commercial dependencies",
+    "link": "https://www.atlanticcouncil.org/dispatches/what-ukraines-starlink-disruptions-reveal-about-the-tradeoffs-involved-in-military-commercial-dependencies",
+    "date": "2026-10-16",
+    "summary": "Militaries need to understand the consequences of losing access to capabilities that have become essential to mission execution.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:24.726818+00:00"
+  },
+  {
+    "id": "3e69d41dc7550e71",
+    "title": "Ukrainian drone strikes highlight the vulnerability of Russia’s data centers",
+    "link": "https://www.atlanticcouncil.org/blogs/ukrainealert/ukrainian-drone-strikes-highlight-the-vulnerability-of-russias-data-centers",
+    "date": "2026-10-16",
+    "summary": "The idea of Ukrainian drones silencing Kremlin bots clearly caught the world’s imagination, but the real story behind Ukraine’s recent drone strikes on Russia’s mega data centers is one of strategic vulnerability, writes Leonid Baratz.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:24.733974+00:00"
+  },
+  {
+    "id": "4c29a91c725e37cf",
+    "title": "Moscow police detain suspected DataSuckers hackers linked to breaches in Ukraine and Russia",
+    "link": "https://therecord.media/russia-datasuckers-hackers-arrested",
+    "date": "2026-10-16",
+    "summary": "Russian authorities have reportedly detained three suspected members of the DataSuckers hacking group following a cyberattack on a popular restaurant chain that exposed vast amounts of customer information.",
+    "source": "The Record (Recorded Future News)",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:30.608870+00:00"
+  },
+  {
+    "id": "700cff3a3f4e9554",
+    "title": "Suspected Chinese espionage attackers abusing BeyondTrust IT support zero-day",
+    "link": "https://therecord.media/beyond-trust-cyberattack-china",
+    "date": "2026-10-16",
+    "summary": "An alleged Chinese state-backed group is using a new zero-day affecting BeyondTrust IT support software to conduct espionage attacks.",
+    "source": "The Record (Recorded Future News)",
+    "source_region": "us",
+    "subject_region": "china",
+    "themes": [
+      "intelligence"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-17T10:08:30.612476+00:00"
   },
   {
     "id": "80485f54ddfda84e",
