@@ -1,5 +1,121 @@
 [
   {
+    "id": "8c67482204ead91e",
+    "title": "U.S. Space-Based Ballistic Missile Early Warning and Ukraine",
+    "link": "https://missilematters.substack.com/p/did-the-united-states-stop-sharing",
+    "date": "2026-10-18",
+    "summary": "How SBIRS detects launches, how warnings reach Ukraine, and why Europe cannot replace them before the 2030s.",
+    "source": "Missile Matters",
+    "source_region": "eu",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-18T10:21:26.833108+00:00"
+  },
+  {
+    "id": "072ed7cb9db569db",
+    "title": "Canada : Un «incident grave» a fait plusieurs tués et de nombreux blessés sur la base militaire de Wainwright",
+    "link": "https://www.opex360.com/2026/10/18/canada-un-incident-grave-a-fait-plusieurs-tues-et-de-nombreux-blesses-sur-la-base-militaire-de-wainwright",
+    "date": "2026-10-18",
+    "summary": "Le 17 octobre, vers 16 heures [heure locale], un incendie s’est déclaré dans le périmètre de la base militaire de Wainwright qui, située dans la province de l’Alberta, est l’une des plus fréquentée du Canada étant donné qu’elle abrite, entre autres, le Centre canadien d’entraînement aux manœuvres [CCEM], dont la mission est d’assurer la préparation...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-18T10:21:41.778403+00:00"
+  },
+  {
+    "id": "051ad9b4d4eebc59",
+    "title": "Iran's parliament approves Mehrdad Akhlaqi as minister of defence",
+    "link": "https://reut.rs/4yMqmZX",
+    "date": "2026-10-18",
+    "summary": "Iran's parliament approved Mehrdad Akhlaqi Ketabchi as defence minister on Sunday, ending months of interim leadership at the ​ministry and placing a former defence sector veteran in ‌charge of the country's defence production and procurement apparatus.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-18T10:22:03.011750+00:00"
+  },
+  {
+    "id": "36b3d0a35360b55a",
+    "title": "Lithuania told residents to go to shelters after detecting a flying object",
+    "link": "https://reut.rs/4z5ISNF",
+    "date": "2026-10-18",
+    "summary": "Lithuania told residents in central and northern parts ​of the country to seek shelter for about an ‌hour on Sunday morning after an unidentified flying object entered its airspace, the army and national crisis management centre said.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-18T10:22:03.014708+00:00"
+  },
+  {
+    "id": "d9027ced938e41a6",
+    "title": "China proposes export controls on solar-manufacturing technologies",
+    "link": "https://reut.rs/4yyKxdz",
+    "date": "2026-10-18",
+    "summary": "China has proposed export controls on 12 technologies used to make solar equipment, citing national security concerns, as part ​of a broader revision that also covers AI and biotechnology.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "china",
+    "themes": [
+      "intelligence"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-18T10:22:03.019402+00:00"
+  },
+  {
+    "id": "512948ad4e916b7f",
+    "title": "Antofagasta's Centinela strike ends after deal with unions",
+    "link": "https://reut.rs/4s7YP3a",
+    "date": "2026-10-18",
+    "summary": "Workers from two unions at Chile's Centinela copper mine have ratified an agreement reached with Antofagasta Minerals on a new collective bargaining contract, ending ​a strike of more than a week, the unions ​and the company said on Sunday.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-18T10:22:03.022718+00:00"
+  },
+  {
+    "id": "65375d2c1abdd882",
+    "title": "Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta",
+    "link": "https://reut.rs/4jttiGO",
+    "date": "2026-10-18",
+    "summary": "People were killed and injured in a serious incident that ​resulted in a fire on one of Canada's busiest ‌military bases in Alberta, Defense Minister David McGuinty said on Saturday.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-18T10:22:03.025118+00:00"
+  },
+  {
     "id": "55f17fe9de7ffe87",
     "title": "Russian defence ministry says it hit Ukrainian steel plants, power infrastructure overnight",
     "link": "https://reut.rs/4ebYh6E",
@@ -30,6 +146,93 @@
     "trusted_themes": [],
     "meta": [],
     "fetched_at": "2026-10-17T10:08:08.448604+00:00"
+  },
+  {
+    "id": "8eae79b217d1db0d",
+    "title": "Avec VULTRA, l’armée de l’Air & de l’Espace va faciliter les liaisons entre un aéronef et des drones",
+    "link": "https://www.opex360.com/2026/10/17/avec-vultra-larmee-de-lair-de-lespace-va-faciliter-les-liaisons-entre-un-aeronef-et-des-drones",
+    "date": "2026-10-17",
+    "summary": "Tous les deux ans, depuis 1992, la Fondation Maréchal Leclerc de Hauteclocque décerne le «prix de l’Audace» à des projets innovants portés par des militaires et des civils de la Défense, l’idée étant d’encourager l’innovation participative, qui vise à trouver des solutions à des problèmes opérationnels. Cette année, parmi les vingt-quatre projets présentés, huit ont...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-18T10:21:41.782106+00:00"
+  },
+  {
+    "id": "a689cb8cfbc53d8e",
+    "title": "L’intérêt de Chypre pour l’Engin blindé de reconnaissance et de combat Jaguar se confirme",
+    "link": "https://www.opex360.com/2026/10/17/linteret-de-chypre-pour-lengin-blinde-de-reconnaissance-et-de-combat-jaguar-se-confirme",
+    "date": "2026-10-17",
+    "summary": "Cette semaine, une délégation de l’armée luxembourgeoise a été reçue au camp militaire de Suippes pour participer à un entraînement avec l’Engin blindé de reconnaissance et de combat [Jaguar]. «Ce fut une expérience enrichissante qui nous a permis de découvrir sa technologie et ses capacités, et d’échanger avec nos alliés français», a-t-elle commenté, via le...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-18T10:21:41.785737+00:00"
+  },
+  {
+    "id": "953bacccebac1337",
+    "title": "Le premier équipage de la frégate de défense et d’intervention «Amiral Louzeau» a été officiellement constitué",
+    "link": "https://www.opex360.com/2026/10/17/le-premier-equipage-de-la-fregate-de-defense-et-dintervention-amiral-louzeau-a-ete-officiellement-constitue",
+    "date": "2026-10-17",
+    "summary": "La Marine nationale aligne officiellement quinze navires de surface dits de «premier rang». Mais, dans le détail, elle n’en compte que dix, les cinq frégates de type La Fayette [FLF], même si trois d’entre elles ont reçu un sonar, n’entrant pas dans cette catégorie de bâtiment. Même avec cette «ruse» comptable, il n’en demeure pas...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-18T10:21:41.789245+00:00"
+  },
+  {
+    "id": "a3ca78f9c23afe2d",
+    "title": "Lebanon says military delegation will press for halt to Israeli attacks at US talks",
+    "link": "https://reut.rs/3VSSrkl",
+    "date": "2026-10-17",
+    "summary": "A Lebanese military delegation will ​present Beirut's demands for an ‌end to Israeli attacks in Lebanon at a trilateral meeting in Tampa, ​Florida, on October 20, ​the Lebanese presidency said in a ⁠post on X on Saturday.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-18T10:22:03.047267+00:00"
+  },
+  {
+    "id": "d5776f6599c2fd79",
+    "title": "Iran's Guards say two tankers hit mines in Strait of Hormuz",
+    "link": "https://reut.rs/4yWHX27",
+    "date": "2026-10-17",
+    "summary": "Iran's Revolutionary Guards Navy said on Saturday that two ​oil tankers had caught fire after hitting naval ‌mines while crossing the Strait of Hormuz, the official Iranian news agency IRNA reported.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-18T10:22:03.064842+00:00"
   },
   {
     "id": "c512cf3bc66b9534",
