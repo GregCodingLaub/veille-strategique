@@ -1,5 +1,231 @@
 [
   {
+    "id": "a890bcde1fcfec2d",
+    "title": "Guns, Growth, and the German Reinvention of Military Keynesianism",
+    "link": "https://warontherocks.com/guns-growth-and-the-german-reinvention-of-military-keynesianism",
+    "date": "2026-10-20",
+    "summary": "In March 2025, Germany did more than loosen a fiscal rule. It fused two national emergencies — a deteriorating European security order and a deteriorating industrial model — into a single constitutional bargain. The reform de facto exempted German defense expenditure from any domestic budgetary ceiling — as the German Bundesbank itself has acknowledged — and enabled a military expansion of extraordinary proportions. E.U. debt rules of 3 percent of GDP for annual government deficits and 60 percent for public debt technically still apply — though 14 out of the 27 Eurozone countries are not…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:33.747943+00:00"
+  },
+  {
+    "id": "c8f72c097ec3b5a1",
+    "title": "Most Gulf bourses retreat after Houthis claim attacks on Saudi energy, airport sites",
+    "link": "https://reut.rs/4dREJo6",
+    "date": "2026-10-20",
+    "summary": "Most Gulf stock markets fell in early trade on Tuesday after Yemen's Iran-aligned Houthis claimed attacks on Saudi energy, airport ​and military targets on Monday.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:39.964494+00:00"
+  },
+  {
+    "id": "9d74bfb5b36accd6",
+    "title": "Oil majors face spending test from Iran war windfall cash",
+    "link": "https://reut.rs/4yp5irX",
+    "date": "2026-10-20",
+    "summary": "Oil majors are set to ​post a big jump in third-quarter profit as the US-Israeli war on Iran has boosted refining and trading results, ‌while investors will monitor how wisely they use their cash piles and whether they resist a spending spree.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:39.968259+00:00"
+  },
+  {
+    "id": "b30739195a064f0d",
+    "title": "Hormuz could be 'redundant' in five years, replaced by new routes, HSBC CEO says",
+    "link": "https://reut.rs/4yreRGV",
+    "date": "2026-10-20",
+    "summary": "Investment in alternative logistics routes in the Gulf to mitigate the impact of ​the Iran war could make the Strait of Hormuz \"redundant\" in the ‌next five years, HSBC Group Chief Executive Georges Elhedery said on Tuesday.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:39.972141+00:00"
+  },
+  {
+    "id": "4d1430e7c60f7c1e",
+    "title": "Germany's Merz touts defence, AI and chip investment drive in pitch to investors",
+    "link": "https://reut.rs/4Bmd4FW",
+    "date": "2026-10-20",
+    "summary": "Germany is investing heavily in sectors including defence, semiconductors and AI ​to boost its long-term productivity and economic sovereignty, ‌Chancellor Friedrich Merz said on Tuesday as he pitched Europe's largest economy to investors in Berlin.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:39.974306+00:00"
+  },
+  {
+    "id": "086705fc54fbd2dd",
+    "title": "Bank of Japan may raise inflation forecast, stand pat on rates, sources say",
+    "link": "https://reut.rs/4k6FkpC",
+    "date": "2026-10-20",
+    "summary": "The Bank of Japan may raise its inflation outlook for the next fiscal year ​in forecasts due this month, as rising oil prices exert longer-than-expected price pressures on the economy, four sources familiar with the central bank's thinking said.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:39.991442+00:00"
+  },
+  {
+    "id": "7b0a87e0befc2010",
+    "title": "Anglo sticks to copper forecast after snow in Chile hits quarter",
+    "link": "https://reut.rs/3U7a67d",
+    "date": "2026-10-20",
+    "summary": "Anglo American reported a 5% fall in third-quarter copper production on Tuesday after record snowfall in Chile, but maintained its 2026 forecast for ​the metal and raised its diamond production outlook.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:39.995292+00:00"
+  },
+  {
+    "id": "8873eb64e8aefda0",
+    "title": "Drone strike in disputed sudan-south sudan area kills dozens, minister says",
+    "link": "https://reut.rs/4yQ1q3L",
+    "date": "2026-10-20",
+    "summary": "At least ​73 people were ‌killed when drones struck ​a market ​in the disputed ⁠Abyei region ​along the ​border of South Sudan and Sudan ​on Monday, ​the caretaker information ‌minister ⁠for Abyei said, accusing Sudan's army of ​carrying ​out ⁠the attack.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:40.005722+00:00"
+  },
+  {
+    "id": "f8c1c94e5eb7fdcc",
+    "title": "Chinese navy says US ship near Sabina Shoal jeopardised maritime security",
+    "link": "https://reut.rs/4BiasJ5",
+    "date": "2026-10-20",
+    "summary": "China's Southern Theater Command Navy on ​Tuesday accused a US littoral ‌combat ship of jeopardising maritime security by \"illegally\" entering waters ​near Sabina Shoal in ​the Spratly Islands without ⁠approval from Beijing.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "china",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:40.013204+00:00"
+  },
+  {
+    "id": "faad3ab0387b2924",
+    "title": "How safe havens stack up as tech, energy and France fears grip markets",
+    "link": "https://reut.rs/4eFGh4I",
+    "date": "2026-10-20",
+    "summary": "Demand for safe-haven assets is strong as AI jitters hurt tech stocks, the Iran war continues and keeps energy prices elevated, while worries about high government debt loads persist.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:40.020198+00:00"
+  },
+  {
+    "id": "9a83c694e66992c3",
+    "title": "South Korea's Elice plunges 30% in market debut as data centre stocks shunned",
+    "link": "https://reut.rs/4zJ7yeQ",
+    "date": "2026-10-20",
+    "summary": "Shares in South Korean AI services firm Elice Group plummeted 30% in ​their market debut on Tuesday, amid a sharp retreat in sentiment towards ‌the sector that has also derailed other planned listings.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:40.027695+00:00"
+  },
+  {
+    "id": "d97a0ba12b9eef54",
+    "title": "Chinese patrols to Taiwan's east are 'destabilising', US Congress-appointed official says",
+    "link": "https://reut.rs/4yA1tk2",
+    "date": "2026-10-20",
+    "summary": "Chinese coast guard patrols to the east of ​Taiwan are \"highly destabilising\" and an extension of Beijing's legal, political and information warfare against ‌Taipei, the chair of a US congressional committee said on Tuesday.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "china",
+    "themes": [
+      "intelligence",
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:40.029753+00:00"
+  },
+  {
+    "id": "3296ae3737afd1c6",
+    "title": "Seoul vows 'resolute punishment' after North Korea threatens new border measures",
+    "link": "https://reut.rs/4dKzjv1",
+    "date": "2026-10-20",
+    "summary": "South Korea on Tuesday vowed a stern response if North Korea acts on ‌threats to strengthen its military posture along the border, which have fueled tensions on the Korean Peninsula.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:40.032664+00:00"
+  },
+  {
+    "id": "f28edfa18fe840eb",
+    "title": "Defense contractors in two NATO allies hacked in recent Russia-linked campaign",
+    "link": "https://therecord.media/european-defense-contractors-fancy-bear-espionage",
+    "date": "2026-10-20",
+    "summary": "The Russian group known as APT28 and Fancy Bear used a recently documented backdoor to dwell in the networks of two defense contractors and a law enforcement agency in two NATO allies, researchers said.",
+    "source": "The Record (Recorded Future News)",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:56:02.092868+00:00"
+  },
+  {
     "id": "a97edffbc347600d",
     "title": "De la guerre hybride et du sexe des anges (2/2). Aller vers davantage de cohérence militaire",
     "link": "https://www.iris-france.org/de-la-guerre-hybride-et-du-sexe-des-anges-2-2-aller-vers-davantage-de-coherence-militaire",
@@ -209,6 +435,655 @@
     "trusted_themes": [],
     "meta": [],
     "fetched_at": "2026-10-19T12:04:31.938519+00:00"
+  },
+  {
+    "id": "a31b52cf7868c42f",
+    "title": "La guerre des centres de données : l’Ukraine frappe le « cœur de fer » de l’Internet russe",
+    "link": "https://legrandcontinent.eu/fr/2026/10/19/la-guerre-des-centres-de-donnees-lukraine-frappe-le-coeur-de-fer-de-linternet-russe",
+    "date": "2026-10-19",
+    "summary": "Depuis 2014, le Kremlin a mis en place une infrastructure web de repli. Les frappes contre Yandex montrent les limites de ce modèle L’article La guerre des centres de données : l’Ukraine frappe le « cœur de fer » de l’Internet russe est apparu en premier sur Le Grand Continent .",
+    "source": "Le Grand Continent",
+    "source_region": "eu",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:54:04.899197+00:00"
+  },
+  {
+    "id": "4c778bcdc70a8c61",
+    "title": "Q3 GDP growth on target; Xi on compute; Export controls; Fifth Plenum watch",
+    "link": "https://sinocism.com/p/q3-gdp-growth-on-target-xi-on-compute",
+    "date": "2026-10-19",
+    "summary": "In this issue: 1. Export controls around AI, biomedicine, photovoltaic tech, drones and dredgers 2. 4.5% official Q3 GDP growth 3. Xi Jinping inspects Ulanqab, Inner Mongolia 4. State Council executive meeting 5. Fifth Plenum watch 6. US sanctions Shanghai tech incubator 7. Two more days to pay back taxes on offshore trust",
+    "source": "Sinocism",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "intelligence",
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:54:06.090605+00:00"
+  },
+  {
+    "id": "28c8131edc63d152",
+    "title": "Pour la première fois, un drone de surface va intégrer un groupe aéronaval de l’US Navy",
+    "link": "https://www.opex360.com/2026/10/19/pour-la-premiere-fois-un-drone-de-surface-va-integrer-un-groupe-aeronaval-de-lus-navy",
+    "date": "2026-10-19",
+    "summary": "Quand il était chef d’état-major de la Marine nationale [CEMM], l’amiral Nicolas Vaujour expliquait que les drones de surface n’avaient pas encore la même maturité technologique que les drones aériens pour avoir un usage opérationnel en haute mer. «Développer des drones de surface dotés d’une certaine endurance et faire naviguer très longtemps un bateau autonome...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:20.435567+00:00"
+  },
+  {
+    "id": "dcf8af813356a484",
+    "title": "La Nouvelle-Zélande confirme l’achat de cinq hélicoptères américains MH-60R SeaHawk pour plus de 930 millions de dollars",
+    "link": "https://www.opex360.com/2026/10/19/la-nouvelle-zelande-confirme-lachat-de-cinq-helicopteres-americains-mh-60r-seahawk-pour-plus-de-930-millions-de-dollars",
+    "date": "2026-10-19",
+    "summary": "En un peu d’un an, pas moins de trois ministres de la Défense auront eu à s’occuper du dossier concernant le renouvellement des hélicoptères dédiés à lutte anti-sous-marine mis en œuvre depuis les deux frégates de type ANZAC de la Royal New Zealand Navy [RNZN]. En effet, en août 2025, alors ministre en exercice, Judith...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:20.438150+00:00"
+  },
+  {
+    "id": "5dbafae6954ec349",
+    "title": "Un engin spatial russe s’est approché à quelques mètres d’un satellite d’observation ICEYE au terme de manœuvres inédites",
+    "link": "https://www.opex360.com/2026/10/19/un-engin-spatial-russe-sest-approche-a-quelques-metres-dun-satellite-dobservation-iceye-au-terme-de-manoeuvres-inedites",
+    "date": "2026-10-19",
+    "summary": "La semaine passée, devant les députés de la commission de la Défense, le chef d’état-major de l’armée de l’Air & de l’Espace [CEMAAE], le général Jérôme Bellanger, a donné un petit aperçu de ce qui est en train de se passer en orbite. «Dans l’espace, la Chine réalise une progression technologique continue, marquée par la...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:20.440654+00:00"
+  },
+  {
+    "id": "cebc9ecf6ae22b7b",
+    "title": "In Skepticism We Trust: Ukraine Reacts to the Diesel Deal",
+    "link": "https://warontherocks.com/in-skepticism-we-trust-ukraine-reacts-to-the-diesel-deal",
+    "date": "2026-10-19",
+    "summary": "Welcome to The Ukraine Compass, a weekly digest of Ukrainian commentary and analysis from across the political spectrum only for War on the Rocks members. Each week, we bring you a curated selection of articles from Ukrainian media offering insight into how Ukrainians themselves debate the issues shaping their country.Western coverage often narrows the view to the battlefield — these pieces widen it, revealing the texture of daily life, politics, and public argument in a nation at war. The perspectives gathered here are varied, candid, and often surprising, together forming a more complete…",
+    "source": "War on the Rocks",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:33.752880+00:00"
+  },
+  {
+    "id": "d425d98c30a43332",
+    "title": "Russian Diesel Deal and Energy Ceasefire Expose Moscow’s Limits",
+    "link": "https://jamestown.org/russian-diesel-deal-and-energy-ceasefire-expose-moscows-limits",
+    "date": "2026-10-19",
+    "summary": "Executive Summary: Over the last week, the intensity of the political fracas around Russia’s war against Ukraine mirrored the ferocity of pitched battles in Donbas and the severity of long-distance strikes on Ukrainian cities and Russian infrastructure. U.S. President Donald Trump’s October 9 announcement that Russian President Vladimir Putin agreed to supply Russian diesel to […]",
+    "source": "Jamestown Foundation (China Brief)",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:38.566520+00:00"
+  },
+  {
+    "id": "d4e3955d62496efc",
+    "title": "3M expands Amazon data center partnership, shares gain",
+    "link": "https://reut.rs/4k711WF",
+    "date": "2026-10-19",
+    "summary": "Industrial conglomerate 3M said on Monday it was expanding its commercial relationship with Amazon and had ​issued a warrant to an Amazon subsidiary, ‌allowing it the right to buy 3M common stock worth over $521 million.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:40.060606+00:00"
+  },
+  {
+    "id": "5bda5fb320ad9c83",
+    "title": "Oil stocks in US strategic petroleum reserve fall to lowest level since 1982",
+    "link": "https://reut.rs/4yZOicU",
+    "date": "2026-10-19",
+    "summary": "Stocks of crude ​oil in ‌the U.S. Strategic Petroleum ​Reserve fell ​to 282.7 million ⁠barrels ​last week, the ​lowest level since October 1982, ​according ​to data from the ‌Department ⁠of Energy.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:40.065621+00:00"
+  },
+  {
+    "id": "af040b0bf9080851",
+    "title": "Bulgarian court approves arrest warrant for two Germans over Starlink fire",
+    "link": "https://reut.rs/4emJbv7",
+    "date": "2026-10-19",
+    "summary": "A Bulgarian court approved the issuance of a European ​arrest warrant for two German citizens ‌accused of setting fire to SpaceX Starlink antennas near Sofia, a spokesperson told ​Reuters.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:40.097293+00:00"
+  },
+  {
+    "id": "1869b7f18f091eae",
+    "title": "Pakistan army chief Asim Munir to visit Tehran on Tuesday",
+    "link": "https://reut.rs/4i8dlDx",
+    "date": "2026-10-19",
+    "summary": "Pakistan's ​army chief Field ⁠Marshal ​Asim Munir ​is due to ​visit ​Tehran on Tuesday, ‌according ⁠to a Pakistani ​official ​and ⁠Iranian media.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:40.098740+00:00"
+  },
+  {
+    "id": "befc9e3b5e80027f",
+    "title": "Europe EV sales rose 70% in September, around 30% of market share",
+    "link": "https://reut.rs/4kbdVmq",
+    "date": "2026-10-19",
+    "summary": "Battery-electric ​vehicle (BEV) registrations in Europe rose 70.3% in ‌September, as high oil prices, subsidies and the availability of more affordable models continued to lead the growth.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:40.106665+00:00"
+  },
+  {
+    "id": "f4c2f3f130078db3",
+    "title": "Private equity firm Charlesbank bets on US law firm in back office deal",
+    "link": "https://reut.rs/4zGxHeb",
+    "date": "2026-10-19",
+    "summary": "Private equity firm Charlesbank Capital Partners has invested in the back-office operations of US insurance defense firm Wood Smith Henning & Berman, the law firm said on Monday, marking ​the latest influx of outside capital into the traditional legal market.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:40.117391+00:00"
+  },
+  {
+    "id": "ddb7b59b50fbe3c8",
+    "title": "AI stocks bounce back after bruising selloff, CoreWeave gets Goldman upgrade",
+    "link": "https://reut.rs/4Be18px",
+    "date": "2026-10-19",
+    "summary": "AI-linked stocks bounced back on Monday from a bruising ​selloff last week as yields on government bonds dropped and crude oil prices eased, while CoreWeave gained following ‌a rating upgrade.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:40.132330+00:00"
+  },
+  {
+    "id": "ed69da7de0512dd5",
+    "title": "EXCLUSIVE: Qatari electricity lifeline for Lebanon includes two power plants, LNG supply deal",
+    "link": "https://reut.rs/4kaVkXE",
+    "date": "2026-10-19",
+    "summary": "Qatar plans to construct two power plants ​in Lebanon over the next three years and sign a 20-year liquefied natural gas supply deal under ‌a proposal to revive the ailing Lebanese power sector, a document seen by Reuters showed.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:40.138139+00:00"
+  },
+  {
+    "id": "0335ddd7049bc954",
+    "title": "COMMENTARY: Three years after SuperValu, ambiguity in statutes and regulations remain important False Claims Act defense opportunities",
+    "link": "https://reut.rs/4zGklP5",
+    "date": "2026-10-19",
+    "summary": "Attorneys at Sidley Austin LLP explain how subjective knowledge and objective falsity remain potent tools for False Claims Act defendants, even in the wake of the Supreme Court's decision in SuperValu.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:40.140314+00:00"
+  },
+  {
+    "id": "a26a42bf59bf14dc",
+    "title": "Carney says cause of fire at Alberta military base still unknown",
+    "link": "https://reut.rs/4hVpmgJ",
+    "date": "2026-10-19",
+    "summary": "Canada’s Prime Minister Mark Carney said Monday the cause of a firethat killed ​at least four military members and ‌injured dozens of others in Alberta on Saturday is still not known.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:40.145164+00:00"
+  },
+  {
+    "id": "d475970c0c261768",
+    "title": "Poland detains Polish-Ukrainian dual national suspected of spying",
+    "link": "https://reut.rs/4yxNJGn",
+    "date": "2026-10-19",
+    "summary": "Polish military police said on Monday they had detained a Polish-Ukrainian dual national ​suspected of spying who was attending an officer training course ‌for reservists in the central city of Lodz.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "intelligence",
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:40.157633+00:00"
+  },
+  {
+    "id": "e98fdbbb124ea3fe",
+    "title": "Iran's Araqchi blames US for Strait of Hormuz tensions, calls for diplomacy",
+    "link": "https://reut.rs/4yScyO8",
+    "date": "2026-10-19",
+    "summary": "Iranian ​Foreign Minister Abbas ‌Araqchi said regional issues should be resolved through ​diplomacy and ​blamed the United States for ⁠insecurity and tensions ​in the Strait ​of Hormuz, speaking at a joint news conference with ​Russian Foreign Minister ​Sergei Lavrov on Monday.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:40.169030+00:00"
+  },
+  {
+    "id": "4cede64e6141c5ef",
+    "title": "US Supreme Court snubs bid to revive plea deal for accused 9/11 mastermind",
+    "link": "https://reut.rs/3TKpPt1",
+    "date": "2026-10-19",
+    "summary": "The US Supreme Court declined to hear a bid by Khalid Sheikh Mohammed, the accused mastermind of the ‌September 11, 2001, attacks, to revive a 2024 agreement that would have spared him the death penalty in exchange for a guilty plea — a deal scrapped by former Defense Secretary Lloyd Austin.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:40.175606+00:00"
+  },
+  {
+    "id": "9a1b7024dff17006",
+    "title": "Myanmar authorities release rare images of Aung San Suu Kyi",
+    "link": "https://reut.rs/4zGyxYy",
+    "date": "2026-10-19",
+    "summary": "Myanmar's military-backed government on Monday released rare photographs of the country's imprisoned former leader, Aung San ​Suu Kyi, saying that officials had delivered her ‌books and letters from Britain's King Charles.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:40.188929+00:00"
+  },
+  {
+    "id": "05e25005f9957768",
+    "title": "Explainer: What's behind Egypt's move towards possible military involvement in Saudi-Yemen conflict?",
+    "link": "https://reut.rs/488hzWZ",
+    "date": "2026-10-19",
+    "summary": "Egypt's parliament is expected to vote this week on whether to authorise the armed forces to help defend Saudi Arabia against attacks by Yemen's Houthis if Riyadh requests its support.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:40.190756+00:00"
+  },
+  {
+    "id": "b1aaa31800a66761",
+    "title": "Pentagon, BAE sign deal for up to 25,000 precision-guided munition kits a year",
+    "link": "https://www.defensenews.com/pentagon/2026/10/19/pentagon-bae-sign-deal-for-up-to-25000-precision-guided-munition-kits-a-year",
+    "date": "2026-10-19",
+    "summary": "The Pentagon and BAE Systems signed a framework agreement for up to 25,000 Advanced Precision Kill Weapon System, or APKWS, guidance kits a year.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:41.922435+00:00"
+  },
+  {
+    "id": "07092d6cee3b323d",
+    "title": "US Army competition explores military uses for humanoid robots",
+    "link": "https://www.defensenews.com/industry/techwatch/2026/10/16/us-army-competition-explores-military-uses-for-humanoid-robots",
+    "date": "2026-10-19",
+    "summary": "They're still a long way off from mass-producing Terminators.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:41.923261+00:00"
+  },
+  {
+    "id": "fc09264c61ab2fe6",
+    "title": "US Army Cyber Command charts course for human-AI equilibrium",
+    "link": "https://www.defensenews.com/industry/techwatch/2026/10/19/us-army-cyber-command-charts-course-for-human-ai-equilibrium",
+    "date": "2026-10-19",
+    "summary": "U.S. Army Cyber Command is constantly refining human oversight of artificial intelligence, Lt. Gen. Christopher Eubank said last week.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:41.925542+00:00"
+  },
+  {
+    "id": "0c1443339cf89341",
+    "title": "Russian satellite stalked ICEYE spacecraft in potentially dangerous on-orbit maneuvers",
+    "link": "https://breakingdefense.com/2026/10/russian-satellite-stalked-iceye-spacecraft-in-potentially-dangerous-on-orbit-maneuvers",
+    "date": "2026-10-19",
+    "summary": "The Cosmos 2612 came within 500 meters (about a third of a mile) to US-flagged ICEYE-X36 believed to be supporting Ukraine, according to LeoLabs.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:43.050299+00:00"
+  },
+  {
+    "id": "7d47c651e8d8c320",
+    "title": "You can’t have a fence high enough to protect your facility against drones",
+    "link": "https://breakingdefense.com/2026/10/you-cant-have-a-fence-high-enough-to-protect-your-facility-against-drones",
+    "date": "2026-10-19",
+    "summary": "[Sponsored] New threats, including downstream attacks, drive the need for improved tools to protect critical assets.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:43.052797+00:00"
+  },
+  {
+    "id": "91c47f91cc1a4d8a",
+    "title": "Ukrainian defense firms get creative to try and break through export restrictions",
+    "link": "https://breakingdefense.com/2026/10/ukrainian-defense-firms-get-creative-to-try-and-break-through-export-restrictions",
+    "date": "2026-10-19",
+    "summary": "Speaking to Breaking Defense in Washington and Lviv, companies made clear that reform efforts to allow weapons exports have not gone far enough.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:43.054188+00:00"
+  },
+  {
+    "id": "9429bdfef5ad9333",
+    "title": "Why the Army can’t build its Pacific network like the one in Europe",
+    "link": "https://breakingdefense.com/2026/10/why-the-army-cant-build-its-pacific-network-like-the-one-in-europe",
+    "date": "2026-10-19",
+    "summary": "[Sponsored] Distance, sparse infrastructure, and contested communications force a different approach to connectivity.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:43.055384+00:00"
+  },
+  {
+    "id": "240b7a7edc5210b5",
+    "title": "U.S. Marine Corps Stands Up First NMESIS Anti-ship Missile Battalion",
+    "link": "https://news.usni.org/2026/10/19/u-s-marine-corps-stands-up-first-nmesis-anti-ship-missile-battalion",
+    "date": "2026-10-19",
+    "summary": "The U.S. Marine Corps stood up its first Medium-range Missile Battalion last week as the service works to integrate longer range and maritime strike capabilities across the force. The 1st Battalion, 10th Regiment of the 2nd Marine Division redesignated as the branch’s first dedicated battalion to operate the Navy-Marine Expeditionary Ship Interdiction System last Wednesday. The unit was earmarked as a primary candidate to handle the II Marine Expeditionary Force’s NMESIS units on Oct. 9, according to a service release. The battalion was. Lt. Col. Joseph Mozzi, the Command Officer of the newly…",
+    "source": "USNI News",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:44.252901+00:00"
+  },
+  {
+    "id": "889e815e0f6ac591",
+    "title": "USNI News Fleet and Marine Tracker: Oct. 19, 2026",
+    "link": "https://news.usni.org/2026/10/19/usni-news-fleet-and-marine-tracker-oct-19-2026",
+    "date": "2026-10-19",
+    "summary": "These are the approximate positions of the U.S. Navy’s deployed carrier strike groups and amphibious ready groups throughout the world as of Oct. 19, 2026, based on Navy and public data. In cases in which a CSG or ARG is conducting disaggregated operations, the chart reflects the location of the capital ship. In Japan USS Tripoli (LHA-7) is in port in Sasebo, Japan. Aircraft carrier USS Theodore Roosevelt (CVN-71) arrived Friday and departed Monday from Yokosuka, Japan, according to ship spotters. Carrier Strike Group 9 is composed of Theodore Roosevelt, Carrier Air Wing (CVW) 11, Destroyer…",
+    "source": "USNI News",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:44.256979+00:00"
+  },
+  {
+    "id": "5460c470e6144a9f",
+    "title": "El Pentágono impulsa la producción de armas hipersónicas mientras las startups reducen los costes",
+    "link": "https://www.armscontrol.org/media-citations/fox-news/2026-10-19",
+    "date": "2026-10-19",
+    "summary": "El Pentágono impulsa la producción de armas hipersónicas mientras las startups reducen los costes News Link https://noticias.foxnews.com/politics/pentagon-pushes-hypersonic-weapons-produc… News Source Fox News Cited Xiaodon Liang News Date Tuesday, October 13, 2026 - 12:00",
+    "source": "Arms Control Association",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:47.109630+00:00"
+  },
+  {
+    "id": "c10406ebe8f0f5b1",
+    "title": "10 fastest missiles in the world: Which one tops the list?",
+    "link": "https://www.armscontrol.org/media-citations/moneycontrol/2026-10-19",
+    "date": "2026-10-19",
+    "summary": "10 fastest missiles in the world: Which one tops the list? News Link https://www.msn.com/en-au/news/other/10-fastest-missiles-in-the-world-which-one… News Source MoneyControl Cited Arms Control Association News Date Tuesday, October 13, 2026 - 12:00",
+    "source": "Arms Control Association",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:47.111945+00:00"
+  },
+  {
+    "id": "96a12a128e3ee438",
+    "title": "Israeli Missile Protection System Certified for Global 7500",
+    "link": "https://www.armscontrol.org/media-citations/european-security-defense/2026-10-19",
+    "date": "2026-10-19",
+    "summary": "Israeli Missile Protection System Certified for Global 7500 News Link https://euro-sd.com/2026/10/news/air/54323/missile-protection-global-7500/ News Source European Security & Defense Cited Arms Control Association News Date Tuesday, October 13, 2026 - 12:00",
+    "source": "Arms Control Association",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:47.114011+00:00"
+  },
+  {
+    "id": "dc8a0a510d9b800c",
+    "title": "Four ways the midterms can reshape US energy policy",
+    "link": "https://www.atlanticcouncil.org/dispatches/four-ways-the-midterms-can-reshape-us-energy-policy",
+    "date": "2026-10-19",
+    "summary": "The next Congress has options to act, particularly if one or both chambers shift from a Republican to a Democratic majority.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:56.480501+00:00"
+  },
+  {
+    "id": "adb32a3841faa840",
+    "title": "Russian Strikes Rise Across NATO’s Eastern Flank",
+    "link": "https://cepa.org/article/russian-strikes-rise-across-natos-eastern-flank",
+    "date": "2026-10-19",
+    "summary": "The past month has seen a rising drumbeat of attacks by Russian drones and saboteurs from the Baltic states to the Black Sea.",
+    "source": "CEPA (Center for European Policy Analysis)",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:57.687837+00:00"
+  },
+  {
+    "id": "4e43985c65fd0a42",
+    "title": "Deepening Black Sea Crisis Demands US Involvement",
+    "link": "https://cepa.org/article/deepening-black-sea-crisis-demands-us-involvement",
+    "date": "2026-10-19",
+    "summary": "Russian strikes on Black Sea shipping are probing NATO’s tolerance for attacks on allies. The US and Europe must reinforce the region.",
+    "source": "CEPA (Center for European Policy Analysis)",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:57.689604+00:00"
+  },
+  {
+    "id": "cab20db7214f34d9",
+    "title": "Judge denies WhatsApp’s bid to hold spyware maker in contempt for allegedly targeting users",
+    "link": "https://therecord.media/whatsapp-denied-appeal-alleged-nso-group-violation-injunction",
+    "date": "2026-10-19",
+    "summary": "WhatsApp argued that NSO Group violated a 2025 injunction against using the messaging app to spread spyware. A federal judge said WhatsApp hurt its case by not revealing enough information.",
+    "source": "The Record (Recorded Future News)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "intelligence"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:56:02.095257+00:00"
+  },
+  {
+    "id": "726bb470c71f693d",
+    "title": "Two more Serbian opposition figures targeted with spyware, researchers say",
+    "link": "https://therecord.media/serbia-spyware-pegasus-elections",
+    "date": "2026-10-19",
+    "summary": "A phone belonging to the rector of the University of Belgrade was discovered to have been infected with Pegasus spyware, the latest in a series of such discoveries in the lead-up to Serbia's national elections.",
+    "source": "The Record (Recorded Future News)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "intelligence"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:56:02.098809+00:00"
+  },
+  {
+    "id": "e011881b0db3e2d8",
+    "title": "Ahold Delhaize confirms 'malicious actions' behind cyber outages affecting grocery brands",
+    "link": "https://therecord.media/ahold-delhaize-cyberattack-grocery",
+    "date": "2026-10-19",
+    "summary": "Ahold Delhaize, the Dutch multinational grocery retailer, said Monday that a cyberattack forced it to take systems offline across most of its U.S. and European brands, impacting shoppers on both sides of the Atlantic.",
+    "source": "The Record (Recorded Future News)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:56:02.101220+00:00"
   },
   {
     "id": "8c67482204ead91e",
@@ -9256,6 +10131,22 @@
     "trusted_themes": [],
     "meta": [],
     "fetched_at": "2026-10-09T12:33:19.419763+00:00"
+  },
+  {
+    "id": "c287ed829a319729",
+    "title": "Financing Europe’s defence build-up: National budgets and beyond",
+    "link": "https://www.iss.europa.eu/publications/analysis/financing-europes-defence-build-national-budgets-and-beyond",
+    "date": "2026-10-08",
+    "summary": "Financing Europe’s defence build-up: National budgets and beyond christian.diet… 19 minutes Defence budgets across Europe are rising. Russia’s war of aggression against Ukraine, combined with doubts over the future of US security guarantees, has prompted European governments to invest more in defence. According to EUISS calculations based on EDA and NATO data, spending by EU Member States was 56% higher in 2025 than it was in 2022, after accounting for inflation. One challenge is sustaining and increasing this spending . Rebuilding Europe’s military capacity will require investment over many…",
+    "source": "EUISS",
+    "source_region": "eu",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-20T10:55:27.942091+00:00"
   },
   {
     "id": "00f050b452ff0d2b",
