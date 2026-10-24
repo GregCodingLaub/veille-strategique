@@ -1,5 +1,137 @@
 [
   {
+    "id": "9311894ae321a47d",
+    "title": "Le futur missile balistique terrestre devrait finalement être mis en œuvre par l’armée de Terre",
+    "link": "https://www.opex360.com/2026/10/24/le-futur-missile-balistique-terrestre-devrait-finalement-etre-mis-en-oeuvre-par-larmee-de-terre",
+    "date": "2026-10-24",
+    "summary": "La Loi de programmation militaire [LPM] 2024-30 actualisée a confirmé le lancement, dès 2026, d’études pour le développement de capacités de frappe dans la profondeur [DPS] devant reposer sur des missiles balistiques terrestres [MBT] d’une portée «allant prioritairement jusqu’à la classe 2 500 km». Et cela avec l’objectif de disposer d’une capacité opérationnelle initiale en...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:36.838580+00:00"
+  },
+  {
+    "id": "554d870bb07ea3d2",
+    "title": "Ukraine says Starlink and Starshield operating at 400 kph after week of throttling",
+    "link": "https://reut.rs/4BpaFKs",
+    "date": "2026-10-24",
+    "summary": "The Starlink satellite communications system and its military version Starshield are operating again at speeds over 400 km ​per hour, Kyiv's defence minister said on Saturday, after over ‌a week of service restrictions that slowed connections and disrupted military operations.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:53.065471+00:00"
+  },
+  {
+    "id": "fbbbcb6acd98de9a",
+    "title": "Saudi-led coalition says it destroyed Houthi ballistic missiles fired towards Yanbu and Taif",
+    "link": "https://reut.rs/48cEDUz",
+    "date": "2026-10-24",
+    "summary": "A ​Saudi-led coalition fighting Yemen's ‌Houthis said it destroyed two ballistic missiles ​fired by ​the Iran-aligned group towards Taif ⁠and Yanbu ​on Saturday, as fighting ​between the sides continued.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:53.068418+00:00"
+  },
+  {
+    "id": "d1979a8e1a03fda5",
+    "title": "Ukrainian strike on enterprise in Russia's Oryol kills three, governor says",
+    "link": "https://reut.rs/4yATUcz",
+    "date": "2026-10-24",
+    "summary": "Three people were killed in ​a Ukrainian missile attack ‌on a facility in the central Russian city of Oryol, ​regional Governor Andrei Klychkov ​said.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:53.070885+00:00"
+  },
+  {
+    "id": "2770ec1236564bf8",
+    "title": "Four Philippine Air Force pilots killed in training accident",
+    "link": "https://reut.rs/4siQwl7",
+    "date": "2026-10-24",
+    "summary": "Two Philippine Air Force trainer aircraft crashed during a training flight ​at an air base south of ‌the capital Manila, killing four pilots, the military said on Saturday.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:53.076051+00:00"
+  },
+  {
+    "id": "4c9e21a799a1d143",
+    "title": "Moonshot curbs hacking ability in new Kimi model as fears grow over AI-powered cyberattacks",
+    "link": "https://reut.rs/4BpsJnJ",
+    "date": "2026-10-24",
+    "summary": "Moonshot ​AI has reduced the cyber-offensive capabilities of its newest model, the Chinese startup said ‌on Saturday, as fears grow that increasingly autonomous AI could turbocharge hacking.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "china",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:53.082799+00:00"
+  },
+  {
+    "id": "1fe8b4dded95fcf4",
+    "title": "US accuses government contractor of leaking classified info to girlfriend's Substack",
+    "link": "https://reut.rs/4zNVZmq",
+    "date": "2026-10-24",
+    "summary": "The US Justice ​Department accused a government contractor on Friday of leaking national defense information to his girlfriend, the ‌publisher of a Substack newsletter.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:53.092104+00:00"
+  },
+  {
+    "id": "5227a1460735a84e",
+    "title": "EXCLUSIVE: US has for years asked Musk to alter Starlink service in Ukraine, Middle East, sources say",
+    "link": "https://reut.rs/4zRxViM",
+    "date": "2026-10-24",
+    "summary": "Well before the throttling this month of Ukraine's military access to Elon Musk's satellite communications system, the Biden and Trump administrations had several times asked SpaceX to turn its Starlink service on or off in various countries, according ​to six former senior US officials familiar with the matter.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:53.103009+00:00"
+  },
+  {
     "id": "df3a1693dc71c04a",
     "title": "En Ukraine, le piège du cessez-le-feu trumpiste",
     "link": "https://legrandcontinent.eu/fr/2026/10/23/en-ukraine-le-piege-du-cessez-le-feu-trumpiste",
@@ -225,6 +357,654 @@
     "trusted_themes": [],
     "meta": [],
     "fetched_at": "2026-10-23T10:59:12.719936+00:00"
+  },
+  {
+    "id": "790d63e635b29d8a",
+    "title": "Le sommet Corée du Nord–États-Unis de 2026 : que négocier et que préserver ?",
+    "link": "https://www.iris-france.org/le-sommet-coree-du-nord-etats-unis-de-2026-que-negocier-et-que-preserver",
+    "date": "2026-10-23",
+    "summary": "L’un des principaux facteurs susceptibles de déterminer l’évolution de la péninsule coréenne au second semestre 2026 est la volonté de plus en plus ouvertement affichée par le président américain Donald Trump de renouer avec la diplomatie des sommets avec Kim Jong-un, président de la Commission des affaires d’État de la Corée du Nord. Le 16 août, en ordonnant une réduction substantielle des exercices militaires conjoints entre la Corée du Sud et les États-Unis, Donald Trump a directement évoqué sa « très bonne relation » avec Kim Jong-un ; trois jours plus tard, il a publiquement déclaré…",
+    "source": "IRIS",
+    "source_region": "fr",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:34.289536+00:00"
+  },
+  {
+    "id": "c8aa8c98dfe3f580",
+    "title": "La Turquie espère conclure prochainement un accord avec le Qatar pour se procurer des Eurofighter Typhoon d’occasion",
+    "link": "https://www.opex360.com/2026/10/23/la-turquie-espere-conclure-prochainement-un-accord-avec-le-qatar-pour-se-procurer-des-eurofighter-typhoon-doccasion",
+    "date": "2026-10-23",
+    "summary": "En octobre 2025, alors qu’elle était sur le point de finaliser l’achat de vingt avions de combat Eurofighter Typhoon auprès du Royaume-Uni pour 8 milliards de livres sterling [soit un peu plus de 9 milliards d’euros selon le taux de change en vigueur à l’époque], la Turquie fit savoir qu’elle envisageait de se procurer entre...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:36.842915+00:00"
+  },
+  {
+    "id": "558d4bbe2bf42b0b",
+    "title": "Le Danemark commande des missiles sol-sol à longue portée Anthem auprès de l’américain Covenant Industries",
+    "link": "https://www.opex360.com/2026/10/23/le-danemark-commande-des-missiles-sol-sol-a-longue-portee-anthem-aupres-de-lamericain-covenant-industries",
+    "date": "2026-10-23",
+    "summary": "En septembre 2025, le Danemark fit part de sa volonté de se doter d’armes à longue portée afin d’assurer une «dissuasion crédible et une défense robuste», selon le général Wiggers Hyldgaard, le chef d’état-major de ses forces armées. «Il est également essentiel que nous soyons en mesure de contrer les menaces avant qu’elles n’atteignent notre...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:36.846179+00:00"
+  },
+  {
+    "id": "744f882b78588d60",
+    "title": "Les forces aériennes françaises et britanniques ont simulé une frappe nucléaire lors de l’exercice inédit «Rummy»",
+    "link": "https://www.opex360.com/2026/10/23/les-forces-aeriennes-francaises-et-britanniques-ont-simule-une-frappe-nucleaire-lors-de-lexercice-inedit-rummy",
+    "date": "2026-10-23",
+    "summary": "Quatre fois par an, l’armée de l’Air & de l’Espace [AAE] organise un exercice Poker, lequel consiste à simuler un raid nucléaire afin de vérifier les capacités opérationnelles et à renforcer la crédibilité de ses Forces aériennes stratégiques [FAS]. Planifié comme une opération à part entière, un exercice Poker mobilise des dizaines d’avions issus d’escadrons...",
+    "source": "Zone Militaire (Opex360)",
+    "source_region": "fr",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [
+      "military"
+    ],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:36.849778+00:00"
+  },
+  {
+    "id": "80ae2c47e9da0832",
+    "title": "Lessons Learned From Russia’s War Against Ukraine: Russian Military Adaptation and Defense Implications for Baltic States",
+    "link": "https://jamestown.org/lessons-learned-from-russias-war-against-ukraine-russian-military-adaptation-and-defense-implications-for-baltic-states",
+    "date": "2026-10-23",
+    "summary": "Executive Summary: Introduction: A New Operational Environment Russia’s February 2022 full-scale invasion of Ukraine has become both the largest armed conflict in Europe since World War II and the most technologically saturated war in history. Over four years of combat, both sides have moved through several cycles of tactical adaptation: from the classical combined-arms operations […]",
+    "source": "Jamestown Foundation (China Brief)",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:50.600379+00:00"
+  },
+  {
+    "id": "f4a88a56ba3232c8",
+    "title": "Iran’s Post-Khamenei Mobilization and Central Asian Jihadist Responses",
+    "link": "https://jamestown.org/irans-post-khamenei-mobilization-and-central-asian-jihadist-responses",
+    "date": "2026-10-23",
+    "summary": "Executive Summary: The death of Iranian Supreme Leader Ayatollah Ali Khamenei during the joint U.S.–Israeli military operation on February 28 triggered an unprecedented campaign of state-sponsored mourning across Iran and the broader Shi’a world (IRNA, March 1; Mehr News, July 15). Beneath a sea of red flags symbolizing the religious duty to avenge the martyrdom […]",
+    "source": "Jamestown Foundation (China Brief)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:50.604239+00:00"
+  },
+  {
+    "id": "a5ab29e4973e78c8",
+    "title": "Taliban Claims Cross-Border Strikes on ISKP in Pakistan",
+    "link": "https://jamestown.org/taliban-claims-cross-border-strikes-on-iskp-in-pakistan",
+    "date": "2026-10-23",
+    "summary": "Executive Summary: On June 19, the Taliban regime’s Defense Ministry claimed its forces “targeted and struck hard” at centers of Islamic State in Khorasan Province (ISKP) in Pakistan’s Balochistan and Khyber Pakhtunkhwa provinces (X/@MoDAfghanistan2, June 19). Pakistan promptly denied the claim and described it as propaganda. If confirmed, however, the operation would mark the first […]",
+    "source": "Jamestown Foundation (China Brief)",
+    "source_region": "us",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:50.610682+00:00"
+  },
+  {
+    "id": "2b233e9e1b0191c9",
+    "title": "Pentagon designates Confucius Institutes a national security threat",
+    "link": "https://reut.rs/3WK4m4f",
+    "date": "2026-10-23",
+    "summary": "The ​US Defense ‌Department has designated ​China's ​Confucius Institutes as ⁠a ​threat to ​US national security, Defense ​Secretary ​Pete Hegseth said ‌on ⁠Friday.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:53.117913+00:00"
+  },
+  {
+    "id": "4205d857ce77f403",
+    "title": "North Korea's Kim calls for 'military revolution' as he urges stronger army units",
+    "link": "https://reut.rs/4z5zxFs",
+    "date": "2026-10-23",
+    "summary": "North Korean leader Kim Jong Un called for the country's ​army companies to be turned into ‌elite, self-sufficient combat units during a two-day meeting of company commanders in Pyongyang, state media ​KCNA said on Saturday.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:53.120619+00:00"
+  },
+  {
+    "id": "5861353d1151d0e8",
+    "title": "PODCAST: Melania ceasefire, banks block AI agents, Trump's evangelicals (Updated)",
+    "link": "https://reut.rs/4zOaVRF",
+    "date": "2026-10-23",
+    "summary": "The First Lady has brokered a localized ceasefire between Russia and Ukraine for the besieged town of Oleshky.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:53.122307+00:00"
+  },
+  {
+    "id": "164f083dd0609fa9",
+    "title": "France, UAE revive Rafale warplane development amid French budget woes",
+    "link": "https://reut.rs/48dZbvY",
+    "date": "2026-10-23",
+    "summary": "France and the United Arab Emirates have revived plans to jointly develop an upgraded Rafale fighter ​jet after talks stumbled earlier this year, officials said, giving Paris a fresh opportunity to advance its flagship defence ‌programme.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:53.127444+00:00"
+  },
+  {
+    "id": "708af0c8c7030abd",
+    "title": "Canadian dollar hits five-week high as data supports rate hike bets",
+    "link": "https://reut.rs/4iBHVGW",
+    "date": "2026-10-23",
+    "summary": "The Canadian dollar strengthened to a five-week high against its US counterpart on Friday as oil prices rose and domestic retail ​sales data supported expectations the Bank of Canada would raise interest ‌rates next week.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:53.133729+00:00"
+  },
+  {
+    "id": "b21006bc70e756c9",
+    "title": "Trump says US may do another military operation against Iran",
+    "link": "https://reut.rs/4dUHoxc",
+    "date": "2026-10-23",
+    "summary": "US President Donald Trump said ‌on Friday Washington may carry out another military operation against Iranat a time when the war is nearing its ​eight month mark and as rise ​in fuel prices weigh on the US ⁠midterm elections.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:53.157143+00:00"
+  },
+  {
+    "id": "420762842ae5b3f1",
+    "title": "China calls on oil, gas firms to boost output, build strategic supply bases",
+    "link": "https://reut.rs/4zPLY8C",
+    "date": "2026-10-23",
+    "summary": "China's National Energy Administration has called ​on the country's oil ‌and gas firms to expand production capacity, speed ​up the creation of ​national strategic oil and ⁠gas supply bases and ​take responsibility for safeguarding ​national energy security.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "china",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:53.179515+00:00"
+  },
+  {
+    "id": "3cf36160ab6e45d3",
+    "title": "Carrick accepts blame for United slump, backs himself to turn things around",
+    "link": "https://reut.rs/3UJLAcL",
+    "date": "2026-10-23",
+    "summary": "Manchester United manager Michael Carrick mounted an impassioned defence of his leadership on Friday, accepting responsibility for the club's collapse in form and saying he remains convinced he can lead the ​team out of their current crisis.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:53.185994+00:00"
+  },
+  {
+    "id": "0e83f2a0a0f22aa3",
+    "title": "US authorizes emergency release of up to 400,000 oil barrels from strategic reserve",
+    "link": "https://reut.rs/4jxXn87",
+    "date": "2026-10-23",
+    "summary": "The US Department of Energy said on Friday ​it had authorized an emergency exchange ‌of up to 400,000 barrels of crude oil from the Strategic Petroleum Reserve to address a supply ​disruption affecting Phillips 66's Lake Charles ​refinery in Louisiana.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:53.201588+00:00"
+  },
+  {
+    "id": "b2b59be2459008bd",
+    "title": "India's Bharat Petroleum profit drops amid crude oil price volatility",
+    "link": "https://reut.rs/4iEmG6v",
+    "date": "2026-10-23",
+    "summary": "Bharat Petroleum Corporation , India's third-largest refiner by capacity, reported a ​22.5% fall in second-quarter profit on ‌Friday, weighed down by volatile crude oil prices.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:53.223413+00:00"
+  },
+  {
+    "id": "0399e55846c7fbd2",
+    "title": "Trump weighs quick end to Iran war against letting conflict ‘wither’",
+    "link": "https://reut.rs/4BoiFLJ",
+    "date": "2026-10-23",
+    "summary": "President Donald ​Trump said on Friday ‌the United States could end the war with Iran ​quickly, but questioned ​whether Washington should seek a ⁠swift conclusion or allow ​the conflict to gradually ​wind down.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:53.226183+00:00"
+  },
+  {
+    "id": "c9c23a900f2a58f9",
+    "title": "Some Parisians buy pepper spray and tear gas, citing self-defence ahead of protests",
+    "link": "https://reut.rs/4evnVU3",
+    "date": "2026-10-23",
+    "summary": "Parisians are buying tear-gas cannisters and pepper sprays ​to defend themselves and their property during protests, which are expected to continue over the weekend, the owner of a weapons ‌shop in the French capital told Reuters.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "france",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:53.228869+00:00"
+  },
+  {
+    "id": "406d9202e7732a82",
+    "title": "Ship attacks in Strait of Hormuz hit record high in October",
+    "link": "https://reut.rs/4z5EjDb",
+    "date": "2026-10-23",
+    "summary": "October has ​been the worst month for attacks on commercial shipping in the Strait of Hormuz and nearby ‌waterways, according to data compiled by a Washington-based think tank that has tracked maritime security incidents worldwide since 2017.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:53.235215+00:00"
+  },
+  {
+    "id": "e0b44c68f52e1c8b",
+    "title": "Drone strike on market town exposes reach of trade fuelling Sudan war",
+    "link": "https://reut.rs/47GSXEK",
+    "date": "2026-10-23",
+    "summary": "For Awad Usham Al-Amin and thousands of others, Abyei provides shelter ​and an opportunity to eke out a living as war rages back home. This week, Sudan's conflict caught up with ‌them there too.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:53.247285+00:00"
+  },
+  {
+    "id": "63ec392467cb89ac",
+    "title": "Explainer: Why AI data centers are powering a boom in fuel-cell demand",
+    "link": "https://reut.rs/4jy9Bh3",
+    "date": "2026-10-23",
+    "summary": "Fuel cells are gaining traction among US hyperscalers racing to build data centers for the AI boom but struggling with grid constraints to secure quick and reliable power.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:53.253530+00:00"
+  },
+  {
+    "id": "8ce110bbefe3f9be",
+    "title": "China opposes arms race in space, official document shows",
+    "link": "https://reut.rs/47GXOWv",
+    "date": "2026-10-23",
+    "summary": "China on Friday released a document detailing its official ​position on \"space governance\" that reaffirms its opposition to ‌the weaponisation of outer space and to a space arms race.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "china",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:53.266606+00:00"
+  },
+  {
+    "id": "19632df6754629d1",
+    "title": "Melania Trump secures Oleshky ceasefire between Russia, Ukraine, White House says",
+    "link": "https://reut.rs/4eR8jub",
+    "date": "2026-10-23",
+    "summary": "Residents of the southern Ukrainian town have reported a deepening food crisis.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:53.275699+00:00"
+  },
+  {
+    "id": "6502a5f557401f86",
+    "title": "TSX futures slip as oil rally adds to inflation worries",
+    "link": "https://reut.rs/488OQBt",
+    "date": "2026-10-23",
+    "summary": "Futures tracking Canada’s blue-chip stocks fell on Friday, after oil prices hit their highest since May on ​escalation in the Middle East conflict, keeping investors concerned ‌about prolonged inflation and higher-for-longer US interest rates.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:53.305240+00:00"
+  },
+  {
+    "id": "7538eec0e3107aed",
+    "title": "UK Royal Navy sailor appears in court charged under National Security Act",
+    "link": "https://reut.rs/4i1lmLI",
+    "date": "2026-10-23",
+    "summary": "A junior member of Britain's Royal Navy accused of collecting secret information and researching ​a website linked to Russia's foreign intelligence ‌service appeared in a London court on Friday charged under the National Security Act.",
+    "source": "Reuters",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:53.324091+00:00"
+  },
+  {
+    "id": "53211a16cf569c3b",
+    "title": "US Air Force wants AI to assist aerial refueling",
+    "link": "https://www.defensenews.com/industry/techwatch/2026/10/23/us-air-force-wants-ai-to-assist-aerial-refueling",
+    "date": "2026-10-23",
+    "summary": "The goal is for AI to automatically analyze refueling operations from cameras mounted on the tankers and provide “hot wash” feedback to the tanker crews.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:55.373299+00:00"
+  },
+  {
+    "id": "85d4cb62cf9c4460",
+    "title": "Leonardo, Rheinmetall secure $4 billion contracts with Italian Army, report says",
+    "link": "https://www.defensenews.com/global/europe/2026/10/23/leonardo-rheinmetall-secure-4-billion-contracts-with-italian-army-report-says",
+    "date": "2026-10-23",
+    "summary": "The defense companies secured two contracts with the Italian Army for $4.16 billion for armored vehicles, an Italian financial newspaper reported.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:55.375133+00:00"
+  },
+  {
+    "id": "50a6b493627949e7",
+    "title": "Space Force reveals first 6 ‘operational’ contracts for civil reserve support in space monitoring",
+    "link": "https://breakingdefense.com/2026/10/space-force-reveals-first-6-operational-contracts-for-civil-reserve-support-in-space-monitoring",
+    "date": "2026-10-23",
+    "summary": "Space Systems Command officials said the contracts are an initial step for the Commercial Augmentation Space Reserve (CASR) initiative, and don’t address the thornier issues of US rights to deny other customers service or reimbursement for satellites lost in a conflict.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:56.515063+00:00"
+  },
+  {
+    "id": "deb388c81817e7f1",
+    "title": "Kyiv eyes purchase of planned ICEYE, Nokia ‘sovereign’ communication sats",
+    "link": "https://breakingdefense.com/2026/10/kyiv-eyes-purchase-of-planned-iceye-nokia-sovereign-communication-sats",
+    "date": "2026-10-23",
+    "summary": "The letter of intent comes on the heels of the political dust up between US President Donald Trump and Elon Musk over a US move to throttle Ukraine’s Starshield access that has all but grounded the countries military drones in its war with Russia.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:56.517783+00:00"
+  },
+  {
+    "id": "d2d62bca46a0b7fe",
+    "title": "Qatari Barzan unveils aerial drones, unmanned surface vessels at Milipol 2026",
+    "link": "https://breakingdefense.com/2026/10/qatari-barzan-unveils-aerial-drones-unmanned-surface-vessels-at-milipol-2026",
+    "date": "2026-10-23",
+    "summary": "“This is a significant achievement, particularly as we continue to expand Qatar’s domestic defence and security capabilities in a year where we have had to rise to a number of regional challenges,” the company said in a statement.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:56.520400+00:00"
+  },
+  {
+    "id": "c3f1f73156c7cf3e",
+    "title": "Natilus secures Air Force contract to develop blended wing body aircraft",
+    "link": "https://breakingdefense.com/2026/10/natilus-secures-air-force-contract-to-develop-blended-wing-body-aircraft",
+    "date": "2026-10-23",
+    "summary": "“We think now’s the right time” for a blended wing body design to make its debut, Natilus Chief Operating Officer Nolan Giblin told Breaking Defense.",
+    "source": "Breaking Defense",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:56.523255+00:00"
+  },
+  {
+    "id": "545fab9ba21aa3f5",
+    "title": "USS McFaul Returns to Norfolk After 332 Day Deployment",
+    "link": "https://news.usni.org/2026/10/23/uss-mcfaul-returns-to-norfolk-after-332-day-deployment",
+    "date": "2026-10-23",
+    "summary": "Guided-missile destroyer USS McFaul (DDG-74) returned Friday to Naval Station Norfolk, Va., after 11 months deployed. McFaul left Norfolk on Nov. 25, 2026, for an independent deployment and spent the bulk of the time away in the Middle East. “The sailors of USS McFaul have performed exceptionally well during this demanding combat deployment, proving themselves as a true warfighting powerhouse. Operating in a highly volatile region, this crew has repeatedly demonstrated the grit, technical mastery and resilience required to protect our strike group and execute complex missions under pressure,”…",
+    "source": "USNI News",
+    "source_region": "us",
+    "subject_region": "middle_east_africa",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:57.911039+00:00"
+  },
+  {
+    "id": "80f97ed103da6a69",
+    "title": "Collaboration on Autonomous Undersea Warfare is on Track, AUKUS Officials Say",
+    "link": "https://news.usni.org/2026/10/23/collaboration-on-autonomous-undersea-warfare-is-on-track-aukus-officials-say",
+    "date": "2026-10-23",
+    "summary": "SAN DIEGO, Calif. — At first glance, the Hadalus-XL unmanned underwater vehicle and its dark flat panels might not catch the curious eye like a go-fast boat or sleek fighter jet. But its value is in what it does, said Ben Rosenthal, chief technology officer with Composite Energy Technologies, a Rhode Island-based company. The 34-foot underwater vehicle can haul several tons of cargo. Its panels and components fold flat for transport in a 20-foot container, packaged for quick assembly or disassembly with simple tools. “We’re kind of a pickup truck of the ocean. We can bring big, heavy things…",
+    "source": "USNI News",
+    "source_region": "us",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:57.917231+00:00"
+  },
+  {
+    "id": "6fb6f45fb5dd86b1",
+    "title": "USNI News Western Pacific Pulse: Oct. 23, 2026",
+    "link": "https://news.usni.org/2026/10/23/usni-news-western-pacific-pulse-oct-23-2026",
+    "date": "2026-10-23",
+    "summary": "The following is a summary of major ship movements and exercises in the Western Pacific over the last week. In the Philippine Sea The Theodore Roosevelt Carrier Strike Group was in the Philippine Sea as of Wednesday as part of U.S.-Japan Exercise Keen Sword 27. Aircraft carrier USS Theodore Roosevelt (CVN-71) with embarked Carrier Air Wing (CVW) 11 and cruiser USS Chosin (CG-65) is leading Japan Maritime Self-Defense Force helicopter destroyer JS Ise (DDH-182),destroyers JS Kongo (DDG-173) and JS Asahi (DD-119), Royal Australian Navy frigate HMAS Stuart (FFH153), Royal Canadian frigate HMCS…",
+    "source": "USNI News",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:57.922585+00:00"
+  },
+  {
+    "id": "515863d15af3c5d9",
+    "title": "Army Activates Air Defense Guam Battalion Focused on Chinese, North Korean Threats",
+    "link": "https://news.usni.org/2026/10/23/army-activates-air-defense-guam-battalion-focused-on-chinese-north-korean-threats",
+    "date": "2026-10-23",
+    "summary": "The U.S. Army’s recently activated a Guam-based air defense battalion meant to protect the island from increasingly advanced air and missile threats fielded by China and North Korea. The 3rd Battalion, 43rd Air Defense Artillery Regiment, activated on Oct. 16, will inherit the defense of Guam responsibilities of Task Force Talon. The previous Army rotational mission began in 2013 to counter potential North Korean ballistic missile threats. With the rise of the People’s Liberation Army Rocket Force in recent years, the mission has expanded its focus to defend against a barrage of Chinese…",
+    "source": "USNI News",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:57.928137+00:00"
+  },
+  {
+    "id": "c1314e25c863a684",
+    "title": "World’s 31st-strongest military threatens to mercilessly eliminate US-backed South Korean forces as its military ties raise concerns for Africa",
+    "link": "https://www.armscontrol.org/media-citations/business-insider-africa/2026-10-23",
+    "date": "2026-10-23",
+    "summary": "World’s 31st-strongest military threatens to mercilessly eliminate US-backed South Korean forces as its military ties raise concerns for Africa News Link https://africa.businessinsider.com/local/markets/worlds-31st-strongest-military… News Source Business Insider Africa Cited Arms Control Association News Date Thursday, October 22, 2026 - 12:00",
+    "source": "Arms Control Association",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:16:00.456407+00:00"
+  },
+  {
+    "id": "d9f8eb21f0afcb53",
+    "title": "North Korea may be the biggest winner of Russia’s war in Ukraine",
+    "link": "https://www.atlanticcouncil.org/dispatches/north-korea-may-be-the-biggest-winner-of-russias-war-in-ukraine",
+    "date": "2026-10-23",
+    "summary": "Pyongyang is gaining combat experience, technology, and money by supporting Russia's invasion, raising security risks for the Indo-Pacific.",
+    "source": "Atlantic Council",
+    "source_region": "us",
+    "subject_region": "asia_pacific",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:16:10.205001+00:00"
+  },
+  {
+    "id": "7eb9484e939184db",
+    "title": "Ukraine Combats AI Cyberattacks",
+    "link": "https://cepa.org/article/ukraine-combats-ai-cyberattacks",
+    "date": "2026-10-23",
+    "summary": "Russian artificial intelligence-powered hacks are proliferating. Ukraine’s defenses represent a model for the West.",
+    "source": "CEPA (Center for European Policy Analysis)",
+    "source_region": "us",
+    "subject_region": "russia_eurasia",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:16:11.670749+00:00"
+  },
+  {
+    "id": "7606bf87d3f022de",
+    "title": "UK proposes 14-year prison terms for undersea cable sabotage",
+    "link": "https://therecord.media/uk-undersea-cables-sabotage-new-sentencing-guidelines",
+    "date": "2026-10-23",
+    "summary": "In an era of hybrid threats, the British government wants to update the Submarine Telegraph Act 1885, which carries a maximum fine of £1,000 and five years’ imprisonment in cases of deliberate damage.",
+    "source": "The Record (Recorded Future News)",
+    "source_region": "us",
+    "subject_region": "eu",
+    "themes": [
+      "military",
+      "energy_industry"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:16:16.549599+00:00"
   },
   {
     "id": "56bf9b70d92ba02c",
@@ -2831,6 +3611,22 @@
     "fetched_at": "2026-10-21T11:08:56.830452+00:00"
   },
   {
+    "id": "68af211a938bf0c9",
+    "title": "US Navy, Gecko Robotics surge AI maintenance contract to $300M",
+    "link": "https://www.defensenews.com/industry/techwatch/2026/10/20/us-navy-gecko-robotics-surge-ai-maintenance-contract-to-300m",
+    "date": "2026-10-20",
+    "summary": "Gecko Robotics uses drones, wall-climbing robots and fixed sensors to gather data on components, decks, welds and hulls.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:55.376819+00:00"
+  },
+  {
     "id": "a97edffbc347600d",
     "title": "De la guerre hybride et du sexe des anges (2/2). Aller vers davantage de cohérence militaire",
     "link": "https://www.iris-france.org/de-la-guerre-hybride-et-du-sexe-des-anges-2-2-aller-vers-davantage-de-coherence-militaire",
@@ -3689,6 +4485,22 @@
     "trusted_themes": [],
     "meta": [],
     "fetched_at": "2026-10-20T10:56:02.101220+00:00"
+  },
+  {
+    "id": "4e9a61ff5ea16a2f",
+    "title": "US Army competition explores military uses for humanoid robots",
+    "link": "https://www.defensenews.com/industry/techwatch/2026/10/19/us-army-competition-explores-military-uses-for-humanoid-robots",
+    "date": "2026-10-19",
+    "summary": "They're still a long way off from mass-producing Terminators.",
+    "source": "Defense News (Industry)",
+    "source_region": "us",
+    "subject_region": "us",
+    "themes": [
+      "military"
+    ],
+    "trusted_themes": [],
+    "meta": [],
+    "fetched_at": "2026-10-24T10:15:55.377885+00:00"
   },
   {
     "id": "8c67482204ead91e",
